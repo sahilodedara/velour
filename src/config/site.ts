@@ -14,7 +14,7 @@ export const site = {
   url: "https://velour.example.com",
 
   /** International format, digits only (used to build wa.me links). Edit in Store Settings later. */
-  whatsappNumber: "910000000000",
+  whatsappNumber: "85246886982",
 
   currency: {
     code: "USD",
@@ -33,7 +33,7 @@ export const site = {
 
   contact: {
     email: "concierge@velour.example.com",
-    phoneDisplay: "+91 00000 00000",
+    phoneDisplay: "+852 4688 6982",
   },
 
   socials: {

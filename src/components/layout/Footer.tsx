@@ -1,29 +1,35 @@
+"use client";
+
 import Link from "next/link";
 import { Instagram, Youtube, Music2, Bookmark, MessageCircle } from "lucide-react";
 import { site } from "@/config/site";
 import { getTopCategories, brands } from "@/data";
 import { buildWhatsAppUrl } from "@/lib/whatsapp";
+import { useT } from "@/i18n/provider";
+import { useLocalize } from "@/i18n/useLocalize";
 
 const cats = getTopCategories();
 const houses = brands.slice(0, 6);
 
-const clientCare = [
-  { label: "Shipping & Delivery", href: "/info/shipping" },
-  { label: "Returns & Exchanges", href: "/info/returns" },
-  { label: "Track Your Order", href: "/account" },
-  { label: "Contact Concierge", href: "/info/contact" },
-  { label: "FAQ", href: "/info/faq" },
-];
-const company = [
-  { label: "About VELOUR", href: "/info/about" },
-  { label: "Sustainability", href: "/info/sustainability" },
-  { label: "Careers", href: "/info/careers" },
-  { label: "Press", href: "/info/press" },
-];
-
 export function Footer() {
+  const t = useT();
+  const { lcn } = useLocalize();
   const year = 2026;
   const concierge = buildWhatsAppUrl(`Hello ${site.name} — I'd like some assistance.`);
+
+  const clientCare = [
+    { label: t("footer.shipping"), href: "/info/shipping" },
+    { label: t("footer.returns"), href: "/info/returns" },
+    { label: t("footer.track"), href: "/account" },
+    { label: t("footer.contact"), href: "/info/contact" },
+    { label: t("footer.faq"), href: "/info/faq" },
+  ];
+  const company = [
+    { label: t("footer.about"), href: "/info/about" },
+    { label: t("footer.sustainability"), href: "/info/sustainability" },
+    { label: t("footer.careers"), href: "/info/careers" },
+    { label: t("footer.press"), href: "/info/press" },
+  ];
 
   return (
     <footer className="relative overflow-hidden bg-noir text-noir-ink grain">
@@ -31,8 +37,8 @@ export function Footer() {
       <div className="border-b border-noir-line">
         <div className="container-luxe flex flex-col items-center gap-5 py-12 text-center md:flex-row md:justify-between md:text-left">
           <div>
-            <p className="eyebrow !text-gold">Personal Concierge</p>
-            <h3 className="mt-2 font-display text-2xl md:text-3xl">A private styling service, a message away</h3>
+            <p className="eyebrow !text-gold">{t("footer.conciergeEyebrow")}</p>
+            <h3 className="mt-2 font-display text-2xl md:text-3xl">{t("footer.conciergeTitle")}</h3>
           </div>
           <a
             href={concierge}
@@ -40,7 +46,7 @@ export function Footer() {
             rel="noopener noreferrer"
             className="sheen inline-flex items-center gap-2 bg-gold px-7 py-4 text-[0.78rem] font-medium uppercase tracking-[0.2em] text-ink-on-gold transition-colors hover:bg-gold-bright"
           >
-            <MessageCircle size={16} /> Chat on WhatsApp
+            <MessageCircle size={16} /> {t("footer.conciergeCta")}
           </a>
         </div>
       </div>
@@ -60,20 +66,20 @@ export function Footer() {
           </div>
         </div>
 
-        <FooterCol title="Shop" links={cats.map((c) => ({ label: c.name, href: `/shop?category=${c.slug}` }))} />
-        <FooterCol title="Houses" links={houses.map((b) => ({ label: b.name, href: `/shop?brand=${b.slug}` }))} />
-        <FooterCol title="Client Care" links={clientCare} />
-        <FooterCol title="Company" links={company} />
+        <FooterCol title={t("footer.shop")} links={cats.map((c) => ({ label: lcn(c.slug, c.name), href: `/shop?category=${c.slug}` }))} />
+        <FooterCol title={t("footer.houses")} links={houses.map((b) => ({ label: b.name, href: `/shop?brand=${b.slug}` }))} />
+        <FooterCol title={t("footer.clientCare")} links={clientCare} />
+        <FooterCol title={t("footer.company")} links={company} />
       </div>
 
       {/* Legal */}
       <div className="border-t border-noir-line">
         <div className="container-luxe flex flex-col items-center justify-between gap-4 py-6 text-xs text-noir-ink-soft md:flex-row">
-          <p>© {year} {site.name}. An original concept marketplace. All rights reserved.</p>
+          <p>{t("footer.rights")}</p>
           <div className="flex flex-wrap items-center gap-5">
-            <Link href="/info/privacy" className="hover:text-gold">Privacy Policy</Link>
-            <Link href="/info/terms" className="hover:text-gold">Terms of Service</Link>
-            <span className="text-noir-ink-soft/60">{site.currency.code} · International</span>
+            <Link href="/info/privacy" className="hover:text-gold">{t("footer.privacy")}</Link>
+            <Link href="/info/terms" className="hover:text-gold">{t("footer.terms")}</Link>
+            <span className="text-noir-ink-soft/60">{t("footer.region", { cur: site.currency.code })}</span>
           </div>
         </div>
       </div>

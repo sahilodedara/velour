@@ -22,14 +22,19 @@ import { useWishlist } from "@/store/wishlist";
 import { useUI } from "@/store/ui";
 import { useHasMounted } from "@/lib/useHasMounted";
 import { toCartLine } from "@/lib/cart-helpers";
+import { useT } from "@/i18n/provider";
+import { useLocalize } from "@/i18n/useLocalize";
 import { cn, formatPrice, discountPercent, formatDate } from "@/lib/utils";
 
 const EASE = [0.22, 1, 0.36, 1] as const;
 
 export function ProductDetail({ product }: { product: Product }) {
-  const brand = getBrand(product.brand);
+  const t = useT();
+  const { lp, lc } = useLocalize();
+  const lz = lp(product);
   const brandName = getBrandName(product.brand);
   const category = getCategory(product.category);
+  const categoryName = category ? lc(category).name : "";
   const disc = discountPercent(product.price, product.originalPrice);
   const reviews = getReviews(product.id);
   const related = getRelated(product, 4);
@@ -44,6 +49,7 @@ export function ProductDetail({ product }: { product: Product }) {
   const [size, setSize] = useState(product.sizes?.[0]);
   const [qty, setQty] = useState(1);
   const [recent, setRecent] = useState<Product[]>([]);
+  const colorLabel = lz.colors[product.colors.findIndex((c) => c.name === color)]?.name ?? color;
 
   // Record + read "recently viewed".
   useEffect(() => {
@@ -67,10 +73,10 @@ export function ProductDetail({ product }: { product: Product }) {
       <Container>
         {/* Breadcrumb */}
         <nav className="mb-8 flex flex-wrap items-center gap-2 text-xs text-ink-muted">
-          <Link href="/" className="hover:text-gold-deep">Home</Link><span>/</span>
-          <Link href="/shop" className="hover:text-gold-deep">Shop</Link><span>/</span>
-          {category && <><Link href={`/shop?category=${category.slug}`} className="hover:text-gold-deep">{category.name}</Link><span>/</span></>}
-          <span className="text-ink-soft">{product.name}</span>
+          <Link href="/" className="hover:text-gold-deep">{t("pdp.home")}</Link><span>/</span>
+          <Link href="/shop" className="hover:text-gold-deep">{t("pdp.shop")}</Link><span>/</span>
+          {category && <><Link href={`/shop?category=${category.slug}`} className="hover:text-gold-deep">{categoryName}</Link><span>/</span></>}
+          <span className="text-ink-soft">{lz.name}</span>
         </nav>
 
         <div className="grid gap-10 lg:grid-cols-2 lg:gap-16">
@@ -80,14 +86,14 @@ export function ProductDetail({ product }: { product: Product }) {
           <div className="lg:py-2">
             <div className="flex items-center gap-3">
               <Link href={`/shop?brand=${product.brand}`} className="eyebrow hover:text-gold-deep">{brandName}</Link>
-              {product.bestSeller && <Badge tone="gold">Bestseller</Badge>}
+              {product.bestSeller && <Badge tone="gold">{t("card.bestseller")}</Badge>}
             </div>
-            <h1 className="mt-3 font-display text-3xl leading-tight md:text-5xl">{product.name}</h1>
+            <h1 className="mt-3 font-display text-3xl leading-tight md:text-5xl">{lz.name}</h1>
 
             <div className="mt-4 flex items-center gap-4">
               <Stars rating={product.rating} showValue />
               <a href="#reviews" className="text-sm text-ink-muted underline-offset-4 hover:text-gold-deep hover:underline">
-                {product.reviewCount} reviews
+                {t("pdp.reviews", { n: product.reviewCount })}
               </a>
             </div>
 
@@ -101,12 +107,12 @@ export function ProductDetail({ product }: { product: Product }) {
               )}
             </div>
 
-            <p className="mt-6 max-w-prose leading-relaxed text-ink-soft">{product.shortDescription}</p>
+            <p className="mt-6 max-w-prose leading-relaxed text-ink-soft">{lz.shortDescription}</p>
 
             {/* Colors */}
             <div className="mt-8">
               <p className="mb-3 text-[0.72rem] uppercase tracking-[0.18em] text-ink-soft">
-                Color — <span className="text-ink">{color}</span>
+                {t("pdp.color")} — <span className="text-ink">{colorLabel}</span>
               </p>
               <div className="flex flex-wrap gap-3">
                 {product.colors.map((c) => (
@@ -129,8 +135,8 @@ export function ProductDetail({ product }: { product: Product }) {
             {product.sizes && (
               <div className="mt-7">
                 <div className="mb-3 flex items-center justify-between">
-                  <p className="text-[0.72rem] uppercase tracking-[0.18em] text-ink-soft">Size</p>
-                  <span className="text-xs text-ink-muted">True to size</span>
+                  <p className="text-[0.72rem] uppercase tracking-[0.18em] text-ink-soft">{t("pdp.size")}</p>
+                  <span className="text-xs text-ink-muted">{t("pdp.trueToSize")}</span>
                 </div>
                 <div className="flex flex-wrap gap-2.5">
                   {product.sizes.map((s) => (
@@ -161,7 +167,7 @@ export function ProductDetail({ product }: { product: Product }) {
                 </button>
               </div>
               <Button onClick={handleAdd} variant="gold" size="lg" className="flex-1">
-                <ShoppingBag size={17} /> Add to Bag
+                <ShoppingBag size={17} /> {t("pdp.addToBag")}
               </Button>
               <button
                 onClick={() => toggleWish(product.id)}
@@ -176,54 +182,48 @@ export function ProductDetail({ product }: { product: Product }) {
             </div>
 
             <Button onClick={handleAdd} variant="outline" size="lg" className="mt-3 w-full">
-              <MessageCircle size={16} /> Add &amp; Order on WhatsApp
+              <MessageCircle size={16} /> {t("pdp.addWhatsapp")}
             </Button>
 
             {/* Stock + SKU */}
             <div className="mt-5 flex items-center justify-between text-xs text-ink-muted">
               <span className="flex items-center gap-1.5 text-success">
-                <Check size={14} /> {product.stock <= 5 ? `Only ${product.stock} left` : "In stock"}
+                <Check size={14} /> {product.stock <= 5 ? t("pdp.onlyLeft", { n: product.stock }) : t("pdp.inStock")}
               </span>
-              <span>SKU: {product.sku}</span>
+              <span>{t("pdp.sku")}: {product.sku}</span>
             </div>
 
             {/* Trust */}
             <div className="mt-7 grid grid-cols-3 gap-3 border-y border-line py-5 text-center">
-              <Trust icon={<Truck size={18} />} label="Complimentary shipping" />
-              <Trust icon={<RotateCcw size={18} />} label="30-day returns" />
-              <Trust icon={<ShieldCheck size={18} />} label="Guaranteed authentic" />
+              <Trust icon={<Truck size={18} />} label={t("pdp.trustShip")} />
+              <Trust icon={<RotateCcw size={18} />} label={t("pdp.trustReturn")} />
+              <Trust icon={<ShieldCheck size={18} />} label={t("pdp.trustAuth")} />
             </div>
 
             {/* Accordions */}
             <div className="mt-2 divide-y divide-line">
-              <Accordion title="Description" defaultOpen>
-                <p className="leading-relaxed text-ink-soft">{product.description}</p>
+              <Accordion title={t("pdp.description")} defaultOpen>
+                <p className="leading-relaxed text-ink-soft">{lz.description}</p>
               </Accordion>
-              <Accordion title="Specifications">
+              <Accordion title={t("pdp.specifications")}>
                 <dl className="divide-y divide-line">
-                  {product.specs.map((s) => (
+                  {lz.specs.map((s) => (
                     <div key={s.label} className="flex justify-between gap-6 py-2.5 text-sm">
                       <dt className="text-ink-muted">{s.label}</dt>
                       <dd className="text-right text-ink">{s.value}</dd>
                     </div>
                   ))}
                   <div className="flex justify-between gap-6 py-2.5 text-sm">
-                    <dt className="text-ink-muted">Material</dt>
-                    <dd className="text-right text-ink">{product.material}</dd>
+                    <dt className="text-ink-muted">{t("pdp.material")}</dt>
+                    <dd className="text-right text-ink">{lz.material}</dd>
                   </div>
                 </dl>
               </Accordion>
-              <Accordion title="Shipping & Delivery">
-                <p className="leading-relaxed text-ink-soft">
-                  Complimentary insured shipping worldwide. Orders are dispatched within 1–2 business days and
-                  presented in signature VELOUR packaging. Express options are offered at checkout via concierge.
-                </p>
+              <Accordion title={t("pdp.shippingTab")}>
+                <p className="leading-relaxed text-ink-soft">{t("pdp.shippingBody")}</p>
               </Accordion>
-              <Accordion title="Returns & Exchanges">
-                <p className="leading-relaxed text-ink-soft">
-                  Enjoy 30 days to return unworn pieces in their original condition and packaging for a full refund
-                  or exchange. Fine jewelry and fragrance are subject to hygiene restrictions.
-                </p>
+              <Accordion title={t("pdp.returnsTab")}>
+                <p className="leading-relaxed text-ink-soft">{t("pdp.returnsBody")}</p>
               </Accordion>
             </div>
           </div>
@@ -237,12 +237,12 @@ export function ProductDetail({ product }: { product: Product }) {
           <Reveal>
             <div className="grid gap-10 md:grid-cols-[280px_1fr]">
               <div>
-                <p className="eyebrow mb-4">Customer Reviews</p>
+                <p className="eyebrow mb-4">{t("pdp.custReviews")}</p>
                 <div className="flex items-end gap-3">
                   <span className="font-display text-6xl leading-none">{product.rating.toFixed(1)}</span>
                   <div className="pb-1">
                     <Stars rating={product.rating} />
-                    <p className="mt-1 text-xs text-ink-muted">{product.reviewCount} reviews</p>
+                    <p className="mt-1 text-xs text-ink-muted">{t("pdp.reviewsCount", { n: product.reviewCount })}</p>
                   </div>
                 </div>
               </div>
@@ -256,7 +256,7 @@ export function ProductDetail({ product }: { product: Product }) {
                     <h4 className="mt-3 font-display text-lg">{r.title}</h4>
                     <p className="mt-2 text-sm leading-relaxed text-ink-soft">{r.body}</p>
                     <p className="mt-3 text-xs text-ink-muted">
-                      {r.author} {r.verified && <span className="text-success">· Verified purchase</span>}
+                      {r.author} {r.verified && <span className="text-success">· {t("pdp.verified")}</span>}
                     </p>
                   </div>
                 ))}
@@ -267,10 +267,10 @@ export function ProductDetail({ product }: { product: Product }) {
 
         {/* Related */}
         {related.length > 0 && (
-          <Section title="You may also like" items={related} />
+          <Section title={t("pdp.alsoLike")} items={related} />
         )}
         {recent.length > 0 && (
-          <Section title="Recently viewed" items={recent.slice(0, 4)} />
+          <Section title={t("pdp.recentlyViewed")} items={recent.slice(0, 4)} />
         )}
       </Container>
     </div>
@@ -279,6 +279,8 @@ export function ProductDetail({ product }: { product: Product }) {
 
 /* ----------------------------- Gallery ----------------------------- */
 function Gallery({ product }: { product: Product }) {
+  const { lp } = useLocalize();
+  const name = lp(product).name;
   const monogram = getBrand(product.brand)?.monogram ?? "V";
   const views: [string, string][] = [
     product.palette,
@@ -328,7 +330,7 @@ function Gallery({ product }: { product: Product }) {
               className="h-full w-full transition-transform duration-300 ease-out"
               style={{ transformOrigin: origin, transform: zoom ? "scale(1.7)" : "scale(1)" }}
             >
-              <ProductArtwork palette={views[sel]} monogram={monogram} category={product.category} name={product.name} variant="hero" />
+              <ProductArtwork palette={views[sel]} monogram={monogram} category={product.category} name={name} variant="hero" />
             </motion.div>
           </AnimatePresence>
           <button
@@ -363,6 +365,8 @@ function Gallery({ product }: { product: Product }) {
 function FrequentlyBought({ product, related }: { product: Product; related: Product[] }) {
   const add = useCart((s) => s.add);
   const setCartOpen = useUI((s) => s.setCartOpen);
+  const t = useT();
+  const { lp } = useLocalize();
   const bundle = [product, ...related];
   const total = bundle.reduce((s, p) => s + p.price, 0);
 
@@ -374,14 +378,14 @@ function FrequentlyBought({ product, related }: { product: Product; related: Pro
   return (
     <section className="mt-24 border-t border-line pt-16">
       <Reveal>
-        <p className="eyebrow mb-6">Frequently bought together</p>
+        <p className="eyebrow mb-6">{t("pdp.fbt")}</p>
         <div className="flex flex-col items-center gap-6 lg:flex-row lg:gap-8">
           <div className="flex flex-1 items-center gap-3">
             {bundle.map((p, i) => (
               <div key={p.id} className="flex items-center gap-3">
                 <Link href={`/product/${p.slug}`} className="block w-28 shrink-0">
                   <div className="aspect-[4/5] overflow-hidden border border-line">
-                    <ProductArtwork palette={p.palette} monogram={getBrand(p.brand)?.monogram ?? "V"} category={p.category} name={p.name} />
+                    <ProductArtwork palette={p.palette} monogram={getBrand(p.brand)?.monogram ?? "V"} category={p.category} name={lp(p).name} />
                   </div>
                 </Link>
                 {i < bundle.length - 1 && <Plus size={18} className="text-ink-muted" />}
@@ -389,9 +393,9 @@ function FrequentlyBought({ product, related }: { product: Product; related: Pro
             ))}
           </div>
           <div className="text-center lg:text-right">
-            <p className="text-sm text-ink-muted">Bundle total</p>
+            <p className="text-sm text-ink-muted">{t("pdp.bundleTotal")}</p>
             <p className="font-display text-3xl">{formatPrice(total)}</p>
-            <Button onClick={addAll} variant="primary" size="md" className="mt-4">Add all three to bag</Button>
+            <Button onClick={addAll} variant="primary" size="md" className="mt-4">{t("pdp.addThree")}</Button>
           </div>
         </div>
       </Reveal>

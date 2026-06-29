@@ -8,15 +8,17 @@ import { Container } from "@/components/ui/Container";
 import { Reveal } from "@/components/motion/Reveal";
 import { ProductCard } from "@/components/product/ProductCard";
 import { getTrending, getNewArrivals, getBestSellers } from "@/data";
+import { useT } from "@/i18n/provider";
 import type { Product } from "@/data/types";
 
-const TABS: { key: string; label: string; get: () => Product[] }[] = [
-  { key: "trending", label: "Trending", get: getTrending },
-  { key: "new", label: "New Arrivals", get: getNewArrivals },
-  { key: "best", label: "Best Sellers", get: getBestSellers },
+const TABS: { key: string; labelKey: string; get: () => Product[] }[] = [
+  { key: "trending", labelKey: "rail.trending", get: getTrending },
+  { key: "new", labelKey: "rail.newArrivals", get: getNewArrivals },
+  { key: "best", labelKey: "rail.bestSellers", get: getBestSellers },
 ];
 
 export function ProductRail() {
+  const t = useT();
   const [tab, setTab] = useState("trending");
   const active = TABS.find((t) => t.key === tab)!;
   const items = active.get().slice(0, 8);
@@ -28,23 +30,23 @@ export function ProductRail() {
           <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
             <div>
               <p className="eyebrow mb-4 flex items-center gap-3">
-                <span className="h-px w-8 bg-gold" /> The Selection
+                <span className="h-px w-8 bg-gold" /> {t("rail.eyebrow")}
               </p>
               <h2 className="font-display text-3xl leading-tight md:text-[2.7rem]">
-                Pieces in demand
+                {t("rail.title")}
               </h2>
             </div>
 
             {/* tabs */}
             <div className="flex flex-wrap gap-1 border-b border-line">
-              {TABS.map((t) => (
+              {TABS.map((tb) => (
                 <button
-                  key={t.key}
-                  onClick={() => setTab(t.key)}
+                  key={tb.key}
+                  onClick={() => setTab(tb.key)}
                   className="relative px-4 py-2.5 text-[0.72rem] font-medium uppercase tracking-[0.18em] transition-colors hover:text-gold-deep"
                 >
-                  <span className={tab === t.key ? "text-ink" : "text-ink-muted"}>{t.label}</span>
-                  {tab === t.key && (
+                  <span className={tab === tb.key ? "text-ink" : "text-ink-muted"}>{t(tb.labelKey)}</span>
+                  {tab === tb.key && (
                     <motion.span layoutId="rail-tab" className="absolute inset-x-0 -bottom-px h-0.5 bg-gold" />
                   )}
                 </button>
@@ -73,7 +75,7 @@ export function ProductRail() {
             href="/shop"
             className="link-underline inline-flex items-center gap-2 text-sm font-medium uppercase tracking-[0.2em] text-ink"
           >
-            View all pieces <ArrowRight size={16} className="text-gold-deep" />
+            {t("rail.viewAll")} <ArrowRight size={16} className="text-gold-deep" />
           </Link>
         </Reveal>
       </Container>

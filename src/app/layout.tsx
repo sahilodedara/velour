@@ -4,6 +4,7 @@ import "./globals.css";
 import { site } from "@/config/site";
 import { CustomCursor } from "@/components/motion/CustomCursor";
 import { ThemeInit } from "@/components/providers/ThemeInit";
+import { LanguageProvider } from "@/i18n/provider";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -52,9 +53,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>
       <body>
-        <ThemeInit />
-        <CustomCursor />
-        {children}
+        <LanguageProvider>
+          <ThemeInit />
+          <CustomCursor />
+          {children}
+        </LanguageProvider>
       </body>
     </html>
   );

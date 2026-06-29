@@ -12,6 +12,7 @@ import { useWishlist } from "@/store/wishlist";
 import { useUI } from "@/store/ui";
 import { resolveCoupon } from "@/data/coupons";
 import { site } from "@/config/site";
+import { useT } from "@/i18n/provider";
 import { formatPrice } from "@/lib/utils";
 
 const EASE = [0.22, 1, 0.36, 1] as const;
@@ -20,6 +21,7 @@ export function CartDrawer() {
   const { cartOpen, setCartOpen } = useUI();
   const { lines, setQty, remove, couponCode, setCoupon } = useCart();
   const toggleWish = useWishlist((s) => s.toggle);
+  const t = useT();
 
   const [couponInput, setCouponInput] = useState("");
   const [couponMsg, setCouponMsg] = useState<{ ok: boolean; text: string } | null>(null);
@@ -71,10 +73,10 @@ export function CartDrawer() {
               {/* Header */}
               <div className="flex items-center justify-between border-b border-line px-6 py-5">
                 <div className="flex items-baseline gap-2">
-                  <h2 className="font-display text-xl">Shopping Bag</h2>
+                  <h2 className="font-display text-xl">{t("cart.title")}</h2>
                   <span className="text-sm text-ink-muted">
-                    {lines.reduce((n, l) => n + l.quantity, 0)} item
-                    {lines.reduce((n, l) => n + l.quantity, 0) === 1 ? "" : "s"}
+                    {lines.reduce((n, l) => n + l.quantity, 0)}{" "}
+                    {lines.reduce((n, l) => n + l.quantity, 0) === 1 ? t("cart.item") : t("cart.items")}
                   </span>
                 </div>
                 <button aria-label="Close bag" onClick={() => setCartOpen(false)} className="text-ink-muted hover:text-gold-deep">
@@ -155,10 +157,10 @@ export function CartDrawer() {
                       {coupon?.ok ? (
                         <div className="flex items-center justify-between bg-bg-sunken px-3 py-2 text-xs">
                           <span className="flex items-center gap-2 text-success">
-                            <Tag size={13} /> {couponCode} applied — {coupon.message}
+                            <Tag size={13} /> {t("cart.applied", { code: couponCode ?? "", label: coupon.message })}
                           </span>
                           <button onClick={() => { setCoupon(null); setCouponMsg(null); }} className="text-ink-muted hover:text-danger">
-                            Remove
+                            {t("cart.remove")}
                           </button>
                         </div>
                       ) : (
@@ -167,38 +169,38 @@ export function CartDrawer() {
                             <input
                               value={couponInput}
                               onChange={(e) => setCouponInput(e.target.value)}
-                              placeholder="Promo code"
+                              placeholder={t("cart.promo")}
                               className="luxe-input flex-1 !py-2 text-sm uppercase tracking-wider"
                             />
                             <button onClick={applyCoupon} className="border border-ink/30 px-4 text-xs font-medium uppercase tracking-[0.18em] transition-colors hover:border-gold hover:text-gold-deep">
-                              Apply
+                              {t("cart.apply")}
                             </button>
                           </div>
                           {couponMsg && !couponMsg.ok && (
                             <p className="mt-1.5 text-xs text-danger">{couponMsg.text}</p>
                           )}
-                          <p className="mt-1.5 text-[0.65rem] text-ink-muted">Try WELCOME10 · GOLD15 · VELOUR50</p>
+                          <p className="mt-1.5 text-[0.65rem] text-ink-muted">{t("cart.tryCodes")}</p>
                         </div>
                       )}
                     </div>
 
                     {/* Totals */}
                     <dl className="space-y-1.5 text-sm">
-                      <Row label="Subtotal" value={formatPrice(subtotal)} />
-                      {discount > 0 && <Row label="Discount" value={`−${formatPrice(discount)}`} accent />}
-                      {tax > 0 && <Row label="Tax" value={formatPrice(tax)} />}
-                      <Row label="Shipping" value={shipping > 0 ? formatPrice(shipping) : "Complimentary"} />
+                      <Row label={t("cart.subtotal")} value={formatPrice(subtotal)} />
+                      {discount > 0 && <Row label={t("cart.discount")} value={`−${formatPrice(discount)}`} accent />}
+                      {tax > 0 && <Row label={t("cart.tax")} value={formatPrice(tax)} />}
+                      <Row label={t("cart.shipping")} value={shipping > 0 ? formatPrice(shipping) : t("cart.complimentary")} />
                       <div className="mt-2 flex items-center justify-between border-t border-line pt-3">
-                        <dt className="font-display text-lg">Total</dt>
+                        <dt className="font-display text-lg">{t("cart.total")}</dt>
                         <dd className="font-display text-lg">{formatPrice(grandTotal)}</dd>
                       </div>
                     </dl>
 
                     <Button onClick={() => setCheckoutOpen(true)} variant="gold" size="lg" className="mt-4 w-full">
-                      <MessageCircle size={17} /> Order on WhatsApp
+                      <MessageCircle size={17} /> {t("cart.orderWhatsapp")}
                     </Button>
                     <button onClick={() => setCartOpen(false)} className="mt-3 w-full text-center text-xs uppercase tracking-[0.2em] text-ink-muted hover:text-gold-deep">
-                      Continue shopping
+                      {t("cart.continue")}
                     </button>
                   </div>
                 </>
@@ -229,17 +231,18 @@ function Row({ label, value, accent }: { label: string; value: string; accent?: 
 }
 
 function EmptyState({ onClose }: { onClose: () => void }) {
+  const t = useT();
   return (
     <div className="flex flex-1 flex-col items-center justify-center px-8 text-center">
       <div className="grid h-20 w-20 place-items-center rounded-full bg-bg-sunken text-ink-muted">
         <ShoppingBag size={28} strokeWidth={1.2} />
       </div>
-      <h3 className="mt-6 font-display text-2xl">Your bag is empty</h3>
+      <h3 className="mt-6 font-display text-2xl">{t("cart.emptyTitle")}</h3>
       <p className="mt-2 max-w-xs text-sm text-ink-soft">
-        Discover our latest arrivals and curated edits from the world&apos;s most coveted houses.
+        {t("cart.emptyDesc")}
       </p>
       <Button href="/shop" variant="primary" size="md" className="mt-7" onClick={onClose}>
-        Explore the edit
+        {t("cart.explore")}
       </Button>
     </div>
   );

@@ -10,21 +10,28 @@ import {
 } from "lucide-react";
 import { products, brands, getBrandName, getTopCategories } from "@/data";
 import { useUI } from "@/store/ui";
+import { useT } from "@/i18n/provider";
+import { useLocalize } from "@/i18n/useLocalize";
 import { formatPrice, cn } from "@/lib/utils";
 
 type Section = "dashboard" | "products" | "orders" | "customers" | "categories" | "brands" | "banners" | "coupons" | "settings";
 
-const NAV: { key: Section; label: string; icon: React.ReactNode }[] = [
-  { key: "dashboard", label: "Dashboard", icon: <LayoutDashboard size={18} /> },
-  { key: "products", label: "Products", icon: <Package size={18} /> },
-  { key: "orders", label: "Orders", icon: <ShoppingCart size={18} /> },
-  { key: "customers", label: "Customers", icon: <Users size={18} /> },
-  { key: "categories", label: "Categories", icon: <FolderTree size={18} /> },
-  { key: "brands", label: "Brands", icon: <Tag size={18} /> },
-  { key: "banners", label: "Banners", icon: <ImageIcon size={18} /> },
-  { key: "coupons", label: "Coupons", icon: <Ticket size={18} /> },
-  { key: "settings", label: "Settings", icon: <Settings size={18} /> },
+const NAV: { key: Section; labelKey: string; icon: React.ReactNode }[] = [
+  { key: "dashboard", labelKey: "admin.dashboard", icon: <LayoutDashboard size={18} /> },
+  { key: "products", labelKey: "admin.products", icon: <Package size={18} /> },
+  { key: "orders", labelKey: "admin.orders", icon: <ShoppingCart size={18} /> },
+  { key: "customers", labelKey: "admin.customers", icon: <Users size={18} /> },
+  { key: "categories", labelKey: "admin.categories", icon: <FolderTree size={18} /> },
+  { key: "brands", labelKey: "admin.brands", icon: <Tag size={18} /> },
+  { key: "banners", labelKey: "admin.banners", icon: <ImageIcon size={18} /> },
+  { key: "coupons", labelKey: "admin.coupons", icon: <Ticket size={18} /> },
+  { key: "settings", labelKey: "admin.settings", icon: <Settings size={18} /> },
 ];
+
+const STATUS_KEY: Record<string, string> = {
+  Pending: "admin.pending", Confirmed: "admin.confirmed", Shipped: "admin.shipped",
+  Delivered: "admin.delivered", Cancelled: "admin.cancelled",
+};
 
 const REVENUE = [38, 42, 51, 47, 63, 72, 68, 81, 77, 92, 88, 104]; // mock monthly ($k)
 const MONTHS = ["J", "F", "M", "A", "M", "J", "J", "A", "S", "O", "N", "D"];
@@ -48,6 +55,7 @@ const STATUS_TONE: Record<string, string> = {
 };
 
 export function AdminApp() {
+  const t = useT();
   const [section, setSection] = useState<Section>("dashboard");
   const [open, setOpen] = useState(false);
   const { theme, toggleTheme } = useUI();
@@ -65,14 +73,14 @@ export function AdminApp() {
           <div className="flex items-center gap-3">
             <button className="lg:hidden" aria-label="Menu" onClick={() => setOpen(true)}><Menu size={20} /></button>
             <div>
-              <h1 className="font-display text-xl leading-none">{current.label}</h1>
-              <p className="mt-0.5 text-[0.65rem] uppercase tracking-[0.18em] text-ink-muted">VELOUR Admin</p>
+              <h1 className="font-display text-xl leading-none">{t(current.labelKey)}</h1>
+              <p className="mt-0.5 text-[0.65rem] uppercase tracking-[0.18em] text-ink-muted">{t("admin.adminLabel")}</p>
             </div>
           </div>
           <div className="flex items-center gap-2 md:gap-4">
             <div className="hidden items-center gap-2 border border-line px-3 py-2 md:flex">
               <Search size={15} className="text-ink-muted" />
-              <input placeholder="Search…" className="w-40 bg-transparent text-sm focus:outline-none" />
+              <input placeholder={t("admin.searchPh")} className="w-40 bg-transparent text-sm focus:outline-none" />
             </div>
             <button onClick={toggleTheme} aria-label="Toggle theme" className="text-ink-soft hover:text-gold-deep">
               {theme === "dark" ? <Sun size={18} /> : <Moon size={18} />}
@@ -99,7 +107,7 @@ export function AdminApp() {
               {section === "products" && <ProductsTable />}
               {section === "orders" && <OrdersTable />}
               {!["dashboard", "products", "orders"].includes(section) && (
-                <ModulePlaceholder section={section} icon={current.icon} label={current.label} />
+                <ModulePlaceholder section={section} icon={current.icon} label={t(current.labelKey)} />
               )}
             </motion.div>
           </AnimatePresence>
@@ -114,6 +122,7 @@ function AdminSidebar({
 }: {
   section: Section; setSection: (s: Section) => void; open: boolean; setOpen: (v: boolean) => void;
 }) {
+  const t = useT();
   const inner = (
     <div className="flex h-full flex-col">
       <div className="flex h-16 items-center justify-between border-b border-noir-line px-6">
@@ -130,13 +139,13 @@ function AdminSidebar({
               section === n.key ? "bg-gold/15 text-gold" : "text-noir-ink-soft hover:bg-white/5 hover:text-noir-ink",
             )}
           >
-            {n.icon} {n.label}
+            {n.icon} {t(n.labelKey)}
           </button>
         ))}
       </nav>
       <div className="border-t border-noir-line p-4">
         <Link href="/" className="flex items-center gap-3 px-4 py-2.5 text-sm text-noir-ink-soft transition-colors hover:text-gold">
-          <Store size={18} /> View store
+          <Store size={18} /> {t("admin.viewStore")}
         </Link>
       </div>
     </div>
@@ -160,15 +169,17 @@ function AdminSidebar({
 }
 
 function Dashboard() {
+  const t = useT();
+  const { lp } = useLocalize();
   const lowStock = products.filter((p) => p.stock <= 5).sort((a, b) => a.stock - b.stock);
   const topProducts = [...products].sort((a, b) => b.reviewCount - a.reviewCount).slice(0, 5);
   const maxRev = Math.max(...REVENUE);
 
   const stats = [
-    { label: "Revenue", value: "$284,920", delta: "+12.4%", up: true },
-    { label: "Orders", value: "1,284", delta: "+8.1%", up: true },
-    { label: "Products", value: String(products.length), delta: "+3", up: true },
-    { label: "Customers", value: "3,460", delta: "−1.2%", up: false },
+    { label: t("admin.revenue"), value: "$284,920", delta: "+12.4%", up: true },
+    { label: t("admin.orders"), value: "1,284", delta: "+8.1%", up: true },
+    { label: t("admin.products"), value: String(products.length), delta: "+3", up: true },
+    { label: t("admin.customers"), value: "3,460", delta: "−1.2%", up: false },
   ];
 
   return (
@@ -181,7 +192,7 @@ function Dashboard() {
             <p className="mt-2 font-display text-3xl">{s.value}</p>
             <p className={cn("mt-2 flex items-center gap-1 text-xs", s.up ? "text-emerald-600" : "text-red-500")}>
               {s.up ? <TrendingUp size={13} /> : <TrendingDown size={13} />} {s.delta}
-              <span className="text-ink-muted">vs last month</span>
+              <span className="text-ink-muted">{t("admin.vsLast")}</span>
             </p>
           </div>
         ))}
@@ -191,8 +202,8 @@ function Dashboard() {
         {/* Revenue chart */}
         <div className="border border-line bg-bg-elevated p-6 lg:col-span-2">
           <div className="mb-6 flex items-center justify-between">
-            <h2 className="font-display text-xl">Revenue</h2>
-            <span className="text-xs text-ink-muted">Last 12 months ($k)</span>
+            <h2 className="font-display text-xl">{t("admin.revenue")}</h2>
+            <span className="text-xs text-ink-muted">{t("admin.last12")}</span>
           </div>
           <div className="flex h-52 items-stretch gap-2">
             {REVENUE.map((v, i) => (
@@ -214,17 +225,17 @@ function Dashboard() {
         <div className="border border-line bg-bg-elevated p-6">
           <div className="mb-5 flex items-center gap-2">
             <AlertTriangle size={16} className="text-amber-500" />
-            <h2 className="font-display text-xl">Low stock</h2>
+            <h2 className="font-display text-xl">{t("admin.lowStock")}</h2>
           </div>
           <ul className="space-y-4">
             {lowStock.slice(0, 5).map((p) => (
               <li key={p.id} className="flex items-center justify-between gap-3">
                 <div className="min-w-0">
-                  <p className="truncate text-sm">{p.name}</p>
+                  <p className="truncate text-sm">{lp(p).name}</p>
                   <p className="text-xs text-ink-muted">{getBrandName(p.brand)}</p>
                 </div>
                 <span className={cn("shrink-0 px-2 py-0.5 text-xs", p.stock <= 3 ? "bg-red-500/15 text-red-600" : "bg-amber-500/15 text-amber-600")}>
-                  {p.stock} left
+                  {t("admin.left", { n: p.stock })}
                 </span>
               </li>
             ))}
@@ -236,17 +247,17 @@ function Dashboard() {
         {/* Recent orders */}
         <div className="border border-line bg-bg-elevated p-6 lg:col-span-2">
           <div className="mb-5 flex items-center justify-between">
-            <h2 className="font-display text-xl">Recent orders</h2>
-            <span className="flex items-center gap-1 text-xs text-gold-deep">View all <ArrowUpRight size={12} /></span>
+            <h2 className="font-display text-xl">{t("admin.recentOrders")}</h2>
+            <span className="flex items-center gap-1 text-xs text-gold-deep">{t("admin.viewAll")} <ArrowUpRight size={12} /></span>
           </div>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
                 <tr className="border-b border-line text-left text-[0.65rem] uppercase tracking-[0.14em] text-ink-muted">
-                  <th className="pb-3 font-medium">Order</th>
-                  <th className="pb-3 font-medium">Customer</th>
-                  <th className="pb-3 font-medium">Total</th>
-                  <th className="pb-3 font-medium">Status</th>
+                  <th className="pb-3 font-medium">{t("admin.order")}</th>
+                  <th className="pb-3 font-medium">{t("admin.customer")}</th>
+                  <th className="pb-3 font-medium">{t("admin.total")}</th>
+                  <th className="pb-3 font-medium">{t("admin.status")}</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-line">
@@ -255,7 +266,7 @@ function Dashboard() {
                     <td className="py-3 font-medium">{o.id}</td>
                     <td className="py-3 text-ink-soft">{o.customer}</td>
                     <td className="py-3 tabular-nums">{formatPrice(o.total)}</td>
-                    <td className="py-3"><span className={cn("px-2 py-0.5 text-xs", STATUS_TONE[o.status])}>{o.status}</span></td>
+                    <td className="py-3"><span className={cn("px-2 py-0.5 text-xs", STATUS_TONE[o.status])}>{t(STATUS_KEY[o.status])}</span></td>
                   </tr>
                 ))}
               </tbody>
@@ -265,14 +276,14 @@ function Dashboard() {
 
         {/* Top products */}
         <div className="border border-line bg-bg-elevated p-6">
-          <h2 className="mb-5 font-display text-xl">Top products</h2>
+          <h2 className="mb-5 font-display text-xl">{t("admin.topProducts")}</h2>
           <ol className="space-y-4">
             {topProducts.map((p, i) => (
               <li key={p.id} className="flex items-center gap-3">
                 <span className="font-display text-lg text-ink-muted">{i + 1}</span>
                 <div className="min-w-0 flex-1">
-                  <p className="truncate text-sm">{p.name}</p>
-                  <p className="text-xs text-ink-muted">{p.reviewCount} reviews · ★ {p.rating}</p>
+                  <p className="truncate text-sm">{lp(p).name}</p>
+                  <p className="text-xs text-ink-muted">{t("admin.reviewsRating", { n: p.reviewCount, r: p.rating })}</p>
                 </div>
                 <span className="text-sm tabular-nums">{formatPrice(p.price)}</span>
               </li>
@@ -285,6 +296,8 @@ function Dashboard() {
 }
 
 function ProductsTable() {
+  const t = useT();
+  const { lp, lcn } = useLocalize();
   const [q, setQ] = useState("");
   const rows = useMemo(
     () => products.filter((p) => `${p.name} ${getBrandName(p.brand)} ${p.sku}`.toLowerCase().includes(q.toLowerCase())),
@@ -295,31 +308,31 @@ function ProductsTable() {
       <div className="flex flex-col gap-3 border-b border-line p-5 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex items-center gap-2 border border-line px-3 py-2">
           <Search size={15} className="text-ink-muted" />
-          <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search products…" className="w-full bg-transparent text-sm focus:outline-none sm:w-64" />
+          <input value={q} onChange={(e) => setQ(e.target.value)} placeholder={t("admin.searchProducts")} className="w-full bg-transparent text-sm focus:outline-none sm:w-64" />
         </div>
-        <button className="bg-gold px-4 py-2.5 text-xs font-medium uppercase tracking-[0.16em] text-ink-on-gold">+ Add product</button>
+        <button className="bg-gold px-4 py-2.5 text-xs font-medium uppercase tracking-[0.16em] text-ink-on-gold">{t("admin.addProduct")}</button>
       </div>
       <div className="overflow-x-auto">
         <table className="w-full min-w-[700px] text-sm">
           <thead>
             <tr className="border-b border-line text-left text-[0.65rem] uppercase tracking-[0.14em] text-ink-muted">
-              <th className="p-4 font-medium">Product</th>
-              <th className="p-4 font-medium">SKU</th>
-              <th className="p-4 font-medium">Category</th>
-              <th className="p-4 font-medium">Price</th>
-              <th className="p-4 font-medium">Stock</th>
-              <th className="p-4 font-medium">Status</th>
+              <th className="p-4 font-medium">{t("admin.product")}</th>
+              <th className="p-4 font-medium">{t("admin.sku")}</th>
+              <th className="p-4 font-medium">{t("admin.category")}</th>
+              <th className="p-4 font-medium">{t("admin.price")}</th>
+              <th className="p-4 font-medium">{t("admin.stock")}</th>
+              <th className="p-4 font-medium">{t("admin.status")}</th>
             </tr>
           </thead>
           <tbody className="divide-y divide-line">
             {rows.map((p) => (
               <tr key={p.id} className="transition-colors hover:bg-bg-sunken">
                 <td className="p-4">
-                  <p className="font-medium">{p.name}</p>
+                  <p className="font-medium">{lp(p).name}</p>
                   <p className="text-xs text-ink-muted">{getBrandName(p.brand)}</p>
                 </td>
                 <td className="p-4 text-ink-muted">{p.sku}</td>
-                <td className="p-4 capitalize text-ink-soft">{p.category}</td>
+                <td className="p-4 capitalize text-ink-soft">{lcn(p.category, p.category)}</td>
                 <td className="p-4 tabular-nums">{formatPrice(p.price)}</td>
                 <td className="p-4">
                   <span className={cn("px-2 py-0.5 text-xs", p.stock <= 5 ? "bg-amber-500/15 text-amber-600" : "bg-emerald-500/15 text-emerald-600")}>
@@ -328,10 +341,10 @@ function ProductsTable() {
                 </td>
                 <td className="p-4">
                   <div className="flex flex-wrap gap-1">
-                    {p.featured && <Pill>Featured</Pill>}
-                    {p.bestSeller && <Pill>Bestseller</Pill>}
-                    {p.newArrival && <Pill>New</Pill>}
-                    {p.trending && <Pill>Trending</Pill>}
+                    {p.featured && <Pill>{t("admin.tagFeatured")}</Pill>}
+                    {p.bestSeller && <Pill>{t("admin.tagBest")}</Pill>}
+                    {p.newArrival && <Pill>{t("admin.tagNew")}</Pill>}
+                    {p.trending && <Pill>{t("admin.tagTrending")}</Pill>}
                   </div>
                 </td>
               </tr>
@@ -344,20 +357,21 @@ function ProductsTable() {
 }
 
 function OrdersTable() {
+  const t = useT();
   return (
     <div className="border border-line bg-bg-elevated">
       <div className="border-b border-line p-5">
-        <h2 className="font-display text-lg">All orders</h2>
+        <h2 className="font-display text-lg">{t("admin.allOrders")}</h2>
       </div>
       <div className="overflow-x-auto">
         <table className="w-full min-w-[640px] text-sm">
           <thead>
             <tr className="border-b border-line text-left text-[0.65rem] uppercase tracking-[0.14em] text-ink-muted">
-              <th className="p-4 font-medium">Order</th>
-              <th className="p-4 font-medium">Customer</th>
-              <th className="p-4 font-medium">Date</th>
-              <th className="p-4 font-medium">Total</th>
-              <th className="p-4 font-medium">Status</th>
+              <th className="p-4 font-medium">{t("admin.order")}</th>
+              <th className="p-4 font-medium">{t("admin.customer")}</th>
+              <th className="p-4 font-medium">{t("admin.date")}</th>
+              <th className="p-4 font-medium">{t("admin.total")}</th>
+              <th className="p-4 font-medium">{t("admin.status")}</th>
             </tr>
           </thead>
           <tbody className="divide-y divide-line">
@@ -367,7 +381,7 @@ function OrdersTable() {
                 <td className="p-4 text-ink-soft">{o.customer}</td>
                 <td className="p-4 text-ink-muted">{o.date}</td>
                 <td className="p-4 tabular-nums">{formatPrice(o.total)}</td>
-                <td className="p-4"><span className={cn("px-2 py-0.5 text-xs", STATUS_TONE[o.status])}>{o.status}</span></td>
+                <td className="p-4"><span className={cn("px-2 py-0.5 text-xs", STATUS_TONE[o.status])}>{t(STATUS_KEY[o.status])}</span></td>
               </tr>
             ))}
           </tbody>
@@ -378,13 +392,14 @@ function OrdersTable() {
 }
 
 function ModulePlaceholder({ section, icon, label }: { section: string; icon: React.ReactNode; label: string }) {
+  const t = useT();
   const counts: Record<string, string> = {
-    customers: "3,460 customers",
-    categories: `${getTopCategories().length} top-level · 10 sub`,
-    brands: `${brands.length} houses`,
-    banners: "Homepage & category banners",
-    coupons: "3 active codes",
-    settings: "Store, tax, shipping, WhatsApp, socials",
+    customers: "3,460",
+    categories: `${getTopCategories().length} + 10`,
+    brands: `${brands.length}`,
+    banners: "—",
+    coupons: "3",
+    settings: "—",
   };
   return (
     <div className="grid min-h-[60vh] place-items-center border border-dashed border-line bg-bg-elevated text-center">
@@ -392,8 +407,7 @@ function ModulePlaceholder({ section, icon, label }: { section: string; icon: Re
         <div className="mx-auto grid h-16 w-16 place-items-center rounded-full bg-bg-sunken text-gold-deep">{icon}</div>
         <h2 className="mt-6 font-display text-2xl">{label}</h2>
         <p className="mt-2 text-sm text-ink-soft">
-          The {label} module is scaffolded in the data layer ({counts[section] ?? ""}) with full CRUD planned —
-          backed by the tables in <code className="text-gold-deep">supabase/schema.sql</code>.
+          {t("admin.moduleDesc", { label, count: counts[section] ?? "" })}
         </p>
       </div>
     </div>

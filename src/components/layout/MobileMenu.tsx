@@ -5,8 +5,11 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { X, Plus, Minus } from "lucide-react";
 import { Logo } from "@/components/ui/Logo";
+import { LanguageSwitcher } from "@/components/i18n/LanguageSwitcher";
 import { useUI } from "@/store/ui";
 import { getTopCategories, getSubcategories } from "@/data";
+import { useT } from "@/i18n/provider";
+import { useLocalize } from "@/i18n/useLocalize";
 
 const EASE = [0.22, 1, 0.36, 1] as const;
 const top = getTopCategories();
@@ -15,6 +18,8 @@ export function MobileMenu() {
   const { menuOpen, setMenuOpen } = useUI();
   const [expanded, setExpanded] = useState<string | null>(null);
   const close = () => setMenuOpen(false);
+  const t = useT();
+  const { lcn } = useLocalize();
 
   return (
     <AnimatePresence>
@@ -54,7 +59,7 @@ export function MobileMenu() {
                           onClick={close}
                           className="py-3 font-display text-xl"
                         >
-                          {c.name}
+                          {lcn(c.slug, c.name)}
                         </Link>
                         {subs.length > 0 && (
                           <button
@@ -82,7 +87,7 @@ export function MobileMenu() {
                                   onClick={close}
                                   className="block py-2 text-sm text-ink-soft hover:text-gold-deep"
                                 >
-                                  {s.name}
+                                  {lcn(s.slug, s.name)}
                                 </Link>
                               </li>
                             ))}
@@ -96,9 +101,10 @@ export function MobileMenu() {
             </nav>
 
             <div className="space-y-1 border-t border-line px-6 py-5 text-sm">
-              <Link href="/account" onClick={close} className="block py-2 text-ink-soft hover:text-gold-deep">My Account</Link>
-              <Link href="/wishlist" onClick={close} className="block py-2 text-ink-soft hover:text-gold-deep">Wishlist</Link>
-              <Link href="/admin" onClick={close} className="block py-2 text-ink-soft hover:text-gold-deep">Admin</Link>
+              <Link href="/account" onClick={close} className="block py-2 text-ink-soft hover:text-gold-deep">{t("nav.myAccount")}</Link>
+              <Link href="/wishlist" onClick={close} className="block py-2 text-ink-soft hover:text-gold-deep">{t("nav.wishlist")}</Link>
+              <Link href="/admin" onClick={close} className="block py-2 text-ink-soft hover:text-gold-deep">{t("nav.admin")}</Link>
+              <div className="pt-2"><LanguageSwitcher /></div>
             </div>
           </motion.aside>
         </div>

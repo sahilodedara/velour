@@ -9,11 +9,15 @@ import { TextReveal } from "@/components/motion/Reveal";
 import { ProductArtwork } from "@/components/product/ProductArtwork";
 import { getFeatured } from "@/data";
 import { getBrand } from "@/data";
+import { useT } from "@/i18n/provider";
+import { useLocalize } from "@/i18n/useLocalize";
 
 const EASE = [0.22, 1, 0.36, 1] as const;
 const floats = getFeatured().slice(0, 3);
 
 export function Hero() {
+  const t = useT();
+  const { lp } = useLocalize();
   const ref = useRef<HTMLElement>(null);
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
   const yText = useTransform(scrollYProgress, [0, 1], [0, 120]);
@@ -42,15 +46,15 @@ export function Hero() {
             transition={{ duration: 0.8, ease: EASE }}
             className="eyebrow !text-gold mb-6 flex items-center gap-3"
           >
-            <span className="h-px w-10 bg-gold" /> The House of Modern Luxury
+            <span className="h-px w-10 bg-gold" /> {t("hero.eyebrow")}
           </motion.p>
 
           <h1 className="font-display text-[clamp(2.6rem,7vw,5.2rem)] font-medium leading-[0.98] tracking-[-0.02em]">
-            <TextReveal text="Where the" className="block" />
+            <TextReveal text={t("hero.h1a")} className="block" />
             <span className="block">
-              <span className="italic text-gold-gradient"><TextReveal text="extraordinary" delay={0.15} /></span>
+              <span className="italic text-gold-gradient"><TextReveal text={t("hero.h1b")} delay={0.15} /></span>
             </span>
-            <TextReveal text="becomes everyday" className="block" delay={0.3} />
+            <TextReveal text={t("hero.h1c")} className="block" delay={0.3} />
           </h1>
 
           <motion.p
@@ -59,8 +63,7 @@ export function Hero() {
             transition={{ delay: 0.7, duration: 1 }}
             className="mt-7 max-w-md text-base leading-relaxed text-noir-ink-soft"
           >
-            A curated marketplace of the world&apos;s most coveted houses — bags, ready-to-wear,
-            fragrance, watches and fine jewelry, delivered with quiet precision.
+            {t("hero.sub")}
           </motion.p>
 
           <motion.div
@@ -69,8 +72,8 @@ export function Hero() {
             transition={{ delay: 0.85, duration: 0.8, ease: EASE }}
             className="mt-9 flex flex-wrap items-center gap-4"
           >
-            <Button href="/shop" variant="gold" size="lg">Explore the Edit</Button>
-            <Button href="/shop?sort=newest" variant="noir" size="lg">New Arrivals</Button>
+            <Button href="/shop" variant="gold" size="lg">{t("hero.cta1")}</Button>
+            <Button href="/shop?sort=newest" variant="noir" size="lg">{t("hero.cta2")}</Button>
           </motion.div>
 
           <motion.div
@@ -79,11 +82,11 @@ export function Hero() {
             transition={{ delay: 1.1, duration: 1 }}
             className="mt-12 flex items-center gap-8 text-xs text-noir-ink-soft"
           >
-            <Stat value="200+" label="Maisons" />
+            <Stat value="200+" label={t("hero.statMaisons")} />
             <span className="h-8 w-px bg-noir-line" />
-            <Stat value="40k+" label="Pieces curated" />
+            <Stat value="40k+" label={t("hero.statPieces")} />
             <span className="h-8 w-px bg-noir-line" />
-            <Stat value="98%" label="Would return" />
+            <Stat value="98%" label={t("hero.statReturn")} />
           </motion.div>
         </motion.div>
 
@@ -107,7 +110,7 @@ export function Hero() {
                 <Link href={`/product/${p.slug}`} className="group block">
                   <div className="aspect-[4/5] overflow-hidden shadow-luxe ring-1 ring-white/10">
                     <div className="h-full w-full transition-transform duration-700 group-hover:scale-105">
-                      <ProductArtwork palette={p.palette} monogram={getBrand(p.brand)?.monogram ?? "V"} category={p.category} name={p.name} />
+                      <ProductArtwork palette={p.palette} monogram={getBrand(p.brand)?.monogram ?? "V"} category={p.category} name={lp(p).name} />
                     </div>
                   </div>
                 </Link>
@@ -122,7 +125,7 @@ export function Hero() {
         style={{ opacity }}
         className="absolute inset-x-0 bottom-7 flex flex-col items-center gap-2 text-noir-ink-soft"
       >
-        <span className="text-[0.6rem] uppercase tracking-[0.3em]">Scroll</span>
+        <span className="text-[0.6rem] uppercase tracking-[0.3em]">{t("hero.scroll")}</span>
         <motion.span animate={{ y: [0, 7, 0] }} transition={{ repeat: Infinity, duration: 1.8, ease: "easeInOut" }}>
           <ArrowDown size={16} className="text-gold" />
         </motion.span>

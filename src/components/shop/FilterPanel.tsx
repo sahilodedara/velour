@@ -11,13 +11,16 @@ import {
   allSizes,
 } from "@/data";
 import type { FilterState } from "@/data";
+import { useT } from "@/i18n/provider";
+import { useLocalize } from "@/i18n/useLocalize";
+import { localizeTerm } from "@/data/i18n";
 import { cn } from "@/lib/utils";
 
 const PRICE_RANGES = [
-  { label: "Under $500", min: 0, max: 499 },
-  { label: "$500 – $1,500", min: 500, max: 1500 },
-  { label: "$1,500 – $3,000", min: 1500, max: 3000 },
-  { label: "$3,000+", min: 3000, max: undefined },
+  { labelKey: "filter.under500", min: 0, max: 499 },
+  { labelKey: "filter.r1", min: 500, max: 1500 },
+  { labelKey: "filter.r2", min: 1500, max: 3000 },
+  { labelKey: "filter.over3000", min: 3000, max: undefined },
 ];
 
 const top = getTopCategories();
@@ -31,6 +34,8 @@ export function FilterPanel({
   filters: FilterState;
   setFilters: (f: FilterState) => void;
 }) {
+  const t = useT();
+  const { lang, lcn } = useLocalize();
   const toggleArr = (key: "categories" | "brands" | "colors" | "sizes", value: string) => {
     const arr = filters[key];
     setFilters({
@@ -41,14 +46,14 @@ export function FilterPanel({
 
   return (
     <div className="space-y-1 divide-y divide-line">
-      <Section title="Category" defaultOpen>
+      <Section title={t("filter.category")} defaultOpen>
         <div className="space-y-3">
           {top.map((c) => {
             const subs = getSubcategories(c.slug);
             return (
               <div key={c.slug}>
                 <Check
-                  label={c.name}
+                  label={lcn(c.slug, c.name)}
                   checked={filters.categories.includes(c.slug)}
                   onChange={() => toggleArr("categories", c.slug)}
                   bold
@@ -58,7 +63,7 @@ export function FilterPanel({
                     {subs.map((s) => (
                       <Check
                         key={s.slug}
-                        label={s.name}
+                        label={lcn(s.slug, s.name)}
                         checked={filters.categories.includes(s.slug)}
                         onChange={() => toggleArr("categories", s.slug)}
                       />
@@ -71,7 +76,7 @@ export function FilterPanel({
         </div>
       </Section>
 
-      <Section title="Houses" defaultOpen>
+      <Section title={t("filter.houses")} defaultOpen>
         <div className="space-y-2.5">
           {brands.map((b) => (
             <Check
@@ -84,13 +89,13 @@ export function FilterPanel({
         </div>
       </Section>
 
-      <Section title="Price">
+      <Section title={t("filter.price")}>
         <div className="space-y-2.5">
           {PRICE_RANGES.map((r) => {
             const active = filters.minPrice === r.min && filters.maxPrice === r.max;
             return (
               <button
-                key={r.label}
+                key={r.labelKey}
                 onClick={() =>
                   setFilters({
                     ...filters,
@@ -104,14 +109,14 @@ export function FilterPanel({
                 )}
               >
                 <span className={cn("mr-2 inline-block h-3 w-3 border align-middle", active ? "border-gold bg-gold" : "border-line-strong")} />
-                {r.label}
+                {t(r.labelKey)}
               </button>
             );
           })}
         </div>
       </Section>
 
-      <Section title="Color">
+      <Section title={t("filter.color")}>
         <div className="flex flex-wrap gap-2">
           {colors.map((c) => (
             <button
@@ -122,13 +127,13 @@ export function FilterPanel({
                 filters.colors.includes(c) ? "border-gold bg-gold text-ink-on-gold" : "border-line text-ink-soft hover:border-gold-deep",
               )}
             >
-              {c}
+              {localizeTerm(c, lang)}
             </button>
           ))}
         </div>
       </Section>
 
-      <Section title="Size">
+      <Section title={t("filter.size")}>
         <div className="flex flex-wrap gap-2">
           {sizes.map((s) => (
             <button
@@ -145,20 +150,20 @@ export function FilterPanel({
         </div>
       </Section>
 
-      <Section title="Rating & Availability">
+      <Section title={t("filter.ratingAvail")}>
         <div className="space-y-2.5">
           <Check
-            label="4★ & up"
+            label={t("filter.rating4")}
             checked={filters.minRating === 4}
             onChange={() => setFilters({ ...filters, minRating: filters.minRating === 4 ? undefined : 4 })}
           />
           <Check
-            label="On sale"
+            label={t("filter.onSale")}
             checked={!!filters.onSaleOnly}
             onChange={() => setFilters({ ...filters, onSaleOnly: !filters.onSaleOnly })}
           />
           <Check
-            label="In stock"
+            label={t("filter.inStock")}
             checked={!!filters.inStockOnly}
             onChange={() => setFilters({ ...filters, inStockOnly: !filters.inStockOnly })}
           />

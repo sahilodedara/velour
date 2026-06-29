@@ -1,13 +1,17 @@
+"use client";
+
 import { Instagram } from "lucide-react";
 import { Container, SectionHeading } from "@/components/ui/Container";
 import { Reveal, Stagger, StaggerItem } from "@/components/motion/Reveal";
 import { ProductArtwork } from "@/components/product/ProductArtwork";
 import { site } from "@/config/site";
 import { products } from "@/data";
+import { useT } from "@/i18n/provider";
 
 const tiles = products.slice(0, 6);
 
 export function InstagramGallery() {
+  const t = useT();
   return (
     <section className="py-24 md:py-32">
       <Container>
@@ -15,8 +19,8 @@ export function InstagramGallery() {
           <SectionHeading
             align="center"
             eyebrow="@velour.atelier"
-            title="Worn in the wild"
-            description="Tag your pieces for a chance to be featured."
+            title={t("instagram.title")}
+            description={t("instagram.desc")}
           />
         </Reveal>
 

@@ -6,10 +6,12 @@ import { Mail, Lock, User, Info } from "lucide-react";
 import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
 import { site } from "@/config/site";
+import { useT } from "@/i18n/provider";
 
 type Tab = "signin" | "register" | "forgot";
 
 export default function AccountPage() {
+  const t = useT();
   const [tab, setTab] = useState<Tab>("signin");
   const [notice, setNotice] = useState(false);
 
@@ -26,9 +28,9 @@ export default function AccountPage() {
           <div className="pointer-events-none absolute -right-24 top-1/3 h-96 w-96 rounded-full bg-[radial-gradient(circle,rgba(200,164,100,0.18),transparent_60%)] blur-3xl" />
           <p className="font-display text-3xl tracking-[0.18em]">VEL<span className="text-gold">OUR</span></p>
           <div>
-            <h2 className="font-display text-4xl leading-tight">The members&apos; entrance</h2>
+            <h2 className="font-display text-4xl leading-tight">{t("account.brandTitle")}</h2>
             <p className="mt-4 max-w-sm text-noir-ink-soft">
-              Track orders, save your wishlist across devices, and unlock private previews and concierge styling.
+              {t("account.brandDesc")}
             </p>
           </div>
           <p className="text-xs uppercase tracking-[0.2em] text-noir-ink-soft">{site.tagline}</p>
@@ -38,16 +40,16 @@ export default function AccountPage() {
         <div className="flex items-center justify-center px-6 py-16">
           <Container className="max-w-md !px-0">
             <div className="mb-8 flex gap-6 border-b border-line">
-              {(["signin", "register", "forgot"] as Tab[]).map((t) => (
+              {(["signin", "register", "forgot"] as Tab[]).map((tb) => (
                 <button
-                  key={t}
-                  onClick={() => { setTab(t); setNotice(false); }}
+                  key={tb}
+                  onClick={() => { setTab(tb); setNotice(false); }}
                   className="relative pb-3 text-sm font-medium"
                 >
-                  <span className={tab === t ? "text-ink" : "text-ink-muted"}>
-                    {t === "signin" ? "Sign In" : t === "register" ? "Create Account" : "Reset"}
+                  <span className={tab === tb ? "text-ink" : "text-ink-muted"}>
+                    {tb === "signin" ? t("account.signin") : tb === "register" ? t("account.register") : t("account.reset")}
                   </span>
-                  {tab === t && <motion.span layoutId="acct-tab" className="absolute inset-x-0 -bottom-px h-0.5 bg-gold" />}
+                  {tab === tb && <motion.span layoutId="acct-tab" className="absolute inset-x-0 -bottom-px h-0.5 bg-gold" />}
                 </button>
               ))}
             </div>
@@ -63,34 +65,34 @@ export default function AccountPage() {
                 className="space-y-4"
               >
                 <h1 className="font-display text-3xl">
-                  {tab === "signin" ? "Welcome back" : tab === "register" ? "Join VELOUR" : "Reset password"}
+                  {tab === "signin" ? t("account.welcome") : tab === "register" ? t("account.join") : t("account.resetTitle")}
                 </h1>
 
                 {tab === "register" && (
-                  <IconField icon={<User size={16} />}><input className="luxe-input pl-10" placeholder="Full name" autoComplete="name" /></IconField>
+                  <IconField icon={<User size={16} />}><input className="luxe-input pl-10" placeholder={t("account.name")} autoComplete="name" /></IconField>
                 )}
-                <IconField icon={<Mail size={16} />}><input type="email" required className="luxe-input pl-10" placeholder="Email address" autoComplete="email" /></IconField>
+                <IconField icon={<Mail size={16} />}><input type="email" required className="luxe-input pl-10" placeholder={t("account.email")} autoComplete="email" /></IconField>
                 {tab !== "forgot" && (
-                  <IconField icon={<Lock size={16} />}><input type="password" required className="luxe-input pl-10" placeholder="Password" autoComplete={tab === "signin" ? "current-password" : "new-password"} /></IconField>
+                  <IconField icon={<Lock size={16} />}><input type="password" required className="luxe-input pl-10" placeholder={t("account.password")} autoComplete={tab === "signin" ? "current-password" : "new-password"} /></IconField>
                 )}
 
                 {tab === "signin" && (
                   <div className="flex justify-end">
-                    <button type="button" onClick={() => setTab("forgot")} className="text-xs text-ink-muted hover:text-gold-deep">Forgot password?</button>
+                    <button type="button" onClick={() => setTab("forgot")} className="text-xs text-ink-muted hover:text-gold-deep">{t("account.forgot")}</button>
                   </div>
                 )}
 
                 <Button type="submit" variant="gold" size="lg" className="w-full" magnetic={false}>
-                  {tab === "signin" ? "Sign In" : tab === "register" ? "Create Account" : "Send Reset Link"}
+                  {tab === "signin" ? t("account.signinBtn") : tab === "register" ? t("account.registerBtn") : t("account.resetBtn")}
                 </Button>
 
                 {tab !== "forgot" && (
                   <>
                     <div className="flex items-center gap-4 py-1 text-xs text-ink-muted">
-                      <span className="h-px flex-1 bg-line" /> or <span className="h-px flex-1 bg-line" />
+                      <span className="h-px flex-1 bg-line" /> {t("account.or")} <span className="h-px flex-1 bg-line" />
                     </div>
                     <button type="button" onClick={submit} className="flex w-full items-center justify-center gap-3 border border-line py-3 text-sm transition-colors hover:border-gold-deep">
-                      <GoogleIcon /> Continue with Google
+                      <GoogleIcon /> {t("account.google")}
                     </button>
                   </>
                 )}
@@ -103,7 +105,7 @@ export default function AccountPage() {
                       className="flex items-start gap-2 bg-bg-sunken p-3 text-xs text-ink-soft"
                     >
                       <Info size={14} className="mt-0.5 shrink-0 text-gold-deep" />
-                      This is the front-end experience. Connect Supabase Auth (see <code>supabase/schema.sql</code>) to enable live accounts.
+                      {t("account.notice")}
                     </motion.p>
                   )}
                 </AnimatePresence>

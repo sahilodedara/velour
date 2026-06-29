@@ -1,5 +1,6 @@
 import { site } from "@/config/site";
 import { formatPrice, formatDate, formatTime } from "@/lib/utils";
+import { dict, type Lang } from "@/i18n/dict";
 import type { CartLine } from "@/store/cart";
 
 export interface CustomerDetails {
@@ -25,41 +26,43 @@ export function buildOrderMessage(
   lines: CartLine[],
   totals: OrderTotals,
   couponCode?: string,
+  lang: Lang = "en",
 ): string {
+  const o = dict[lang].order as Record<string, string>;
   const now = new Date();
   const L: string[] = [];
 
-  L.push(`*${site.name} — NEW ORDER*`);
+  L.push(`*${site.name} — ${o.newOrder}*`);
   L.push("────────────────────");
-  L.push(`*Name:* ${customer.name}`);
-  L.push(`*Phone:* ${customer.phone}`);
-  L.push(`*Address:* ${customer.address}`);
-  L.push(`*Date:* ${formatDate(now)}`);
-  L.push(`*Time:* ${formatTime(now)}`);
+  L.push(`*${o.name}:* ${customer.name}`);
+  L.push(`*${o.phone}:* ${customer.phone}`);
+  L.push(`*${o.address}:* ${customer.address}`);
+  L.push(`*${o.date}:* ${formatDate(now)}`);
+  L.push(`*${o.time}:* ${formatTime(now)}`);
   L.push("────────────────────");
-  L.push("*ORDER DETAILS*");
+  L.push(`*${o.details}*`);
   L.push("");
 
   lines.forEach((line, i) => {
     const opts = [line.color, line.size, line.material].filter(Boolean).join(" · ");
     L.push(`*${i + 1}. ${line.brand} — ${line.name}*`);
-    if (opts) L.push(`   Variant: ${opts}`);
-    L.push(`   Qty: ${line.quantity}  ×  ${formatPrice(line.price)}`);
-    L.push(`   Line total: ${formatPrice(line.price * line.quantity)}`);
+    if (opts) L.push(`   ${o.variant}: ${opts}`);
+    L.push(`   ${o.qty}: ${line.quantity}  ×  ${formatPrice(line.price)}`);
+    L.push(`   ${o.lineTotal}: ${formatPrice(line.price * line.quantity)}`);
     L.push("");
   });
 
   L.push("────────────────────");
-  L.push(`Subtotal: ${formatPrice(totals.subtotal)}`);
+  L.push(`${o.subtotal}: ${formatPrice(totals.subtotal)}`);
   if (totals.discount > 0) {
-    L.push(`Discount${couponCode ? ` (${couponCode})` : ""}: −${formatPrice(totals.discount)}`);
+    L.push(`${o.discount}${couponCode ? ` (${couponCode})` : ""}: −${formatPrice(totals.discount)}`);
   }
-  if (totals.tax > 0) L.push(`Tax: ${formatPrice(totals.tax)}`);
-  L.push(`Shipping: ${totals.shipping > 0 ? formatPrice(totals.shipping) : "Complimentary"}`);
-  L.push(`*GRAND TOTAL: ${formatPrice(totals.grandTotal)}*`);
+  if (totals.tax > 0) L.push(`${o.tax}: ${formatPrice(totals.tax)}`);
+  L.push(`${o.shipping}: ${totals.shipping > 0 ? formatPrice(totals.shipping) : o.complimentary}`);
+  L.push(`*${o.grandTotal}: ${formatPrice(totals.grandTotal)}*`);
   L.push("────────────────────");
   L.push("");
-  L.push(`Thank you for shopping with ${site.name}. Please confirm availability and delivery.`);
+  L.push(o.thanks);
 
   return L.join("\n");
 }

@@ -11,11 +11,15 @@ import {
   brands,
   products,
 } from "@/data";
+import { useT } from "@/i18n/provider";
+import { useLocalize } from "@/i18n/useLocalize";
 import { formatPrice } from "@/lib/utils";
 
 const EASE = [0.22, 1, 0.36, 1] as const;
 
 export function MegaMenu({ category, onNavigate }: { category: string; onNavigate: () => void }) {
+  const t = useT();
+  const { lcn, lp } = useLocalize();
   const cat = getCategory(category);
   const subs = getSubcategories(category);
   const featuredBrands = brands.filter((b) => b.featured).slice(0, 6);
@@ -24,10 +28,10 @@ export function MegaMenu({ category, onNavigate }: { category: string; onNavigat
     products.find((p) => p.category === category);
 
   const edit = [
-    { label: "New Arrivals", href: `/shop?category=${category}&sort=newest` },
-    { label: "Best Sellers", href: `/shop?category=${category}&sort=rating` },
-    { label: "On Sale", href: `/shop?category=${category}&sale=1` },
-    { label: `All ${cat?.name ?? ""}`, href: `/shop?category=${category}` },
+    { label: t("mega.newArrivals"), href: `/shop?category=${category}&sort=newest` },
+    { label: t("mega.bestSellers"), href: `/shop?category=${category}&sort=rating` },
+    { label: t("mega.onSale"), href: `/shop?category=${category}&sale=1` },
+    { label: t("mega.all", { name: lcn(category, cat?.name ?? "") }), href: `/shop?category=${category}` },
   ];
 
   return (
@@ -41,7 +45,7 @@ export function MegaMenu({ category, onNavigate }: { category: string; onNavigat
       <div className="container-luxe grid grid-cols-12 gap-8 py-10 text-ink">
         {/* Categories */}
         <div className="col-span-3">
-          <p className="eyebrow mb-5">Categories</p>
+          <p className="eyebrow mb-5">{t("mega.categories")}</p>
           <ul className="space-y-3">
             {(subs.length ? subs : [cat!]).map((s) => (
               <li key={s.slug}>
@@ -50,7 +54,7 @@ export function MegaMenu({ category, onNavigate }: { category: string; onNavigat
                   onClick={onNavigate}
                   className="link-underline text-sm text-ink-soft transition-colors hover:text-gold-deep"
                 >
-                  {s.name}
+                  {lcn(s.slug, s.name)}
                 </Link>
               </li>
             ))}
@@ -59,7 +63,7 @@ export function MegaMenu({ category, onNavigate }: { category: string; onNavigat
 
         {/* Houses */}
         <div className="col-span-3">
-          <p className="eyebrow mb-5">Houses</p>
+          <p className="eyebrow mb-5">{t("mega.houses")}</p>
           <ul className="space-y-3">
             {featuredBrands.map((b) => (
               <li key={b.slug}>
@@ -77,7 +81,7 @@ export function MegaMenu({ category, onNavigate }: { category: string; onNavigat
 
         {/* The Edit */}
         <div className="col-span-2">
-          <p className="eyebrow mb-5">The Edit</p>
+          <p className="eyebrow mb-5">{t("mega.edit")}</p>
           <ul className="space-y-3">
             {edit.map((e) => (
               <li key={e.label}>
@@ -111,8 +115,8 @@ export function MegaMenu({ category, onNavigate }: { category: string; onNavigat
               </div>
               <div className="absolute inset-0 flex items-end bg-gradient-to-t from-black/55 to-transparent p-5">
                 <div className="text-white">
-                  <p className="eyebrow !text-white/70">Featured</p>
-                  <p className="mt-1 font-display text-lg leading-tight">{feature.name}</p>
+                  <p className="eyebrow !text-white/70">{t("mega.featured")}</p>
+                  <p className="mt-1 font-display text-lg leading-tight">{lp(feature).name}</p>
                   <p className="mt-1 flex items-center gap-1 text-xs text-white/80">
                     {formatPrice(feature.price)}
                     <ArrowUpRight size={13} className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />

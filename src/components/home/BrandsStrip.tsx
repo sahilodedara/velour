@@ -1,12 +1,16 @@
+"use client";
+
 import Link from "next/link";
 import { brands } from "@/data";
+import { useT } from "@/i18n/provider";
 
 /** Infinite, GPU-friendly marquee of featured houses. */
 export function BrandsStrip() {
+  const t = useT();
   const row = [...brands, ...brands];
   return (
     <section className="border-y border-line py-10 md:py-14">
-      <p className="eyebrow mb-8 text-center">Maisons on VELOUR</p>
+      <p className="eyebrow mb-8 text-center">{t("brandsStrip")}</p>
       <div className="group relative overflow-hidden" aria-label="Featured brands">
         {/* edge fades */}
         <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-24 bg-gradient-to-r from-bg to-transparent" />

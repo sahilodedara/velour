@@ -8,6 +8,8 @@ import { Search, X, ArrowUpRight } from "lucide-react";
 import { ProductArtwork } from "@/components/product/ProductArtwork";
 import { searchProducts, getBrand, getBrandName } from "@/data";
 import { useUI } from "@/store/ui";
+import { useT } from "@/i18n/provider";
+import { useLocalize } from "@/i18n/useLocalize";
 import { formatPrice } from "@/lib/utils";
 
 const EASE = [0.22, 1, 0.36, 1] as const;
@@ -16,6 +18,8 @@ const POPULAR = ["Top-Handle Bag", "Cashmere", "Oud", "Sneakers", "Moonphase", "
 export function SearchOverlay() {
   const { searchOpen, setSearchOpen } = useUI();
   const router = useRouter();
+  const t = useT();
+  const { lp } = useLocalize();
   const [q, setQ] = useState("");
   const [recent, setRecent] = useState<string[]>([]);
 
@@ -85,7 +89,7 @@ export function SearchOverlay() {
                     autoFocus
                     value={q}
                     onChange={(e) => setQ(e.target.value)}
-                    placeholder="Search for pieces, houses or categories…"
+                    placeholder={t("search.placeholder")}
                     className="w-full bg-transparent font-display text-2xl placeholder:text-ink-muted focus:outline-none md:text-3xl"
                   />
                 </form>
@@ -99,7 +103,7 @@ export function SearchOverlay() {
                 <div className="space-y-8">
                   {recent.length > 0 && (
                     <div>
-                      <p className="eyebrow mb-4">Recent</p>
+                      <p className="eyebrow mb-4">{t("search.recent")}</p>
                       <div className="flex flex-wrap gap-2">
                         {recent.map((r) => (
                           <button key={r} onClick={() => commit(r)} className="hairline px-3 py-1.5 text-xs text-ink-soft transition-colors hover:border-gold hover:text-gold-deep">
@@ -110,7 +114,7 @@ export function SearchOverlay() {
                     </div>
                   )}
                   <div>
-                    <p className="eyebrow mb-4">Popular searches</p>
+                    <p className="eyebrow mb-4">{t("search.popular")}</p>
                     <div className="flex flex-wrap gap-2">
                       {POPULAR.map((p) => (
                         <button key={p} onClick={() => commit(p)} className="hairline px-3 py-1.5 text-xs text-ink-soft transition-colors hover:border-gold hover:text-gold-deep">
@@ -123,7 +127,7 @@ export function SearchOverlay() {
 
                 {/* Live results */}
                 <div className="min-h-[120px]">
-                  <p className="eyebrow mb-4">{results.length ? "Results" : "Start typing"}</p>
+                  <p className="eyebrow mb-4">{results.length ? t("search.results") : t("search.start")}</p>
                   <div className="space-y-1">
                     {results.map((p, i) => (
                       <motion.div
@@ -142,7 +146,7 @@ export function SearchOverlay() {
                           </div>
                           <div className="min-w-0 flex-1">
                             <p className="text-[0.62rem] uppercase tracking-[0.2em] text-ink-muted">{getBrandName(p.brand)}</p>
-                            <p className="truncate text-sm">{p.name}</p>
+                            <p className="truncate text-sm">{lp(p).name}</p>
                           </div>
                           <span className="text-sm text-ink-soft">{formatPrice(p.price)}</span>
                           <ArrowUpRight size={15} className="text-ink-muted transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />

@@ -173,6 +173,9 @@ export const dict: Record<Lang, Dict> = {
       addProduct: "+ Add product", searchProducts: "Search products…", allOrders: "All orders", date: "Date",
       pending: "Pending", confirmed: "Confirmed", shipped: "Shipped", delivered: "Delivered", cancelled: "Cancelled",
       tagFeatured: "Featured", tagTrending: "Trending", tagBest: "Bestseller", tagNew: "New",
+      loginTitle: "Admin Sign In", loginSub: "Restricted area — authorised staff only.",
+      username: "Username", password: "Password", signIn: "Sign In",
+      wrongCreds: "Incorrect username or password", demoHint: "Demo credentials", logout: "Sign out",
       moduleDesc: "The {label} module is scaffolded in the data layer ({count}) with full CRUD planned — backed by the tables in supabase/schema.sql.",
     },
     err404: {
@@ -354,6 +357,9 @@ export const dict: Record<Lang, Dict> = {
       addProduct: "+ 添加商品", searchProducts: "搜索商品……", allOrders: "全部订单", date: "日期",
       pending: "待处理", confirmed: "已确认", shipped: "已发货", delivered: "已送达", cancelled: "已取消",
       tagFeatured: "精选", tagTrending: "趋势", tagBest: "畅销", tagNew: "新品",
+      loginTitle: "后台登录", loginSub: "受限区域——仅限授权员工。",
+      username: "用户名", password: "密码", signIn: "登录",
+      wrongCreds: "用户名或密码错误", demoHint: "演示账号", logout: "退出登录",
       moduleDesc: "{label} 模块已在数据层完成搭建（{count}），并规划了完整 CRUD——由 supabase/schema.sql 中的数据表支撑。",
     },
     err404: {

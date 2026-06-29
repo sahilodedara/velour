@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import {
   LayoutDashboard, Package, ShoppingCart, Users, FolderTree, Tag, Image as ImageIcon,
   Ticket, Settings, Search, Bell, Menu, X, TrendingUp, TrendingDown, ArrowUpRight,
-  Store, Sun, Moon, AlertTriangle,
+  Store, Sun, Moon, AlertTriangle, LogOut,
 } from "lucide-react";
 import { products, brands, getBrandName, getTopCategories } from "@/data";
 import { useUI } from "@/store/ui";
@@ -54,7 +54,7 @@ const STATUS_TONE: Record<string, string> = {
   Cancelled: "bg-red-500/15 text-red-600",
 };
 
-export function AdminApp() {
+export function AdminApp({ onLogout }: { onLogout?: () => void }) {
   const t = useT();
   const [section, setSection] = useState<Section>("dashboard");
   const [open, setOpen] = useState(false);
@@ -64,7 +64,7 @@ export function AdminApp() {
   return (
     <div className="min-h-dvh bg-bg-sunken text-ink">
       {/* Sidebar */}
-      <AdminSidebar section={section} setSection={(s) => { setSection(s); setOpen(false); }} open={open} setOpen={setOpen} />
+      <AdminSidebar section={section} setSection={(s) => { setSection(s); setOpen(false); }} open={open} setOpen={setOpen} onLogout={onLogout} />
 
       {/* Main column */}
       <div className="lg:pl-64">
@@ -118,9 +118,9 @@ export function AdminApp() {
 }
 
 function AdminSidebar({
-  section, setSection, open, setOpen,
+  section, setSection, open, setOpen, onLogout,
 }: {
-  section: Section; setSection: (s: Section) => void; open: boolean; setOpen: (v: boolean) => void;
+  section: Section; setSection: (s: Section) => void; open: boolean; setOpen: (v: boolean) => void; onLogout?: () => void;
 }) {
   const t = useT();
   const inner = (
@@ -143,10 +143,15 @@ function AdminSidebar({
           </button>
         ))}
       </nav>
-      <div className="border-t border-noir-line p-4">
+      <div className="space-y-1 border-t border-noir-line p-4">
         <Link href="/" className="flex items-center gap-3 px-4 py-2.5 text-sm text-noir-ink-soft transition-colors hover:text-gold">
           <Store size={18} /> {t("admin.viewStore")}
         </Link>
+        {onLogout && (
+          <button onClick={onLogout} className="flex w-full items-center gap-3 px-4 py-2.5 text-sm text-noir-ink-soft transition-colors hover:text-red-400">
+            <LogOut size={18} /> {t("admin.logout")}
+          </button>
+        )}
       </div>
     </div>
   );

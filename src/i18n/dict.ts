@@ -176,6 +176,8 @@ export const dict: Record<Lang, Dict> = {
       loginTitle: "Admin Sign In", loginSub: "Restricted area — authorised staff only.",
       username: "Username", password: "Password", signIn: "Sign In",
       wrongCreds: "Incorrect username or password", demoHint: "Demo credentials", logout: "Sign out",
+      email: "Email", signingIn: "Signing in…", notAuthorized: "This account is not an administrator.",
+      authError: "Sign-in failed. Check your details and try again.",
       moduleDesc: "The {label} module is scaffolded in the data layer ({count}) with full CRUD planned — backed by the tables in supabase/schema.sql.",
     },
     err404: {
@@ -360,6 +362,8 @@ export const dict: Record<Lang, Dict> = {
       loginTitle: "后台登录", loginSub: "受限区域——仅限授权员工。",
       username: "用户名", password: "密码", signIn: "登录",
       wrongCreds: "用户名或密码错误", demoHint: "演示账号", logout: "退出登录",
+      email: "邮箱", signingIn: "登录中……", notAuthorized: "此账户不是管理员。",
+      authError: "登录失败。请检查信息后重试。",
       moduleDesc: "{label} 模块已在数据层完成搭建（{count}），并规划了完整 CRUD——由 supabase/schema.sql 中的数据表支撑。",
     },
     err404: {

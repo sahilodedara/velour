@@ -186,6 +186,19 @@ create table if not exists notifications (
   created_at  timestamptz not null default now()
 );
 
+-- ---------- Admin allowlist (controls who may enter /admin) ----------------
+create table if not exists admins (
+  email       text primary key,
+  created_at  timestamptz not null default now()
+);
+alter table admins enable row level security;
+-- A signed-in user may read ONLY their own admin row. The admin gate queries this
+-- to confirm access; rows are added by you (service role) — never self-serve.
+create policy "read own admin row" on admins
+  for select using (email = auth.jwt() ->> 'email');
+-- After creating your admin user in Authentication, allowlist them:
+--   insert into admins (email) values ('you@example.com');
+
 create index if not exists idx_products_category on products(category_slug);
 create index if not exists idx_products_brand on products(brand_slug);
 create index if not exists idx_order_items_order on order_items(order_id);

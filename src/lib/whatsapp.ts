@@ -5,8 +5,13 @@ import type { CartLine } from "@/store/cart";
 
 export interface CustomerDetails {
   name: string;
+  email: string;
   phone: string;
   address: string;
+  city: string;
+  state: string;
+  postalCode: string;
+  country: string;
 }
 
 export interface OrderTotals {
@@ -34,9 +39,13 @@ export function buildOrderMessage(
 
   L.push(`*${site.name} — ${o.newOrder}*`);
   L.push("────────────────────");
+  const fullAddress = [customer.address, customer.city, customer.state, customer.postalCode, customer.country]
+    .filter((s) => s && s.trim())
+    .join(", ");
   L.push(`*${o.name}:* ${customer.name}`);
+  L.push(`*${o.email}:* ${customer.email}`);
   L.push(`*${o.phone}:* ${customer.phone}`);
-  L.push(`*${o.address}:* ${customer.address}`);
+  L.push(`*${o.address}:* ${fullAddress}`);
   L.push(`*${o.date}:* ${formatDate(now)}`);
   L.push(`*${o.time}:* ${formatTime(now)}`);
   L.push("────────────────────");

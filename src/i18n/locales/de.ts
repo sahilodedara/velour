@@ -112,8 +112,10 @@ const de: Record<string, any> = {
   checkout: {
     title: "Per WhatsApp bestellen",
     intro: "Vervollständigen Sie Ihre Angaben und wir bereiten eine formatierte Bestellung vor, die direkt an unseren Concierge auf WhatsApp geht.",
-    name: "Vollständiger Name", phone: "Telefon (mit Ländervorwahl)", address: "Lieferadresse",
-    namePh: "Eleanor Vance", phonePh: "+49 151 00000000", addressPh: "Wohnung, Straße, Stadt, PLZ, Land",
+    name: "Vollständiger Name", email: "E-Mail-Adresse", phone: "Telefon (mit Ländervorwahl)", address: "Straße & Hausnummer",
+    city: "Stadt", state: "Bundesland", postal: "Postleitzahl", country: "Land",
+    namePh: "Eleanor Vance", emailPh: "name@email.com", phonePh: "+49 151 00000000",
+    addressPh: "Wohnung, Gebäude, Straße", cityPh: "Stadt", statePh: "Bundesland", postalPh: "PLZ", countryPh: "Land",
     privacyNote: "Ihre Angaben werden nur zur Erstellung Ihrer WhatsApp-Nachricht verwendet — nichts wird gespeichert.",
     review: "Bestellung prüfen", editDetails: "Angaben bearbeiten", preview: "Nachrichtenvorschau",
     sendingTo: "Senden an den {name}-Concierge · {phone}. WhatsApp öffnet sich in einem neuen Tab mit der vorausgefüllten Nachricht — bestätigen Sie zum Senden.",
@@ -186,7 +188,7 @@ const de: Record<string, any> = {
   },
   loading: "Ihre Erfahrung wird kuratiert",
   order: {
-    newOrder: "NEUE BESTELLUNG", name: "Name", phone: "Telefon", address: "Adresse", date: "Datum", time: "Uhrzeit",
+    newOrder: "NEUE BESTELLUNG", name: "Name", email: "E-Mail", phone: "Telefon", address: "Adresse", date: "Datum", time: "Uhrzeit",
     details: "BESTELLDETAILS", variant: "Variante", qty: "Menge", lineTotal: "Zwischensumme",
     subtotal: "Zwischensumme", discount: "Rabatt", tax: "Steuer", shipping: "Versand",
     complimentary: "Kostenlos", grandTotal: "GESAMTSUMME",

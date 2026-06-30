@@ -130,8 +130,10 @@ export const dict: Record<Lang, Dict> = {
     checkout: {
       title: "Order on WhatsApp",
       intro: "Complete your details and we'll prepare a formatted order to send straight to our concierge on WhatsApp.",
-      name: "Full name", phone: "Phone (with country code)", address: "Delivery address",
-      namePh: "Eleanor Vance", phonePh: "+1 555 014 2200", addressPh: "Apartment, street, city, postal code, country",
+      name: "Full name", email: "Email address", phone: "Phone (with country code)", address: "Street address",
+      city: "City", state: "State / Province", postal: "Postal code", country: "Country",
+      namePh: "Eleanor Vance", emailPh: "you@email.com", phonePh: "+1 555 014 2200",
+      addressPh: "Apartment, building, street", cityPh: "City", statePh: "State / Province", postalPh: "Postal code", countryPh: "Country",
       privacyNote: "Your details are only used to compose your WhatsApp message — nothing is stored.",
       review: "Review order", editDetails: "Edit details", preview: "Message preview",
       sendingTo: "Sending to {name} concierge · {phone}. WhatsApp will open in a new tab with the message pre-filled — confirm to send.",
@@ -204,7 +206,7 @@ export const dict: Record<Lang, Dict> = {
     },
     loading: "Curating your experience",
     order: {
-      newOrder: "NEW ORDER", name: "Name", phone: "Phone", address: "Address", date: "Date", time: "Time",
+      newOrder: "NEW ORDER", name: "Name", email: "Email", phone: "Phone", address: "Address", date: "Date", time: "Time",
       details: "ORDER DETAILS", variant: "Variant", qty: "Qty", lineTotal: "Line total",
       subtotal: "Subtotal", discount: "Discount", tax: "Tax", shipping: "Shipping",
       complimentary: "Complimentary", grandTotal: "GRAND TOTAL",
@@ -324,8 +326,10 @@ export const dict: Record<Lang, Dict> = {
     checkout: {
       title: "通过 WhatsApp 下单",
       intro: "填写您的信息，我们将为您生成格式化订单，直接发送给 WhatsApp 上的礼宾顾问。",
-      name: "姓名", phone: "电话（含国家区号）", address: "配送地址",
-      namePh: "张三", phonePh: "+86 138 0000 0000", addressPh: "门牌、街道、城市、邮编、国家",
+      name: "姓名", email: "邮箱地址", phone: "电话（含国家区号）", address: "街道地址",
+      city: "城市", state: "省 / 州", postal: "邮政编码", country: "国家",
+      namePh: "张三", emailPh: "you@email.com", phonePh: "+86 138 0000 0000",
+      addressPh: "公寓、楼栋、街道", cityPh: "城市", statePh: "省 / 州", postalPh: "邮政编码", countryPh: "国家",
       privacyNote: "您的信息仅用于生成 WhatsApp 消息——不会被存储。",
       review: "确认订单", editDetails: "修改信息", preview: "消息预览",
       sendingTo: "发送给 {name} 礼宾顾问 · {phone}。WhatsApp 将在新标签页打开并预填消息——确认后发送。",
@@ -398,7 +402,7 @@ export const dict: Record<Lang, Dict> = {
     },
     loading: "正在为您甄选",
     order: {
-      newOrder: "新订单", name: "姓名", phone: "电话", address: "地址", date: "日期", time: "时间",
+      newOrder: "新订单", name: "姓名", email: "邮箱", phone: "电话", address: "地址", date: "日期", time: "时间",
       details: "订单详情", variant: "规格", qty: "数量", lineTotal: "小计",
       subtotal: "小计", discount: "折扣", tax: "税费", shipping: "运费",
       complimentary: "免费", grandTotal: "总计",

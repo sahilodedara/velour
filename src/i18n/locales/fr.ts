@@ -112,8 +112,10 @@ const fr: Record<string, any> = {
   checkout: {
     title: "Commander sur WhatsApp",
     intro: "Complétez vos informations et nous préparerons une commande formatée à envoyer directement à notre concierge sur WhatsApp.",
-    name: "Nom complet", phone: "Téléphone (avec indicatif pays)", address: "Adresse de livraison",
-    namePh: "Eleanor Vance", phonePh: "+33 6 00 00 00 00", addressPh: "Appartement, rue, ville, code postal, pays",
+    name: "Nom complet", email: "Adresse e-mail", phone: "Téléphone (avec indicatif pays)", address: "Adresse (rue)",
+    city: "Ville", state: "Région / État", postal: "Code postal", country: "Pays",
+    namePh: "Eleanor Vance", emailPh: "vous@email.com", phonePh: "+33 6 00 00 00 00",
+    addressPh: "Appartement, bâtiment, rue", cityPh: "Ville", statePh: "Région / État", postalPh: "Code postal", countryPh: "Pays",
     privacyNote: "Vos informations servent uniquement à rédiger votre message WhatsApp — rien n'est conservé.",
     review: "Vérifier la commande", editDetails: "Modifier les informations", preview: "Aperçu du message",
     sendingTo: "Envoi au concierge {name} · {phone}. WhatsApp s'ouvrira dans un nouvel onglet avec le message pré-rempli — confirmez pour envoyer.",
@@ -186,7 +188,7 @@ const fr: Record<string, any> = {
   },
   loading: "Préparation de votre expérience",
   order: {
-    newOrder: "NOUVELLE COMMANDE", name: "Nom", phone: "Téléphone", address: "Adresse", date: "Date", time: "Heure",
+    newOrder: "NOUVELLE COMMANDE", name: "Nom", email: "E-mail", phone: "Téléphone", address: "Adresse", date: "Date", time: "Heure",
     details: "DÉTAILS DE LA COMMANDE", variant: "Variante", qty: "Qté", lineTotal: "Total ligne",
     subtotal: "Sous-total", discount: "Remise", tax: "Taxes", shipping: "Livraison",
     complimentary: "Offerte", grandTotal: "TOTAL",

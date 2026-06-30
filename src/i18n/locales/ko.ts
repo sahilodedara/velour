@@ -112,8 +112,10 @@ const ko: Record<string, any> = {
   checkout: {
     title: "WhatsApp으로 주문",
     intro: "정보를 입력하시면 WhatsApp의 컨시어지에게 바로 보낼 수 있는 정돈된 주문서를 준비해 드립니다.",
-    name: "성명", phone: "전화번호 (국가번호 포함)", address: "배송지 주소",
-    namePh: "홍길동", phonePh: "+82 10 0000 0000", addressPh: "상세주소, 도로명, 도시, 우편번호, 국가",
+    name: "성명", email: "이메일 주소", phone: "전화번호 (국가번호 포함)", address: "도로명 주소",
+    city: "도시", state: "시 / 도", postal: "우편번호", country: "국가",
+    namePh: "홍길동", emailPh: "you@email.com", phonePh: "+82 10 0000 0000",
+    addressPh: "동/호수, 건물, 도로명", cityPh: "도시", statePh: "시 / 도", postalPh: "우편번호", countryPh: "국가",
     privacyNote: "입력하신 정보는 WhatsApp 메시지 작성에만 사용되며 저장되지 않습니다.",
     review: "주문 확인", editDetails: "정보 수정", preview: "메시지 미리보기",
     sendingTo: "{name} 컨시어지로 전송 · {phone}. WhatsApp이 새 탭에서 메시지와 함께 열립니다 — 확인 후 전송하세요.",
@@ -186,7 +188,7 @@ const ko: Record<string, any> = {
   },
   loading: "당신을 위한 경험을 준비하는 중",
   order: {
-    newOrder: "새 주문", name: "이름", phone: "전화", address: "주소", date: "날짜", time: "시간",
+    newOrder: "새 주문", name: "이름", email: "이메일", phone: "전화", address: "주소", date: "날짜", time: "시간",
     details: "주문 내역", variant: "옵션", qty: "수량", lineTotal: "소계",
     subtotal: "소계", discount: "할인", tax: "세금", shipping: "배송비",
     complimentary: "무료", grandTotal: "총 합계",

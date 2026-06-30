@@ -29,7 +29,7 @@ export function CheckoutDialog({
   const t = useT();
   const { lang } = useLang();
   const [step, setStep] = useState<"form" | "confirm">("form");
-  const [form, setForm] = useState({ name: "", phone: "", address: "" });
+  const [form, setForm] = useState({ name: "", email: "", phone: "", address: "", city: "", state: "", postalCode: "", country: "" });
   const [errors, setErrors] = useState<Record<string, boolean>>({});
 
   const message = buildOrderMessage(form, lines, totals, couponCode ?? undefined, lang);
@@ -37,8 +37,12 @@ export function CheckoutDialog({
   const validate = () => {
     const e = {
       name: form.name.trim().length < 2,
+      email: !/^\S+@\S+\.\S+$/.test(form.email.trim()),
       phone: form.phone.trim().length < 6,
-      address: form.address.trim().length < 8,
+      address: form.address.trim().length < 3,
+      city: form.city.trim().length < 1,
+      postalCode: form.postalCode.trim().length < 2,
+      country: form.country.trim().length < 2,
     };
     setErrors(e);
     return !Object.values(e).some(Boolean);
@@ -55,7 +59,7 @@ export function CheckoutDialog({
     onClose();
     setCartOpen(false);
     setStep("form");
-    setForm({ name: "", phone: "", address: "" });
+    setForm({ name: "", email: "", phone: "", address: "", city: "", state: "", postalCode: "", country: "" });
   };
 
   const close = () => {
@@ -78,6 +82,17 @@ export function CheckoutDialog({
               placeholder={t("checkout.namePh")}
             />
           </Field>
+          <Field label={t("checkout.email")} required error={errors.email}>
+            <input
+              type="email"
+              value={form.email}
+              onChange={(e) => setForm({ ...form, email: e.target.value })}
+              autoComplete="email"
+              inputMode="email"
+              className="luxe-input"
+              placeholder={t("checkout.emailPh")}
+            />
+          </Field>
           <Field label={t("checkout.phone")} required error={errors.phone}>
             <input
               value={form.phone}
@@ -89,15 +104,54 @@ export function CheckoutDialog({
             />
           </Field>
           <Field label={t("checkout.address")} required error={errors.address}>
-            <textarea
+            <input
               value={form.address}
               onChange={(e) => setForm({ ...form, address: e.target.value })}
-              rows={3}
               autoComplete="street-address"
-              className="luxe-input resize-none"
+              className="luxe-input"
               placeholder={t("checkout.addressPh")}
             />
           </Field>
+          <div className="grid grid-cols-2 gap-4">
+            <Field label={t("checkout.city")} required error={errors.city}>
+              <input
+                value={form.city}
+                onChange={(e) => setForm({ ...form, city: e.target.value })}
+                autoComplete="address-level2"
+                className="luxe-input"
+                placeholder={t("checkout.cityPh")}
+              />
+            </Field>
+            <Field label={t("checkout.state")}>
+              <input
+                value={form.state}
+                onChange={(e) => setForm({ ...form, state: e.target.value })}
+                autoComplete="address-level1"
+                className="luxe-input"
+                placeholder={t("checkout.statePh")}
+              />
+            </Field>
+          </div>
+          <div className="grid grid-cols-2 gap-4">
+            <Field label={t("checkout.postal")} required error={errors.postalCode}>
+              <input
+                value={form.postalCode}
+                onChange={(e) => setForm({ ...form, postalCode: e.target.value })}
+                autoComplete="postal-code"
+                className="luxe-input"
+                placeholder={t("checkout.postalPh")}
+              />
+            </Field>
+            <Field label={t("checkout.country")} required error={errors.country}>
+              <input
+                value={form.country}
+                onChange={(e) => setForm({ ...form, country: e.target.value })}
+                autoComplete="country-name"
+                className="luxe-input"
+                placeholder={t("checkout.countryPh")}
+              />
+            </Field>
+          </div>
 
           <div className="flex items-center gap-2 text-xs text-ink-muted">
             <ShieldCheck size={15} className="text-success" />

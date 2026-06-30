@@ -10,7 +10,7 @@ import { ProductCardSkeleton } from "@/components/ui/Skeleton";
 import { FilterPanel } from "./FilterPanel";
 import { queryProducts, getCategory, getBrandName, products } from "@/data";
 import type { FilterState, SortKey } from "@/data";
-import { useProducts } from "@/store/products";
+import { useCustomProducts } from "@/store/useCustomProducts";
 import { useHasMounted } from "@/lib/useHasMounted";
 import { useT } from "@/i18n/provider";
 import { useLocalize } from "@/i18n/useLocalize";
@@ -31,7 +31,7 @@ export function ShopClient() {
   const mounted = useHasMounted();
   const t = useT();
   const { lcn } = useLocalize();
-  const custom = useProducts((s) => s.items);
+  const { items: custom } = useCustomProducts();
   const [filters, setFilters] = useState<FilterState>(EMPTY);
   const [sort, setSort] = useState<SortKey>("featured");
   const [drawerOpen, setDrawerOpen] = useState(false);

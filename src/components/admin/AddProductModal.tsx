@@ -5,7 +5,7 @@ import { Plus, Trash2 } from "lucide-react";
 import { Modal } from "@/components/ui/Modal";
 import { Button } from "@/components/ui/Button";
 import { brands, getTopCategories, getCategory } from "@/data";
-import { useProducts } from "@/store/products";
+import { useCustomProducts } from "@/store/useCustomProducts";
 import { useT } from "@/i18n/provider";
 import { slugify } from "@/lib/utils";
 import type { Product } from "@/data/types";
@@ -22,7 +22,9 @@ export function AddProductModal({
   onAdded: () => void;
 }) {
   const t = useT();
-  const add = useProducts((s) => s.add);
+  const { add, global } = useCustomProducts();
+  const [busy, setBusy] = useState(false);
+  const [errMsg, setErrMsg] = useState<string | null>(null);
 
   const [name, setName] = useState("");
   const [brand, setBrand] = useState(brands[0].slug);
@@ -50,12 +52,14 @@ export function AddProductModal({
     setErr(false);
   };
 
-  const save = () => {
+  const save = async () => {
     const priceN = parseFloat(price);
     if (name.trim().length < 2 || !priceN || priceN <= 0) {
       setErr(true);
       return;
     }
+    setBusy(true);
+    setErrMsg(null);
     const ts = Date.now();
     const cat = getCategory(category);
     const product: Product = {
@@ -83,7 +87,12 @@ export function AddProductModal({
       custom: true,
     };
     if (product.colors.length === 0) product.colors = [{ name: "Black", hex: "#15140f" }];
-    add(product);
+    const res = await add(product);
+    setBusy(false);
+    if (!res.ok) {
+      setErrMsg(res.error ?? "Failed to save");
+      return;
+    }
     reset();
     onAdded();
     onClose();
@@ -160,11 +169,12 @@ export function AddProductModal({
         </div>
 
         {err && <p className="text-xs text-danger">{t("checkout.required")} — {t("admin.fName")} + {t("admin.fPrice")}</p>}
+        {errMsg && <p className="text-xs text-danger">{errMsg}</p>}
 
-        <p className="text-xs text-ink-muted">{t("admin.localNote")}</p>
+        {!global && <p className="text-xs text-ink-muted">{t("admin.localNote")}</p>}
 
         <div className="flex gap-3 pt-2">
-          <Button onClick={save} variant="gold" size="md" className="flex-1">{t("admin.save")}</Button>
+          <Button onClick={save} variant="gold" size="md" className="flex-1" disabled={busy}>{t("admin.save")}</Button>
           <button onClick={onClose} className="border border-line px-6 text-xs uppercase tracking-[0.18em] hover:border-gold-deep">{t("admin.cancel")}</button>
         </div>
       </div>

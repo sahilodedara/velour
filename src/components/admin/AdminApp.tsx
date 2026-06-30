@@ -10,7 +10,7 @@ import {
 } from "lucide-react";
 import { products, brands, getBrandName, getTopCategories } from "@/data";
 import { useUI } from "@/store/ui";
-import { useProducts } from "@/store/products";
+import { useCustomProducts } from "@/store/useCustomProducts";
 import { useT } from "@/i18n/provider";
 import { useLocalize } from "@/i18n/useLocalize";
 import { formatPrice, cn } from "@/lib/utils";
@@ -305,8 +305,7 @@ function Dashboard() {
 function ProductsTable() {
   const t = useT();
   const { lp, lcn } = useLocalize();
-  const custom = useProducts((s) => s.items);
-  const removeProduct = useProducts((s) => s.remove);
+  const { items: custom, remove: removeProduct } = useCustomProducts();
   const [q, setQ] = useState("");
   const [addOpen, setAddOpen] = useState(false);
   const [toast, setToast] = useState(false);

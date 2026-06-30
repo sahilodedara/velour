@@ -29,6 +29,11 @@ function mapRow(r: any): Product {
     newArrival: r.new_arrival ?? false,
     palette: Array.isArray(r.palette) && r.palette.length === 2 ? [r.palette[0], r.palette[1]] : ["#1c1b18", "#7a6a44"],
     specs: (r.product_specs ?? []).map((s: any) => ({ label: s.label, value: s.value })),
+    images: (r.product_images ?? [])
+      .slice()
+      .sort((a: any, b: any) => (a.position ?? 0) - (b.position ?? 0))
+      .map((i: any) => i.url),
+    video: r.video_url ?? undefined,
     custom: true,
   };
 }
@@ -37,7 +42,7 @@ function mapRow(r: any): Product {
 export async function fetchDbProducts(sb: SupabaseClient): Promise<Product[]> {
   const { data, error } = await sb
     .from("products")
-    .select("*, product_colors(*), product_sizes(*), product_specs(*)")
+    .select("*, product_colors(*), product_sizes(*), product_specs(*), product_images(*)")
     .order("created_at", { ascending: false });
   if (error) {
     console.warn("[velour] fetchDbProducts:", error.message);
@@ -74,12 +79,19 @@ export async function insertDbProduct(
       best_seller: p.bestSeller ?? false,
       new_arrival: p.newArrival ?? false,
       palette: p.palette,
+      video_url: p.video ?? null,
     })
     .select("id")
     .single();
 
   if (error) return { ok: false, error: error.message };
   const id = data.id as string;
+
+  if (p.images?.length) {
+    await sb.from("product_images").insert(
+      p.images.map((url, i) => ({ product_id: id, url, position: i, is_thumb: i === 0 })),
+    );
+  }
 
   if (p.colors.length) {
     await sb.from("product_colors").insert(p.colors.map((c) => ({ product_id: id, name: c.name, hex: c.hex })));

@@ -1,14 +1,37 @@
 "use client";
 
 import { useState } from "react";
-import { Plus, Trash2 } from "lucide-react";
+import { Plus, Trash2, ImagePlus, Film, X } from "lucide-react";
 import { Modal } from "@/components/ui/Modal";
 import { Button } from "@/components/ui/Button";
 import { brands, getTopCategories, getCategory } from "@/data";
 import { useCustomProducts } from "@/store/useCustomProducts";
+import { getSupabase } from "@/lib/supabase/client";
+import { uploadMedia } from "@/lib/supabase/media";
 import { useT } from "@/i18n/provider";
 import { slugify } from "@/lib/utils";
 import type { Product } from "@/data/types";
+
+/** Downscale an image file to a compact JPEG data URL (for local, no-backend mode). */
+function resizeToDataUrl(file: File, maxW = 900): Promise<string> {
+  return new Promise((resolve, reject) => {
+    const img = new Image();
+    const url = URL.createObjectURL(file);
+    img.onload = () => {
+      const scale = Math.min(1, maxW / img.width);
+      const w = Math.round(img.width * scale);
+      const h = Math.round(img.height * scale);
+      const c = document.createElement("canvas");
+      c.width = w;
+      c.height = h;
+      c.getContext("2d")?.drawImage(img, 0, 0, w, h);
+      URL.revokeObjectURL(url);
+      resolve(c.toDataURL("image/jpeg", 0.82));
+    };
+    img.onerror = reject;
+    img.src = url;
+  });
+}
 
 const cats = getTopCategories();
 
@@ -42,6 +65,8 @@ export function AddProductModal({
     { name: "Black", hex: "#15140f" },
     { name: "", hex: "#b08d57" },
   ]);
+  const [imageFiles, setImageFiles] = useState<File[]>([]);
+  const [videoFile, setVideoFile] = useState<File | null>(null);
   const [err, setErr] = useState(false);
 
   const reset = () => {
@@ -49,6 +74,7 @@ export function AddProductModal({
     setMaterial(""); setShort(""); setDesc(""); setSizes("");
     setFeatured(false); setNewArrival(true);
     setColors([{ name: "Black", hex: "#15140f" }, { name: "", hex: "#b08d57" }]);
+    setImageFiles([]); setVideoFile(null);
     setErr(false);
   };
 
@@ -60,6 +86,35 @@ export function AddProductModal({
     }
     setBusy(true);
     setErrMsg(null);
+
+    // Upload / encode media first.
+    let imageUrls: string[] = [];
+    let videoUrl: string | undefined;
+    try {
+      if (global) {
+        const sb = getSupabase();
+        if (sb) {
+          for (const f of imageFiles) {
+            const r = await uploadMedia(sb, f);
+            if (r.url) imageUrls.push(r.url);
+            else throw new Error(r.error || "Image upload failed");
+          }
+          if (videoFile) {
+            const r = await uploadMedia(sb, videoFile);
+            if (r.url) videoUrl = r.url;
+            else throw new Error(r.error || "Video upload failed");
+          }
+        }
+      } else {
+        imageUrls = await Promise.all(imageFiles.map((f) => resizeToDataUrl(f)));
+        // Video isn't stored in local mode (too large for the browser store).
+      }
+    } catch (e) {
+      setErrMsg((e as Error).message || "Upload failed");
+      setBusy(false);
+      return;
+    }
+
     const ts = Date.now();
     const cat = getCategory(category);
     const product: Product = {
@@ -84,6 +139,8 @@ export function AddProductModal({
       newArrival,
       palette: cat?.palette ?? ["#1c1b18", "#7a6a44"],
       specs: material.trim() ? [{ label: "Material", value: material.trim() }] : [],
+      images: imageUrls.length ? imageUrls : undefined,
+      video: videoUrl,
       custom: true,
     };
     if (product.colors.length === 0) product.colors = [{ name: "Black", hex: "#15140f" }];
@@ -139,6 +196,50 @@ export function AddProductModal({
         <Field label={t("admin.fDesc")}>
           <textarea value={desc} onChange={(e) => setDesc(e.target.value)} rows={3} className="luxe-input resize-none" />
         </Field>
+
+        {/* Images */}
+        <div>
+          <p className="mb-2 block text-[0.7rem] font-medium uppercase tracking-[0.18em] text-ink-soft">{t("admin.fImages")}</p>
+          <div className="flex flex-wrap gap-3">
+            {imageFiles.map((f, i) => (
+              <div key={i} className="relative h-20 w-20 overflow-hidden border border-line">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={URL.createObjectURL(f)} alt="" className="h-full w-full object-cover" />
+                <button type="button" onClick={() => setImageFiles(imageFiles.filter((_, j) => j !== i))} className="absolute right-0 top-0 grid h-5 w-5 place-items-center bg-black/60 text-white">
+                  <X size={12} />
+                </button>
+              </div>
+            ))}
+            <label className="grid h-20 w-20 cursor-pointer place-items-center border border-dashed border-line-strong text-ink-muted transition-colors hover:border-gold-deep hover:text-gold-deep">
+              <ImagePlus size={20} />
+              <input
+                type="file"
+                accept="image/*"
+                multiple
+                className="hidden"
+                onChange={(e) => { setImageFiles([...imageFiles, ...Array.from(e.target.files ?? [])]); e.target.value = ""; }}
+              />
+            </label>
+          </div>
+        </div>
+
+        {/* Video */}
+        <div>
+          <p className="mb-2 block text-[0.7rem] font-medium uppercase tracking-[0.18em] text-ink-soft">{t("admin.fVideo")}</p>
+          {videoFile ? (
+            <div className="flex items-center gap-2 text-sm">
+              <Film size={15} className="text-gold-deep" />
+              <span className="max-w-[16rem] truncate">{videoFile.name}</span>
+              <button type="button" onClick={() => setVideoFile(null)} className="text-ink-muted hover:text-danger"><X size={14} /></button>
+            </div>
+          ) : (
+            <label className="inline-flex cursor-pointer items-center gap-2 border border-dashed border-line-strong px-4 py-2.5 text-sm text-ink-muted transition-colors hover:border-gold-deep hover:text-gold-deep">
+              <Film size={16} /> {t("admin.fVideo")}
+              <input type="file" accept="video/*" className="hidden" onChange={(e) => setVideoFile(e.target.files?.[0] ?? null)} />
+            </label>
+          )}
+          {!global && <p className="mt-1.5 text-xs text-ink-muted">{t("admin.videoLocalNote")}</p>}
+        </div>
 
         {/* Colors */}
         <div>

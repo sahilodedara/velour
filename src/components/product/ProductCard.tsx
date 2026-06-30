@@ -32,6 +32,8 @@ export function ProductCard({ product, priority }: { product: Product; priority?
   const name = lp(product).name;
   const monogram = getBrand(product.brand)?.monogram ?? "V";
   const disc = discountPercent(product.price, product.originalPrice);
+  const img0 = product.images?.[0];
+  const img1 = product.images?.[1] ?? img0;
   const needsChoice = (product.sizes?.length ?? 0) > 0;
 
   const quickAdd = () => {
@@ -54,11 +56,21 @@ export function ProductCard({ product, priority }: { product: Product; priority?
         >
           {/* primary */}
           <div className="absolute inset-0 transition-opacity duration-700 ease-[var(--ease-luxe)] group-hover:opacity-0">
-            <ProductArtwork palette={product.palette} monogram={monogram} category={product.category} name={name} />
+            {img0 ? (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src={img0} alt={name} className="h-full w-full object-cover" />
+            ) : (
+              <ProductArtwork palette={product.palette} monogram={monogram} category={product.category} name={name} />
+            )}
           </div>
           {/* alternate "shot" revealed on hover */}
           <div className="absolute inset-0 scale-105 opacity-0 transition-all duration-700 ease-[var(--ease-luxe)] group-hover:scale-110 group-hover:opacity-100">
-            <ProductArtwork palette={[product.palette[1], product.palette[0]]} monogram={monogram} category={product.category} />
+            {img1 ? (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src={img1} alt="" className="h-full w-full object-cover" />
+            ) : (
+              <ProductArtwork palette={[product.palette[1], product.palette[0]]} monogram={monogram} category={product.category} />
+            )}
           </div>
         </Link>
 

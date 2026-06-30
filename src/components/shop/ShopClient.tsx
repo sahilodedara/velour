@@ -8,8 +8,9 @@ import { Container } from "@/components/ui/Container";
 import { ProductCard } from "@/components/product/ProductCard";
 import { ProductCardSkeleton } from "@/components/ui/Skeleton";
 import { FilterPanel } from "./FilterPanel";
-import { queryProducts, getCategory, getBrandName } from "@/data";
+import { queryProducts, getCategory, getBrandName, products } from "@/data";
 import type { FilterState, SortKey } from "@/data";
+import { useProducts } from "@/store/products";
 import { useHasMounted } from "@/lib/useHasMounted";
 import { useT } from "@/i18n/provider";
 import { useLocalize } from "@/i18n/useLocalize";
@@ -30,6 +31,7 @@ export function ShopClient() {
   const mounted = useHasMounted();
   const t = useT();
   const { lcn } = useLocalize();
+  const custom = useProducts((s) => s.items);
   const [filters, setFilters] = useState<FilterState>(EMPTY);
   const [sort, setSort] = useState<SortKey>("featured");
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -49,7 +51,10 @@ export function ShopClient() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [spKey]);
 
-  const results = useMemo(() => queryProducts(filters, sort), [filters, sort]);
+  const results = useMemo(
+    () => queryProducts(filters, sort, [...custom, ...products]),
+    [filters, sort, custom],
+  );
 
   const activeCount =
     filters.categories.length +

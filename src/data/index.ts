@@ -77,9 +77,13 @@ const sorters: Record<SortKey, (a: Product, b: Product) => number> = {
   discount: (a, b) => discountPercent(b.price, b.originalPrice) - discountPercent(a.price, a.originalPrice),
 };
 
-export function queryProducts(filters: Partial<FilterState> = {}, sort: SortKey = "featured"): Product[] {
+export function queryProducts(
+  filters: Partial<FilterState> = {},
+  sort: SortKey = "featured",
+  source: Product[] = products,
+): Product[] {
   const q = filters.search?.trim().toLowerCase();
-  const result = products.filter((p) => {
+  const result = source.filter((p) => {
     if (filters.categories?.length) {
       if (!filters.categories.includes(p.category) && !(p.subcategory && filters.categories.includes(p.subcategory)))
         return false;

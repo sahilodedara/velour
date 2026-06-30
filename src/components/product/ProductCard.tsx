@@ -46,7 +46,12 @@ export function ProductCard({ product, priority }: { product: Product; priority?
   return (
     <article className="group relative">
       <div className="relative aspect-[4/5] overflow-hidden bg-bg-sunken">
-        <Link href={`/product/${product.slug}`} aria-label={name} className="block h-full w-full">
+        <Link
+          href={`/product/${product.slug}`}
+          aria-label={name}
+          onClick={product.custom ? (e) => { e.preventDefault(); setQuickOpen(true); } : undefined}
+          className="block h-full w-full"
+        >
           {/* primary */}
           <div className="absolute inset-0 transition-opacity duration-700 ease-[var(--ease-luxe)] group-hover:opacity-0">
             <ProductArtwork palette={product.palette} monogram={monogram} category={product.category} name={name} />
@@ -91,7 +96,11 @@ export function ProductCard({ product, priority }: { product: Product; priority?
       </div>
 
       {/* meta */}
-      <Link href={`/product/${product.slug}`} className="mt-4 block">
+      <Link
+        href={`/product/${product.slug}`}
+        onClick={product.custom ? (e) => { e.preventDefault(); setQuickOpen(true); } : undefined}
+        className="mt-4 block"
+      >
         <p className="text-[0.62rem] uppercase tracking-[0.22em] text-ink-muted">{brand}</p>
         <h3 className="mt-1 text-sm leading-snug transition-colors group-hover:text-gold-deep">{name}</h3>
         <div className="mt-2 flex items-center justify-between">

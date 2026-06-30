@@ -6,13 +6,15 @@ import { motion, AnimatePresence } from "framer-motion";
 import {
   LayoutDashboard, Package, ShoppingCart, Users, FolderTree, Tag, Image as ImageIcon,
   Ticket, Settings, Search, Bell, Menu, X, TrendingUp, TrendingDown, ArrowUpRight,
-  Store, Sun, Moon, AlertTriangle, LogOut,
+  Store, Sun, Moon, AlertTriangle, LogOut, Check, Trash2,
 } from "lucide-react";
 import { products, brands, getBrandName, getTopCategories } from "@/data";
 import { useUI } from "@/store/ui";
+import { useProducts } from "@/store/products";
 import { useT } from "@/i18n/provider";
 import { useLocalize } from "@/i18n/useLocalize";
 import { formatPrice, cn } from "@/lib/utils";
+import { AddProductModal } from "./AddProductModal";
 
 type Section = "dashboard" | "products" | "orders" | "customers" | "categories" | "brands" | "banners" | "coupons" | "settings";
 
@@ -303,11 +305,25 @@ function Dashboard() {
 function ProductsTable() {
   const t = useT();
   const { lp, lcn } = useLocalize();
+  const custom = useProducts((s) => s.items);
+  const removeProduct = useProducts((s) => s.remove);
   const [q, setQ] = useState("");
+  const [addOpen, setAddOpen] = useState(false);
+  const [toast, setToast] = useState(false);
+
   const rows = useMemo(
-    () => products.filter((p) => `${p.name} ${getBrandName(p.brand)} ${p.sku}`.toLowerCase().includes(q.toLowerCase())),
-    [q],
+    () =>
+      [...custom, ...products].filter((p) =>
+        `${p.name} ${getBrandName(p.brand)} ${p.sku}`.toLowerCase().includes(q.toLowerCase()),
+      ),
+    [q, custom],
   );
+
+  const onAdded = () => {
+    setToast(true);
+    setTimeout(() => setToast(false), 3200);
+  };
+
   return (
     <div className="border border-line bg-bg-elevated">
       <div className="flex flex-col gap-3 border-b border-line p-5 sm:flex-row sm:items-center sm:justify-between">
@@ -315,10 +331,12 @@ function ProductsTable() {
           <Search size={15} className="text-ink-muted" />
           <input value={q} onChange={(e) => setQ(e.target.value)} placeholder={t("admin.searchProducts")} className="w-full bg-transparent text-sm focus:outline-none sm:w-64" />
         </div>
-        <button className="bg-gold px-4 py-2.5 text-xs font-medium uppercase tracking-[0.16em] text-ink-on-gold">{t("admin.addProduct")}</button>
+        <button onClick={() => setAddOpen(true)} className="bg-gold px-4 py-2.5 text-xs font-medium uppercase tracking-[0.16em] text-ink-on-gold transition-colors hover:bg-gold-bright">
+          {t("admin.addProduct")}
+        </button>
       </div>
       <div className="overflow-x-auto">
-        <table className="w-full min-w-[700px] text-sm">
+        <table className="w-full min-w-[760px] text-sm">
           <thead>
             <tr className="border-b border-line text-left text-[0.65rem] uppercase tracking-[0.14em] text-ink-muted">
               <th className="p-4 font-medium">{t("admin.product")}</th>
@@ -327,11 +345,12 @@ function ProductsTable() {
               <th className="p-4 font-medium">{t("admin.price")}</th>
               <th className="p-4 font-medium">{t("admin.stock")}</th>
               <th className="p-4 font-medium">{t("admin.status")}</th>
+              <th className="p-4 font-medium">{t("admin.actions")}</th>
             </tr>
           </thead>
           <tbody className="divide-y divide-line">
             {rows.map((p) => (
-              <tr key={p.id} className="transition-colors hover:bg-bg-sunken">
+              <tr key={p.id} className={cn("transition-colors hover:bg-bg-sunken", p.custom && "bg-gold/[0.04]")}>
                 <td className="p-4">
                   <p className="font-medium">{lp(p).name}</p>
                   <p className="text-xs text-ink-muted">{getBrandName(p.brand)}</p>
@@ -352,11 +371,35 @@ function ProductsTable() {
                     {p.trending && <Pill>{t("admin.tagTrending")}</Pill>}
                   </div>
                 </td>
+                <td className="p-4">
+                  {p.custom ? (
+                    <button onClick={() => removeProduct(p.id)} className="flex items-center gap-1 text-xs text-ink-muted transition-colors hover:text-danger">
+                      <Trash2 size={14} /> {t("admin.delete")}
+                    </button>
+                  ) : (
+                    <span className="text-[0.6rem] uppercase tracking-[0.1em] text-ink-muted">{t("admin.seedTag")}</span>
+                  )}
+                </td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
+
+      <AddProductModal open={addOpen} onClose={() => setAddOpen(false)} onAdded={onAdded} />
+
+      <AnimatePresence>
+        {toast && (
+          <motion.div
+            initial={{ opacity: 0, y: 24 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 24 }}
+            className="fixed bottom-6 left-1/2 z-[90] flex -translate-x-1/2 items-center gap-2 bg-ink px-5 py-3 text-sm text-bg shadow-luxe"
+          >
+            <Check size={16} className="text-gold" /> {t("admin.addedToast")}
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }

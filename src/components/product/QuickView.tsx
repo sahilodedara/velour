@@ -104,13 +104,15 @@ export function QuickView({
             <Button onClick={handleAdd} variant="gold" size="lg" className="w-full">
               <ShoppingBag size={16} /> {t("quick.addToBag", { price: formatPrice(product.price) })}
             </Button>
-            <Link
-              href={`/product/${product.slug}`}
-              onClick={onClose}
-              className="mt-3 flex items-center justify-center gap-1 text-xs uppercase tracking-[0.2em] text-ink-muted hover:text-gold-deep"
-            >
-              {t("quick.viewDetails")}
-            </Link>
+            {!product.custom && (
+              <Link
+                href={`/product/${product.slug}`}
+                onClick={onClose}
+                className="mt-3 flex items-center justify-center gap-1 text-xs uppercase tracking-[0.2em] text-ink-muted hover:text-gold-deep"
+              >
+                {t("quick.viewDetails")}
+              </Link>
+            )}
             <p className="mt-3 flex items-center justify-center gap-1.5 text-xs text-ink-muted">
               <Check size={13} className="text-success" /> {t("quick.inStock", { n: product.stock })}
             </p>

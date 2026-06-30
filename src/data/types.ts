@@ -69,6 +69,8 @@ export interface Product {
   /** Two-stop gradient seed for the generated product artwork. */
   palette: [string, string];
   specs: { label: string; value: string }[];
+  /** True for products created at runtime via the admin (stored client-side). */
+  custom?: boolean;
 }
 
 export type SortKey =

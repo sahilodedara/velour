@@ -1,7 +1,7 @@
 "use client";
 
 import { createContext, useContext, useEffect, useState, useCallback, type ReactNode } from "react";
-import { dict, type Lang } from "./dict";
+import { dict, LANGS, type Lang } from "./dict";
 
 type Vars = Record<string, string | number>;
 
@@ -31,7 +31,10 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     try {
       const saved = localStorage.getItem("velour-lang") as Lang | null;
-      if (saved === "en" || saved === "zh") setLangState(saved);
+      if (saved && LANGS.some((l) => l.code === saved)) {
+        setLangState(saved);
+        document.documentElement.lang = saved === "zh" ? "zh-CN" : saved;
+      }
     } catch {
       /* ignore */
     }

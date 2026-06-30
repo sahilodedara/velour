@@ -1,8 +1,17 @@
-export type Lang = "en" | "zh";
+import es from "./locales/es";
+import de from "./locales/de";
+import ko from "./locales/ko";
+import fr from "./locales/fr";
+
+export type Lang = "en" | "zh" | "es" | "de" | "fr" | "ko";
 
 export const LANGS: { code: Lang; label: string; short: string }[] = [
   { code: "en", label: "English", short: "EN" },
   { code: "zh", label: "简体中文", short: "中文" },
+  { code: "es", label: "Español", short: "ES" },
+  { code: "de", label: "Deutsch", short: "DE" },
+  { code: "fr", label: "Français", short: "FR" },
+  { code: "ko", label: "한국어", short: "한국" },
 ];
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
@@ -396,4 +405,8 @@ export const dict: Record<Lang, Dict> = {
       thanks: "感谢您选购 VELOUR。请确认库存与配送。",
     },
   },
+  es,
+  de,
+  ko,
+  fr,
 };

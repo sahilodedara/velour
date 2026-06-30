@@ -65,6 +65,49 @@ export const zhCategories: Record<string, { name: string; tagline: string }> = {
   sunglasses: { name: "太阳镜", tagline: "" },
 };
 
+type CatMap = Record<string, { name: string; tagline?: string }>;
+
+const esCategories: CatMap = {
+  bags: { name: "Bolsos", tagline: "Marroquinería escultural" }, clothing: { name: "Ropa", tagline: "Prêt-à-porter, refinado" },
+  shoes: { name: "Calzado", tagline: "Hecho para acompañarte" }, perfumes: { name: "Perfumes", tagline: "Firmas olfativas" },
+  watches: { name: "Relojes", tagline: "El tiempo, perfeccionado" }, jewelry: { name: "Joyería", tagline: "Luz para llevar" },
+  accessories: { name: "Accesorios", tagline: "El toque final" },
+  handbags: { name: "Bolsos de mano" }, wallets: { name: "Carteras" }, backpacks: { name: "Mochilas" }, travel: { name: "Bolsos de viaje" },
+  jackets: { name: "Chaquetas" }, shirts: { name: "Camisas" }, tshirts: { name: "Camisetas" }, sneakers: { name: "Zapatillas" },
+  belts: { name: "Cinturones" }, sunglasses: { name: "Gafas de sol" },
+};
+const deCategories: CatMap = {
+  bags: { name: "Taschen", tagline: "Skulpturale Lederwaren" }, clothing: { name: "Kleidung", tagline: "Prêt-à-porter, veredelt" },
+  shoes: { name: "Schuhe", tagline: "Gemacht, um Sie zu tragen" }, perfumes: { name: "Düfte", tagline: "Olfaktorische Signaturen" },
+  watches: { name: "Uhren", tagline: "Zeit, perfektioniert" }, jewelry: { name: "Schmuck", tagline: "Licht zum Tragen" },
+  accessories: { name: "Accessoires", tagline: "Der letzte Schliff" },
+  handbags: { name: "Handtaschen" }, wallets: { name: "Geldbörsen" }, backpacks: { name: "Rucksäcke" }, travel: { name: "Reisetaschen" },
+  jackets: { name: "Jacken" }, shirts: { name: "Hemden" }, tshirts: { name: "T-Shirts" }, sneakers: { name: "Sneaker" },
+  belts: { name: "Gürtel" }, sunglasses: { name: "Sonnenbrillen" },
+};
+const koCategories: CatMap = {
+  bags: { name: "가방", tagline: "조각 같은 가죽 제품" }, clothing: { name: "의류", tagline: "정제된 기성복" },
+  shoes: { name: "신발", tagline: "당신과 함께할 신발" }, perfumes: { name: "향수", tagline: "후각의 시그니처" },
+  watches: { name: "시계", tagline: "완벽해진 시간" }, jewelry: { name: "주얼리", tagline: "착용하는 빛" },
+  accessories: { name: "액세서리", tagline: "마무리의 한 끗" },
+  handbags: { name: "핸드백" }, wallets: { name: "지갑" }, backpacks: { name: "백팩" }, travel: { name: "여행 가방" },
+  jackets: { name: "재킷" }, shirts: { name: "셔츠" }, tshirts: { name: "티셔츠" }, sneakers: { name: "스니커즈" },
+  belts: { name: "벨트" }, sunglasses: { name: "선글라스" },
+};
+const frCategories: CatMap = {
+  bags: { name: "Sacs", tagline: "Maroquinerie sculpturale" }, clothing: { name: "Prêt-à-porter", tagline: "Le vestiaire, raffiné" },
+  shoes: { name: "Chaussures", tagline: "Faites pour vous accompagner" }, perfumes: { name: "Parfums", tagline: "Signatures olfactives" },
+  watches: { name: "Montres", tagline: "Le temps, perfectionné" }, jewelry: { name: "Joaillerie", tagline: "La lumière à porter" },
+  accessories: { name: "Accessoires", tagline: "La touche finale" },
+  handbags: { name: "Sacs à main" }, wallets: { name: "Portefeuilles" }, backpacks: { name: "Sacs à dos" }, travel: { name: "Sacs de voyage" },
+  jackets: { name: "Vestes" }, shirts: { name: "Chemises" }, tshirts: { name: "T-shirts" }, sneakers: { name: "Sneakers" },
+  belts: { name: "Ceintures" }, sunglasses: { name: "Lunettes de soleil" },
+};
+
+const CAT_BY_LANG: Partial<Record<Lang, CatMap>> = {
+  zh: zhCategories, es: esCategories, de: deCategories, ko: koCategories, fr: frCategories,
+};
+
 export const zhBrands: Record<string, string> = {
   solene: "巴黎皮具品牌，以雕塑般的手柄包与手工修饰的小牛皮闻名。",
   castellane: "纯粹的米兰裁缝艺术——羊绒大衣与剪裁无可挑剔的西装。",
@@ -115,7 +158,8 @@ export interface LocalizedProduct {
 }
 
 export function localizeProduct(p: Product, lang: Lang): LocalizedProduct {
-  if (lang === "en") {
+  // Product prose is translated for Chinese only; other languages fall back to English.
+  if (lang !== "zh") {
     return {
       name: p.name, shortDescription: p.shortDescription, description: p.description,
       material: p.material, colors: p.colors, specs: p.specs,
@@ -133,17 +177,17 @@ export function localizeProduct(p: Product, lang: Lang): LocalizedProduct {
 }
 
 export function localizeCategory(c: Category, lang: Lang): { name: string; tagline: string } {
-  if (lang === "en") return { name: c.name, tagline: c.tagline ?? "" };
-  const zh = zhCategories[c.slug];
-  return { name: zh?.name ?? c.name, tagline: zh?.tagline ?? c.tagline ?? "" };
+  const m = CAT_BY_LANG[lang];
+  if (!m) return { name: c.name, tagline: c.tagline ?? "" };
+  const e = m[c.slug];
+  return { name: e?.name ?? c.name, tagline: e?.tagline ?? c.tagline ?? "" };
 }
 
 export function localizeCategoryName(slug: string, fallback: string, lang: Lang): string {
-  if (lang === "en") return fallback;
-  return zhCategories[slug]?.name ?? fallback;
+  return CAT_BY_LANG[lang]?.[slug]?.name ?? fallback;
 }
 
 export function localizeBrandDesc(slug: string, fallback: string, lang: Lang): string {
-  if (lang === "en") return fallback;
+  if (lang !== "zh") return fallback;
   return zhBrands[slug] ?? fallback;
 }

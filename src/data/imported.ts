@@ -1,7 +1,13 @@
-// AUTO-GENERATED from a Shopify sample CSV. Do not edit by hand.
+// AUTO-GENERATED from Shopify sample CSVs. Do not edit by hand.
 import type { Brand, Product } from "./types";
 
 export const importedBrands: Brand[] = [
+  {
+    "slug": "supply-dark",
+    "name": "Supply Dark",
+    "monogram": "S",
+    "description": "An imported collection featured on VELOUR — Supply Dark."
+  },
   {
     "slug": "only-hearts",
     "name": "Only Hearts",
@@ -211,10 +217,927 @@ export const importedBrands: Brand[] = [
     "name": "Labo.Art",
     "monogram": "L",
     "description": "An imported collection featured on VELOUR — Labo.Art."
+  },
+  {
+    "slug": "kalosoma-jewelry",
+    "name": "Kalosoma Jewelry",
+    "monogram": "K",
+    "description": "An imported collection featured on VELOUR — Kalosoma Jewelry."
+  },
+  {
+    "slug": "la-prestic-ouiston",
+    "name": "La Prestic Ouiston",
+    "monogram": "L",
+    "description": "An imported collection featured on VELOUR — La Prestic Ouiston."
+  },
+  {
+    "slug": "giorgio-brato",
+    "name": "Giorgio Brato",
+    "monogram": "G",
+    "description": "An imported collection featured on VELOUR — Giorgio Brato."
+  },
+  {
+    "slug": "esemplare",
+    "name": "Esemplare",
+    "monogram": "E",
+    "description": "An imported collection featured on VELOUR — Esemplare."
+  },
+  {
+    "slug": "isabel-benenato",
+    "name": "Isabel Benenato",
+    "monogram": "I",
+    "description": "An imported collection featured on VELOUR — Isabel Benenato."
   }
 ];
 
 export const importedProducts: Product[] = [
+  {
+    "id": "imp-14k-wire-bloom-earrings",
+    "slug": "14k-wire-bloom-earrings",
+    "name": "14k Wire Bloom Earrings",
+    "brand": "supply-dark",
+    "category": "clothing",
+    "sku": "IMP-14k-wire-bloom-earrings",
+    "price": 449,
+    "shortDescription": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor…",
+    "description": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor vestibulum ac eu erat. Pellentesque quis turpis odio. Etiam auctor laoreet ligula, vel aliquam urna ornare sed. Praesent laoreet diam vitae lectus molestie pulvinar. Nullam blandit Vestibulum euismod Nullam venenatis Aenean a magna eros",
+    "colors": [
+      {
+        "name": "Default",
+        "hex": "#15140f"
+      }
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.5,
+    "reviewCount": 40,
+    "tags": [
+      "Rose Gold"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Supply Dark"
+      },
+      {
+        "label": "Type",
+        "value": "Earrings"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-rose-gold-wire-bloom-earrings_afcace12-edfb-4c82-aba0-11462409947f.jpg?v=1406749652"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-14k-solid-bloom-earrings",
+    "slug": "14k-solid-bloom-earrings",
+    "name": "14k Solid Bloom Earrings",
+    "brand": "supply-dark",
+    "category": "clothing",
+    "sku": "IMP-14k-solid-bloom-earrings",
+    "price": 489,
+    "originalPrice": 529,
+    "shortDescription": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor…",
+    "description": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor vestibulum ac eu erat. Pellentesque quis turpis odio. Etiam auctor laoreet ligula, vel aliquam urna ornare sed. Praesent laoreet diam vitae lectus molestie pulvinar. Nullam blandit Vestibulum euismod Nullam venenatis Aenean a magna eros",
+    "colors": [
+      {
+        "name": "Default",
+        "hex": "#15140f"
+      }
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.7,
+    "reviewCount": 92,
+    "tags": [
+      "Rose Gold"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Supply Dark"
+      },
+      {
+        "label": "Type",
+        "value": "Earrings"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-rose-gold-solid-bloom-earrings_35415c7b-3053-4247-a017-f60f03ade244.jpg?v=1406749643"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-14k-intertwined-earrings",
+    "slug": "14k-intertwined-earrings",
+    "name": "14k Intertwined Earrings",
+    "brand": "supply-dark",
+    "category": "clothing",
+    "sku": "IMP-14k-intertwined-earrings",
+    "price": 529,
+    "shortDescription": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor…",
+    "description": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor vestibulum ac eu erat. Pellentesque quis turpis odio. Etiam auctor laoreet ligula, vel aliquam urna ornare sed. Praesent laoreet diam vitae lectus molestie pulvinar. Nullam blandit Vestibulum euismod Nullam venenatis Aenean a magna eros",
+    "colors": [
+      {
+        "name": "Default",
+        "hex": "#15140f"
+      }
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.7,
+    "reviewCount": 110,
+    "tags": [
+      "Rose Gold"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Supply Dark"
+      },
+      {
+        "label": "Type",
+        "value": "Earrings"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-rose-gold-intertwined-earrings_2bcb98e2-ac48-44c8-bf3a-1fddc37e936a.jpg?v=1406749634"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-14k-interlinked-earrings",
+    "slug": "14k-interlinked-earrings",
+    "name": "14k Interlinked Earrings",
+    "brand": "supply-dark",
+    "category": "clothing",
+    "sku": "IMP-14k-interlinked-earrings",
+    "price": 329,
+    "shortDescription": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor…",
+    "description": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor vestibulum ac eu erat. Pellentesque quis turpis odio. Etiam auctor laoreet ligula, vel aliquam urna ornare sed. Praesent laoreet diam vitae lectus molestie pulvinar. Nullam blandit Vestibulum euismod Nullam venenatis Aenean a magna eros",
+    "colors": [
+      {
+        "name": "Default",
+        "hex": "#15140f"
+      }
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.8,
+    "reviewCount": 114,
+    "tags": [
+      "White Gold"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Supply Dark"
+      },
+      {
+        "label": "Type",
+        "value": "Earrings"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-white-interlinked-earrings_f954bffe-d751-48bd-903f-18b5c74e16cd.jpg?v=1406749625"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-14k-dangling-pendant-earrings-1",
+    "slug": "14k-dangling-pendant-earrings-1",
+    "name": "14k Dangling Pendant Earrings",
+    "brand": "supply-dark",
+    "category": "jewelry",
+    "sku": "IMP-14k-dangling-pendant-earrings-1",
+    "price": 619,
+    "shortDescription": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor…",
+    "description": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor vestibulum ac eu erat. Pellentesque quis turpis odio. Etiam auctor laoreet ligula, vel aliquam urna ornare sed. Praesent laoreet diam vitae lectus molestie pulvinar. Nullam blandit Vestibulum euismod Nullam venenatis Aenean a magna eros",
+    "colors": [
+      {
+        "name": "Default",
+        "hex": "#15140f"
+      }
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.5,
+    "reviewCount": 47,
+    "tags": [
+      "White Gold"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#241d12",
+      "#9a7b3f"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Supply Dark"
+      },
+      {
+        "label": "Type",
+        "value": "Earrings"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-white-gold-dangling-pendant-earrings_17e71027-81d8-4a49-a455-2e5c205963ee.jpg?v=1406749608"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-14k-dangling-pendant-earrings",
+    "slug": "14k-dangling-pendant-earrings",
+    "name": "14k Dangling Pendant Earrings",
+    "brand": "supply-dark",
+    "category": "jewelry",
+    "sku": "IMP-14k-dangling-pendant-earrings",
+    "price": 579,
+    "originalPrice": 629,
+    "shortDescription": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor…",
+    "description": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor vestibulum ac eu erat. Pellentesque quis turpis odio. Etiam auctor laoreet ligula, vel aliquam urna ornare sed. Praesent laoreet diam vitae lectus molestie pulvinar. Nullam blandit Vestibulum euismod Nullam venenatis Aenean a magna eros",
+    "colors": [
+      {
+        "name": "Default",
+        "hex": "#15140f"
+      }
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.8,
+    "reviewCount": 134,
+    "tags": [
+      "Rose Gold"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": true,
+    "palette": [
+      "#241d12",
+      "#9a7b3f"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Supply Dark"
+      },
+      {
+        "label": "Type",
+        "value": "Earrings"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-rose-gold-infinite-link-earrings_d3d4fd54-7016-4f3c-b3be-66aeb5c24d5f.jpg?v=1406749599",
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-rose-gold-infinite-link-earrings---3_d6c3d6dc-ebd4-480c-be8a-fa7422e672d2.jpg?v=1406749600",
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-rose-gold-infinite-link-earrings---4_b712d4e6-2484-4bee-96fc-74d462d8ec8d.jpg?v=1406749600",
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-rose-gold-infinite-link-earrings---2_197e4e51-6b44-4e54-9244-d3666bc5b514.jpg?v=1406749601"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-14k-dangling-obsidian-earrings",
+    "slug": "14k-dangling-obsidian-earrings",
+    "name": "14k Dangling Obsidian Earrings",
+    "brand": "supply-dark",
+    "category": "clothing",
+    "sku": "IMP-14k-dangling-obsidian-earrings",
+    "price": 829,
+    "shortDescription": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor…",
+    "description": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor vestibulum ac eu erat. Pellentesque quis turpis odio. Etiam auctor laoreet ligula, vel aliquam urna ornare sed. Praesent laoreet diam vitae lectus molestie pulvinar. Nullam blandit Vestibulum euismod Nullam venenatis Aenean a magna eros",
+    "colors": [
+      {
+        "name": "Default",
+        "hex": "#15140f"
+      }
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.6,
+    "reviewCount": 73,
+    "tags": [
+      "White Gold"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Supply Dark"
+      },
+      {
+        "label": "Type",
+        "value": "Earrings"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-white-gold-limelight-sequin-motif-earrings_021987b9-2eaf-4a5d-9a23-d65ce13220d8.jpg?v=1406749588"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-14k-bloom-earrings",
+    "slug": "14k-bloom-earrings",
+    "name": "14k Bloom Earrings",
+    "brand": "supply-dark",
+    "category": "clothing",
+    "sku": "IMP-14k-bloom-earrings",
+    "price": 579,
+    "shortDescription": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor…",
+    "description": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor vestibulum ac eu erat. Pellentesque quis turpis odio. Etiam auctor laoreet ligula, vel aliquam urna ornare sed. Praesent laoreet diam vitae lectus molestie pulvinar. Nullam blandit Vestibulum euismod Nullam venenatis Aenean a magna eros",
+    "colors": [
+      {
+        "name": "Default",
+        "hex": "#15140f"
+      }
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.5,
+    "reviewCount": 43,
+    "tags": [
+      "Rose Gold"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Supply Dark"
+      },
+      {
+        "label": "Type",
+        "value": "Earrings"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-rose-diamond-earrings_5e7739a0-261d-4788-96c9-ef77214aa70e.jpg?v=1406749573"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-18k-interlinked-earrings",
+    "slug": "18k-interlinked-earrings",
+    "name": "18k Interlinked Earrings",
+    "brand": "supply-dark",
+    "category": "clothing",
+    "sku": "IMP-18k-interlinked-earrings",
+    "price": 329,
+    "shortDescription": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor…",
+    "description": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor vestibulum ac eu erat. Pellentesque quis turpis odio. Etiam auctor laoreet ligula, vel aliquam urna ornare sed. Praesent laoreet diam vitae lectus molestie pulvinar. Nullam blandit Vestibulum euismod Nullam venenatis Aenean a magna eros",
+    "colors": [
+      {
+        "name": "Default",
+        "hex": "#15140f"
+      }
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 5,
+    "reviewCount": 183,
+    "tags": [
+      "White Gold"
+    ],
+    "featured": false,
+    "trending": true,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Supply Dark"
+      },
+      {
+        "label": "Type",
+        "value": "Earrings"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-white-interlinked-earrings.jpg?v=1406732293"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-18k-dangling-obsidian-earrings",
+    "slug": "18k-dangling-obsidian-earrings",
+    "name": "18k Dangling Obsidian Earrings",
+    "brand": "supply-dark",
+    "category": "clothing",
+    "sku": "IMP-18k-dangling-obsidian-earrings",
+    "price": 829,
+    "shortDescription": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor…",
+    "description": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor vestibulum ac eu erat. Pellentesque quis turpis odio. Etiam auctor laoreet ligula, vel aliquam urna ornare sed. Praesent laoreet diam vitae lectus molestie pulvinar. Nullam blandit Vestibulum euismod Nullam venenatis Aenean a magna eros",
+    "colors": [
+      {
+        "name": "Default",
+        "hex": "#15140f"
+      }
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.9,
+    "reviewCount": 156,
+    "tags": [
+      "White Gold"
+    ],
+    "featured": false,
+    "trending": true,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Supply Dark"
+      },
+      {
+        "label": "Type",
+        "value": "Earrings"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-white-gold-limelight-sequin-motif-earrings.jpg?v=1406732263"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-18k-fluid-lines-necklace",
+    "slug": "18k-fluid-lines-necklace",
+    "name": "18k Fluid Lines Necklace",
+    "brand": "supply-dark",
+    "category": "jewelry",
+    "sku": "IMP-18k-fluid-lines-necklace",
+    "price": 749,
+    "shortDescription": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor…",
+    "description": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor vestibulum ac eu erat. Pellentesque quis turpis odio. Etiam auctor laoreet ligula, vel aliquam urna ornare sed. Praesent laoreet diam vitae lectus molestie pulvinar. Nullam blandit Vestibulum euismod Nullam venenatis Aenean a magna eros",
+    "colors": [
+      {
+        "name": "Default",
+        "hex": "#15140f"
+      }
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.8,
+    "reviewCount": 117,
+    "tags": [
+      "White Gold"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": true,
+    "palette": [
+      "#241d12",
+      "#9a7b3f"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Supply Dark"
+      },
+      {
+        "label": "Type",
+        "value": "Necklace"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-white-gold-fluid-lines-necklace.jpg?v=1406732178"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-18k-dangling-pendant-earrings",
+    "slug": "18k-dangling-pendant-earrings",
+    "name": "18k Dangling Pendant Earrings",
+    "brand": "supply-dark",
+    "category": "jewelry",
+    "sku": "IMP-18k-dangling-pendant-earrings",
+    "price": 619,
+    "shortDescription": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor…",
+    "description": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor vestibulum ac eu erat. Pellentesque quis turpis odio. Etiam auctor laoreet ligula, vel aliquam urna ornare sed. Praesent laoreet diam vitae lectus molestie pulvinar. Nullam blandit Vestibulum euismod Nullam venenatis Aenean a magna eros",
+    "colors": [
+      {
+        "name": "Default",
+        "hex": "#15140f"
+      }
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.6,
+    "reviewCount": 57,
+    "tags": [
+      "White Gold"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#241d12",
+      "#9a7b3f"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Supply Dark"
+      },
+      {
+        "label": "Type",
+        "value": "Earrings"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-white-gold-dangling-pendant-earrings.jpg?v=1406732147"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-18k-wire-bloom-earrings",
+    "slug": "18k-wire-bloom-earrings",
+    "name": "18k Wire Bloom Earrings",
+    "brand": "supply-dark",
+    "category": "clothing",
+    "sku": "IMP-18k-wire-bloom-earrings",
+    "price": 449,
+    "shortDescription": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor…",
+    "description": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor vestibulum ac eu erat. Pellentesque quis turpis odio. Etiam auctor laoreet ligula, vel aliquam urna ornare sed. Praesent laoreet diam vitae lectus molestie pulvinar. Nullam blandit Vestibulum euismod Nullam venenatis Aenean a magna eros",
+    "colors": [
+      {
+        "name": "Default",
+        "hex": "#15140f"
+      }
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.5,
+    "reviewCount": 25,
+    "tags": [
+      "Rose Gold"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Supply Dark"
+      },
+      {
+        "label": "Type",
+        "value": "Earrings"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-rose-gold-wire-bloom-earrings.jpg?v=1406732108"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-18k-solid-bloom-earrings",
+    "slug": "18k-solid-bloom-earrings",
+    "name": "18k Solid Bloom Earrings",
+    "brand": "supply-dark",
+    "category": "clothing",
+    "sku": "IMP-18k-solid-bloom-earrings",
+    "price": 489,
+    "originalPrice": 529,
+    "shortDescription": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor…",
+    "description": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor vestibulum ac eu erat. Pellentesque quis turpis odio. Etiam auctor laoreet ligula, vel aliquam urna ornare sed. Praesent laoreet diam vitae lectus molestie pulvinar. Nullam blandit Vestibulum euismod Nullam venenatis Aenean a magna eros",
+    "colors": [
+      {
+        "name": "Default",
+        "hex": "#15140f"
+      }
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.9,
+    "reviewCount": 150,
+    "tags": [
+      "Rose Gold"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Supply Dark"
+      },
+      {
+        "label": "Type",
+        "value": "Earrings"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-rose-gold-solid-bloom-earrings.jpg?v=1406732079"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-18k-pedal-ring",
+    "slug": "18k-pedal-ring",
+    "name": "18k Pedal Ring",
+    "brand": "supply-dark",
+    "category": "jewelry",
+    "sku": "IMP-18k-pedal-ring",
+    "price": 399,
+    "shortDescription": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor…",
+    "description": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor vestibulum ac eu erat. Pellentesque quis turpis odio. Etiam auctor laoreet ligula, vel aliquam urna ornare sed. Praesent laoreet diam vitae lectus molestie pulvinar. Nullam blandit Vestibulum euismod Nullam venenatis Aenean a magna eros",
+    "colors": [
+      {
+        "name": "Default",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "6"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.4,
+    "reviewCount": 18,
+    "tags": [
+      "Rose Gold"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#241d12",
+      "#9a7b3f"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Supply Dark"
+      },
+      {
+        "label": "Type",
+        "value": "Rings"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-rose-gold-rose-ring.jpg?v=1406732033"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-18k-intertwined-earrings",
+    "slug": "18k-intertwined-earrings",
+    "name": "18k Intertwined Earrings",
+    "brand": "supply-dark",
+    "category": "clothing",
+    "sku": "IMP-18k-intertwined-earrings",
+    "price": 529,
+    "shortDescription": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor…",
+    "description": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor vestibulum ac eu erat. Pellentesque quis turpis odio. Etiam auctor laoreet ligula, vel aliquam urna ornare sed. Praesent laoreet diam vitae lectus molestie pulvinar. Nullam blandit Vestibulum euismod Nullam venenatis Aenean a magna eros",
+    "colors": [
+      {
+        "name": "Default",
+        "hex": "#15140f"
+      }
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.8,
+    "reviewCount": 141,
+    "tags": [
+      "Rose Gold"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Supply Dark"
+      },
+      {
+        "label": "Type",
+        "value": "Earrings"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-rose-gold-intertwined-earrings.jpg?v=1406731987"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-18k-bloom-pendant",
+    "slug": "18k-bloom-pendant",
+    "name": "18k Bloom Pendant",
+    "brand": "supply-dark",
+    "category": "jewelry",
+    "sku": "IMP-18k-bloom-pendant",
+    "price": 279,
+    "shortDescription": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor…",
+    "description": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor vestibulum ac eu erat. Pellentesque quis turpis odio. Etiam auctor laoreet ligula, vel aliquam urna ornare sed. Praesent laoreet diam vitae lectus molestie pulvinar. Nullam blandit Vestibulum euismod Nullam venenatis Aenean a magna eros",
+    "colors": [
+      {
+        "name": "Default",
+        "hex": "#15140f"
+      }
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.6,
+    "reviewCount": 67,
+    "tags": [
+      "Rose Gold"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#241d12",
+      "#9a7b3f"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Supply Dark"
+      },
+      {
+        "label": "Type",
+        "value": "Necklace"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-rose-gold-bloom-pendant.jpg?v=1406731950"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-18k-bloom-earrings",
+    "slug": "18k-bloom-earrings",
+    "name": "18k Bloom Earrings",
+    "brand": "supply-dark",
+    "category": "clothing",
+    "sku": "IMP-18k-bloom-earrings",
+    "price": 579,
+    "shortDescription": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor…",
+    "description": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor vestibulum ac eu erat. Pellentesque quis turpis odio. Etiam auctor laoreet ligula, vel aliquam urna ornare sed. Praesent laoreet diam vitae lectus molestie pulvinar. Nullam blandit Vestibulum euismod Nullam venenatis Aenean a magna eros",
+    "colors": [
+      {
+        "name": "Default",
+        "hex": "#15140f"
+      }
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.9,
+    "reviewCount": 149,
+    "tags": [
+      "Rose Gold"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Supply Dark"
+      },
+      {
+        "label": "Type",
+        "value": "Earrings"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-rose-diamond-earrings.jpg?v=1406731906"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-pendant-earrings",
+    "slug": "pendant-earrings",
+    "name": "18k Dangling Pendant Earrings",
+    "brand": "supply-dark",
+    "category": "jewelry",
+    "sku": "IMP-pendant-earrings",
+    "price": 579,
+    "originalPrice": 629,
+    "shortDescription": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor…",
+    "description": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor vestibulum ac eu erat. Pellentesque quis turpis odio. Etiam auctor laoreet ligula, vel aliquam urna ornare sed. Praesent laoreet diam vitae lectus molestie pulvinar. Nullam blandit Vestibulum euismod Nullam venenatis Aenean a magna eros",
+    "colors": [
+      {
+        "name": "Default",
+        "hex": "#15140f"
+      }
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.5,
+    "reviewCount": 25,
+    "tags": [
+      "Rose Gold"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#241d12",
+      "#9a7b3f"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Supply Dark"
+      },
+      {
+        "label": "Type",
+        "value": "Earrings"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-rose-gold-infinite-link-earrings.jpg?v=1406731712",
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-rose-gold-infinite-link-earrings---2.jpg?v=1406731718",
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-rose-gold-infinite-link-earrings---3.jpg?v=1406731717",
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-rose-gold-infinite-link-earrings---4.jpg?v=1406731718"
+    ],
+    "custom": false
+  },
   {
     "id": "imp-s14-onl-li-4184l-navy",
     "slug": "s14-onl-li-4184l-navy",
@@ -7064,6 +7987,1751 @@ export const importedProducts: Product[] = [
     "images": [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/products_socks_17041_b.jpeg?v=1437078520",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/products_socks_17041_a.jpeg?v=1437078520"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-a-line-pocket-shift-black",
+    "slug": "a-line-pocket-shift-black",
+    "name": "A-Line Pocket Shift in Black",
+    "brand": "mauro-grifoni",
+    "category": "clothing",
+    "sku": "'17057",
+    "price": 298,
+    "shortDescription": "This shift dress possesses many virtues. This A-line by Mauro Grifoni, v-neck version has convenient side seam pockets, an invisible zip closure…",
+    "description": "This shift dress possesses many virtues. This A-line by Mauro Grifoni, v-neck version has convenient side seam pockets, an invisible zip closure and back darts for a tailored fit. Color Black. 80% Polyester, 14% Viscose. Made in Italy. Lana is wearing an Italian 38.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "Italian 38"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.7,
+    "reviewCount": 109,
+    "tags": [
+      "a line",
+      "black",
+      "Dress",
+      "Dresses",
+      "F14",
+      "Mauro Grifoni"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Mauro Grifoni"
+      },
+      {
+        "label": "Type",
+        "value": "women's dresses"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_25_Lana_Look5_01.jpeg?v=1437078505",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_25_Lana_Look5_04.jpeg?v=1437078505",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_25_Lana_Look5_06.jpeg?v=1437078505",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_25_Lana_Look5_08.jpeg?v=1437078505",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_25_Lana_Look5_07.jpeg?v=1437078505"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-chambray-shirtdress-blue",
+    "slug": "chambray-shirtdress-blue",
+    "name": "Chambray Shirtdress in Blue",
+    "brand": "harvey-faircloth",
+    "category": "clothing",
+    "sku": "'17065",
+    "price": 258,
+    "shortDescription": "With all the insouciance of your boyfriend's button-down, this shirtdress adds in length, structure, and polish. Front and center a navy and cream…",
+    "description": "With all the insouciance of your boyfriend's button-down, this shirtdress adds in length, structure, and polish. Front and center a navy and cream grosgrain ribbon runs the length of the front placket. Back yoke with inverted pleat. Harvey Faircloth. Color Blue. 100% Cotton, Trim 100% Acetate. Made in U.S.A. Lana is wearing a size Small.",
+    "colors": [
+      {
+        "name": "Blue",
+        "hex": "#2f3c66"
+      }
+    ],
+    "sizes": [
+      "2"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.7,
+    "reviewCount": 84,
+    "tags": [
+      "Dress",
+      "dresses",
+      "F14",
+      "Harvey Faircloth",
+      "SALE30_2",
+      "visible"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Harvey Faircloth"
+      },
+      {
+        "label": "Type",
+        "value": "women's dresses"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-07-26_Lana_Look_32_545.jpeg?v=1437078497",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-07-26_Lana_Look_32_547.jpeg?v=1437078497",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-07-26_Lana_Look_32_552.jpeg?v=1437078497"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-oaxacan-bracelet-garnet",
+    "slug": "oaxacan-bracelet-garnet",
+    "name": "Oaxacan Bracelet in Garnet",
+    "brand": "kalosoma-jewelry",
+    "category": "jewelry",
+    "sku": "'17083",
+    "price": 268,
+    "shortDescription": "A tiny beetle charm is affixed to each piece; a representation of their company's namesake, and each piece is one of a kind. Labradorite beads…",
+    "description": "A tiny beetle charm is affixed to each piece; a representation of their company's namesake, and each piece is one of a kind. Labradorite beads line the outside of this Navajo inspired woven silk bracelet. Finishing touches include a lariat style leather knot and Labradorite bead closure. Kalosoma. Color Garnet. Length 8 & 1/2 \", 1/4\" Wide. Also available in Labradorite .",
+    "colors": [
+      {
+        "name": "Garnet",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "material": "—",
+    "stock": 2,
+    "rating": 4.5,
+    "reviewCount": 38,
+    "tags": [
+      "Accessories",
+      "Bracelets",
+      "F14",
+      "jewelry",
+      "Kalosoma",
+      "SALE"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#241d12",
+      "#9a7b3f"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Kalosoma Jewelry"
+      },
+      {
+        "label": "Type",
+        "value": "women's bracelets"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/product_bracelet_kalosoma_oaxacan-bracelet_garnet_01.jpeg?v=1437078474"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-ostrich-plume-dress-black",
+    "slug": "ostrich-plume-dress-black",
+    "name": "Ostrich Plume Dress in Black",
+    "brand": "ter-et-bantine",
+    "category": "clothing",
+    "sku": "'17128",
+    "price": 318,
+    "shortDescription": "This tunic style dress is mischievously intended to blur the lines between what is practical in fashion and what is glorious. Adorned with an…",
+    "description": "This tunic style dress is mischievously intended to blur the lines between what is practical in fashion and what is glorious. Adorned with an ostrich plumed collar that can be removed for versatility. Contrasting wool sleeves and a two snap closure above an invisible zip finish this simple shift. Ter et Bantine. Color Black. 50% Ostrich Plume, 90% Wool, 90% Viscose. Lana is wearing an Italian 42.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "Italian 40"
+    ],
+    "material": "—",
+    "stock": 2,
+    "rating": 4.7,
+    "reviewCount": 110,
+    "tags": [
+      "Black",
+      "Dress",
+      "Dresses",
+      "Evening",
+      "Event",
+      "F14"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Ter et Bantine"
+      },
+      {
+        "label": "Type",
+        "value": "women's coats & jackets"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-02_Lana_Look_29_669.jpeg?v=1437078459",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-02_Lana_Look_29_679.jpeg?v=1437078460",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-02_Lana_Look_29_678_757b09c9-c11d-4959-8a12-949139dac1fb.jpeg?v=1437078460",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-02_Lana_Look_29_674.jpeg?v=1437078460"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-pleated-rita-dress-dark-navy",
+    "slug": "pleated-rita-dress-dark-navy",
+    "name": "Pleated Rita Dress in Dark Navy",
+    "brand": "ter-et-bantine",
+    "category": "clothing",
+    "sku": "'17104",
+    "price": 358,
+    "shortDescription": "Throughout the seasons Ter et Bantine has made this plain-woven blue and black fabric a signature applied to many silhouettes. We find this fit…",
+    "description": "Throughout the seasons Ter et Bantine has made this plain-woven blue and black fabric a signature applied to many silhouettes. We find this fit and flare A-line dress with pieced pattern work and a flattering dart placement a fine iteration of the signature. An invisible zip lays flat at the spine. Color Dark Navy. 72% Polyester, 13% Acrylic.",
+    "colors": [
+      {
+        "name": "Dark Navy",
+        "hex": "#1f2535"
+      }
+    ],
+    "sizes": [
+      "Italian 42"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.5,
+    "reviewCount": 42,
+    "tags": [
+      "Black",
+      "Blue",
+      "Dress",
+      "Dresses",
+      "F14",
+      "Navy"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Ter et Bantine"
+      },
+      {
+        "label": "Type",
+        "value": "women's dresses"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-02_Lana_Look_28_649.jpeg?v=1437078445",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-02_Lana_Look_28_661.jpeg?v=1437078445",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-02_Lana_Look_28_660.jpeg?v=1437078445",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-02_Lana_Look_28_657.jpeg?v=1437078445"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-contrast-cuff-pant-black",
+    "slug": "contrast-cuff-pant-black",
+    "name": "Contrast Cuff Pant in Black",
+    "brand": "ter-et-bantine",
+    "category": "clothing",
+    "sku": "'17111",
+    "price": 398,
+    "shortDescription": "This high waisted silhouette is detailed with front pleats, angled side pockets and faux back pockets for a slim profile. A tapered leg reveals…",
+    "description": "This high waisted silhouette is detailed with front pleats, angled side pockets and faux back pockets for a slim profile. A tapered leg reveals tonal sateen tuxedo-like cuffs. Color Black. 96% Viscose. Lana is wearing a German 38.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "Italian 38"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.5,
+    "reviewCount": 38,
+    "tags": [
+      "bottoms",
+      "F14",
+      "Minimalism",
+      "pant",
+      "pants",
+      "SALE"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Ter et Bantine"
+      },
+      {
+        "label": "Type",
+        "value": "women's pants"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look36_04_1024x1024_db61a392-7823-41ad-a6c1-91e4c1dad5b2.jpeg?v=1437078429",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-02_Lana_Look_06_157.jpeg?v=1437078429",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-02_Lana_Look_06_149_copy.jpeg?v=1437078429",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-02_Lana_Look_06_141_copy.jpeg?v=1437078429",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-02_Lana_Look_06_162_4b854726-4af8-40b3-b124-e749b85c70c8.jpeg?v=1437078429"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-paul-shirt-sherbet-stripe",
+    "slug": "paul-shirt-sherbet-stripe",
+    "name": "Paul Shirt in Sherbet Stripe",
+    "brand": "frank-eileen",
+    "category": "clothing",
+    "sku": "'17169",
+    "price": 108,
+    "shortDescription": "Almost as ubiquitous as the cotton T-shirt, but, made from the finest Italian cotton, Frank & Eileen shirts feature an intentional wrinkled effect…",
+    "description": "Almost as ubiquitous as the cotton T-shirt, but, made from the finest Italian cotton, Frank & Eileen shirts feature an intentional wrinkled effect adding even more personality to a brand that takes its name from an old-fashioned love story. A closet staple made more interesting by its wrinkled effect, features slim orange stripes, a breast pocket and center back seam. 100% Cotton. Made in U.S.A. Addis is wearing a size Large. Addis is 6’2”, Chest 38.5”, Waist 31”, Inseam 32”.",
+    "colors": [
+      {
+        "name": "Sherbet Stripe",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "Small"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.6,
+    "reviewCount": 78,
+    "tags": [
+      "Button-ups",
+      "cotton",
+      "F14",
+      "Frank & Eileen",
+      "Man",
+      "orange"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Frank & Eileen"
+      },
+      {
+        "label": "Type",
+        "value": "men's button-ups"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_18_Addis_Look0301.jpeg?v=1437078378",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_18_Addis_Look0302.jpeg?v=1437078378",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_18_Addis_Look0303.jpeg?v=1437078378"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-knit-neck-warmer-grey",
+    "slug": "knit-neck-warmer-grey",
+    "name": "Knit Neck Warmer in Grey",
+    "brand": "avant-toi",
+    "category": "clothing",
+    "sku": "'17205",
+    "price": 248,
+    "shortDescription": "A cylindrical rib knit surrounds the contours of your neck and can be turned down for extra warmth. Color Grey. 70% Cashmere, 30% Merino. Made in…",
+    "description": "A cylindrical rib knit surrounds the contours of your neck and can be turned down for extra warmth. Color Grey. 70% Cashmere, 30% Merino. Made in Italy. One Size. Also available in Blue Grey and Bronze.",
+    "colors": [
+      {
+        "name": "Grey",
+        "hex": "#6f7178"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "material": "—",
+    "stock": 3,
+    "rating": 4.7,
+    "reviewCount": 105,
+    "tags": [
+      "Accessories",
+      "Accessory",
+      "Avant Toi",
+      "cashmere",
+      "F14",
+      "grey"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Avant Toi"
+      },
+      {
+        "label": "Type",
+        "value": "unisex scarves"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Product_Scarves_Avant_Toi_Knit_Neck_Warmer_Grey_8843.jpeg?v=1437078276",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Product_Scarves_Avant_Toi_Knit_Neck_Warmer_Grey_8840.jpeg?v=1437078276",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Product_Scarves_Avant_Toi_Knit_Neck_Warmer_Grey_8844.jpeg?v=1437078276"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-casio-trousers-stone",
+    "slug": "casio-trousers-stone",
+    "name": "Casio Trousers in Stone",
+    "brand": "annette-gortz",
+    "category": "clothing",
+    "sku": "'17240",
+    "price": 298,
+    "shortDescription": "The Casio pant manages to have considerable stretch and fully bound seems with waxed cotton in an attractive tapered leg, five pocket style pant.…",
+    "description": "The Casio pant manages to have considerable stretch and fully bound seems with waxed cotton in an attractive tapered leg, five pocket style pant. Color Stone. 86% Cotton, 10% Resin, 4% Elastane. Made in Germany. Lana is wearing a German 34.",
+    "colors": [
+      {
+        "name": "Stone",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "German 34"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.6,
+    "reviewCount": 57,
+    "tags": [
+      "Annette Gortz",
+      "black",
+      "bottoms",
+      "charcoal",
+      "F14",
+      "grey"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Annette Gortz"
+      },
+      {
+        "label": "Type",
+        "value": "women's pants"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-02_Lana_Look_03_053.jpeg?v=1442350025",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-02_Lana_Look_03_049.jpeg?v=1442350025"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-camiliah-trouser-black",
+    "slug": "camiliah-trouser-black",
+    "name": "Camiliah Trouser in Black",
+    "brand": "by-malene-birger",
+    "category": "clothing",
+    "sku": "'17257",
+    "price": 258,
+    "shortDescription": "Sleek tapered pants with a tuxedo stripe and modernized with a smocked elastic waistband and ribbed-knit banding to cinch the cuffs. Side welt…",
+    "description": "Sleek tapered pants with a tuxedo stripe and modernized with a smocked elastic waistband and ribbed-knit banding to cinch the cuffs. Side welt pockets and double welt pockets at the back. Color Black. 90% Shell Polyester, Exterior 96% Polyester. Ashley is wearing a German 34.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "German 34"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.9,
+    "reviewCount": 171,
+    "tags": [
+      "Black",
+      "bottoms",
+      "By Malene Birger",
+      "cinch cuffs",
+      "F14",
+      "pant"
+    ],
+    "featured": false,
+    "trending": true,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "By Malene Birger"
+      },
+      {
+        "label": "Type",
+        "value": "women's pants"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-09_Ashley_Look_06_4329_bb44017a-73f6-4945-a446-65257a4e8912.jpeg?v=1442350009",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-09_Ashley_Look_06_4321_23c4578a-1128-4484-a29b-b7796b3746f5.jpeg?v=1442350009",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-09_Ashley_Look_06_4331.jpeg?v=1442350009",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-09_Ashley_Look_06_4319.jpeg?v=1442350009"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-coopia-skirt-black",
+    "slug": "coopia-skirt-black",
+    "name": "Coopia Skirt in Black",
+    "brand": "by-malene-birger",
+    "category": "clothing",
+    "sku": "'17260",
+    "price": 158,
+    "shortDescription": "A slim fit skirt with an elasticized waistband for easy pull on style. Front princess seam detailing highlights the form. Color Black. 74%…",
+    "description": "A slim fit skirt with an elasticized waistband for easy pull on style. Front princess seam detailing highlights the form. Color Black. 74% Viscose, 22% Polyamide, Trim 83% Polyamide. Lana is wearing an Extra-Small. Also available in Charcoal . Shop our collection of By Malene Birger.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "X-Small"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.4,
+    "reviewCount": 12,
+    "tags": [
+      "bottoms",
+      "By Malene Birger",
+      "F14",
+      "Princess Seam",
+      "SALE",
+      "SALE30_4"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "By Malene Birger"
+      },
+      {
+        "label": "Type",
+        "value": "women's skirts"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-07-26_Lana_Look_03_029_4a424439-eab3-4eab-9b1f-7c386b9ab3a0.jpeg?v=1437078161",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-10-18_Lana_Look_15_02.jpeg?v=1437078161",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-10-18_Lana_Look_15_03.jpeg?v=1437078161",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-10-18_Lana_Look_15_04.jpeg?v=1437078161"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-deione-coat-graphite-floral",
+    "slug": "deione-coat-graphite-floral",
+    "name": "Deione Coat in Graphite Floral",
+    "brand": "duvetica",
+    "category": "clothing",
+    "sku": "'17280",
+    "price": 588,
+    "shortDescription": "Duvetica's reversible goose down gives you two jackets in one. A muted floral can be reversed to reveal a versatile solid with two angled zip…",
+    "description": "Duvetica's reversible goose down gives you two jackets in one. A muted floral can be reversed to reveal a versatile solid with two angled zip pockets and adjustable toggles at the hem. Color Graphite Floral. 100% Polyamide, 100% Goose Down. Made in Italy. Lana is wearing an Italian 42.",
+    "colors": [
+      {
+        "name": "Graphite Floral",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "Italian 40"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.8,
+    "reviewCount": 117,
+    "tags": [
+      "Coat",
+      "Duvetica",
+      "F14",
+      "Floral",
+      "Goose Down",
+      "Grey"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Duvetica"
+      },
+      {
+        "label": "Type",
+        "value": "women's coats & jackets"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_08_10_Lana_Look5_06.jpeg?v=1442348320",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_08_10_Lana_Look6_05.jpeg?v=1442348320",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_08_10_Lana_Look5_09.jpeg?v=1442348320",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_08_10_Lana_Look6_03.jpeg?v=1442348320"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-zola-coat-black",
+    "slug": "zola-coat-black",
+    "name": "Zola Coat in Black",
+    "brand": "hannes-roether",
+    "category": "clothing",
+    "sku": "'17357",
+    "price": 498,
+    "shortDescription": "Double-breasted buttons, leather elbow patches and banded cuffs offer a mannish take on this coat by Hannes Roether. A leather under collar leads…",
+    "description": "Double-breasted buttons, leather elbow patches and banded cuffs offer a mannish take on this coat by Hannes Roether. A leather under collar leads to angled welt pockets as well as a pair of patch pockets. Vented at back hem for movement. Color Black. 54% Viscose, 45% Polyester, 100% Fur Lining.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "X-Small"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.6,
+    "reviewCount": 80,
+    "tags": [
+      "Black",
+      "Coat",
+      "Double Breast",
+      "Elbow Patch",
+      "F14",
+      "Hannes Roether"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Hannes Roether"
+      },
+      {
+        "label": "Type",
+        "value": "women's coats & jackets"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_08_10_Lana_Look35_19.jpeg?v=1437078004",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_08_10_Lana_Look35_25.jpeg?v=1437078004",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_08_10_Lana_Look35_21.jpeg?v=1437078004",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_08_10_Lana_Look35_23.jpeg?v=1437078004",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_08_10_Lana_Look35_24.jpeg?v=1437078004"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-madame-l-blouse-leopard",
+    "slug": "madame-l-blouse-leopard",
+    "name": "Madame L Blouse in Leopard",
+    "brand": "la-prestic-ouiston",
+    "category": "clothing",
+    "sku": "'17436",
+    "price": 638,
+    "shortDescription": "A bold leopard adds a playful dimension to this collarless half-placket, shirt-tail hem pullover blouse. The front features a buttoned placket and…",
+    "description": "A bold leopard adds a playful dimension to this collarless half-placket, shirt-tail hem pullover blouse. The front features a buttoned placket and slightly gathered yoke with Mother of Pearl buttons. La Prestic Ouiston. Color Leopard. 100% Silk. Also available in Mix Pattern .",
+    "colors": [
+      {
+        "name": "Leopard",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "1"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.8,
+    "reviewCount": 130,
+    "tags": [
+      "blouse",
+      "blouses",
+      "buttons",
+      "F14",
+      "La Prestic Ouiston",
+      "leopard"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "La Prestic Ouiston"
+      },
+      {
+        "label": "Type",
+        "value": "women's tops"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_08_10_Lana_Look24_07.jpeg?v=1437077867",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_08_10_Lana_Look24_01.jpeg?v=1437077867",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_08_10_Lana_Look24_02.jpeg?v=1437077867",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_08_10_Lana_Look24_06.jpeg?v=1437077867",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_08_10_Lana_Look24_12.jpeg?v=1437077867"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-broken-leather-bomber-black",
+    "slug": "broken-leather-bomber-black",
+    "name": "Broken Leather Bomber in Black",
+    "brand": "giorgio-brato",
+    "category": "clothing",
+    "sku": "'17447",
+    "price": 998,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Strong silver toned zips stand out on the sueded and…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Strong silver toned zips stand out on the sueded and crackled leather body. A rugged ribbed knit at the waist and cuff hold in warmth while an inset leather collar whispers quality. If a whisper sounded more like a rebel yell. Fully lined. Color Black. 100% Leather. Made in Italy. Matt is wearing an Italian 50. Matt is 6’2”, Chest 38”, Waist 31”, Inseam 34.5”.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "Italian 48"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.7,
+    "reviewCount": 90,
+    "tags": [
+      "Black",
+      "Bomber",
+      "Coat",
+      "F14",
+      "Giorgio Brato",
+      "Jacket"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Giorgio Brato"
+      },
+      {
+        "label": "Type",
+        "value": "men's coats & jackets"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_018.jpeg?v=1442349303",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_020.jpeg?v=1442349303",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_019.jpeg?v=1442349303",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_022.jpeg?v=1442349303"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-grizzly-pullover-greenfinch",
+    "slug": "grizzly-pullover-greenfinch",
+    "name": "Grizzly Pullover in Greenfinch",
+    "brand": "esemplare",
+    "category": "clothing",
+    "sku": "'17462",
+    "price": 178,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company A nubbly and stretchy hooded sweatshirt with a subtle pull…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company A nubbly and stretchy hooded sweatshirt with a subtle pull at the waist to keep in the warmth. Hematite drawcords. Esemplare. Color Greenfinch. 57% Virgin Wool, 26% Wool, 17% Polyamide. Addis is wearing a size Large. Addis is 6’2”, Chest 38.5”, Waist 31”, Inseam 32”. Also available in Midnight .",
+    "colors": [
+      {
+        "name": "Greenfinch",
+        "hex": "#3c5a45"
+      }
+    ],
+    "sizes": [
+      "Small"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.7,
+    "reviewCount": 107,
+    "tags": [
+      "Esemplare",
+      "Green",
+      "Greenfinch",
+      "Hooded",
+      "Hoodie",
+      "Knitwear"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Esemplare"
+      },
+      {
+        "label": "Type",
+        "value": "men's knits"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_20_01.jpeg?v=1437077802",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_20_06.jpeg?v=1437077802",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_20_11.jpeg?v=1437077802",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_20_02.jpeg?v=1437077802",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_20_08.jpeg?v=1437077802"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-alverstone-jacket-midnight",
+    "slug": "alverstone-jacket-midnight",
+    "name": "Alverstone Jacket in Midnight",
+    "brand": "esemplare",
+    "category": "clothing",
+    "sku": "'17467",
+    "price": 358,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company A fully reversible hooded jacket from Esemplaré whose motto…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company A fully reversible hooded jacket from Esemplaré whose motto is \"For All of Us.\" A useful fabrication of warm knitted wool and water repellent nylon. It's your choice which side gets to see the world, either way it's got you covered. Full hood, two hand warmer pockets on either face with zip pockets on the nylon side. Drawstring cord at waist to keep in the heat. Color Midnight. 100% Wool, 100% Nylon. Matt is wearing a size Medium. Matt is 6’2”, Chest 38”, Waist 31”, Inseam 34.5”.",
+    "colors": [
+      {
+        "name": "Midnight",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "Small"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 5,
+    "reviewCount": 183,
+    "tags": [
+      "blue",
+      "coat",
+      "Esemplare",
+      "F14",
+      "jacket",
+      "jackets"
+    ],
+    "featured": false,
+    "trending": true,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Esemplare"
+      },
+      {
+        "label": "Type",
+        "value": "men's coats & jackets"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_090.jpeg?v=1437077791",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_084.jpeg?v=1437077791",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_087.jpeg?v=1437077791",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_077.jpeg?v=1437077791",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_089.jpeg?v=1437077791"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-cashmere-knit-sock-bronze",
+    "slug": "cashmere-knit-sock-bronze",
+    "name": "Cashmere Knit Sock in Bronze",
+    "brand": "avant-toi",
+    "category": "clothing",
+    "sku": "'17477",
+    "price": 98,
+    "shortDescription": "Color blocking rib knit cashmere socks. Lightweight and extremely indulgent with exposed seams at heel. Color Bronze. 100% Cashmere. Made in…",
+    "description": "Color blocking rib knit cashmere socks. Lightweight and extremely indulgent with exposed seams at heel. Color Bronze. 100% Cashmere. Made in Italy. One Size. Also available in Blue and Grey .",
+    "colors": [
+      {
+        "name": "Bronze",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "material": "—",
+    "stock": 2,
+    "rating": 4.6,
+    "reviewCount": 58,
+    "tags": [
+      "accessories",
+      "Avant Toi",
+      "bronze",
+      "F14",
+      "knit",
+      "knits"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Avant Toi"
+      },
+      {
+        "label": "Type",
+        "value": "unisex socks"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/products_socks_17477_a.jpeg?v=1437077761",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/products_socks_17477_b.jpeg?v=1437077761"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-cashmere-knit-sock-grey",
+    "slug": "cashmere-knit-sock-grey",
+    "name": "Cashmere Knit Sock in Grey",
+    "brand": "avant-toi",
+    "category": "clothing",
+    "sku": "'17478",
+    "price": 98,
+    "shortDescription": "Color blocking rib knit delicious cashmere socks. Lightweight and extremely indulgent with exposed seams at heel. Color Grey. 100% Cashmere. Made…",
+    "description": "Color blocking rib knit delicious cashmere socks. Lightweight and extremely indulgent with exposed seams at heel. Color Grey. 100% Cashmere. Made in Italy. One Size. Also available in Bronze and Blue .",
+    "colors": [
+      {
+        "name": "Grey",
+        "hex": "#6f7178"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "material": "—",
+    "stock": 2,
+    "rating": 4.5,
+    "reviewCount": 27,
+    "tags": [
+      "accessories",
+      "Avant Toi",
+      "cashmere",
+      "fuschia",
+      "gift guide",
+      "grey"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Avant Toi"
+      },
+      {
+        "label": "Type",
+        "value": "unisex socks"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/products_socks_17478_a.jpeg?v=1437077758",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/products_socks_17478_b.jpeg?v=1437077758"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-cashmere-knit-sock-blue",
+    "slug": "cashmere-knit-sock-blue",
+    "name": "Cashmere Knit Sock in Blue",
+    "brand": "avant-toi",
+    "category": "clothing",
+    "sku": "'17479",
+    "price": 98,
+    "shortDescription": "Color blocking rib knit cashmere socks. Lightweight and extremely indulgent with exposed seams at heel. Color Blue. 100% Cashmere. Made in Italy.…",
+    "description": "Color blocking rib knit cashmere socks. Lightweight and extremely indulgent with exposed seams at heel. Color Blue. 100% Cashmere. Made in Italy. One Size. Also available in Bronze and Grey .",
+    "colors": [
+      {
+        "name": "Blue",
+        "hex": "#2f3c66"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "material": "—",
+    "stock": 2,
+    "rating": 4.7,
+    "reviewCount": 83,
+    "tags": [
+      "accessories",
+      "Avant Toi",
+      "cashmere",
+      "gift guide",
+      "knit",
+      "knits"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Avant Toi"
+      },
+      {
+        "label": "Type",
+        "value": "unisex socks"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/products_socks_17479_a.jpeg?v=1437077754",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/products_socks_17479_b.jpeg?v=1437077754"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-pill-zip-sweater-black",
+    "slug": "pill-zip-sweater-black",
+    "name": "Pill Zip Sweater in Black",
+    "brand": "avant-toi",
+    "category": "clothing",
+    "sku": "'17486",
+    "price": 318,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company A long and comfortable hooded knit sweater with a uniform…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company A long and comfortable hooded knit sweater with a uniform pilling that makes this cashmere and wool blend less precious. Don't be afraid to wear this one to death. Avant Toi. Colors Black. 70% Merino Wool, 30% Cashmere. Made in Italy. Also available in Anthracite .",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "Small"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.4,
+    "reviewCount": 13,
+    "tags": [
+      "Avant Toi",
+      "black",
+      "Cashmere",
+      "F14",
+      "hood",
+      "hoodie"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Avant Toi"
+      },
+      {
+        "label": "Type",
+        "value": "men's knits"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_16_05.jpeg?v=1437077702",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_07_04.jpeg?v=1437077702",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_16_02.jpeg?v=1437077702",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_07_06.jpeg?v=1437077702"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-pill-zip-sweater-anthracite",
+    "slug": "pill-zip-sweater-anthracite",
+    "name": "Pill Zip Sweater in Anthracite",
+    "brand": "avant-toi",
+    "category": "clothing",
+    "sku": "'17489",
+    "price": 318,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company A long and comfortable hooded knit sweater with a uniform…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company A long and comfortable hooded knit sweater with a uniform pilling that makes this cashmere and wool blend less precious. Don't be afraid to wear this one to death. Avant Toi. Color Anthracite. 70% Merino Wool, 30% Cashmere. Made in Italy. Addis is wearing a size Small. Addis is 6’2”, Chest 38.5”, Waist 31”, Inseam 32”. Also available in Black .",
+    "colors": [
+      {
+        "name": "Anthracite",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "Small"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.5,
+    "reviewCount": 44,
+    "tags": [
+      "Anthracite",
+      "Avant Toi",
+      "Grey",
+      "hood",
+      "hooded",
+      "hoodie"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Avant Toi"
+      },
+      {
+        "label": "Type",
+        "value": "men's knits"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_15_14.jpeg?v=1437077686",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_15_18.jpeg?v=1437077686",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_15_17.jpeg?v=1437077686",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_15_20.jpeg?v=1437077686",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_15_16.jpeg?v=1437077686"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-cascade-necklace-black",
+    "slug": "cascade-necklace-black",
+    "name": "Cascade Necklace in Black",
+    "brand": "maria-calderara",
+    "category": "jewelry",
+    "sku": "'17511",
+    "price": 158,
+    "shortDescription": "With chains that cascade like water, we can see where this multimedia necklace gets its name. Silk tie closure. Color Black. Length 52\", 7\" Wide.…",
+    "description": "With chains that cascade like water, we can see where this multimedia necklace gets its name. Silk tie closure. Color Black. Length 52\", 7\" Wide. Also Available in Silver .",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "material": "—",
+    "stock": 2,
+    "rating": 5,
+    "reviewCount": 177,
+    "tags": [
+      "Accessories",
+      "Accessory",
+      "black",
+      "F14",
+      "jewelry",
+      "Maria Calderara"
+    ],
+    "featured": false,
+    "trending": true,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#241d12",
+      "#9a7b3f"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Maria Calderara"
+      },
+      {
+        "label": "Type",
+        "value": "women's necklaces"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/product_necklace_mariacalderara_cascade-necklace_black01.jpeg?v=1437077607",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/product_necklace_mariacalderara_cascade-necklace_black02.jpeg?v=1437077607"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-cascade-necklace-silver",
+    "slug": "cascade-necklace-silver",
+    "name": "Cascade Necklace in Silver",
+    "brand": "maria-calderara",
+    "category": "jewelry",
+    "sku": "'17512",
+    "price": 158,
+    "shortDescription": "With chains that cascade like water, we can see where this multimedia necklace gets its name. Silk tie closure. Color Silver. Length 52\", 7\" Wide.…",
+    "description": "With chains that cascade like water, we can see where this multimedia necklace gets its name. Silk tie closure. Color Silver. Length 52\", 7\" Wide. Also Available in Black .",
+    "colors": [
+      {
+        "name": "Silver",
+        "hex": "#c4c7cd"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "material": "—",
+    "stock": 2,
+    "rating": 4.9,
+    "reviewCount": 143,
+    "tags": [
+      "Accessories",
+      "Accessory",
+      "F14",
+      "jewelry",
+      "Maria Calderara",
+      "Necklaces"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#241d12",
+      "#9a7b3f"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Maria Calderara"
+      },
+      {
+        "label": "Type",
+        "value": "women's necklaces"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/product_necklace_mariacalderara_cascade-necklace_silver01.jpeg?v=1437077603",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/product_necklace_mariacalderara_cascade-necklace_silver02.jpeg?v=1437077603"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-anchor-necklace-no-color",
+    "slug": "anchor-necklace-no-color",
+    "name": "Anchor Necklace",
+    "brand": "maria-calderara",
+    "category": "jewelry",
+    "sku": "'17518",
+    "price": 158,
+    "shortDescription": "Like the buoys you find washed up on the beach this lightweight multi-media necklace can be a fantastic marker in time. Maria Calderara. Color…",
+    "description": "Like the buoys you find washed up on the beach this lightweight multi-media necklace can be a fantastic marker in time. Maria Calderara. Color Mixed. Length 64\".",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.5,
+    "reviewCount": 39,
+    "tags": [
+      "Accessories",
+      "Accessory",
+      "F14",
+      "jewelry",
+      "Maria Calderara",
+      "Necklaces"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#241d12",
+      "#9a7b3f"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Maria Calderara"
+      },
+      {
+        "label": "Type",
+        "value": "women's necklaces"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/product_necklace_mariacalderara_anchor-necklace01.jpeg?v=1437077590",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/product_necklace_mariacalderara_anchor-necklace02.jpeg?v=1437077590"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-drop-cluster-earring-black",
+    "slug": "drop-cluster-earring-black",
+    "name": "Drop Cluster Earring in Black",
+    "brand": "maria-calderara",
+    "category": "jewelry",
+    "sku": "'17528",
+    "price": 68,
+    "shortDescription": "Like a pendulum the night swings in your favor. Clip-on Clips. Maria Calderara. Color Black. Length 3 & 1/2\", 1\" Wide.",
+    "description": "Like a pendulum the night swings in your favor. Clip-on Clips. Maria Calderara. Color Black. Length 3 & 1/2\", 1\" Wide.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "material": "—",
+    "stock": 2,
+    "rating": 5,
+    "reviewCount": 183,
+    "tags": [
+      "accessories",
+      "Accessory",
+      "earrings",
+      "F14",
+      "jewelry",
+      "Maria Calderara"
+    ],
+    "featured": false,
+    "trending": true,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#241d12",
+      "#9a7b3f"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Maria Calderara"
+      },
+      {
+        "label": "Type",
+        "value": "women's earrings"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/product_earring_mariacalderara_drop-cluster-earring_black01.jpeg?v=1437077558",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-09_Ashley_Look_19_4505.jpeg?v=1437077558"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-lattice-bead-cuff-silver-black",
+    "slug": "lattice-bead-cuff-silver-black",
+    "name": "Lattice Bead Cuff in Silver/Black",
+    "brand": "maria-calderara",
+    "category": "clothing",
+    "sku": "'17532",
+    "price": 108,
+    "shortDescription": "Rows of mixed beads fall into a flower pattern in this wide cuff from Maria Calderara. Color Silver/Black. Bead to Ring Length 6 & 3/4\", 2 & 1/4\"…",
+    "description": "Rows of mixed beads fall into a flower pattern in this wide cuff from Maria Calderara. Color Silver/Black. Bead to Ring Length 6 & 3/4\", 2 & 1/4\" Wide. Also available in Red/Black .",
+    "colors": [
+      {
+        "name": "Silver/Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "material": "—",
+    "stock": 2,
+    "rating": 4.4,
+    "reviewCount": 21,
+    "tags": [
+      "Accessories",
+      "blak",
+      "Bracelets",
+      "F14",
+      "jewelry",
+      "Maria Calderara"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Maria Calderara"
+      },
+      {
+        "label": "Type",
+        "value": "women's bracelets"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/product_bracelet_mariacalderara_lattice-bead-cuff_silver-black01.jpeg?v=1437077545"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-rose-necklace-red",
+    "slug": "rose-necklace-red",
+    "name": "Rose Necklace in Red",
+    "brand": "maria-calderara",
+    "category": "jewelry",
+    "sku": "'17533",
+    "price": 198,
+    "shortDescription": "A corsage, a crown, a ring around your neck, roses are yours to tie. Maria Calderara. Color Red. Length 47\", 5\" Wide. Also available in Black and…",
+    "description": "A corsage, a crown, a ring around your neck, roses are yours to tie. Maria Calderara. Color Red. Length 47\", 5\" Wide. Also available in Black and Navy .",
+    "colors": [
+      {
+        "name": "Red",
+        "hex": "#8a2b2b"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.9,
+    "reviewCount": 157,
+    "tags": [
+      "Accessories",
+      "F14",
+      "jewelry",
+      "Maria Calderara",
+      "Necklaces",
+      "red"
+    ],
+    "featured": false,
+    "trending": true,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#241d12",
+      "#9a7b3f"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Maria Calderara"
+      },
+      {
+        "label": "Type",
+        "value": "women's necklaces"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/product_necklace_mariacalderara_rose-necklace_red01.jpeg?v=1437077543",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/product_necklace_mariacalderara_rose-necklace_red02.jpeg?v=1437077543"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-float-bead-earring-pearl",
+    "slug": "float-bead-earring-pearl",
+    "name": "Float Bead Earring in Pearl",
+    "brand": "maria-calderara",
+    "category": "jewelry",
+    "sku": "'17536",
+    "price": 58,
+    "shortDescription": "A pearl drop earring with Maria Calderara's signature twist. Fish Hook Earring. Color Pearl. Diameter 2\". Also available in Glass .",
+    "description": "A pearl drop earring with Maria Calderara's signature twist. Fish Hook Earring. Color Pearl. Diameter 2\". Also available in Glass .",
+    "colors": [
+      {
+        "name": "Pearl",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.8,
+    "reviewCount": 140,
+    "tags": [
+      "accessories",
+      "Accessory",
+      "earring",
+      "F14",
+      "jewelry",
+      "last"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#241d12",
+      "#9a7b3f"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Maria Calderara"
+      },
+      {
+        "label": "Type",
+        "value": "women's earrings"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/product_earring_mariacalderara_float-bead-earring_pearl01.jpeg?v=1437077535",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/product_earring_mariacalderara_float-bead-earring_pearl02.jpeg?v=1437077535"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-extra-long-sleeve-sweater-cavern",
+    "slug": "extra-long-sleeve-sweater-cavern",
+    "name": "Extra Long Sleeve Sweater in Cavern",
+    "brand": "isabel-benenato",
+    "category": "clothing",
+    "sku": "'17610",
+    "price": 128,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company An extra long scoop neck long sleeve sweater from knit…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company An extra long scoop neck long sleeve sweater from knit expert Isabel Benenato. Unisex and easily layered. Color Carven. 66% Cotton, 34% Wool.",
+    "colors": [
+      {
+        "name": "Cavern",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "Small"
+    ],
+    "material": "—",
+    "stock": 2,
+    "rating": 4.5,
+    "reviewCount": 45,
+    "tags": [
+      "cavern",
+      "F14",
+      "isabel benenato",
+      "Knitwear",
+      "Man",
+      "Men's"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Isabel Benenato"
+      },
+      {
+        "label": "Type",
+        "value": "men's knitwear"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_32_01.jpeg?v=1437077453",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_32_03.jpeg?v=1437077453",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_32_02.jpeg?v=1437077453",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_32_04.jpeg?v=1437077453"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-button-shoulder-pullover-black",
+    "slug": "button-shoulder-pullover-black",
+    "name": "Button Shoulder Pullover in Black",
+    "brand": "isabel-benenato",
+    "category": "clothing",
+    "sku": "'17614",
+    "price": 198,
+    "shortDescription": "A thin and easy to layer merino wool sweater with four functional buttons at the left shoulder. Warmth and versatility is guaranteed. Color Black.…",
+    "description": "A thin and easy to layer merino wool sweater with four functional buttons at the left shoulder. Warmth and versatility is guaranteed. Color Black. Addis is wearing a size Small. Addis is 6’2”, Chest 38.5”, Waist 31”, Inseam 32”.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "Small"
+    ],
+    "material": "—",
+    "stock": 2,
+    "rating": 4.9,
+    "reviewCount": 160,
+    "tags": [
+      "Black",
+      "F14",
+      "Isabel Benenato",
+      "Knitwear",
+      "Man",
+      "Merino Wool"
+    ],
+    "featured": false,
+    "trending": true,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Isabel Benenato"
+      },
+      {
+        "label": "Type",
+        "value": "men's knitwear"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-10-10_Addis_Look_13_02.jpeg?v=1437077446",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-10-10_Addis_Look_13_05.jpeg?v=1437077446",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-10-10_Addis_Look_13_03.jpeg?v=1437077446",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-10-10_Addis_Look_13_04.jpeg?v=1437077446"
     ],
     "custom": false
   }

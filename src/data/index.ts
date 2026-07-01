@@ -1,8 +1,12 @@
-import { brands, categories, products, reviews, genericReviews } from "./catalog";
+import { brands as seedBrands, categories, products as seedProducts, reviews, genericReviews } from "./catalog";
+import { importedBrands, importedProducts } from "./imported";
 import type { Brand, Category, Product, Review, SortKey } from "./types";
 import { discountPercent } from "@/lib/utils";
 
-export { brands, categories, products };
+/** Seed catalog + products imported from a Shopify sample CSV. */
+export const brands: Brand[] = [...seedBrands, ...importedBrands];
+export const products: Product[] = [...seedProducts, ...importedProducts];
+export { categories };
 export type { Brand, Category, Product, Review, SortKey };
 
 export function getProductBySlug(slug: string): Product | undefined {

@@ -288,6 +288,9 @@ function Gallery({ product }: { product: Product }) {
     ["#15140f", product.palette[1]],
     [product.palette[0], "#3a3a3d"],
   ];
+  const imgs = product.images ?? [];
+  const hasImg = imgs.length > 0;
+  const indexes = Array.from({ length: hasImg ? imgs.length : views.length }, (_, i) => i);
   const [sel, setSel] = useState(0);
   const [full, setFull] = useState(false);
   const [origin, setOrigin] = useState("50% 50%");
@@ -298,13 +301,18 @@ function Gallery({ product }: { product: Product }) {
       <div className="flex gap-4">
         {/* thumbnails */}
         <div className="hidden flex-col gap-3 sm:flex">
-          {views.map((v, i) => (
+          {indexes.map((i) => (
             <button
               key={i}
               onClick={() => setSel(i)}
               className={cn("h-20 w-16 overflow-hidden border transition-colors", sel === i ? "border-gold" : "border-line hover:border-gold-deep")}
             >
-              <ProductArtwork palette={v} monogram={monogram} category={product.category} />
+              {hasImg ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img src={imgs[i]} alt="" className="h-full w-full object-cover" />
+              ) : (
+                <ProductArtwork palette={views[i]} monogram={monogram} category={product.category} />
+              )}
             </button>
           ))}
         </div>
@@ -330,7 +338,12 @@ function Gallery({ product }: { product: Product }) {
               className="h-full w-full transition-transform duration-300 ease-out"
               style={{ transformOrigin: origin, transform: zoom ? "scale(1.7)" : "scale(1)" }}
             >
-              <ProductArtwork palette={views[sel]} monogram={monogram} category={product.category} name={name} variant="hero" />
+              {hasImg ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img src={imgs[sel]} alt={name} className="h-full w-full object-cover" />
+              ) : (
+                <ProductArtwork palette={views[sel]} monogram={monogram} category={product.category} name={name} variant="hero" />
+              )}
             </motion.div>
           </AnimatePresence>
           <button
@@ -345,16 +358,26 @@ function Gallery({ product }: { product: Product }) {
 
       {/* mobile thumbnails */}
       <div className="mt-4 flex gap-3 sm:hidden">
-        {views.map((v, i) => (
+        {indexes.map((i) => (
           <button key={i} onClick={() => setSel(i)} className={cn("h-16 w-14 overflow-hidden border", sel === i ? "border-gold" : "border-line")}>
-            <ProductArtwork palette={v} monogram={monogram} category={product.category} />
+            {hasImg ? (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src={imgs[i]} alt="" className="h-full w-full object-cover" />
+            ) : (
+              <ProductArtwork palette={views[i]} monogram={monogram} category={product.category} />
+            )}
           </button>
         ))}
       </div>
 
       <Modal open={full} onClose={() => setFull(false)} maxWidth="max-w-3xl">
         <div className="aspect-[4/5] w-full overflow-hidden">
-          <ProductArtwork palette={views[sel]} monogram={monogram} category={product.category} name={product.name} variant="hero" />
+          {hasImg ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img src={imgs[sel]} alt={name} className="h-full w-full object-cover" />
+          ) : (
+            <ProductArtwork palette={views[sel]} monogram={monogram} category={product.category} name={name} variant="hero" />
+          )}
         </div>
       </Modal>
     </div>

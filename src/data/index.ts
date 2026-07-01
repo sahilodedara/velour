@@ -1,12 +1,13 @@
 import { brands as seedBrands, categories, products as seedProducts, reviews, genericReviews } from "./catalog";
 import { importedBrands, importedProducts } from "./imported";
 import { signatureProducts } from "./signature";
+import { collectionBrands, collectionProducts } from "./collection";
 import type { Brand, Category, Product, Review, SortKey } from "./types";
 import { discountPercent } from "@/lib/utils";
 
-/** Seed catalog + signature pieces + products imported from Shopify sample CSVs. */
-export const brands: Brand[] = [...seedBrands, ...importedBrands];
-export const products: Product[] = [...seedProducts, ...signatureProducts, ...importedProducts];
+/** Seed catalog + signature pieces + Shopify-CSV imports + demo collection. */
+export const brands: Brand[] = [...seedBrands, ...importedBrands, ...collectionBrands];
+export const products: Product[] = [...collectionProducts, ...seedProducts, ...signatureProducts, ...importedProducts];
 export { categories };
 export type { Brand, Category, Product, Review, SortKey };
 

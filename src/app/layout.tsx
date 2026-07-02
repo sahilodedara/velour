@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Playfair_Display, Inter } from "next/font/google";
 import "./globals.css";
 import { site } from "@/config/site";
-import { CustomCursor } from "@/components/motion/CustomCursor";
 import { ThemeInit } from "@/components/providers/ThemeInit";
 import { LanguageProvider } from "@/i18n/provider";
 
@@ -55,7 +54,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <LanguageProvider>
           <ThemeInit />
-          <CustomCursor />
           {children}
         </LanguageProvider>
       </body>

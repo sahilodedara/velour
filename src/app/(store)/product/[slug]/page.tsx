@@ -26,7 +26,14 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
   const product = getProductBySlug(slug);
   if (!product) notFound();
   return (
-    <div className="pb-28">
+    <div className="relative pb-28">
+      {/* Gradient background using suggested palette */}
+      <div 
+        className="fixed inset-0 -z-10" 
+        style={{
+          background: "linear-gradient(135deg, #FFDBBB 0%, #C0BEB1 35%, #997E67 70%, #664930 100%)"
+        }}
+      />
       <ProductDetail product={product} />
     </div>
   );

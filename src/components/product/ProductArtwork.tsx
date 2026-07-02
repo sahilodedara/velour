@@ -125,15 +125,17 @@ export function ProductArtwork({
       <rect width="400" height="500" fill={`url(#bg-${uid})`} />
       <rect width="400" height="500" fill={`url(#glow-${uid})`} />
 
-      {/* faint brand monogram watermark */}
-      <text
-        x="200" y="300" textAnchor="middle"
-        fontFamily="Georgia, 'Times New Roman', serif"
-        fontSize="300" fontWeight="500"
-        fill="#ffffff" opacity="0.05"
-      >
-        {monogram}
-      </text>
+      {/* faint brand monogram watermark - hidden in admin */}
+      {variant === "hero" && (
+        <text
+          x="200" y="300" textAnchor="middle"
+          fontFamily="Georgia, 'Times New Roman', serif"
+          fontSize="300" fontWeight="500"
+          fill="#ffffff" opacity="0.05"
+        >
+          {monogram}
+        </text>
+      )}
 
       {/* category motif in gold line */}
       <g

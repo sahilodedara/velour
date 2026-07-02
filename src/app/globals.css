@@ -8,26 +8,26 @@
    Light (porcelain editorial) is the default; dark is deep matte black.
 --------------------------------------------------------------------------- */
 :root {
-  /* Surfaces */
-  --bg: #fbfaf8;            /* porcelain / ivory */
-  --bg-elevated: #ffffff;   /* cards, sheets */
-  --bg-sunken: #f3f0ea;     /* subtle wells */
+  /* Surfaces — warm peach / mocha palette (#FFDBBB · #997E67) */
+  --bg: #fdefe3;            /* soft warm peach cream */
+  --bg-elevated: #fff8f0;   /* cards, sheets */
+  --bg-sunken: #ffdbbb;     /* peach section bands */
 
   /* Ink (text) */
-  --ink: #14130f;           /* near-black foreground */
-  --ink-soft: #4c4a44;      /* secondary text */
-  --ink-muted: #8d8a82;     /* tertiary / captions */
+  --ink: #201810;           /* warm near-black foreground */
+  --ink-soft: #574737;      /* secondary text */
+  --ink-muted: #997e67;     /* mocha — tertiary / captions */
 
   /* Brand */
   --gold: #c8a464;          /* champagne gold (decorative) */
   --gold-deep: #9a7b3f;     /* gold that holds contrast on light */
   --gold-bright: #e6cf9c;   /* highlight / sheen */
-  --silver: #c4c7cd;        /* soft silver */
+  --silver: #ccbeb1;        /* warm taupe */
   --ink-on-gold: #15130d;   /* text over gold fills */
 
   /* Lines & states */
-  --line: #e7e2d8;          /* warm hairline */
-  --line-strong: #d6cfc0;
+  --line: #f0ddc9;          /* warm peach hairline */
+  --line-strong: #d8c1a6;   /* mocha-tinted border */
   --ring: #c8a464;
   --danger: #b4452f;
   --success: #4f7a4d;

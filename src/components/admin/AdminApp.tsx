@@ -6,9 +6,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import {
   LayoutDashboard, Package, ShoppingCart, Users, FolderTree, Tag, Image as ImageIcon,
   Ticket, Settings, Search, Bell, Menu, X, TrendingUp, TrendingDown, ArrowUpRight,
-  Store, Sun, Moon, AlertTriangle, LogOut, Check, Trash2,
+  Store, Sun, Moon, AlertTriangle, LogOut, Check, Trash2, Pencil,
 } from "lucide-react";
-import { products, brands, getBrandName, getTopCategories } from "@/data";
+import { products, brands, getBrandName, getTopCategories, type Product } from "@/data";
 import { useUI } from "@/store/ui";
 import { useCustomProducts } from "@/store/useCustomProducts";
 import { useT } from "@/i18n/provider";
@@ -308,6 +308,7 @@ function ProductsTable() {
   const { items: custom, remove: removeProduct } = useCustomProducts();
   const [q, setQ] = useState("");
   const [addOpen, setAddOpen] = useState(false);
+  const [editing, setEditing] = useState<Product | null>(null);
   const [toast, setToast] = useState(false);
 
   const rows = useMemo(
@@ -330,7 +331,7 @@ function ProductsTable() {
           <Search size={15} className="text-ink-muted" />
           <input value={q} onChange={(e) => setQ(e.target.value)} placeholder={t("admin.searchProducts")} className="w-full bg-transparent text-sm focus:outline-none sm:w-64" />
         </div>
-        <button onClick={() => setAddOpen(true)} className="bg-gold px-4 py-2.5 text-xs font-medium uppercase tracking-[0.16em] text-ink-on-gold transition-colors hover:bg-gold-bright">
+        <button onClick={() => { setEditing(null); setAddOpen(true); }} className="bg-gold px-4 py-2.5 text-xs font-medium uppercase tracking-[0.16em] text-ink-on-gold transition-colors hover:bg-gold-bright">
           {t("admin.addProduct")}
         </button>
       </div>
@@ -372,9 +373,14 @@ function ProductsTable() {
                 </td>
                 <td className="p-4">
                   {p.custom ? (
-                    <button onClick={() => removeProduct(p.id)} className="flex items-center gap-1 text-xs text-ink-muted transition-colors hover:text-danger">
-                      <Trash2 size={14} /> {t("admin.delete")}
-                    </button>
+                    <div className="flex items-center gap-3">
+                      <button onClick={() => { setEditing(p); setAddOpen(true); }} className="flex items-center gap-1 text-xs text-ink-soft transition-colors hover:text-gold-deep">
+                        <Pencil size={14} /> {t("admin.editTitle")}
+                      </button>
+                      <button onClick={() => removeProduct(p.id)} className="flex items-center gap-1 text-xs text-ink-muted transition-colors hover:text-danger">
+                        <Trash2 size={14} /> {t("admin.delete")}
+                      </button>
+                    </div>
                   ) : (
                     <span className="text-[0.6rem] uppercase tracking-[0.1em] text-ink-muted">{t("admin.seedTag")}</span>
                   )}
@@ -385,7 +391,7 @@ function ProductsTable() {
         </table>
       </div>
 
-      <AddProductModal open={addOpen} onClose={() => setAddOpen(false)} onAdded={onAdded} />
+      <AddProductModal open={addOpen} editProduct={editing} onClose={() => { setAddOpen(false); setEditing(null); }} onAdded={onAdded} />
 
       <AnimatePresence>
         {toast && (

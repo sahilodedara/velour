@@ -171,7 +171,7 @@ const ko: Record<string, any> = {
     wrongCreds: "사용자 이름 또는 비밀번호가 올바르지 않습니다", demoHint: "데모 로그인 정보", logout: "로그아웃",
     email: "이메일", signingIn: "로그인 중…", notAuthorized: "이 계정은 관리자가 아닙니다.",
     authError: "로그인에 실패했습니다. 정보를 확인하고 다시 시도하세요.",
-    addTitle: "상품 추가", fName: "상품명", fBrand: "브랜드", fCategory: "카테고리",
+    addTitle: "상품 추가", editTitle: "상품 편집", fName: "상품명", fBrand: "브랜드", fCategory: "카테고리",
     fPrice: "가격", fOriginal: "정가 (선택)", fStock: "재고", fMaterial: "소재",
     fShort: "간단 설명", fDesc: "상세 설명", fColors: "색상", fSizes: "사이즈 (쉼표로 구분)",
     fImages: "상품 이미지", fVideo: "짧은 동영상 (선택)", uploading: "업로드 중…",

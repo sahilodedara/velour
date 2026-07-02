@@ -105,6 +105,39 @@ export async function insertDbProduct(
   return { ok: true };
 }
 
+/** Update a product + replace its colors/sizes/specs/images (requires admin session). */
+export async function updateDbProduct(
+  sb: SupabaseClient,
+  p: Product,
+): Promise<{ ok: boolean; error?: string }> {
+  const { error } = await sb
+    .from("products")
+    .update({
+      name: p.name, brand_slug: p.brand, category_slug: p.category, subcategory_slug: p.subcategory ?? null,
+      sku: p.sku, price: p.price, original_price: p.originalPrice ?? null,
+      short_description: p.shortDescription, description: p.description, material: p.material,
+      stock: p.stock, rating: p.rating, review_count: p.reviewCount, tags: p.tags,
+      featured: p.featured ?? false, trending: p.trending ?? false, best_seller: p.bestSeller ?? false,
+      new_arrival: p.newArrival ?? false, palette: p.palette, video_url: p.video ?? null,
+      updated_at: new Date().toISOString(),
+    })
+    .eq("id", p.id);
+  if (error) return { ok: false, error: error.message };
+
+  // Replace related rows.
+  await Promise.all([
+    sb.from("product_colors").delete().eq("product_id", p.id),
+    sb.from("product_sizes").delete().eq("product_id", p.id),
+    sb.from("product_specs").delete().eq("product_id", p.id),
+    sb.from("product_images").delete().eq("product_id", p.id),
+  ]);
+  if (p.colors.length) await sb.from("product_colors").insert(p.colors.map((c) => ({ product_id: p.id, name: c.name, hex: c.hex })));
+  if (p.sizes?.length) await sb.from("product_sizes").insert(p.sizes.map((s) => ({ product_id: p.id, label: s })));
+  if (p.specs.length) await sb.from("product_specs").insert(p.specs.map((s) => ({ product_id: p.id, label: s.label, value: s.value })));
+  if (p.images?.length) await sb.from("product_images").insert(p.images.map((url, i) => ({ product_id: p.id, url, position: i, is_thumb: i === 0 })));
+  return { ok: true };
+}
+
 /** Delete a product (sub-tables cascade via FK). */
 export async function deleteDbProduct(sb: SupabaseClient, id: string): Promise<void> {
   await sb.from("products").delete().eq("id", id);

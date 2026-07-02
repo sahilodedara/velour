@@ -171,7 +171,7 @@ const es: Record<string, any> = {
     wrongCreds: "Usuario o contraseña incorrectos", demoHint: "Credenciales de demo", logout: "Cerrar sesión",
     email: "Correo", signingIn: "Iniciando sesión…", notAuthorized: "Esta cuenta no es de administrador.",
     authError: "Error al iniciar sesión. Revisa tus datos e inténtalo de nuevo.",
-    addTitle: "Añadir producto", fName: "Nombre del producto", fBrand: "Marca", fCategory: "Categoría",
+    addTitle: "Añadir producto", editTitle: "Editar producto", fName: "Nombre del producto", fBrand: "Marca", fCategory: "Categoría",
     fPrice: "Precio", fOriginal: "Precio original (opcional)", fStock: "Stock", fMaterial: "Material",
     fShort: "Descripción corta", fDesc: "Descripción", fColors: "Colores", fSizes: "Tallas (separadas por comas)",
     fImages: "Imágenes del producto", fVideo: "Video corto (opcional)", uploading: "Subiendo…",

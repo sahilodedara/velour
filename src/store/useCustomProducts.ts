@@ -8,8 +8,10 @@ import type { Product } from "@/data/types";
 
 export interface CustomProductsApi {
   items: Product[];
-  /** Persist a product. Returns ok/error (DB) or always-ok (local). */
+  /** Persist a new product. Returns ok/error (DB) or always-ok (local). */
   add: (p: Product) => Promise<{ ok: boolean; error?: string }>;
+  /** Update an existing product by id. */
+  update: (p: Product) => Promise<{ ok: boolean; error?: string }>;
   remove: (id: string) => Promise<void>;
   /** True when products live in Supabase (global), false when local-only. */
   global: boolean;
@@ -23,12 +25,14 @@ export interface CustomProductsApi {
 export function useCustomProducts(): CustomProductsApi {
   const localItems = useProducts((s) => s.items);
   const localAdd = useProducts((s) => s.add);
+  const localUpdate = useProducts((s) => s.update);
   const localRemove = useProducts((s) => s.remove);
 
   const dbItems = useDbProducts((s) => s.items);
   const dbLoaded = useDbProducts((s) => s.loaded);
   const dbLoad = useDbProducts((s) => s.load);
   const dbAdd = useDbProducts((s) => s.add);
+  const dbUpdate = useDbProducts((s) => s.update);
   const dbRemove = useDbProducts((s) => s.remove);
 
   useEffect(() => {
@@ -36,12 +40,16 @@ export function useCustomProducts(): CustomProductsApi {
   }, [dbLoaded, dbLoad]);
 
   if (isSupabaseEnabled) {
-    return { items: dbItems, add: dbAdd, remove: dbRemove, global: true };
+    return { items: dbItems, add: dbAdd, update: dbUpdate, remove: dbRemove, global: true };
   }
   return {
     items: localItems,
     add: async (p) => {
       localAdd(p);
+      return { ok: true };
+    },
+    update: async (p) => {
+      localUpdate(p.id, p);
       return { ok: true };
     },
     remove: async (id) => {

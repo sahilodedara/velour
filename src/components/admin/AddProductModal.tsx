@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Plus, Trash2, ImagePlus, Film, X } from "lucide-react";
 import { Modal } from "@/components/ui/Modal";
 import { Button } from "@/components/ui/Button";
@@ -39,13 +39,16 @@ export function AddProductModal({
   open,
   onClose,
   onAdded,
+  editProduct,
 }: {
   open: boolean;
   onClose: () => void;
   onAdded: () => void;
+  editProduct?: Product | null;
 }) {
   const t = useT();
-  const { add, global } = useCustomProducts();
+  const { add, update, global } = useCustomProducts();
+  const isEdit = !!editProduct;
   const [busy, setBusy] = useState(false);
   const [errMsg, setErrMsg] = useState<string | null>(null);
 
@@ -65,18 +68,50 @@ export function AddProductModal({
     { name: "Black", hex: "#15140f" },
     { name: "", hex: "#b08d57" },
   ]);
+  const [existingImages, setExistingImages] = useState<string[]>([]);
+  const [existingVideo, setExistingVideo] = useState<string | undefined>(undefined);
   const [imageFiles, setImageFiles] = useState<File[]>([]);
   const [videoFile, setVideoFile] = useState<File | null>(null);
   const [err, setErr] = useState(false);
 
-  const reset = () => {
-    setName(""); setPrice(""); setOriginal(""); setStock("10");
+  const blank = () => {
+    setName(""); setBrand(brands[0].slug); setCategory(cats[0].slug);
+    setPrice(""); setOriginal(""); setStock("10");
     setMaterial(""); setShort(""); setDesc(""); setSizes("");
     setFeatured(false); setNewArrival(true);
     setColors([{ name: "Black", hex: "#15140f" }, { name: "", hex: "#b08d57" }]);
+    setExistingImages([]); setExistingVideo(undefined);
     setImageFiles([]); setVideoFile(null);
-    setErr(false);
+    setErr(false); setErrMsg(null);
   };
+  const reset = blank;
+
+  // Prefill fields when opening in edit mode.
+  useEffect(() => {
+    if (!open) return;
+    if (editProduct) {
+      setName(editProduct.name);
+      setBrand(editProduct.brand);
+      setCategory(editProduct.category);
+      setPrice(String(editProduct.price));
+      setOriginal(editProduct.originalPrice ? String(editProduct.originalPrice) : "");
+      setStock(String(editProduct.stock));
+      setMaterial(editProduct.material === "—" ? "" : editProduct.material);
+      setShort(editProduct.shortDescription);
+      setDesc(editProduct.description);
+      setSizes((editProduct.sizes ?? []).join(", "));
+      setFeatured(!!editProduct.featured);
+      setNewArrival(!!editProduct.newArrival);
+      setColors(editProduct.colors.length ? editProduct.colors.map((c) => ({ ...c })) : [{ name: "Black", hex: "#15140f" }]);
+      setExistingImages(editProduct.images ?? []);
+      setExistingVideo(editProduct.video);
+      setImageFiles([]); setVideoFile(null);
+      setErr(false); setErrMsg(null);
+    } else {
+      blank();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [open, editProduct]);
 
   const save = async () => {
     const priceN = parseFloat(price);
@@ -117,13 +152,17 @@ export function AddProductModal({
 
     const ts = Date.now();
     const cat = getCategory(category);
+    const base = editProduct;
+    const finalImages = [...existingImages, ...imageUrls];
+    const finalVideo = videoUrl ?? existingVideo;
     const product: Product = {
-      id: `custom-${ts}`,
-      slug: `${slugify(name)}-${ts.toString().slice(-4)}`,
+      id: base?.id ?? `custom-${ts}`,
+      slug: base?.slug ?? `${slugify(name)}-${ts.toString().slice(-4)}`,
       name: name.trim(),
       brand,
       category,
-      sku: `CUST-${ts.toString().slice(-6)}`,
+      subcategory: base?.subcategory,
+      sku: base?.sku ?? `CUST-${ts.toString().slice(-6)}`,
       price: priceN,
       originalPrice: original ? parseFloat(original) || undefined : undefined,
       shortDescription: short.trim() || name.trim(),
@@ -132,19 +171,21 @@ export function AddProductModal({
       sizes: sizes.trim() ? sizes.split(",").map((s) => s.trim()).filter(Boolean) : undefined,
       material: material.trim() || "—",
       stock: parseInt(stock) || 0,
-      rating: 5,
-      reviewCount: 0,
-      tags: ["new"],
+      rating: base?.rating ?? 5,
+      reviewCount: base?.reviewCount ?? 0,
+      tags: base?.tags ?? ["new"],
       featured,
       newArrival,
-      palette: cat?.palette ?? ["#1c1b18", "#7a6a44"],
-      specs: material.trim() ? [{ label: "Material", value: material.trim() }] : [],
-      images: imageUrls.length ? imageUrls : undefined,
-      video: videoUrl,
+      trending: base?.trending,
+      bestSeller: base?.bestSeller,
+      palette: base?.palette ?? cat?.palette ?? ["#1c1b18", "#7a6a44"],
+      specs: material.trim() ? [{ label: "Material", value: material.trim() }] : (base?.specs ?? []),
+      images: finalImages.length ? finalImages : undefined,
+      video: finalVideo,
       custom: true,
     };
     if (product.colors.length === 0) product.colors = [{ name: "Black", hex: "#15140f" }];
-    const res = await add(product);
+    const res = editProduct ? await update(product) : await add(product);
     setBusy(false);
     if (!res.ok) {
       setErrMsg(res.error ?? "Failed to save");
@@ -156,7 +197,7 @@ export function AddProductModal({
   };
 
   return (
-    <Modal open={open} onClose={onClose} title={t("admin.addTitle")} maxWidth="max-w-2xl">
+    <Modal open={open} onClose={onClose} title={isEdit ? t("admin.editTitle") : t("admin.addTitle")} maxWidth="max-w-2xl">
       <div className="space-y-4">
         <Field label={t("admin.fName")} required>
           <input value={name} onChange={(e) => setName(e.target.value)} className="luxe-input" placeholder="The Solène Top-Handle Bag" />
@@ -201,6 +242,15 @@ export function AddProductModal({
         <div>
           <p className="mb-2 block text-[0.7rem] font-medium uppercase tracking-[0.18em] text-ink-soft">{t("admin.fImages")}</p>
           <div className="flex flex-wrap gap-3">
+            {existingImages.map((url, i) => (
+              <div key={`ex-${i}`} className="relative h-20 w-20 overflow-hidden border border-gold/40">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={url} alt="" className="h-full w-full object-cover" />
+                <button type="button" onClick={() => setExistingImages(existingImages.filter((_, j) => j !== i))} className="absolute right-0 top-0 grid h-5 w-5 place-items-center bg-black/60 text-white">
+                  <X size={12} />
+                </button>
+              </div>
+            ))}
             {imageFiles.map((f, i) => (
               <div key={i} className="relative h-20 w-20 overflow-hidden border border-line">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -231,6 +281,12 @@ export function AddProductModal({
               <Film size={15} className="text-gold-deep" />
               <span className="max-w-[16rem] truncate">{videoFile.name}</span>
               <button type="button" onClick={() => setVideoFile(null)} className="text-ink-muted hover:text-danger"><X size={14} /></button>
+            </div>
+          ) : existingVideo ? (
+            <div className="flex items-center gap-2 text-sm">
+              <Film size={15} className="text-gold-deep" />
+              <span className="max-w-[16rem] truncate">Current video</span>
+              <button type="button" onClick={() => setExistingVideo(undefined)} className="text-ink-muted hover:text-danger"><X size={14} /></button>
             </div>
           ) : (
             <label className="inline-flex cursor-pointer items-center gap-2 border border-dashed border-line-strong px-4 py-2.5 text-sm text-ink-muted transition-colors hover:border-gold-deep hover:text-gold-deep">

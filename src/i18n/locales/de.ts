@@ -171,7 +171,7 @@ const de: Record<string, any> = {
     wrongCreds: "Benutzername oder Passwort falsch", demoHint: "Demo-Zugangsdaten", logout: "Abmelden",
     email: "E-Mail", signingIn: "Anmeldung…", notAuthorized: "Dieses Konto ist kein Administrator.",
     authError: "Anmeldung fehlgeschlagen. Prüfen Sie Ihre Angaben und versuchen Sie es erneut.",
-    addTitle: "Produkt hinzufügen", fName: "Produktname", fBrand: "Marke", fCategory: "Kategorie",
+    addTitle: "Produkt hinzufügen", editTitle: "Produkt bearbeiten", fName: "Produktname", fBrand: "Marke", fCategory: "Kategorie",
     fPrice: "Preis", fOriginal: "Originalpreis (optional)", fStock: "Bestand", fMaterial: "Material",
     fShort: "Kurzbeschreibung", fDesc: "Beschreibung", fColors: "Farben", fSizes: "Größen (mit Komma getrennt)",
     fImages: "Produktbilder", fVideo: "Kurzes Video (optional)", uploading: "Wird hochgeladen…",

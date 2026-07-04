@@ -8,7 +8,8 @@ import {
   Ticket, Settings, Search, Bell, Menu, X, TrendingUp, TrendingDown, ArrowUpRight,
   Store, Sun, Moon, AlertTriangle, LogOut, Check, Trash2, Pencil,
 } from "lucide-react";
-import { products, brands, getBrandName, getTopCategories, type Product } from "@/data";
+import { products, brands, getBrandName, getBrand, getTopCategories, type Product } from "@/data";
+import { ProductArtwork } from "@/components/product/ProductArtwork";
 import { useUI } from "@/store/ui";
 import { useCustomProducts } from "@/store/useCustomProducts";
 import { useT } from "@/i18n/provider";
@@ -352,8 +353,20 @@ function ProductsTable() {
             {rows.map((p) => (
               <tr key={p.id} className={cn("transition-colors hover:bg-bg-sunken", p.custom && "bg-gold/[0.04]")}>
                 <td className="p-4">
-                  <p className="font-medium">{lp(p).name}</p>
-                  <p className="text-xs text-ink-muted">{getBrandName(p.brand)}</p>
+                  <div className="flex items-center gap-3">
+                    <div className="h-11 w-11 shrink-0 overflow-hidden border border-line bg-bg-sunken">
+                      {p.images?.[0] ? (
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img src={p.images[0]} alt="" className="h-full w-full object-cover" />
+                      ) : (
+                        <ProductArtwork palette={p.palette} monogram={getBrand(p.brand)?.monogram ?? "V"} category={p.category} />
+                      )}
+                    </div>
+                    <div className="min-w-0">
+                      <p className="truncate font-medium">{lp(p).name}</p>
+                      <p className="text-xs text-ink-muted">{getBrandName(p.brand)}</p>
+                    </div>
+                  </div>
                 </td>
                 <td className="p-4 text-ink-muted">{p.sku}</td>
                 <td className="p-4 capitalize text-ink-soft">{lcn(p.category, p.category)}</td>

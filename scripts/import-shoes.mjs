@@ -1,7 +1,13 @@
-// Build src/data/shoes.ts from WeChat catalog images.
+// ⚠️ LOCAL-ONLY — DO NOT COMMIT ITS OUTPUT OR PUSH THE IMAGES.
+// The source photos are counterfeit branded goods; the public site uses
+// scripts/gen-shoes.mjs (house artwork) instead. This script exists only to
+// rebuild the photo version on YOUR machine for an in-person demo:
+//   node scripts/import-shoes.mjs 10 5      (writes photo shoes.ts + public/collection/shoes/*)
+// Both outputs are gitignored / untracked — leave them uncommitted.
+// To restore the public art version afterwards: node scripts/gen-shoes.mjs
+//
 // Clusters images by perceptual hash (same shoe = near-identical photos), keeps
-// each distinct shoe ONCE, and uses up to 3 of its clustered photos as a gallery.
-// Resizes/recompresses images so the repo stays light. Prices $280–$380.
+// each distinct shoe ONCE, and uses up to N of its clustered photos as a gallery.
 // Usage: node scripts/import-shoes.mjs [hammingThreshold] [galleryMax]
 import { readdirSync, readFileSync, writeFileSync, mkdirSync, rmSync } from "node:fs";
 import jpeg from "jpeg-js";

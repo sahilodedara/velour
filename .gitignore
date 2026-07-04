@@ -27,3 +27,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .importtmp/
+
+# Local-only counterfeit-branded shoe photos — never publish
+public/collection/shoes/

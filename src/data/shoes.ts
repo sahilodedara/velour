@@ -1,21 +1,31 @@
-// AUTO-GENERATED shoe collection (non-commercial demo, images provided locally).
+// AUTO-GENERATED Belmonte shoe collection — house artwork only (no external media).
+// Regenerate: node scripts/gen-shoes.mjs
 import type { Product } from "./types";
 
 export const shoeProducts: Product[] = [
   {
     "id": "shoe-1",
-    "slug": "belmonte-runner-1",
-    "name": "Suede Runner",
+    "slug": "belmonte-suede-runner",
+    "name": "Belmonte Suede Runner",
     "brand": "belmonte",
     "category": "shoes",
-    "sku": "SHO-001",
-    "price": 350,
-    "shortDescription": "A runner in calf suede, handmade in a small atelier.",
-    "description": "The Suede Runner — a runner crafted from calf suede and set on a leather sole. Made to be worn for years.",
+    "subcategory": "sneakers",
+    "sku": "BLM-001",
+    "price": 320,
+    "shortDescription": "Belmonte Suede Runner — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Belmonte Suede Runner is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
-        "name": "As shown",
+        "name": "Espresso",
         "hex": "#3a2a1d"
+      },
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      },
+      {
+        "name": "Tan",
+        "hex": "#8a5a2b"
       }
     ],
     "sizes": [
@@ -27,26 +37,31 @@ export const shoeProducts: Product[] = [
       "44",
       "45"
     ],
-    "material": "Calf suede",
-    "stock": 11,
-    "rating": 4.8,
-    "reviewCount": 109,
+    "material": "Full-grain calf leather",
+    "stock": 7,
+    "rating": 4.7,
+    "reviewCount": 54,
     "tags": [
       "shoe",
-      "handmade"
+      "handmade",
+      "belmonte"
     ],
     "featured": true,
     "trending": false,
     "bestSeller": true,
-    "newArrival": true,
+    "newArrival": false,
     "palette": [
-      "#1a1714",
-      "#5a4a35"
+      "#1a1512",
+      "#6a4a2e"
     ],
     "specs": [
       {
         "label": "Upper",
-        "value": "Calf suede"
+        "value": "Full-grain calf leather"
+      },
+      {
+        "label": "Construction",
+        "value": "Blake stitched"
       },
       {
         "label": "Sole",
@@ -56,28 +71,32 @@ export const shoeProducts: Product[] = [
         "label": "Made in",
         "value": "Italy"
       }
-    ],
-    "images": [
-      "/collection/shoes/shoe-1-1.jpg",
-      "/collection/shoes/shoe-1-2.jpg",
-      "/collection/shoes/shoe-1-3.jpg"
     ],
     "custom": false
   },
   {
     "id": "shoe-2",
-    "slug": "belmonte-derby-2",
-    "name": "Calfskin Derby",
+    "slug": "belmonte-leather-derby",
+    "name": "Belmonte Leather Derby",
     "brand": "belmonte",
     "category": "shoes",
-    "sku": "SHO-002",
-    "price": 335,
-    "shortDescription": "A derby in box calf leather, handmade in a small atelier.",
-    "description": "The Calfskin Derby — a derby crafted from box calf leather and set on a leather sole. Made to be worn for years.",
+    "subcategory": "dress",
+    "sku": "BLM-002",
+    "price": 360,
+    "shortDescription": "Belmonte Leather Derby — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Belmonte Leather Derby is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
-        "name": "As shown",
+        "name": "Espresso",
         "hex": "#3a2a1d"
+      },
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      },
+      {
+        "name": "Tan",
+        "hex": "#8a5a2b"
       }
     ],
     "sizes": [
@@ -89,26 +108,31 @@ export const shoeProducts: Product[] = [
       "44",
       "45"
     ],
-    "material": "Box calf leather",
-    "stock": 9,
+    "material": "Full-grain calf leather",
+    "stock": 8,
     "rating": 4.7,
-    "reviewCount": 85,
+    "reviewCount": 67,
     "tags": [
       "shoe",
-      "handmade"
+      "handmade",
+      "belmonte"
     ],
     "featured": true,
     "trending": false,
     "bestSeller": false,
-    "newArrival": true,
+    "newArrival": false,
     "palette": [
-      "#1a1714",
-      "#5a4a35"
+      "#141210",
+      "#4a3a2a"
     ],
     "specs": [
       {
         "label": "Upper",
-        "value": "Box calf leather"
+        "value": "Full-grain calf leather"
+      },
+      {
+        "label": "Construction",
+        "value": "Blake stitched"
       },
       {
         "label": "Sole",
@@ -118,26 +142,32 @@ export const shoeProducts: Product[] = [
         "label": "Made in",
         "value": "Italy"
       }
-    ],
-    "images": [
-      "/collection/shoes/shoe-2-1.jpg"
     ],
     "custom": false
   },
   {
     "id": "shoe-3",
-    "slug": "belmonte-loafer-3",
-    "name": "Waxed Loafer",
+    "slug": "belmonte-penny-loafer",
+    "name": "Belmonte Penny Loafer",
     "brand": "belmonte",
     "category": "shoes",
-    "sku": "SHO-003",
-    "price": 290,
-    "shortDescription": "A loafer in waxed suede, handmade in a small atelier.",
-    "description": "The Waxed Loafer — a loafer crafted from waxed suede and set on a leather sole. Made to be worn for years.",
+    "subcategory": "loafers",
+    "sku": "BLM-003",
+    "price": 335,
+    "shortDescription": "Belmonte Penny Loafer — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Belmonte Penny Loafer is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
-        "name": "As shown",
+        "name": "Espresso",
         "hex": "#3a2a1d"
+      },
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      },
+      {
+        "name": "Tan",
+        "hex": "#8a5a2b"
       }
     ],
     "sizes": [
@@ -149,26 +179,244 @@ export const shoeProducts: Product[] = [
       "44",
       "45"
     ],
-    "material": "Waxed suede",
-    "stock": 3,
-    "rating": 4.4,
-    "reviewCount": 20,
+    "material": "Full-grain calf leather",
+    "stock": 13,
+    "rating": 4.9,
+    "reviewCount": 117,
     "tags": [
       "shoe",
-      "handmade"
+      "handmade",
+      "belmonte"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": true,
+    "newArrival": false,
+    "palette": [
+      "#1c1410",
+      "#7a5230"
+    ],
+    "specs": [
+      {
+        "label": "Upper",
+        "value": "Full-grain calf leather"
+      },
+      {
+        "label": "Construction",
+        "value": "Blake stitched"
+      },
+      {
+        "label": "Sole",
+        "value": "Leather"
+      },
+      {
+        "label": "Made in",
+        "value": "Italy"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "shoe-4",
+    "slug": "belmonte-chelsea-boot",
+    "name": "Belmonte Chelsea Boot",
+    "brand": "belmonte",
+    "category": "shoes",
+    "subcategory": "boots",
+    "sku": "BLM-004",
+    "price": 380,
+    "shortDescription": "Belmonte Chelsea Boot — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Belmonte Chelsea Boot is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
+    "colors": [
+      {
+        "name": "Espresso",
+        "hex": "#3a2a1d"
+      },
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      },
+      {
+        "name": "Tan",
+        "hex": "#8a5a2b"
+      }
+    ],
+    "sizes": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "material": "Full-grain calf leather",
+    "stock": 10,
+    "rating": 4.8,
+    "reviewCount": 83,
+    "tags": [
+      "shoe",
+      "handmade",
+      "belmonte"
+    ],
+    "featured": false,
+    "trending": true,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#131110",
+      "#3a2c22"
+    ],
+    "specs": [
+      {
+        "label": "Upper",
+        "value": "Full-grain calf leather"
+      },
+      {
+        "label": "Construction",
+        "value": "Blake stitched"
+      },
+      {
+        "label": "Sole",
+        "value": "Leather"
+      },
+      {
+        "label": "Made in",
+        "value": "Italy"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "shoe-5",
+    "slug": "belmonte-low-court-sneaker",
+    "name": "Belmonte Low Court Sneaker",
+    "brand": "belmonte",
+    "category": "shoes",
+    "subcategory": "sneakers",
+    "sku": "BLM-005",
+    "price": 300,
+    "shortDescription": "Belmonte Low Court Sneaker — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Belmonte Low Court Sneaker is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
+    "colors": [
+      {
+        "name": "Espresso",
+        "hex": "#3a2a1d"
+      },
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      },
+      {
+        "name": "Tan",
+        "hex": "#8a5a2b"
+      }
+    ],
+    "sizes": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "material": "Full-grain calf leather",
+    "stock": 12,
+    "rating": 4.9,
+    "reviewCount": 107,
+    "tags": [
+      "shoe",
+      "handmade",
+      "belmonte"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": true,
+    "palette": [
+      "#16140f",
+      "#5a5040"
+    ],
+    "specs": [
+      {
+        "label": "Upper",
+        "value": "Full-grain calf leather"
+      },
+      {
+        "label": "Construction",
+        "value": "Blake stitched"
+      },
+      {
+        "label": "Sole",
+        "value": "Leather"
+      },
+      {
+        "label": "Made in",
+        "value": "Italy"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "shoe-6",
+    "slug": "belmonte-cap-toe-oxford",
+    "name": "Belmonte Cap-Toe Oxford",
+    "brand": "belmonte",
+    "category": "shoes",
+    "subcategory": "dress",
+    "sku": "BLM-006",
+    "price": 370,
+    "shortDescription": "Belmonte Cap-Toe Oxford — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Belmonte Cap-Toe Oxford is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
+    "colors": [
+      {
+        "name": "Espresso",
+        "hex": "#3a2a1d"
+      },
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      },
+      {
+        "name": "Tan",
+        "hex": "#8a5a2b"
+      }
+    ],
+    "sizes": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "material": "Full-grain calf leather",
+    "stock": 9,
+    "rating": 4.7,
+    "reviewCount": 77,
+    "tags": [
+      "shoe",
+      "handmade",
+      "belmonte"
     ],
     "featured": true,
     "trending": false,
     "bestSeller": false,
     "newArrival": false,
     "palette": [
-      "#1a1714",
-      "#5a4a35"
+      "#121010",
+      "#403026"
     ],
     "specs": [
       {
         "label": "Upper",
-        "value": "Waxed suede"
+        "value": "Full-grain calf leather"
+      },
+      {
+        "label": "Construction",
+        "value": "Blake stitched"
       },
       {
         "label": "Sole",
@@ -178,206 +426,32 @@ export const shoeProducts: Product[] = [
         "label": "Made in",
         "value": "Italy"
       }
-    ],
-    "images": [
-      "/collection/shoes/shoe-3-1.jpg"
-    ],
-    "custom": false
-  },
-  {
-    "id": "shoe-4",
-    "slug": "belmonte-chelsea-boot-4",
-    "name": "Nappa Chelsea Boot",
-    "brand": "belmonte",
-    "category": "shoes",
-    "sku": "SHO-004",
-    "price": 295,
-    "shortDescription": "A chelsea boot in nappa leather, handmade in a small atelier.",
-    "description": "The Nappa Chelsea Boot — a chelsea boot crafted from nappa leather and set on a leather sole. Made to be worn for years.",
-    "colors": [
-      {
-        "name": "As shown",
-        "hex": "#3a2a1d"
-      }
-    ],
-    "sizes": [
-      "39",
-      "40",
-      "41",
-      "42",
-      "43",
-      "44",
-      "45"
-    ],
-    "material": "Nappa leather",
-    "stock": 4,
-    "rating": 4.5,
-    "reviewCount": 28,
-    "tags": [
-      "shoe",
-      "handmade"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#1a1714",
-      "#5a4a35"
-    ],
-    "specs": [
-      {
-        "label": "Upper",
-        "value": "Nappa leather"
-      },
-      {
-        "label": "Sole",
-        "value": "Leather"
-      },
-      {
-        "label": "Made in",
-        "value": "Italy"
-      }
-    ],
-    "images": [
-      "/collection/shoes/shoe-4-1.jpg"
-    ],
-    "custom": false
-  },
-  {
-    "id": "shoe-5",
-    "slug": "belmonte-low-sneaker-5",
-    "name": "Grained Low Sneaker",
-    "brand": "belmonte",
-    "category": "shoes",
-    "sku": "SHO-005",
-    "price": 290,
-    "shortDescription": "A low sneaker in grained calfskin, handmade in a small atelier.",
-    "description": "The Grained Low Sneaker — a low sneaker crafted from grained calfskin and set on a leather sole. Made to be worn for years.",
-    "colors": [
-      {
-        "name": "As shown",
-        "hex": "#3a2a1d"
-      }
-    ],
-    "sizes": [
-      "39",
-      "40",
-      "41",
-      "42",
-      "43",
-      "44",
-      "45"
-    ],
-    "material": "Grained calfskin",
-    "stock": 4,
-    "rating": 4.5,
-    "reviewCount": 22,
-    "tags": [
-      "shoe",
-      "handmade"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#1a1714",
-      "#5a4a35"
-    ],
-    "specs": [
-      {
-        "label": "Upper",
-        "value": "Grained calfskin"
-      },
-      {
-        "label": "Sole",
-        "value": "Leather"
-      },
-      {
-        "label": "Made in",
-        "value": "Italy"
-      }
-    ],
-    "images": [
-      "/collection/shoes/shoe-5-1.jpg"
-    ],
-    "custom": false
-  },
-  {
-    "id": "shoe-6",
-    "slug": "belmonte-oxford-6",
-    "name": "Nubuck Oxford",
-    "brand": "belmonte",
-    "category": "shoes",
-    "sku": "SHO-006",
-    "price": 295,
-    "shortDescription": "A oxford in nubuck, handmade in a small atelier.",
-    "description": "The Nubuck Oxford — a oxford crafted from nubuck and set on a leather sole. Made to be worn for years.",
-    "colors": [
-      {
-        "name": "As shown",
-        "hex": "#3a2a1d"
-      }
-    ],
-    "sizes": [
-      "39",
-      "40",
-      "41",
-      "42",
-      "43",
-      "44",
-      "45"
-    ],
-    "material": "Nubuck",
-    "stock": 5,
-    "rating": 4.5,
-    "reviewCount": 34,
-    "tags": [
-      "shoe",
-      "handmade"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#1a1714",
-      "#5a4a35"
-    ],
-    "specs": [
-      {
-        "label": "Upper",
-        "value": "Nubuck"
-      },
-      {
-        "label": "Sole",
-        "value": "Leather"
-      },
-      {
-        "label": "Made in",
-        "value": "Italy"
-      }
-    ],
-    "images": [
-      "/collection/shoes/shoe-6-1.jpg"
     ],
     "custom": false
   },
   {
     "id": "shoe-7",
-    "slug": "belmonte-monk-strap-7",
-    "name": "Suede Monk Strap",
+    "slug": "belmonte-monk-strap",
+    "name": "Belmonte Monk Strap",
     "brand": "belmonte",
     "category": "shoes",
-    "sku": "SHO-007",
-    "price": 350,
-    "shortDescription": "A monk strap in calf suede, handmade in a small atelier.",
-    "description": "The Suede Monk Strap — a monk strap crafted from calf suede and set on a leather sole. Made to be worn for years.",
+    "subcategory": "dress",
+    "sku": "BLM-007",
+    "price": 355,
+    "shortDescription": "Belmonte Monk Strap — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Belmonte Monk Strap is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
-        "name": "As shown",
+        "name": "Espresso",
         "hex": "#3a2a1d"
+      },
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      },
+      {
+        "name": "Tan",
+        "hex": "#8a5a2b"
       }
     ],
     "sizes": [
@@ -389,26 +463,31 @@ export const shoeProducts: Product[] = [
       "44",
       "45"
     ],
-    "material": "Calf suede",
-    "stock": 11,
-    "rating": 4.8,
-    "reviewCount": 105,
+    "material": "Full-grain calf leather",
+    "stock": 14,
+    "rating": 4.9,
+    "reviewCount": 129,
     "tags": [
       "shoe",
-      "handmade"
+      "handmade",
+      "belmonte"
     ],
     "featured": false,
     "trending": false,
     "bestSeller": true,
-    "newArrival": true,
+    "newArrival": false,
     "palette": [
-      "#1a1714",
-      "#5a4a35"
+      "#1a1310",
+      "#6a3f28"
     ],
     "specs": [
       {
         "label": "Upper",
-        "value": "Calf suede"
+        "value": "Full-grain calf leather"
+      },
+      {
+        "label": "Construction",
+        "value": "Blake stitched"
       },
       {
         "label": "Sole",
@@ -418,26 +497,32 @@ export const shoeProducts: Product[] = [
         "label": "Made in",
         "value": "Italy"
       }
-    ],
-    "images": [
-      "/collection/shoes/shoe-7-1.jpg"
     ],
     "custom": false
   },
   {
     "id": "shoe-8",
-    "slug": "belmonte-trainer-8",
-    "name": "Calfskin Trainer",
+    "slug": "belmonte-court-trainer",
+    "name": "Belmonte Court Trainer",
     "brand": "belmonte",
     "category": "shoes",
-    "sku": "SHO-008",
-    "price": 320,
-    "shortDescription": "A trainer in box calf leather, handmade in a small atelier.",
-    "description": "The Calfskin Trainer — a trainer crafted from box calf leather and set on a leather sole. Made to be worn for years.",
+    "subcategory": "sneakers",
+    "sku": "BLM-008",
+    "price": 295,
+    "shortDescription": "Belmonte Court Trainer — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Belmonte Court Trainer is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
-        "name": "As shown",
+        "name": "Espresso",
         "hex": "#3a2a1d"
+      },
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      },
+      {
+        "name": "Tan",
+        "hex": "#8a5a2b"
       }
     ],
     "sizes": [
@@ -449,26 +534,31 @@ export const shoeProducts: Product[] = [
       "44",
       "45"
     ],
-    "material": "Box calf leather",
-    "stock": 8,
-    "rating": 4.7,
-    "reviewCount": 68,
+    "material": "Full-grain calf leather",
+    "stock": 15,
+    "rating": 5,
+    "reviewCount": 133,
     "tags": [
       "shoe",
-      "handmade"
+      "handmade",
+      "belmonte"
     ],
     "featured": false,
-    "trending": false,
+    "trending": true,
     "bestSeller": false,
     "newArrival": false,
     "palette": [
-      "#1a1714",
-      "#5a4a35"
+      "#15130f",
+      "#54463a"
     ],
     "specs": [
       {
         "label": "Upper",
-        "value": "Box calf leather"
+        "value": "Full-grain calf leather"
+      },
+      {
+        "label": "Construction",
+        "value": "Blake stitched"
       },
       {
         "label": "Sole",
@@ -478,26 +568,32 @@ export const shoeProducts: Product[] = [
         "label": "Made in",
         "value": "Italy"
       }
-    ],
-    "images": [
-      "/collection/shoes/shoe-8-1.jpg"
     ],
     "custom": false
   },
   {
     "id": "shoe-9",
-    "slug": "belmonte-high-top-9",
-    "name": "Waxed High-Top",
+    "slug": "belmonte-suede-chukka",
+    "name": "Belmonte Suede Chukka",
     "brand": "belmonte",
     "category": "shoes",
-    "sku": "SHO-009",
-    "price": 360,
-    "shortDescription": "A high-top in waxed suede, handmade in a small atelier.",
-    "description": "The Waxed High-Top — a high-top crafted from waxed suede and set on a leather sole. Made to be worn for years.",
+    "subcategory": "boots",
+    "sku": "BLM-009",
+    "price": 340,
+    "shortDescription": "Belmonte Suede Chukka — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Belmonte Suede Chukka is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
-        "name": "As shown",
+        "name": "Espresso",
         "hex": "#3a2a1d"
+      },
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      },
+      {
+        "name": "Tan",
+        "hex": "#8a5a2b"
       }
     ],
     "sizes": [
@@ -509,26 +605,31 @@ export const shoeProducts: Product[] = [
       "44",
       "45"
     ],
-    "material": "Waxed suede",
-    "stock": 12,
-    "rating": 4.9,
-    "reviewCount": 123,
+    "material": "Full-grain calf leather",
+    "stock": 10,
+    "rating": 4.8,
+    "reviewCount": 83,
     "tags": [
       "shoe",
-      "handmade"
+      "handmade",
+      "belmonte"
     ],
     "featured": false,
-    "trending": true,
-    "bestSeller": true,
+    "trending": false,
+    "bestSeller": false,
     "newArrival": true,
     "palette": [
-      "#1a1714",
-      "#5a4a35"
+      "#1b140f",
+      "#7a5636"
     ],
     "specs": [
       {
         "label": "Upper",
-        "value": "Waxed suede"
+        "value": "Full-grain calf leather"
+      },
+      {
+        "label": "Construction",
+        "value": "Blake stitched"
       },
       {
         "label": "Sole",
@@ -538,26 +639,32 @@ export const shoeProducts: Product[] = [
         "label": "Made in",
         "value": "Italy"
       }
-    ],
-    "images": [
-      "/collection/shoes/shoe-9-1.jpg"
     ],
     "custom": false
   },
   {
     "id": "shoe-10",
-    "slug": "belmonte-brogue-10",
-    "name": "Nappa Brogue",
+    "slug": "belmonte-wingtip-brogue",
+    "name": "Belmonte Wingtip Brogue",
     "brand": "belmonte",
     "category": "shoes",
-    "sku": "SHO-010",
-    "price": 345,
-    "shortDescription": "A brogue in nappa leather, handmade in a small atelier.",
-    "description": "The Nappa Brogue — a brogue crafted from nappa leather and set on a leather sole. Made to be worn for years.",
+    "subcategory": "dress",
+    "sku": "BLM-010",
+    "price": 365,
+    "shortDescription": "Belmonte Wingtip Brogue — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Belmonte Wingtip Brogue is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
-        "name": "As shown",
+        "name": "Espresso",
         "hex": "#3a2a1d"
+      },
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      },
+      {
+        "name": "Tan",
+        "hex": "#8a5a2b"
       }
     ],
     "sizes": [
@@ -569,26 +676,31 @@ export const shoeProducts: Product[] = [
       "44",
       "45"
     ],
-    "material": "Nappa leather",
-    "stock": 11,
+    "material": "Full-grain calf leather",
+    "stock": 10,
     "rating": 4.8,
-    "reviewCount": 103,
+    "reviewCount": 86,
     "tags": [
       "shoe",
-      "handmade"
+      "handmade",
+      "belmonte"
     ],
     "featured": false,
     "trending": false,
     "bestSeller": true,
-    "newArrival": true,
+    "newArrival": false,
     "palette": [
-      "#1a1714",
-      "#5a4a35"
+      "#131110",
+      "#463424"
     ],
     "specs": [
       {
         "label": "Upper",
-        "value": "Nappa leather"
+        "value": "Full-grain calf leather"
+      },
+      {
+        "label": "Construction",
+        "value": "Blake stitched"
       },
       {
         "label": "Sole",
@@ -598,26 +710,32 @@ export const shoeProducts: Product[] = [
         "label": "Made in",
         "value": "Italy"
       }
-    ],
-    "images": [
-      "/collection/shoes/shoe-10-1.jpg"
     ],
     "custom": false
   },
   {
     "id": "shoe-11",
-    "slug": "belmonte-slip-on-11",
-    "name": "Grained Slip-On",
+    "slug": "belmonte-slip-on-mocassin",
+    "name": "Belmonte Slip-On Mocassin",
     "brand": "belmonte",
     "category": "shoes",
-    "sku": "SHO-011",
-    "price": 305,
-    "shortDescription": "A slip-on in grained calfskin, handmade in a small atelier.",
-    "description": "The Grained Slip-On — a slip-on crafted from grained calfskin and set on a leather sole. Made to be worn for years.",
+    "subcategory": "loafers",
+    "sku": "BLM-011",
+    "price": 285,
+    "shortDescription": "Belmonte Slip-On Mocassin — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Belmonte Slip-On Mocassin is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
-        "name": "As shown",
+        "name": "Espresso",
         "hex": "#3a2a1d"
+      },
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      },
+      {
+        "name": "Tan",
+        "hex": "#8a5a2b"
       }
     ],
     "sizes": [
@@ -629,26 +747,31 @@ export const shoeProducts: Product[] = [
       "44",
       "45"
     ],
-    "material": "Grained calfskin",
-    "stock": 6,
-    "rating": 4.6,
-    "reviewCount": 47,
+    "material": "Full-grain calf leather",
+    "stock": 11,
+    "rating": 4.8,
+    "reviewCount": 92,
     "tags": [
       "shoe",
-      "handmade"
+      "handmade",
+      "belmonte"
     ],
     "featured": false,
     "trending": false,
     "bestSeller": false,
-    "newArrival": false,
+    "newArrival": true,
     "palette": [
-      "#1a1714",
-      "#5a4a35"
+      "#181410",
+      "#6e4e30"
     ],
     "specs": [
       {
         "label": "Upper",
-        "value": "Grained calfskin"
+        "value": "Full-grain calf leather"
+      },
+      {
+        "label": "Construction",
+        "value": "Blake stitched"
       },
       {
         "label": "Sole",
@@ -658,26 +781,32 @@ export const shoeProducts: Product[] = [
         "label": "Made in",
         "value": "Italy"
       }
-    ],
-    "images": [
-      "/collection/shoes/shoe-11-1.jpg"
     ],
     "custom": false
   },
   {
     "id": "shoe-12",
-    "slug": "belmonte-chukka-boot-12",
-    "name": "Nubuck Chukka Boot",
+    "slug": "belmonte-desert-boot",
+    "name": "Belmonte Desert Boot",
     "brand": "belmonte",
     "category": "shoes",
-    "sku": "SHO-012",
-    "price": 355,
-    "shortDescription": "A chukka boot in nubuck, handmade in a small atelier.",
-    "description": "The Nubuck Chukka Boot — a chukka boot crafted from nubuck and set on a leather sole. Made to be worn for years.",
+    "subcategory": "boots",
+    "sku": "BLM-012",
+    "price": 330,
+    "shortDescription": "Belmonte Desert Boot — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Belmonte Desert Boot is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
-        "name": "As shown",
+        "name": "Espresso",
         "hex": "#3a2a1d"
+      },
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      },
+      {
+        "name": "Tan",
+        "hex": "#8a5a2b"
       }
     ],
     "sizes": [
@@ -689,26 +818,31 @@ export const shoeProducts: Product[] = [
       "44",
       "45"
     ],
-    "material": "Nubuck",
-    "stock": 11,
-    "rating": 4.8,
-    "reviewCount": 111,
+    "material": "Full-grain calf leather",
+    "stock": 8,
+    "rating": 4.7,
+    "reviewCount": 61,
     "tags": [
       "shoe",
-      "handmade"
+      "handmade",
+      "belmonte"
     ],
     "featured": false,
-    "trending": false,
-    "bestSeller": true,
-    "newArrival": true,
+    "trending": true,
+    "bestSeller": false,
+    "newArrival": false,
     "palette": [
-      "#1a1714",
-      "#5a4a35"
+      "#1a150f",
+      "#8a6238"
     ],
     "specs": [
       {
         "label": "Upper",
-        "value": "Nubuck"
+        "value": "Full-grain calf leather"
+      },
+      {
+        "label": "Construction",
+        "value": "Blake stitched"
       },
       {
         "label": "Sole",
@@ -718,26 +852,32 @@ export const shoeProducts: Product[] = [
         "label": "Made in",
         "value": "Italy"
       }
-    ],
-    "images": [
-      "/collection/shoes/shoe-12-1.jpg"
     ],
     "custom": false
   },
   {
     "id": "shoe-13",
-    "slug": "belmonte-runner-13",
-    "name": "Suede Runner",
+    "slug": "belmonte-retro-runner",
+    "name": "Belmonte Retro Runner",
     "brand": "belmonte",
     "category": "shoes",
-    "sku": "SHO-013",
-    "price": 355,
-    "shortDescription": "A runner in calf suede, handmade in a small atelier.",
-    "description": "The Suede Runner — a runner crafted from calf suede and set on a leather sole. Made to be worn for years.",
+    "subcategory": "sneakers",
+    "sku": "BLM-013",
+    "price": 315,
+    "shortDescription": "Belmonte Retro Runner — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Belmonte Retro Runner is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
-        "name": "As shown",
+        "name": "Espresso",
         "hex": "#3a2a1d"
+      },
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      },
+      {
+        "name": "Tan",
+        "hex": "#8a5a2b"
       }
     ],
     "sizes": [
@@ -749,26 +889,31 @@ export const shoeProducts: Product[] = [
       "44",
       "45"
     ],
-    "material": "Calf suede",
-    "stock": 12,
-    "rating": 4.9,
-    "reviewCount": 116,
+    "material": "Full-grain calf leather",
+    "stock": 10,
+    "rating": 4.8,
+    "reviewCount": 88,
     "tags": [
       "shoe",
-      "handmade"
+      "handmade",
+      "belmonte"
     ],
     "featured": false,
-    "trending": true,
+    "trending": false,
     "bestSeller": true,
-    "newArrival": true,
+    "newArrival": false,
     "palette": [
-      "#1a1714",
-      "#5a4a35"
+      "#14130f",
+      "#5c4c3a"
     ],
     "specs": [
       {
         "label": "Upper",
-        "value": "Calf suede"
+        "value": "Full-grain calf leather"
+      },
+      {
+        "label": "Construction",
+        "value": "Blake stitched"
       },
       {
         "label": "Sole",
@@ -778,26 +923,32 @@ export const shoeProducts: Product[] = [
         "label": "Made in",
         "value": "Italy"
       }
-    ],
-    "images": [
-      "/collection/shoes/shoe-13-1.jpg"
     ],
     "custom": false
   },
   {
     "id": "shoe-14",
-    "slug": "belmonte-derby-14",
-    "name": "Calfskin Derby",
+    "slug": "belmonte-venetian-loafer",
+    "name": "Belmonte Venetian Loafer",
     "brand": "belmonte",
     "category": "shoes",
-    "sku": "SHO-014",
-    "price": 285,
-    "shortDescription": "A derby in box calf leather, handmade in a small atelier.",
-    "description": "The Calfskin Derby — a derby crafted from box calf leather and set on a leather sole. Made to be worn for years.",
+    "subcategory": "loafers",
+    "sku": "BLM-014",
+    "price": 345,
+    "shortDescription": "Belmonte Venetian Loafer — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Belmonte Venetian Loafer is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
-        "name": "As shown",
+        "name": "Espresso",
         "hex": "#3a2a1d"
+      },
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      },
+      {
+        "name": "Tan",
+        "hex": "#8a5a2b"
       }
     ],
     "sizes": [
@@ -809,26 +960,31 @@ export const shoeProducts: Product[] = [
       "44",
       "45"
     ],
-    "material": "Box calf leather",
-    "stock": 3,
-    "rating": 4.4,
-    "reviewCount": 14,
+    "material": "Full-grain calf leather",
+    "stock": 9,
+    "rating": 4.7,
+    "reviewCount": 76,
     "tags": [
       "shoe",
-      "handmade"
+      "handmade",
+      "belmonte"
     ],
-    "featured": false,
+    "featured": true,
     "trending": false,
     "bestSeller": false,
     "newArrival": false,
     "palette": [
-      "#1a1714",
-      "#5a4a35"
+      "#1c1510",
+      "#734a2c"
     ],
     "specs": [
       {
         "label": "Upper",
-        "value": "Box calf leather"
+        "value": "Full-grain calf leather"
+      },
+      {
+        "label": "Construction",
+        "value": "Blake stitched"
       },
       {
         "label": "Sole",
@@ -838,26 +994,32 @@ export const shoeProducts: Product[] = [
         "label": "Made in",
         "value": "Italy"
       }
-    ],
-    "images": [
-      "/collection/shoes/shoe-14-1.jpg"
     ],
     "custom": false
   },
   {
     "id": "shoe-15",
-    "slug": "belmonte-loafer-15",
-    "name": "Waxed Loafer",
+    "slug": "belmonte-plain-toe-blucher",
+    "name": "Belmonte Plain-Toe Blucher",
     "brand": "belmonte",
     "category": "shoes",
-    "sku": "SHO-015",
+    "subcategory": "dress",
+    "sku": "BLM-015",
     "price": 350,
-    "shortDescription": "A loafer in waxed suede, handmade in a small atelier.",
-    "description": "The Waxed Loafer — a loafer crafted from waxed suede and set on a leather sole. Made to be worn for years.",
+    "shortDescription": "Belmonte Plain-Toe Blucher — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Belmonte Plain-Toe Blucher is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
-        "name": "As shown",
+        "name": "Espresso",
         "hex": "#3a2a1d"
+      },
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      },
+      {
+        "name": "Tan",
+        "hex": "#8a5a2b"
       }
     ],
     "sizes": [
@@ -869,26 +1031,31 @@ export const shoeProducts: Product[] = [
       "44",
       "45"
     ],
-    "material": "Waxed suede",
-    "stock": 11,
-    "rating": 4.8,
-    "reviewCount": 106,
+    "material": "Full-grain calf leather",
+    "stock": 8,
+    "rating": 4.7,
+    "reviewCount": 67,
     "tags": [
       "shoe",
-      "handmade"
+      "handmade",
+      "belmonte"
     ],
     "featured": false,
-    "trending": false,
-    "bestSeller": true,
-    "newArrival": true,
+    "trending": true,
+    "bestSeller": false,
+    "newArrival": false,
     "palette": [
-      "#1a1714",
-      "#5a4a35"
+      "#121010",
+      "#3c2e22"
     ],
     "specs": [
       {
         "label": "Upper",
-        "value": "Waxed suede"
+        "value": "Full-grain calf leather"
+      },
+      {
+        "label": "Construction",
+        "value": "Blake stitched"
       },
       {
         "label": "Sole",
@@ -898,26 +1065,32 @@ export const shoeProducts: Product[] = [
         "label": "Made in",
         "value": "Italy"
       }
-    ],
-    "images": [
-      "/collection/shoes/shoe-15-1.jpg"
     ],
     "custom": false
   },
   {
     "id": "shoe-16",
-    "slug": "belmonte-chelsea-boot-16",
-    "name": "Nappa Chelsea Boot",
+    "slug": "belmonte-hi-top-sneaker",
+    "name": "Belmonte Hi-Top Sneaker",
     "brand": "belmonte",
     "category": "shoes",
-    "sku": "SHO-016",
-    "price": 305,
-    "shortDescription": "A chelsea boot in nappa leather, handmade in a small atelier.",
-    "description": "The Nappa Chelsea Boot — a chelsea boot crafted from nappa leather and set on a leather sole. Made to be worn for years.",
+    "subcategory": "sneakers",
+    "sku": "BLM-016",
+    "price": 325,
+    "shortDescription": "Belmonte Hi-Top Sneaker — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Belmonte Hi-Top Sneaker is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
-        "name": "As shown",
+        "name": "Espresso",
         "hex": "#3a2a1d"
+      },
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      },
+      {
+        "name": "Tan",
+        "hex": "#8a5a2b"
       }
     ],
     "sizes": [
@@ -929,26 +1102,31 @@ export const shoeProducts: Product[] = [
       "44",
       "45"
     ],
-    "material": "Nappa leather",
-    "stock": 6,
-    "rating": 4.6,
-    "reviewCount": 45,
+    "material": "Full-grain calf leather",
+    "stock": 10,
+    "rating": 4.8,
+    "reviewCount": 79,
     "tags": [
       "shoe",
-      "handmade"
+      "handmade",
+      "belmonte"
     ],
     "featured": false,
     "trending": false,
     "bestSeller": false,
-    "newArrival": false,
+    "newArrival": true,
     "palette": [
-      "#1a1714",
-      "#5a4a35"
+      "#15140f",
+      "#504334"
     ],
     "specs": [
       {
         "label": "Upper",
-        "value": "Nappa leather"
+        "value": "Full-grain calf leather"
+      },
+      {
+        "label": "Construction",
+        "value": "Blake stitched"
       },
       {
         "label": "Sole",
@@ -958,26 +1136,32 @@ export const shoeProducts: Product[] = [
         "label": "Made in",
         "value": "Italy"
       }
-    ],
-    "images": [
-      "/collection/shoes/shoe-16-1.jpg"
     ],
     "custom": false
   },
   {
     "id": "shoe-17",
-    "slug": "belmonte-low-sneaker-17",
-    "name": "Grained Low Sneaker",
+    "slug": "belmonte-jodhpur-boot",
+    "name": "Belmonte Jodhpur Boot",
     "brand": "belmonte",
     "category": "shoes",
-    "sku": "SHO-017",
-    "price": 330,
-    "shortDescription": "A low sneaker in grained calfskin, handmade in a small atelier.",
-    "description": "The Grained Low Sneaker — a low sneaker crafted from grained calfskin and set on a leather sole. Made to be worn for years.",
+    "subcategory": "boots",
+    "sku": "BLM-017",
+    "price": 375,
+    "shortDescription": "Belmonte Jodhpur Boot — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Belmonte Jodhpur Boot is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
-        "name": "As shown",
+        "name": "Espresso",
         "hex": "#3a2a1d"
+      },
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      },
+      {
+        "name": "Tan",
+        "hex": "#8a5a2b"
       }
     ],
     "sizes": [
@@ -989,26 +1173,31 @@ export const shoeProducts: Product[] = [
       "44",
       "45"
     ],
-    "material": "Grained calfskin",
-    "stock": 9,
-    "rating": 4.7,
-    "reviewCount": 81,
+    "material": "Full-grain calf leather",
+    "stock": 13,
+    "rating": 4.9,
+    "reviewCount": 114,
     "tags": [
       "shoe",
-      "handmade"
+      "handmade",
+      "belmonte"
     ],
-    "featured": false,
+    "featured": true,
     "trending": false,
     "bestSeller": false,
-    "newArrival": true,
+    "newArrival": false,
     "palette": [
-      "#1a1714",
-      "#5a4a35"
+      "#131110",
+      "#42301f"
     ],
     "specs": [
       {
         "label": "Upper",
-        "value": "Grained calfskin"
+        "value": "Full-grain calf leather"
+      },
+      {
+        "label": "Construction",
+        "value": "Blake stitched"
       },
       {
         "label": "Sole",
@@ -1018,27 +1207,32 @@ export const shoeProducts: Product[] = [
         "label": "Made in",
         "value": "Italy"
       }
-    ],
-    "images": [
-      "/collection/shoes/shoe-17-1.jpg",
-      "/collection/shoes/shoe-17-2.jpg"
     ],
     "custom": false
   },
   {
     "id": "shoe-18",
-    "slug": "belmonte-oxford-18",
-    "name": "Nubuck Oxford",
+    "slug": "belmonte-tassel-loafer",
+    "name": "Belmonte Tassel Loafer",
     "brand": "belmonte",
     "category": "shoes",
-    "sku": "SHO-018",
-    "price": 355,
-    "shortDescription": "A oxford in nubuck, handmade in a small atelier.",
-    "description": "The Nubuck Oxford — a oxford crafted from nubuck and set on a leather sole. Made to be worn for years.",
+    "subcategory": "loafers",
+    "sku": "BLM-018",
+    "price": 340,
+    "shortDescription": "Belmonte Tassel Loafer — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Belmonte Tassel Loafer is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
-        "name": "As shown",
+        "name": "Espresso",
         "hex": "#3a2a1d"
+      },
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      },
+      {
+        "name": "Tan",
+        "hex": "#8a5a2b"
       }
     ],
     "sizes": [
@@ -1050,26 +1244,31 @@ export const shoeProducts: Product[] = [
       "44",
       "45"
     ],
-    "material": "Nubuck",
-    "stock": 12,
-    "rating": 4.9,
-    "reviewCount": 116,
+    "material": "Full-grain calf leather",
+    "stock": 10,
+    "rating": 4.8,
+    "reviewCount": 80,
     "tags": [
       "shoe",
-      "handmade"
+      "handmade",
+      "belmonte"
     ],
     "featured": false,
-    "trending": true,
+    "trending": false,
     "bestSeller": true,
-    "newArrival": true,
+    "newArrival": false,
     "palette": [
-      "#1a1714",
-      "#5a4a35"
+      "#1a1410",
+      "#6a4526"
     ],
     "specs": [
       {
         "label": "Upper",
-        "value": "Nubuck"
+        "value": "Full-grain calf leather"
+      },
+      {
+        "label": "Construction",
+        "value": "Blake stitched"
       },
       {
         "label": "Sole",
@@ -1079,26 +1278,32 @@ export const shoeProducts: Product[] = [
         "label": "Made in",
         "value": "Italy"
       }
-    ],
-    "images": [
-      "/collection/shoes/shoe-18-1.jpg"
     ],
     "custom": false
   },
   {
     "id": "shoe-19",
-    "slug": "belmonte-monk-strap-19",
-    "name": "Suede Monk Strap",
+    "slug": "belmonte-runner-knit",
+    "name": "Belmonte Runner Knit",
     "brand": "belmonte",
     "category": "shoes",
-    "sku": "SHO-019",
-    "price": 290,
-    "shortDescription": "A monk strap in calf suede, handmade in a small atelier.",
-    "description": "The Suede Monk Strap — a monk strap crafted from calf suede and set on a leather sole. Made to be worn for years.",
+    "subcategory": "sneakers",
+    "sku": "BLM-019",
+    "price": 305,
+    "shortDescription": "Belmonte Runner Knit — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Belmonte Runner Knit is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
-        "name": "As shown",
+        "name": "Espresso",
         "hex": "#3a2a1d"
+      },
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      },
+      {
+        "name": "Tan",
+        "hex": "#8a5a2b"
       }
     ],
     "sizes": [
@@ -1110,26 +1315,31 @@ export const shoeProducts: Product[] = [
       "44",
       "45"
     ],
-    "material": "Calf suede",
-    "stock": 4,
-    "rating": 4.5,
-    "reviewCount": 26,
+    "material": "Full-grain calf leather",
+    "stock": 10,
+    "rating": 4.8,
+    "reviewCount": 84,
     "tags": [
       "shoe",
-      "handmade"
+      "handmade",
+      "belmonte"
     ],
     "featured": false,
-    "trending": false,
+    "trending": true,
     "bestSeller": false,
     "newArrival": false,
     "palette": [
-      "#1a1714",
-      "#5a4a35"
+      "#16150f",
+      "#585044"
     ],
     "specs": [
       {
         "label": "Upper",
-        "value": "Calf suede"
+        "value": "Full-grain calf leather"
+      },
+      {
+        "label": "Construction",
+        "value": "Blake stitched"
       },
       {
         "label": "Sole",
@@ -1139,27 +1349,32 @@ export const shoeProducts: Product[] = [
         "label": "Made in",
         "value": "Italy"
       }
-    ],
-    "images": [
-      "/collection/shoes/shoe-19-1.jpg",
-      "/collection/shoes/shoe-19-2.jpg"
     ],
     "custom": false
   },
   {
     "id": "shoe-20",
-    "slug": "belmonte-trainer-20",
-    "name": "Calfskin Trainer",
+    "slug": "belmonte-longwing-derby",
+    "name": "Belmonte Longwing Derby",
     "brand": "belmonte",
     "category": "shoes",
-    "sku": "SHO-020",
-    "price": 295,
-    "shortDescription": "A trainer in box calf leather, handmade in a small atelier.",
-    "description": "The Calfskin Trainer — a trainer crafted from box calf leather and set on a leather sole. Made to be worn for years.",
+    "subcategory": "dress",
+    "sku": "BLM-020",
+    "price": 360,
+    "shortDescription": "Belmonte Longwing Derby — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Belmonte Longwing Derby is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
-        "name": "As shown",
+        "name": "Espresso",
         "hex": "#3a2a1d"
+      },
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      },
+      {
+        "name": "Tan",
+        "hex": "#8a5a2b"
       }
     ],
     "sizes": [
@@ -1171,26 +1386,31 @@ export const shoeProducts: Product[] = [
       "44",
       "45"
     ],
-    "material": "Box calf leather",
-    "stock": 4,
-    "rating": 4.5,
-    "reviewCount": 27,
+    "material": "Full-grain calf leather",
+    "stock": 11,
+    "rating": 4.8,
+    "reviewCount": 89,
     "tags": [
       "shoe",
-      "handmade"
+      "handmade",
+      "belmonte"
     ],
     "featured": false,
     "trending": false,
     "bestSeller": false,
-    "newArrival": false,
+    "newArrival": true,
     "palette": [
-      "#1a1714",
-      "#5a4a35"
+      "#131110",
+      "#4a382a"
     ],
     "specs": [
       {
         "label": "Upper",
-        "value": "Box calf leather"
+        "value": "Full-grain calf leather"
+      },
+      {
+        "label": "Construction",
+        "value": "Blake stitched"
       },
       {
         "label": "Sole",
@@ -1200,26 +1420,32 @@ export const shoeProducts: Product[] = [
         "label": "Made in",
         "value": "Italy"
       }
-    ],
-    "images": [
-      "/collection/shoes/shoe-20-1.jpg"
     ],
     "custom": false
   },
   {
     "id": "shoe-21",
-    "slug": "belmonte-high-top-21",
-    "name": "Waxed High-Top",
+    "slug": "belmonte-suede-sneaker",
+    "name": "Belmonte Suede Sneaker",
     "brand": "belmonte",
     "category": "shoes",
-    "sku": "SHO-021",
-    "price": 300,
-    "shortDescription": "A high-top in waxed suede, handmade in a small atelier.",
-    "description": "The Waxed High-Top — a high-top crafted from waxed suede and set on a leather sole. Made to be worn for years.",
+    "subcategory": "sneakers",
+    "sku": "BLM-021",
+    "price": 310,
+    "shortDescription": "Belmonte Suede Sneaker — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Belmonte Suede Sneaker is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
-        "name": "As shown",
+        "name": "Espresso",
         "hex": "#3a2a1d"
+      },
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      },
+      {
+        "name": "Tan",
+        "hex": "#8a5a2b"
       }
     ],
     "sizes": [
@@ -1231,26 +1457,31 @@ export const shoeProducts: Product[] = [
       "44",
       "45"
     ],
-    "material": "Waxed suede",
-    "stock": 5,
-    "rating": 4.5,
-    "reviewCount": 38,
+    "material": "Full-grain calf leather",
+    "stock": 14,
+    "rating": 4.9,
+    "reviewCount": 122,
     "tags": [
       "shoe",
-      "handmade"
+      "handmade",
+      "belmonte"
     ],
     "featured": false,
     "trending": false,
-    "bestSeller": false,
+    "bestSeller": true,
     "newArrival": false,
     "palette": [
-      "#1a1714",
-      "#5a4a35"
+      "#181410",
+      "#7a583a"
     ],
     "specs": [
       {
         "label": "Upper",
-        "value": "Waxed suede"
+        "value": "Full-grain calf leather"
+      },
+      {
+        "label": "Construction",
+        "value": "Blake stitched"
       },
       {
         "label": "Sole",
@@ -1260,26 +1491,32 @@ export const shoeProducts: Product[] = [
         "label": "Made in",
         "value": "Italy"
       }
-    ],
-    "images": [
-      "/collection/shoes/shoe-21-1.jpg"
     ],
     "custom": false
   },
   {
     "id": "shoe-22",
-    "slug": "belmonte-brogue-22",
-    "name": "Nappa Brogue",
+    "slug": "belmonte-chukka-noir",
+    "name": "Belmonte Chukka Noir",
     "brand": "belmonte",
     "category": "shoes",
-    "sku": "SHO-022",
-    "price": 360,
-    "shortDescription": "A brogue in nappa leather, handmade in a small atelier.",
-    "description": "The Nappa Brogue — a brogue crafted from nappa leather and set on a leather sole. Made to be worn for years.",
+    "subcategory": "boots",
+    "sku": "BLM-022",
+    "price": 350,
+    "shortDescription": "Belmonte Chukka Noir — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Belmonte Chukka Noir is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
-        "name": "As shown",
+        "name": "Espresso",
         "hex": "#3a2a1d"
+      },
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      },
+      {
+        "name": "Tan",
+        "hex": "#8a5a2b"
       }
     ],
     "sizes": [
@@ -1291,26 +1528,31 @@ export const shoeProducts: Product[] = [
       "44",
       "45"
     ],
-    "material": "Nappa leather",
-    "stock": 12,
-    "rating": 4.9,
-    "reviewCount": 121,
+    "material": "Full-grain calf leather",
+    "stock": 6,
+    "rating": 4.6,
+    "reviewCount": 38,
     "tags": [
       "shoe",
-      "handmade"
+      "handmade",
+      "belmonte"
     ],
-    "featured": false,
-    "trending": true,
-    "bestSeller": true,
-    "newArrival": true,
+    "featured": true,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
     "palette": [
-      "#1a1714",
-      "#5a4a35"
+      "#101010",
+      "#333029"
     ],
     "specs": [
       {
         "label": "Upper",
-        "value": "Nappa leather"
+        "value": "Full-grain calf leather"
+      },
+      {
+        "label": "Construction",
+        "value": "Blake stitched"
       },
       {
         "label": "Sole",
@@ -1320,26 +1562,32 @@ export const shoeProducts: Product[] = [
         "label": "Made in",
         "value": "Italy"
       }
-    ],
-    "images": [
-      "/collection/shoes/shoe-22-1.jpg"
     ],
     "custom": false
   },
   {
     "id": "shoe-23",
-    "slug": "belmonte-slip-on-23",
-    "name": "Grained Slip-On",
+    "slug": "belmonte-horsebit-loafer",
+    "name": "Belmonte Horsebit Loafer",
     "brand": "belmonte",
     "category": "shoes",
-    "sku": "SHO-023",
+    "subcategory": "loafers",
+    "sku": "BLM-023",
     "price": 355,
-    "shortDescription": "A slip-on in grained calfskin, handmade in a small atelier.",
-    "description": "The Grained Slip-On — a slip-on crafted from grained calfskin and set on a leather sole. Made to be worn for years.",
+    "shortDescription": "Belmonte Horsebit Loafer — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Belmonte Horsebit Loafer is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
-        "name": "As shown",
+        "name": "Espresso",
         "hex": "#3a2a1d"
+      },
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      },
+      {
+        "name": "Tan",
+        "hex": "#8a5a2b"
       }
     ],
     "sizes": [
@@ -1351,26 +1599,31 @@ export const shoeProducts: Product[] = [
       "44",
       "45"
     ],
-    "material": "Grained calfskin",
-    "stock": 12,
-    "rating": 4.9,
-    "reviewCount": 117,
+    "material": "Full-grain calf leather",
+    "stock": 9,
+    "rating": 4.7,
+    "reviewCount": 73,
     "tags": [
       "shoe",
-      "handmade"
+      "handmade",
+      "belmonte"
     ],
     "featured": false,
     "trending": true,
-    "bestSeller": true,
-    "newArrival": true,
+    "bestSeller": false,
+    "newArrival": false,
     "palette": [
-      "#1a1714",
-      "#5a4a35"
+      "#1c1510",
+      "#7a4e2c"
     ],
     "specs": [
       {
         "label": "Upper",
-        "value": "Grained calfskin"
+        "value": "Full-grain calf leather"
+      },
+      {
+        "label": "Construction",
+        "value": "Blake stitched"
       },
       {
         "label": "Sole",
@@ -1380,26 +1633,32 @@ export const shoeProducts: Product[] = [
         "label": "Made in",
         "value": "Italy"
       }
-    ],
-    "images": [
-      "/collection/shoes/shoe-23-1.jpg"
     ],
     "custom": false
   },
   {
     "id": "shoe-24",
-    "slug": "belmonte-chukka-boot-24",
-    "name": "Nubuck Chukka Boot",
+    "slug": "belmonte-city-trainer",
+    "name": "Belmonte City Trainer",
     "brand": "belmonte",
     "category": "shoes",
-    "sku": "SHO-024",
-    "price": 290,
-    "shortDescription": "A chukka boot in nubuck, handmade in a small atelier.",
-    "description": "The Nubuck Chukka Boot — a chukka boot crafted from nubuck and set on a leather sole. Made to be worn for years.",
+    "subcategory": "sneakers",
+    "sku": "BLM-024",
+    "price": 300,
+    "shortDescription": "Belmonte City Trainer — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Belmonte City Trainer is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
-        "name": "As shown",
+        "name": "Espresso",
         "hex": "#3a2a1d"
+      },
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      },
+      {
+        "name": "Tan",
+        "hex": "#8a5a2b"
       }
     ],
     "sizes": [
@@ -1411,86 +1670,31 @@ export const shoeProducts: Product[] = [
       "44",
       "45"
     ],
-    "material": "Nubuck",
-    "stock": 4,
+    "material": "Full-grain calf leather",
+    "stock": 5,
     "rating": 4.5,
-    "reviewCount": 22,
+    "reviewCount": 25,
     "tags": [
       "shoe",
-      "handmade"
+      "handmade",
+      "belmonte"
     ],
     "featured": false,
     "trending": false,
     "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#1a1714",
-      "#5a4a35"
-    ],
-    "specs": [
-      {
-        "label": "Upper",
-        "value": "Nubuck"
-      },
-      {
-        "label": "Sole",
-        "value": "Leather"
-      },
-      {
-        "label": "Made in",
-        "value": "Italy"
-      }
-    ],
-    "images": [
-      "/collection/shoes/shoe-24-1.jpg"
-    ],
-    "custom": false
-  },
-  {
-    "id": "shoe-25",
-    "slug": "belmonte-runner-25",
-    "name": "Suede Runner",
-    "brand": "belmonte",
-    "category": "shoes",
-    "sku": "SHO-025",
-    "price": 365,
-    "shortDescription": "A runner in calf suede, handmade in a small atelier.",
-    "description": "The Suede Runner — a runner crafted from calf suede and set on a leather sole. Made to be worn for years.",
-    "colors": [
-      {
-        "name": "As shown",
-        "hex": "#3a2a1d"
-      }
-    ],
-    "sizes": [
-      "39",
-      "40",
-      "41",
-      "42",
-      "43",
-      "44",
-      "45"
-    ],
-    "material": "Calf suede",
-    "stock": 12,
-    "rating": 4.9,
-    "reviewCount": 126,
-    "tags": [
-      "shoe",
-      "handmade"
-    ],
-    "featured": false,
-    "trending": true,
-    "bestSeller": true,
     "newArrival": true,
     "palette": [
-      "#1a1714",
-      "#5a4a35"
+      "#15130f",
+      "#4e463c"
     ],
     "specs": [
       {
         "label": "Upper",
-        "value": "Calf suede"
+        "value": "Full-grain calf leather"
+      },
+      {
+        "label": "Construction",
+        "value": "Blake stitched"
       },
       {
         "label": "Sole",
@@ -1500,129 +1704,6 @@ export const shoeProducts: Product[] = [
         "label": "Made in",
         "value": "Italy"
       }
-    ],
-    "images": [
-      "/collection/shoes/shoe-25-1.jpg"
-    ],
-    "custom": false
-  },
-  {
-    "id": "shoe-26",
-    "slug": "belmonte-derby-26",
-    "name": "Calfskin Derby",
-    "brand": "belmonte",
-    "category": "shoes",
-    "sku": "SHO-026",
-    "price": 325,
-    "shortDescription": "A derby in box calf leather, handmade in a small atelier.",
-    "description": "The Calfskin Derby — a derby crafted from box calf leather and set on a leather sole. Made to be worn for years.",
-    "colors": [
-      {
-        "name": "As shown",
-        "hex": "#3a2a1d"
-      }
-    ],
-    "sizes": [
-      "39",
-      "40",
-      "41",
-      "42",
-      "43",
-      "44",
-      "45"
-    ],
-    "material": "Box calf leather",
-    "stock": 8,
-    "rating": 4.7,
-    "reviewCount": 75,
-    "tags": [
-      "shoe",
-      "handmade"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#1a1714",
-      "#5a4a35"
-    ],
-    "specs": [
-      {
-        "label": "Upper",
-        "value": "Box calf leather"
-      },
-      {
-        "label": "Sole",
-        "value": "Leather"
-      },
-      {
-        "label": "Made in",
-        "value": "Italy"
-      }
-    ],
-    "images": [
-      "/collection/shoes/shoe-26-1.jpg"
-    ],
-    "custom": false
-  },
-  {
-    "id": "shoe-27",
-    "slug": "belmonte-loafer-27",
-    "name": "Waxed Loafer",
-    "brand": "belmonte",
-    "category": "shoes",
-    "sku": "SHO-027",
-    "price": 330,
-    "shortDescription": "A loafer in waxed suede, handmade in a small atelier.",
-    "description": "The Waxed Loafer — a loafer crafted from waxed suede and set on a leather sole. Made to be worn for years.",
-    "colors": [
-      {
-        "name": "As shown",
-        "hex": "#3a2a1d"
-      }
-    ],
-    "sizes": [
-      "39",
-      "40",
-      "41",
-      "42",
-      "43",
-      "44",
-      "45"
-    ],
-    "material": "Waxed suede",
-    "stock": 8,
-    "rating": 4.7,
-    "reviewCount": 77,
-    "tags": [
-      "shoe",
-      "handmade"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#1a1714",
-      "#5a4a35"
-    ],
-    "specs": [
-      {
-        "label": "Upper",
-        "value": "Waxed suede"
-      },
-      {
-        "label": "Sole",
-        "value": "Leather"
-      },
-      {
-        "label": "Made in",
-        "value": "Italy"
-      }
-    ],
-    "images": [
-      "/collection/shoes/shoe-27-1.jpg"
     ],
     "custom": false
   }

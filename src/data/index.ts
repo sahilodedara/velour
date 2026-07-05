@@ -4,6 +4,7 @@ import { signatureProducts } from "./signature";
 import { collectionBrands, collectionProducts } from "./collection";
 import { shoeProducts } from "./shoes";
 import { extraBrands, extraProducts } from "./extras";
+import { generatedBrands, generatedProducts } from "./generated";
 import type { Brand, Category, Product, Review, SortKey } from "./types";
 import { discountPercent } from "@/lib/utils";
 
@@ -27,10 +28,10 @@ function normPrice(p: Product): Product {
 }
 
 /** Seed catalog + signature + imports + demo collection + shoes + extras (perfumes/accessories). */
-const allBrands: Brand[] = [...seedBrands, ...importedBrands, ...collectionBrands, ...extraBrands];
+const allBrands: Brand[] = [...seedBrands, ...importedBrands, ...collectionBrands, ...extraBrands, ...generatedBrands];
 export const brands: Brand[] = allBrands.filter((b, i) => allBrands.findIndex((x) => x.slug === b.slug) === i);
 export const products: Product[] = [
-  ...collectionProducts, ...shoeProducts, ...seedProducts, ...signatureProducts, ...importedProducts, ...extraProducts,
+  ...collectionProducts, ...shoeProducts, ...seedProducts, ...signatureProducts, ...importedProducts, ...extraProducts, ...generatedProducts,
 ].map(normPrice);
 export { categories };
 export type { Brand, Category, Product, Review, SortKey };

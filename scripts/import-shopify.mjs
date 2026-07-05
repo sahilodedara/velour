@@ -118,11 +118,21 @@ function processFile(path) {
   return { out, vendors };
 }
 
+// Per-category caps keep the imported set balanced (Fashion.csv is mostly clothing).
+const CAP = { clothing: 90, shoes: 60, jewelry: 45, bags: 30, accessories: 55, perfumes: 20, watches: 40 };
+const catCount = {};
 const allProducts = [], allVendors = new Map(), seenSlug = new Set();
 for (const f of FILES) {
   const { out, vendors } = processFile(f);
   for (const [s, n] of vendors) if (!allVendors.has(s)) allVendors.set(s, n);
-  for (const p of out) { if (seenSlug.has(p.slug)) continue; seenSlug.add(p.slug); allProducts.push(p); if (allProducts.length >= MAX) break; }
+  for (const p of out) {
+    if (seenSlug.has(p.slug)) continue;
+    if ((catCount[p.category] || 0) >= (CAP[p.category] ?? 50)) continue;
+    seenSlug.add(p.slug);
+    catCount[p.category] = (catCount[p.category] || 0) + 1;
+    allProducts.push(p);
+    if (allProducts.length >= MAX) break;
+  }
   if (allProducts.length >= MAX) break;
 }
 

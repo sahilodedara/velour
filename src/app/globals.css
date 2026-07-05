@@ -129,6 +129,7 @@
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+    -webkit-tap-highlight-color: transparent; /* no grey flash on mobile tap */
   }
   body {
     background-color: var(--bg);
@@ -136,6 +137,15 @@
     font-family: var(--font-sans);
     font-feature-settings: "ss01", "cv01";
     overflow-x: hidden;
+    overscroll-behavior-y: none; /* kill scroll-chaining jank */
+  }
+  /* Snappier taps (removes 300ms delay feel) + smoother press on touch. */
+  a, button, [role="button"], select, summary {
+    touch-action: manipulation;
+  }
+  img {
+    -webkit-user-drag: none;
+    user-select: none;
   }
   h1, h2, h3, h4 {
     font-family: var(--font-display);

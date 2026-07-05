@@ -20,6 +20,7 @@ import { cn, formatPrice, discountPercent } from "@/lib/utils";
 
 export function ProductCard({ product, priority }: { product: Product; priority?: boolean }) {
   const [quickOpen, setQuickOpen] = useState(false);
+  const [imgLoaded, setImgLoaded] = useState(false);
   const wished = useWishlist((s) => s.ids.includes(product.id));
   const toggleWish = useWishlist((s) => s.toggle);
   const add = useCart((s) => s.add);
@@ -58,7 +59,18 @@ export function ProductCard({ product, priority }: { product: Product; priority?
           <div className="absolute inset-0 transition-opacity duration-700 ease-[var(--ease-luxe)] group-hover:opacity-0">
             {img0 ? (
               // eslint-disable-next-line @next/next/no-img-element
-              <img src={img0} alt={name} className="h-full w-full object-cover" />
+              <img
+                src={img0}
+                alt={name}
+                loading={priority ? "eager" : "lazy"}
+                decoding="async"
+                ref={(el) => { if (el?.complete) setImgLoaded(true); }}
+                onLoad={() => setImgLoaded(true)}
+                className={cn(
+                  "h-full w-full object-cover transition-opacity duration-500 ease-[var(--ease-luxe)]",
+                  imgLoaded ? "opacity-100" : "opacity-0",
+                )}
+              />
             ) : (
               <ProductArtwork palette={product.palette} monogram={monogram} category={product.category} name={name} />
             )}

@@ -5,15 +5,15 @@ import type { Product } from "./types";
 export const shoeProducts: Product[] = [
   {
     "id": "shoe-1",
-    "slug": "belmonte-suede-runner",
-    "name": "Belmonte Suede Runner",
+    "slug": "aldous-suede-runner",
+    "name": "Aldous Suede Runner",
     "brand": "belmonte",
     "category": "shoes",
     "subcategory": "sneakers",
     "sku": "BLM-001",
     "price": 320,
-    "shortDescription": "Belmonte Suede Runner — handmade in full-grain calf leather, on a leather sole.",
-    "description": "Belmonte Suede Runner is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
+    "shortDescription": "Aldous Suede Runner — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Aldous Suede Runner is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
         "name": "Espresso",
@@ -38,9 +38,9 @@ export const shoeProducts: Product[] = [
       "45"
     ],
     "material": "Full-grain calf leather",
-    "stock": 7,
-    "rating": 4.7,
-    "reviewCount": 54,
+    "stock": 14,
+    "rating": 4.9,
+    "reviewCount": 125,
     "tags": [
       "shoe",
       "handmade",
@@ -76,15 +76,15 @@ export const shoeProducts: Product[] = [
   },
   {
     "id": "shoe-2",
-    "slug": "belmonte-leather-derby",
-    "name": "Belmonte Leather Derby",
+    "slug": "bramley-leather-derby",
+    "name": "Bramley Leather Derby",
     "brand": "belmonte",
     "category": "shoes",
     "subcategory": "dress",
     "sku": "BLM-002",
     "price": 360,
-    "shortDescription": "Belmonte Leather Derby — handmade in full-grain calf leather, on a leather sole.",
-    "description": "Belmonte Leather Derby is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
+    "shortDescription": "Bramley Leather Derby — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Bramley Leather Derby is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
         "name": "Espresso",
@@ -109,9 +109,9 @@ export const shoeProducts: Product[] = [
       "45"
     ],
     "material": "Full-grain calf leather",
-    "stock": 8,
-    "rating": 4.7,
-    "reviewCount": 67,
+    "stock": 15,
+    "rating": 5,
+    "reviewCount": 140,
     "tags": [
       "shoe",
       "handmade",
@@ -147,15 +147,15 @@ export const shoeProducts: Product[] = [
   },
   {
     "id": "shoe-3",
-    "slug": "belmonte-penny-loafer",
-    "name": "Belmonte Penny Loafer",
+    "slug": "calloway-penny-loafer",
+    "name": "Calloway Penny Loafer",
     "brand": "belmonte",
     "category": "shoes",
     "subcategory": "loafers",
     "sku": "BLM-003",
     "price": 335,
-    "shortDescription": "Belmonte Penny Loafer — handmade in full-grain calf leather, on a leather sole.",
-    "description": "Belmonte Penny Loafer is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
+    "shortDescription": "Calloway Penny Loafer — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Calloway Penny Loafer is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
         "name": "Espresso",
@@ -180,9 +180,9 @@ export const shoeProducts: Product[] = [
       "45"
     ],
     "material": "Full-grain calf leather",
-    "stock": 13,
-    "rating": 4.9,
-    "reviewCount": 117,
+    "stock": 9,
+    "rating": 4.7,
+    "reviewCount": 75,
     "tags": [
       "shoe",
       "handmade",
@@ -218,15 +218,15 @@ export const shoeProducts: Product[] = [
   },
   {
     "id": "shoe-4",
-    "slug": "belmonte-chelsea-boot",
-    "name": "Belmonte Chelsea Boot",
+    "slug": "dorset-chelsea-boot",
+    "name": "Dorset Chelsea Boot",
     "brand": "belmonte",
     "category": "shoes",
     "subcategory": "boots",
     "sku": "BLM-004",
     "price": 380,
-    "shortDescription": "Belmonte Chelsea Boot — handmade in full-grain calf leather, on a leather sole.",
-    "description": "Belmonte Chelsea Boot is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
+    "shortDescription": "Dorset Chelsea Boot — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Dorset Chelsea Boot is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
         "name": "Espresso",
@@ -251,9 +251,9 @@ export const shoeProducts: Product[] = [
       "45"
     ],
     "material": "Full-grain calf leather",
-    "stock": 10,
+    "stock": 12,
     "rating": 4.8,
-    "reviewCount": 83,
+    "reviewCount": 101,
     "tags": [
       "shoe",
       "handmade",
@@ -289,15 +289,15 @@ export const shoeProducts: Product[] = [
   },
   {
     "id": "shoe-5",
-    "slug": "belmonte-low-court-sneaker",
-    "name": "Belmonte Low Court Sneaker",
+    "slug": "emerson-low-court-sneaker",
+    "name": "Emerson Low Court Sneaker",
     "brand": "belmonte",
     "category": "shoes",
     "subcategory": "sneakers",
     "sku": "BLM-005",
     "price": 300,
-    "shortDescription": "Belmonte Low Court Sneaker — handmade in full-grain calf leather, on a leather sole.",
-    "description": "Belmonte Low Court Sneaker is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
+    "shortDescription": "Emerson Low Court Sneaker — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Emerson Low Court Sneaker is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
         "name": "Espresso",
@@ -322,9 +322,9 @@ export const shoeProducts: Product[] = [
       "45"
     ],
     "material": "Full-grain calf leather",
-    "stock": 12,
-    "rating": 4.9,
-    "reviewCount": 107,
+    "stock": 4,
+    "rating": 4.5,
+    "reviewCount": 15,
     "tags": [
       "shoe",
       "handmade",
@@ -360,15 +360,15 @@ export const shoeProducts: Product[] = [
   },
   {
     "id": "shoe-6",
-    "slug": "belmonte-cap-toe-oxford",
-    "name": "Belmonte Cap-Toe Oxford",
+    "slug": "fairfax-cap-toe-oxford",
+    "name": "Fairfax Cap-Toe Oxford",
     "brand": "belmonte",
     "category": "shoes",
     "subcategory": "dress",
     "sku": "BLM-006",
     "price": 370,
-    "shortDescription": "Belmonte Cap-Toe Oxford — handmade in full-grain calf leather, on a leather sole.",
-    "description": "Belmonte Cap-Toe Oxford is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
+    "shortDescription": "Fairfax Cap-Toe Oxford — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Fairfax Cap-Toe Oxford is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
         "name": "Espresso",
@@ -393,9 +393,9 @@ export const shoeProducts: Product[] = [
       "45"
     ],
     "material": "Full-grain calf leather",
-    "stock": 9,
-    "rating": 4.7,
-    "reviewCount": 77,
+    "stock": 11,
+    "rating": 4.8,
+    "reviewCount": 93,
     "tags": [
       "shoe",
       "handmade",
@@ -431,15 +431,15 @@ export const shoeProducts: Product[] = [
   },
   {
     "id": "shoe-7",
-    "slug": "belmonte-monk-strap",
-    "name": "Belmonte Monk Strap",
+    "slug": "grantham-monk-strap",
+    "name": "Grantham Monk Strap",
     "brand": "belmonte",
     "category": "shoes",
     "subcategory": "dress",
     "sku": "BLM-007",
     "price": 355,
-    "shortDescription": "Belmonte Monk Strap — handmade in full-grain calf leather, on a leather sole.",
-    "description": "Belmonte Monk Strap is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
+    "shortDescription": "Grantham Monk Strap — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Grantham Monk Strap is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
         "name": "Espresso",
@@ -464,9 +464,9 @@ export const shoeProducts: Product[] = [
       "45"
     ],
     "material": "Full-grain calf leather",
-    "stock": 14,
-    "rating": 4.9,
-    "reviewCount": 129,
+    "stock": 7,
+    "rating": 4.7,
+    "reviewCount": 55,
     "tags": [
       "shoe",
       "handmade",
@@ -502,15 +502,15 @@ export const shoeProducts: Product[] = [
   },
   {
     "id": "shoe-8",
-    "slug": "belmonte-court-trainer",
-    "name": "Belmonte Court Trainer",
+    "slug": "hensley-court-trainer",
+    "name": "Hensley Court Trainer",
     "brand": "belmonte",
     "category": "shoes",
     "subcategory": "sneakers",
     "sku": "BLM-008",
     "price": 295,
-    "shortDescription": "Belmonte Court Trainer — handmade in full-grain calf leather, on a leather sole.",
-    "description": "Belmonte Court Trainer is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
+    "shortDescription": "Hensley Court Trainer — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Hensley Court Trainer is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
         "name": "Espresso",
@@ -535,9 +535,9 @@ export const shoeProducts: Product[] = [
       "45"
     ],
     "material": "Full-grain calf leather",
-    "stock": 15,
-    "rating": 5,
-    "reviewCount": 133,
+    "stock": 13,
+    "rating": 4.9,
+    "reviewCount": 114,
     "tags": [
       "shoe",
       "handmade",
@@ -573,15 +573,15 @@ export const shoeProducts: Product[] = [
   },
   {
     "id": "shoe-9",
-    "slug": "belmonte-suede-chukka",
-    "name": "Belmonte Suede Chukka",
+    "slug": "ivory-suede-chukka",
+    "name": "Ivory Suede Chukka",
     "brand": "belmonte",
     "category": "shoes",
     "subcategory": "boots",
     "sku": "BLM-009",
     "price": 340,
-    "shortDescription": "Belmonte Suede Chukka — handmade in full-grain calf leather, on a leather sole.",
-    "description": "Belmonte Suede Chukka is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
+    "shortDescription": "Ivory Suede Chukka — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Ivory Suede Chukka is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
         "name": "Espresso",
@@ -606,9 +606,9 @@ export const shoeProducts: Product[] = [
       "45"
     ],
     "material": "Full-grain calf leather",
-    "stock": 10,
+    "stock": 11,
     "rating": 4.8,
-    "reviewCount": 83,
+    "reviewCount": 97,
     "tags": [
       "shoe",
       "handmade",
@@ -644,15 +644,15 @@ export const shoeProducts: Product[] = [
   },
   {
     "id": "shoe-10",
-    "slug": "belmonte-wingtip-brogue",
-    "name": "Belmonte Wingtip Brogue",
+    "slug": "jephson-wingtip-brogue",
+    "name": "Jephson Wingtip Brogue",
     "brand": "belmonte",
     "category": "shoes",
     "subcategory": "dress",
     "sku": "BLM-010",
     "price": 365,
-    "shortDescription": "Belmonte Wingtip Brogue — handmade in full-grain calf leather, on a leather sole.",
-    "description": "Belmonte Wingtip Brogue is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
+    "shortDescription": "Jephson Wingtip Brogue — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Jephson Wingtip Brogue is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
         "name": "Espresso",
@@ -677,9 +677,9 @@ export const shoeProducts: Product[] = [
       "45"
     ],
     "material": "Full-grain calf leather",
-    "stock": 10,
-    "rating": 4.8,
-    "reviewCount": 86,
+    "stock": 14,
+    "rating": 4.9,
+    "reviewCount": 124,
     "tags": [
       "shoe",
       "handmade",
@@ -715,15 +715,15 @@ export const shoeProducts: Product[] = [
   },
   {
     "id": "shoe-11",
-    "slug": "belmonte-slip-on-mocassin",
-    "name": "Belmonte Slip-On Mocassin",
+    "slug": "kingsford-slip-on-mocassin",
+    "name": "Kingsford Slip-On Mocassin",
     "brand": "belmonte",
     "category": "shoes",
     "subcategory": "loafers",
     "sku": "BLM-011",
     "price": 285,
-    "shortDescription": "Belmonte Slip-On Mocassin — handmade in full-grain calf leather, on a leather sole.",
-    "description": "Belmonte Slip-On Mocassin is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
+    "shortDescription": "Kingsford Slip-On Mocassin — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Kingsford Slip-On Mocassin is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
         "name": "Espresso",
@@ -748,9 +748,9 @@ export const shoeProducts: Product[] = [
       "45"
     ],
     "material": "Full-grain calf leather",
-    "stock": 11,
-    "rating": 4.8,
-    "reviewCount": 92,
+    "stock": 6,
+    "rating": 4.6,
+    "reviewCount": 42,
     "tags": [
       "shoe",
       "handmade",
@@ -786,15 +786,15 @@ export const shoeProducts: Product[] = [
   },
   {
     "id": "shoe-12",
-    "slug": "belmonte-desert-boot",
-    "name": "Belmonte Desert Boot",
+    "slug": "lockwood-desert-boot",
+    "name": "Lockwood Desert Boot",
     "brand": "belmonte",
     "category": "shoes",
     "subcategory": "boots",
     "sku": "BLM-012",
     "price": 330,
-    "shortDescription": "Belmonte Desert Boot — handmade in full-grain calf leather, on a leather sole.",
-    "description": "Belmonte Desert Boot is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
+    "shortDescription": "Lockwood Desert Boot — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Lockwood Desert Boot is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
         "name": "Espresso",
@@ -819,9 +819,9 @@ export const shoeProducts: Product[] = [
       "45"
     ],
     "material": "Full-grain calf leather",
-    "stock": 8,
-    "rating": 4.7,
-    "reviewCount": 61,
+    "stock": 13,
+    "rating": 4.9,
+    "reviewCount": 119,
     "tags": [
       "shoe",
       "handmade",
@@ -857,15 +857,15 @@ export const shoeProducts: Product[] = [
   },
   {
     "id": "shoe-13",
-    "slug": "belmonte-retro-runner",
-    "name": "Belmonte Retro Runner",
+    "slug": "marden-retro-runner",
+    "name": "Marden Retro Runner",
     "brand": "belmonte",
     "category": "shoes",
     "subcategory": "sneakers",
     "sku": "BLM-013",
     "price": 315,
-    "shortDescription": "Belmonte Retro Runner — handmade in full-grain calf leather, on a leather sole.",
-    "description": "Belmonte Retro Runner is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
+    "shortDescription": "Marden Retro Runner — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Marden Retro Runner is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
         "name": "Espresso",
@@ -890,9 +890,9 @@ export const shoeProducts: Product[] = [
       "45"
     ],
     "material": "Full-grain calf leather",
-    "stock": 10,
-    "rating": 4.8,
-    "reviewCount": 88,
+    "stock": 5,
+    "rating": 4.6,
+    "reviewCount": 29,
     "tags": [
       "shoe",
       "handmade",
@@ -928,15 +928,15 @@ export const shoeProducts: Product[] = [
   },
   {
     "id": "shoe-14",
-    "slug": "belmonte-venetian-loafer",
-    "name": "Belmonte Venetian Loafer",
+    "slug": "northcote-venetian-loafer",
+    "name": "Northcote Venetian Loafer",
     "brand": "belmonte",
     "category": "shoes",
     "subcategory": "loafers",
     "sku": "BLM-014",
     "price": 345,
-    "shortDescription": "Belmonte Venetian Loafer — handmade in full-grain calf leather, on a leather sole.",
-    "description": "Belmonte Venetian Loafer is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
+    "shortDescription": "Northcote Venetian Loafer — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Northcote Venetian Loafer is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
         "name": "Espresso",
@@ -961,9 +961,9 @@ export const shoeProducts: Product[] = [
       "45"
     ],
     "material": "Full-grain calf leather",
-    "stock": 9,
-    "rating": 4.7,
-    "reviewCount": 76,
+    "stock": 11,
+    "rating": 4.8,
+    "reviewCount": 90,
     "tags": [
       "shoe",
       "handmade",
@@ -999,15 +999,15 @@ export const shoeProducts: Product[] = [
   },
   {
     "id": "shoe-15",
-    "slug": "belmonte-plain-toe-blucher",
-    "name": "Belmonte Plain-Toe Blucher",
+    "slug": "oakley-plain-toe-blucher",
+    "name": "Oakley Plain-Toe Blucher",
     "brand": "belmonte",
     "category": "shoes",
     "subcategory": "dress",
     "sku": "BLM-015",
     "price": 350,
-    "shortDescription": "Belmonte Plain-Toe Blucher — handmade in full-grain calf leather, on a leather sole.",
-    "description": "Belmonte Plain-Toe Blucher is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
+    "shortDescription": "Oakley Plain-Toe Blucher — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Oakley Plain-Toe Blucher is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
         "name": "Espresso",
@@ -1032,9 +1032,9 @@ export const shoeProducts: Product[] = [
       "45"
     ],
     "material": "Full-grain calf leather",
-    "stock": 8,
-    "rating": 4.7,
-    "reviewCount": 67,
+    "stock": 7,
+    "rating": 4.6,
+    "reviewCount": 49,
     "tags": [
       "shoe",
       "handmade",
@@ -1070,15 +1070,15 @@ export const shoeProducts: Product[] = [
   },
   {
     "id": "shoe-16",
-    "slug": "belmonte-hi-top-sneaker",
-    "name": "Belmonte Hi-Top Sneaker",
+    "slug": "prentice-hi-top-sneaker",
+    "name": "Prentice Hi-Top Sneaker",
     "brand": "belmonte",
     "category": "shoes",
     "subcategory": "sneakers",
     "sku": "BLM-016",
     "price": 325,
-    "shortDescription": "Belmonte Hi-Top Sneaker — handmade in full-grain calf leather, on a leather sole.",
-    "description": "Belmonte Hi-Top Sneaker is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
+    "shortDescription": "Prentice Hi-Top Sneaker — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Prentice Hi-Top Sneaker is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
         "name": "Espresso",
@@ -1103,9 +1103,9 @@ export const shoeProducts: Product[] = [
       "45"
     ],
     "material": "Full-grain calf leather",
-    "stock": 10,
-    "rating": 4.8,
-    "reviewCount": 79,
+    "stock": 13,
+    "rating": 4.9,
+    "reviewCount": 115,
     "tags": [
       "shoe",
       "handmade",
@@ -1141,15 +1141,15 @@ export const shoeProducts: Product[] = [
   },
   {
     "id": "shoe-17",
-    "slug": "belmonte-jodhpur-boot",
-    "name": "Belmonte Jodhpur Boot",
+    "slug": "quill-jodhpur-boot",
+    "name": "Quill Jodhpur Boot",
     "brand": "belmonte",
     "category": "shoes",
     "subcategory": "boots",
     "sku": "BLM-017",
     "price": 375,
-    "shortDescription": "Belmonte Jodhpur Boot — handmade in full-grain calf leather, on a leather sole.",
-    "description": "Belmonte Jodhpur Boot is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
+    "shortDescription": "Quill Jodhpur Boot — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Quill Jodhpur Boot is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
         "name": "Espresso",
@@ -1174,9 +1174,9 @@ export const shoeProducts: Product[] = [
       "45"
     ],
     "material": "Full-grain calf leather",
-    "stock": 13,
-    "rating": 4.9,
-    "reviewCount": 114,
+    "stock": 4,
+    "rating": 4.5,
+    "reviewCount": 24,
     "tags": [
       "shoe",
       "handmade",
@@ -1212,15 +1212,15 @@ export const shoeProducts: Product[] = [
   },
   {
     "id": "shoe-18",
-    "slug": "belmonte-tassel-loafer",
-    "name": "Belmonte Tassel Loafer",
+    "slug": "rowley-tassel-loafer",
+    "name": "Rowley Tassel Loafer",
     "brand": "belmonte",
     "category": "shoes",
     "subcategory": "loafers",
     "sku": "BLM-018",
     "price": 340,
-    "shortDescription": "Belmonte Tassel Loafer — handmade in full-grain calf leather, on a leather sole.",
-    "description": "Belmonte Tassel Loafer is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
+    "shortDescription": "Rowley Tassel Loafer — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Rowley Tassel Loafer is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
         "name": "Espresso",
@@ -1245,9 +1245,9 @@ export const shoeProducts: Product[] = [
       "45"
     ],
     "material": "Full-grain calf leather",
-    "stock": 10,
+    "stock": 11,
     "rating": 4.8,
-    "reviewCount": 80,
+    "reviewCount": 100,
     "tags": [
       "shoe",
       "handmade",
@@ -1283,15 +1283,15 @@ export const shoeProducts: Product[] = [
   },
   {
     "id": "shoe-19",
-    "slug": "belmonte-runner-knit",
-    "name": "Belmonte Runner Knit",
+    "slug": "selby-knit-runner",
+    "name": "Selby Knit Runner",
     "brand": "belmonte",
     "category": "shoes",
     "subcategory": "sneakers",
     "sku": "BLM-019",
     "price": 305,
-    "shortDescription": "Belmonte Runner Knit — handmade in full-grain calf leather, on a leather sole.",
-    "description": "Belmonte Runner Knit is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
+    "shortDescription": "Selby Knit Runner — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Selby Knit Runner is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
         "name": "Espresso",
@@ -1316,9 +1316,9 @@ export const shoeProducts: Product[] = [
       "45"
     ],
     "material": "Full-grain calf leather",
-    "stock": 10,
-    "rating": 4.8,
-    "reviewCount": 84,
+    "stock": 6,
+    "rating": 4.6,
+    "reviewCount": 46,
     "tags": [
       "shoe",
       "handmade",
@@ -1354,15 +1354,15 @@ export const shoeProducts: Product[] = [
   },
   {
     "id": "shoe-20",
-    "slug": "belmonte-longwing-derby",
-    "name": "Belmonte Longwing Derby",
+    "slug": "tarleton-longwing-derby",
+    "name": "Tarleton Longwing Derby",
     "brand": "belmonte",
     "category": "shoes",
     "subcategory": "dress",
     "sku": "BLM-020",
     "price": 360,
-    "shortDescription": "Belmonte Longwing Derby — handmade in full-grain calf leather, on a leather sole.",
-    "description": "Belmonte Longwing Derby is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
+    "shortDescription": "Tarleton Longwing Derby — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Tarleton Longwing Derby is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
         "name": "Espresso",
@@ -1387,9 +1387,9 @@ export const shoeProducts: Product[] = [
       "45"
     ],
     "material": "Full-grain calf leather",
-    "stock": 11,
-    "rating": 4.8,
-    "reviewCount": 89,
+    "stock": 5,
+    "rating": 4.6,
+    "reviewCount": 28,
     "tags": [
       "shoe",
       "handmade",
@@ -1425,15 +1425,15 @@ export const shoeProducts: Product[] = [
   },
   {
     "id": "shoe-21",
-    "slug": "belmonte-suede-sneaker",
-    "name": "Belmonte Suede Sneaker",
+    "slug": "underwood-suede-sneaker",
+    "name": "Underwood Suede Sneaker",
     "brand": "belmonte",
     "category": "shoes",
     "subcategory": "sneakers",
     "sku": "BLM-021",
     "price": 310,
-    "shortDescription": "Belmonte Suede Sneaker — handmade in full-grain calf leather, on a leather sole.",
-    "description": "Belmonte Suede Sneaker is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
+    "shortDescription": "Underwood Suede Sneaker — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Underwood Suede Sneaker is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
         "name": "Espresso",
@@ -1458,9 +1458,9 @@ export const shoeProducts: Product[] = [
       "45"
     ],
     "material": "Full-grain calf leather",
-    "stock": 14,
-    "rating": 4.9,
-    "reviewCount": 122,
+    "stock": 5,
+    "rating": 4.6,
+    "reviewCount": 34,
     "tags": [
       "shoe",
       "handmade",
@@ -1496,15 +1496,15 @@ export const shoeProducts: Product[] = [
   },
   {
     "id": "shoe-22",
-    "slug": "belmonte-chukka-noir",
-    "name": "Belmonte Chukka Noir",
+    "slug": "vandeleur-chukka-noir",
+    "name": "Vandeleur Chukka Noir",
     "brand": "belmonte",
     "category": "shoes",
     "subcategory": "boots",
     "sku": "BLM-022",
     "price": 350,
-    "shortDescription": "Belmonte Chukka Noir — handmade in full-grain calf leather, on a leather sole.",
-    "description": "Belmonte Chukka Noir is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
+    "shortDescription": "Vandeleur Chukka Noir — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Vandeleur Chukka Noir is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
         "name": "Espresso",
@@ -1529,9 +1529,9 @@ export const shoeProducts: Product[] = [
       "45"
     ],
     "material": "Full-grain calf leather",
-    "stock": 6,
-    "rating": 4.6,
-    "reviewCount": 38,
+    "stock": 8,
+    "rating": 4.7,
+    "reviewCount": 63,
     "tags": [
       "shoe",
       "handmade",
@@ -1567,15 +1567,15 @@ export const shoeProducts: Product[] = [
   },
   {
     "id": "shoe-23",
-    "slug": "belmonte-horsebit-loafer",
-    "name": "Belmonte Horsebit Loafer",
+    "slug": "wexford-horsebit-loafer",
+    "name": "Wexford Horsebit Loafer",
     "brand": "belmonte",
     "category": "shoes",
     "subcategory": "loafers",
     "sku": "BLM-023",
     "price": 355,
-    "shortDescription": "Belmonte Horsebit Loafer — handmade in full-grain calf leather, on a leather sole.",
-    "description": "Belmonte Horsebit Loafer is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
+    "shortDescription": "Wexford Horsebit Loafer — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Wexford Horsebit Loafer is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
         "name": "Espresso",
@@ -1600,9 +1600,9 @@ export const shoeProducts: Product[] = [
       "45"
     ],
     "material": "Full-grain calf leather",
-    "stock": 9,
-    "rating": 4.7,
-    "reviewCount": 73,
+    "stock": 12,
+    "rating": 4.9,
+    "reviewCount": 108,
     "tags": [
       "shoe",
       "handmade",
@@ -1638,15 +1638,15 @@ export const shoeProducts: Product[] = [
   },
   {
     "id": "shoe-24",
-    "slug": "belmonte-city-trainer",
-    "name": "Belmonte City Trainer",
+    "slug": "yardley-city-trainer",
+    "name": "Yardley City Trainer",
     "brand": "belmonte",
     "category": "shoes",
     "subcategory": "sneakers",
     "sku": "BLM-024",
     "price": 300,
-    "shortDescription": "Belmonte City Trainer — handmade in full-grain calf leather, on a leather sole.",
-    "description": "Belmonte City Trainer is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
+    "shortDescription": "Yardley City Trainer — handmade in full-grain calf leather, on a leather sole.",
+    "description": "Yardley City Trainer is built the old way: full-grain calf leather, hand-lasted, and finished on a leather sole. Made to be resoled and worn for years.",
     "colors": [
       {
         "name": "Espresso",
@@ -1671,9 +1671,9 @@ export const shoeProducts: Product[] = [
       "45"
     ],
     "material": "Full-grain calf leather",
-    "stock": 5,
-    "rating": 4.5,
-    "reviewCount": 25,
+    "stock": 6,
+    "rating": 4.6,
+    "reviewCount": 39,
     "tags": [
       "shoe",
       "handmade",

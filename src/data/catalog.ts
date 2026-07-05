@@ -226,7 +226,7 @@ export const products: Product[] = [
   {
     id: "p-012", slug: "belmonte-suede-runners", name: "Belmonte Suede Runners",
     brand: "belmonte", category: "shoes", subcategory: "sneakers", sku: "BLM-SN-052",
-    price: 620, originalPrice: 750,
+    price: 340, originalPrice: 380,
     shortDescription: "Hand-finished suede runners on a feather-light sole.",
     description:
       "A low-profile runner in buttery suede, hand-finished and set on a lightweight rubber sole with a leather-wrapped midsole. Quietly luxurious, endlessly wearable.",
@@ -242,7 +242,7 @@ export const products: Product[] = [
   {
     id: "p-013", slug: "belmonte-leather-derby", name: "Belmonte Leather Derby",
     brand: "belmonte", category: "shoes", sku: "BLM-DB-040",
-    price: 740,
+    price: 360,
     shortDescription: "A Goodyear-welted derby in box calf.",
     description:
       "A versatile derby in polished box calf, Goodyear-welted for longevity and resoling. The almond last keeps the line elegant under tailoring or denim.",
@@ -257,7 +257,7 @@ export const products: Product[] = [
   {
     id: "p-014", slug: "belmonte-chelsea-boot", name: "Belmonte Chelsea Boot",
     brand: "belmonte", category: "shoes", sku: "BLM-CH-061",
-    price: 890,
+    price: 375,
     shortDescription: "A sleek Chelsea boot in waxed suede with elastic gores.",
     description:
       "Clean and close to the ankle, this Chelsea boot is cut from waxed suede with twin elastic gores and a leather pull tab. A stacked leather heel finishes the line.",

@@ -59,15 +59,42 @@ function resizeEncode(raw) {
   return jpeg.encode({ data: out, width: TW, height: TH }, 78).data;
 }
 
-// Cluster: first occurrence starts a shoe; near-identical photos join as extra angles.
+// Group by photo-shoot RUNS using the seller's own cadence: a new shoe starts on
+// a TIME GAP (they pause to swap shoes) OR a big VISUAL jump. Overflow past GMAX
+// spills into a continuation product — every photo is kept, none discarded.
+// Args: [visualBreak T] [photos/shoe GMAX] [gapSeconds GAP]
+const GAP = Number(process.argv[4] || 20);
+const tsSeconds = (f) => { const m = f.match(/_(\d{14})_/); if (!m) return null; const s = m[1]; return +s.slice(8, 10) * 3600 + +s.slice(10, 12) * 60 + +s.slice(12, 14); };
 const clusters = [];
+let cur = null, prevHash = null, prevT = null;
 for (const f of files) {
   let raw;
   try { raw = decode(f); } catch { continue; }
   const h = aHash(raw);
-  const hit = clusters.find((c) => hamming(c.hash, h) <= T);
-  if (hit) { if (hit.members.length < GMAX) hit.members.push(f); }
-  else clusters.push({ hash: h, members: [f] });
+  const t = tsSeconds(f);
+  const timeBreak = prevT != null && t != null && t - prevT > GAP;
+  const visBreak = prevHash && hamming(prevHash, h) > T;
+  if (cur && !timeBreak && !visBreak && cur.members.length < GMAX) {
+    cur.members.push(f);
+  } else {
+    cur = { hash: h, members: [f] };
+    clusters.push(cur);
+  }
+  prevHash = h; prevT = t;
+}
+
+// Detail / sole shots break off visually but belong to the shoe shot just before
+// them. Fold any SMALL group (≤2 photos) back into the previous shoe when it's part
+// of the same photo burst (small time gap) — so no detail-only product is created.
+for (let i = clusters.length - 1; i >= 1; i--) {
+  const g = clusters[i], prev = clusters[i - 1];
+  const gap = (tsSeconds(g.members[0]) ?? 1e9) - (tsSeconds(prev.members[prev.members.length - 1]) ?? -1e9);
+  const sameBurst = gap >= 0 && gap <= GAP * 3;
+  // singletons are always stray detail shots; 2-shot groups only when same burst.
+  if (g.members.length === 1 || (g.members.length === 2 && sameBurst)) {
+    prev.members.push(...g.members);
+    clusters.splice(i, 1);
+  }
 }
 
 rmSync(OUT, { recursive: true, force: true });
@@ -76,6 +103,8 @@ mkdirSync(OUT, { recursive: true });
 const TYPES = ["Runner", "Derby", "Loafer", "Chelsea Boot", "Low Sneaker", "Oxford", "Monk Strap", "Trainer", "High-Top", "Brogue", "Slip-On", "Chukka Boot"];
 const MATS = ["Calf suede", "Box calf leather", "Waxed suede", "Nappa leather", "Grained calfskin", "Nubuck"];
 const MAT_WORD = ["Suede", "Calfskin", "Waxed", "Nappa", "Grained", "Nubuck"];
+// Unique house names so no two products share a title (each is a distinct shoe).
+const NAMES = ["Marlow", "Ashcroft", "Belgrave", "Ridley", "Camden", "Sinclair", "Harlow", "Kingsley", "Whitmore", "Pembroke", "Ellison", "Thornton", "Aldridge", "Marley", "Corbin", "Fenwick", "Radley", "Sutton", "Ashby", "Halston", "Vance", "Redford", "Easton", "Langley", "Preston", "Barlow", "Cromwell", "Denton", "Everly", "Foxton", "Garrick", "Hadley", "Ingram", "Jarrow", "Kelby", "Lowell", "Merrick", "Norwood", "Orwell", "Prescott"];
 const slugify = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 function seeded(s) { let h = 2166136261; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); } return ((h >>> 0) % 1000) / 1000; }
 
@@ -87,11 +116,12 @@ const products = clusters.map((c, i) => {
     imgCount++;
     return `/collection/shoes/${dest}`;
   });
-  const type = TYPES[i % TYPES.length], m = i % MATS.length, name = `${MAT_WORD[m]} ${type}`;
+  const type = TYPES[i % TYPES.length], m = i % MATS.length;
+  const name = `${NAMES[i] || `House ${i + 1}`} ${MAT_WORD[m]} ${type}`;
   const rnd = seeded(`${i}${name}`);
   const price = Math.round((280 + rnd * 100) / 5) * 5;
   return {
-    id: `shoe-${i + 1}`, slug: `belmonte-${slugify(type)}-${i + 1}`, name,
+    id: `shoe-${i + 1}`, slug: `belmonte-${slugify(name)}`, name,
     brand: "belmonte", category: "shoes", sku: `SHO-${String(i + 1).padStart(3, "0")}`,
     price,
     shortDescription: `A ${type.toLowerCase()} in ${MATS[m].toLowerCase()}, handmade in a small atelier.`,

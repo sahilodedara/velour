@@ -34,6 +34,7 @@ function resizeToDataUrl(file: File, maxW = 900): Promise<string> {
 }
 
 const cats = getTopCategories();
+const OTHER_BRAND = "__other__";
 
 export function AddProductModal({
   open,
@@ -54,6 +55,7 @@ export function AddProductModal({
 
   const [name, setName] = useState("");
   const [brand, setBrand] = useState(brands[0].slug);
+  const [customBrand, setCustomBrand] = useState("");
   const [category, setCategory] = useState(cats[0].slug);
   const [price, setPrice] = useState("");
   const [original, setOriginal] = useState("");
@@ -75,7 +77,7 @@ export function AddProductModal({
   const [err, setErr] = useState(false);
 
   const blank = () => {
-    setName(""); setBrand(brands[0].slug); setCategory(cats[0].slug);
+    setName(""); setBrand(brands[0].slug); setCustomBrand(""); setCategory(cats[0].slug);
     setPrice(""); setOriginal(""); setStock("10");
     setMaterial(""); setShort(""); setDesc(""); setSizes("");
     setFeatured(false); setNewArrival(true);
@@ -91,7 +93,9 @@ export function AddProductModal({
     if (!open) return;
     if (editProduct) {
       setName(editProduct.name);
-      setBrand(editProduct.brand);
+      const knownBrand = brands.some((b) => b.slug === editProduct.brand);
+      setBrand(knownBrand ? editProduct.brand : OTHER_BRAND);
+      setCustomBrand(knownBrand ? "" : editProduct.brand);
       setCategory(editProduct.category);
       setPrice(String(editProduct.price));
       setOriginal(editProduct.originalPrice ? String(editProduct.originalPrice) : "");
@@ -115,7 +119,8 @@ export function AddProductModal({
 
   const save = async () => {
     const priceN = parseFloat(price);
-    if (name.trim().length < 2 || !priceN || priceN <= 0) {
+    const brandValue = brand === OTHER_BRAND ? customBrand.trim() : brand;
+    if (name.trim().length < 2 || !priceN || priceN <= 0 || !brandValue) {
       setErr(true);
       return;
     }
@@ -159,7 +164,7 @@ export function AddProductModal({
       id: base?.id ?? `custom-${ts}`,
       slug: base?.slug ?? `${slugify(name)}-${ts.toString().slice(-4)}`,
       name: name.trim(),
-      brand,
+      brand: brandValue,
       category,
       subcategory: base?.subcategory,
       sku: base?.sku ?? `CUST-${ts.toString().slice(-6)}`,
@@ -207,7 +212,17 @@ export function AddProductModal({
           <Field label={t("admin.fBrand")}>
             <select value={brand} onChange={(e) => setBrand(e.target.value)} className="luxe-input">
               {brands.map((b) => <option key={b.slug} value={b.slug}>{b.name}</option>)}
+              <option value={OTHER_BRAND}>{t("admin.brandOther")}</option>
             </select>
+            {brand === OTHER_BRAND && (
+              <input
+                value={customBrand}
+                onChange={(e) => setCustomBrand(e.target.value)}
+                className="luxe-input mt-2"
+                placeholder={t("admin.fBrandCustom")}
+                autoFocus
+              />
+            )}
           </Field>
           <Field label={t("admin.fCategory")}>
             <select value={category} onChange={(e) => setCategory(e.target.value)} className="luxe-input">

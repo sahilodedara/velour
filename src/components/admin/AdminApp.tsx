@@ -11,7 +11,7 @@ import {
 import { products, brands, getBrandName, getBrand, getTopCategories, type Product } from "@/data";
 import { ProductArtwork } from "@/components/product/ProductArtwork";
 import { useUI } from "@/store/ui";
-import { useCustomProducts } from "@/store/useCustomProducts";
+import { useCustomProducts, mergeCustom } from "@/store/useCustomProducts";
 import { useT } from "@/i18n/provider";
 import { useLocalize } from "@/i18n/useLocalize";
 import { formatPrice, cn } from "@/lib/utils";
@@ -314,7 +314,7 @@ function ProductsTable() {
 
   const rows = useMemo(
     () =>
-      [...custom, ...products].filter((p) =>
+      mergeCustom(custom, products).filter((p) =>
         `${p.name} ${getBrandName(p.brand)} ${p.sku}`.toLowerCase().includes(q.toLowerCase()),
       ),
     [q, custom],
@@ -385,18 +385,16 @@ function ProductsTable() {
                   </div>
                 </td>
                 <td className="p-4">
-                  {p.custom ? (
-                    <div className="flex items-center gap-3">
-                      <button onClick={() => { setEditing(p); setAddOpen(true); }} className="flex items-center gap-1 text-xs text-ink-soft transition-colors hover:text-gold-deep">
-                        <Pencil size={14} /> {t("admin.editTitle")}
-                      </button>
-                      <button onClick={() => removeProduct(p.id)} className="flex items-center gap-1 text-xs text-ink-muted transition-colors hover:text-danger">
+                  <div className="flex items-center gap-3">
+                    <button onClick={() => { setEditing(p); setAddOpen(true); }} className="flex items-center gap-1 text-xs text-ink-soft transition-colors hover:text-gold-deep">
+                      <Pencil size={14} /> {t("admin.edit")}
+                    </button>
+                    {p.custom && (
+                      <button onClick={() => removeProduct(p.id)} title={t("admin.delete")} className="flex items-center gap-1 text-xs text-ink-muted transition-colors hover:text-danger">
                         <Trash2 size={14} /> {t("admin.delete")}
                       </button>
-                    </div>
-                  ) : (
-                    <span className="text-[0.6rem] uppercase tracking-[0.1em] text-ink-muted">{t("admin.seedTag")}</span>
-                  )}
+                    )}
+                  </div>
                 </td>
               </tr>
             ))}

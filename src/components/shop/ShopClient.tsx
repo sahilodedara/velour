@@ -10,7 +10,7 @@ import { ProductCardSkeleton } from "@/components/ui/Skeleton";
 import { FilterPanel } from "./FilterPanel";
 import { queryProducts, getCategory, getBrandName, products } from "@/data";
 import type { FilterState, SortKey } from "@/data";
-import { useCustomProducts } from "@/store/useCustomProducts";
+import { useCustomProducts, mergeCustom } from "@/store/useCustomProducts";
 import { useHasMounted } from "@/lib/useHasMounted";
 import { useT } from "@/i18n/provider";
 import { useLocalize } from "@/i18n/useLocalize";
@@ -52,7 +52,7 @@ export function ShopClient() {
   }, [spKey]);
 
   const results = useMemo(
-    () => queryProducts(filters, sort, [...custom, ...products]),
+    () => queryProducts(filters, sort, mergeCustom(custom, products)),
     [filters, sort, custom],
   );
 

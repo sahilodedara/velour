@@ -6,6 +6,15 @@ import { useProducts } from "./products";
 import { useDbProducts } from "./dbProducts";
 import type { Product } from "@/data/types";
 
+/** Merge admin overrides over the base catalog: a custom product that shares an id
+ *  OR slug with a catalog product replaces it (so edits to catalog products take
+ *  effect — the DB assigns its own UUID id, so slug is what ties an override back). */
+export function mergeCustom(custom: Product[], base: Product[]): Product[] {
+  const ids = new Set(custom.map((c) => c.id));
+  const slugs = new Set(custom.map((c) => c.slug));
+  return [...custom, ...base.filter((b) => !ids.has(b.id) && !slugs.has(b.slug))];
+}
+
 export interface CustomProductsApi {
   items: Product[];
   /** Persist a new product. Returns ok/error (DB) or always-ok (local). */
@@ -49,7 +58,9 @@ export function useCustomProducts(): CustomProductsApi {
       return { ok: true };
     },
     update: async (p) => {
-      localUpdate(p.id, p);
+      // Upsert: editing a catalog product creates an override; editing a custom one patches it.
+      if (localItems.some((i) => i.id === p.id)) localUpdate(p.id, p);
+      else localAdd(p);
       return { ok: true };
     },
     remove: async (id) => {

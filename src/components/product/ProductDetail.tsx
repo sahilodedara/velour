@@ -17,6 +17,7 @@ import { Container } from "@/components/ui/Container";
 import { Reveal } from "@/components/motion/Reveal";
 import type { Product } from "@/data/types";
 import { getBrand, getBrandName, getCategory, getRelated, getReviews, getProductBySlug } from "@/data";
+import { useCustomProducts } from "@/store/useCustomProducts";
 import { useCart } from "@/store/cart";
 import { useWishlist } from "@/store/wishlist";
 import { useUI } from "@/store/ui";
@@ -28,9 +29,14 @@ import { cn, formatPrice, discountPercent, formatDate } from "@/lib/utils";
 
 const EASE = [0.22, 1, 0.36, 1] as const;
 
-export function ProductDetail({ product }: { product: Product }) {
+export function ProductDetail({ product: baseProduct }: { product: Product }) {
   const t = useT();
   const { lp, lc } = useLocalize();
+  const { items: custom } = useCustomProducts();
+  const mounted = useHasMounted();
+  // Reflect admin edits (overrides are stored by id) on the live detail page.
+  const override = custom.find((c) => c.id === baseProduct.id);
+  const product = mounted && override ? override : baseProduct;
   const lz = lp(product);
   const brandName = getBrandName(product.brand);
   const category = getCategory(product.category);
@@ -43,7 +49,6 @@ export function ProductDetail({ product }: { product: Product }) {
   const setCartOpen = useUI((s) => s.setCartOpen);
   const wished = useWishlist((s) => s.ids.includes(product.id));
   const toggleWish = useWishlist((s) => s.toggle);
-  const mounted = useHasMounted();
 
   const [color, setColor] = useState(product.colors[0]?.name);
   const [size, setSize] = useState(product.sizes?.[0]);

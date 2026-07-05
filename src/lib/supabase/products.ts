@@ -55,7 +55,7 @@ export async function fetchDbProducts(sb: SupabaseClient): Promise<Product[]> {
 export async function insertDbProduct(
   sb: SupabaseClient,
   p: Product,
-): Promise<{ ok: boolean; error?: string }> {
+): Promise<{ ok: boolean; error?: string; id?: string }> {
   const { data, error } = await sb
     .from("products")
     .insert({
@@ -102,7 +102,7 @@ export async function insertDbProduct(
   if (p.specs.length) {
     await sb.from("product_specs").insert(p.specs.map((s) => ({ product_id: id, label: s.label, value: s.value })));
   }
-  return { ok: true };
+  return { ok: true, id };
 }
 
 /** Update a product + replace its colors/sizes/specs/images (requires admin session). */

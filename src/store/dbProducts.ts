@@ -15,7 +15,7 @@ interface DbProductsState {
 }
 
 /** Admin products stored in Supabase (visible to everyone). */
-export const useDbProducts = create<DbProductsState>((set) => ({
+export const useDbProducts = create<DbProductsState>((set, get) => ({
   items: [],
   loaded: false,
   load: async () => {
@@ -28,12 +28,18 @@ export const useDbProducts = create<DbProductsState>((set) => ({
     const sb = getSupabase();
     if (!sb) return { ok: false, error: "Supabase not configured" };
     const res = await insertDbProduct(sb, p);
-    if (res.ok) set((s) => ({ items: [p, ...s.items] }));
+    if (res.ok) set((s) => ({ items: [{ ...p, id: res.id ?? p.id }, ...s.items] }));
     return res;
   },
   update: async (p) => {
     const sb = getSupabase();
     if (!sb) return { ok: false, error: "Supabase not configured" };
+    // Editing a catalog product (no DB row yet) → insert an override instead.
+    if (!get().items.some((i) => i.id === p.id)) {
+      const res = await insertDbProduct(sb, p);
+      if (res.ok) set((s) => ({ items: [{ ...p, id: res.id ?? p.id }, ...s.items] }));
+      return res;
+    }
     const res = await updateDbProduct(sb, p);
     if (res.ok) set((s) => ({ items: s.items.map((i) => (i.id === p.id ? p : i)) }));
     return res;

@@ -2055,7 +2055,7 @@ export const importedProducts: Product[] = [
     "brand": "amelia-toro",
     "category": "shoes",
     "sku": "'12405",
-    "price": 568,
+    "price": 300,
     "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company A wingtip toe and a monk's strap closure, the Golf Shoe…",
     "description": "This is a demonstration store. You can purchase products like this from Baby & Company A wingtip toe and a monk's strap closure, the Golf Shoe from Amelia Toro is as well made as they come. A leather sole with an inch and a quarter heel, the Amelia Toro stamp of approval is the metal tag at the heel. Color Black. 100% Leather. Made in Italy. Also available in White .",
     "colors": [
@@ -2113,7 +2113,7 @@ export const importedProducts: Product[] = [
     "brand": "amelia-toro",
     "category": "shoes",
     "sku": "'12412",
-    "price": 568,
+    "price": 370,
     "shortDescription": "A wingtip toe and a monk's strap closure, the Golf Shoe from Amelia Toro is as well made as they come. A leather sole with an inch and a quarter…",
     "description": "A wingtip toe and a monk's strap closure, the Golf Shoe from Amelia Toro is as well made as they come. A leather sole with an inch and a quarter leather heel, the Amelia Toro stamp of approval is the metal tag at back. Color White. 100% Leather. Made in Italy. Also available in Black .",
     "colors": [
@@ -2171,7 +2171,7 @@ export const importedProducts: Product[] = [
     "brand": "verba",
     "category": "shoes",
     "sku": "'12590",
-    "price": 98,
+    "price": 335,
     "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Not your Grandfather’s house shoes. These Loafers from…",
     "description": "This is a demonstration store. You can purchase products like this from Baby & Company Not your Grandfather’s house shoes. These Loafers from Verba are classic in silhouette, yet contemporary with a canvas body and neon soles. Leather trim. Color Blue. Made in Italy. Also available in Lime , Yellow , and Orange .",
     "colors": [
@@ -2228,7 +2228,7 @@ export const importedProducts: Product[] = [
     "brand": "verba",
     "category": "shoes",
     "sku": "'12597",
-    "price": 98,
+    "price": 340,
     "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Not your Grandfather’s house shoes. These Loafers from…",
     "description": "This is a demonstration store. You can purchase products like this from Baby & Company Not your Grandfather’s house shoes. These Loafers from Verba are classic in silhouette, yet contemporary with a canvas body and neon soles. Leather trim. Color Orange. Made in Italy. Also available in Lime , Yellow , and Blue .",
     "colors": [
@@ -2285,7 +2285,7 @@ export const importedProducts: Product[] = [
     "brand": "verba",
     "category": "shoes",
     "sku": "'12604",
-    "price": 98,
+    "price": 290,
     "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Not your Grandfather’s house shoes. These Loafers from…",
     "description": "This is a demonstration store. You can purchase products like this from Baby & Company Not your Grandfather’s house shoes. These Loafers from Verba are classic in silhouette, yet contemporary with a canvas body and neon soles. Leather trim. Color Lime. Made in Italy. Also available in Orange , Yellow and Blue .",
     "colors": [
@@ -2342,7 +2342,7 @@ export const importedProducts: Product[] = [
     "brand": "verba",
     "category": "shoes",
     "sku": "'12613",
-    "price": 98,
+    "price": 350,
     "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Not your Grandfather’s house shoes. These Loafers from…",
     "description": "This is a demonstration store. You can purchase products like this from Baby & Company Not your Grandfather’s house shoes. These Loafers from Verba are classic in silhouette, yet contemporary with a canvas body and neon soles. Leather trim. Color Yellow. Made in Italy. Also available in Lime , Orange , and Blue .",
     "colors": [
@@ -2456,7 +2456,7 @@ export const importedProducts: Product[] = [
     "brand": "verba",
     "category": "shoes",
     "sku": "'12625",
-    "price": 98,
+    "price": 315,
     "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Not your Grandpa’s shoes. These Loafers from Verba are…",
     "description": "This is a demonstration store. You can purchase products like this from Baby & Company Not your Grandpa’s shoes. These Loafers from Verba are classic in silhouette, yet contemporary with a vegetable-dyed, calf leather body. Leather trim. Color Rose. Made in Italy. Also Available in Lime .",
     "colors": [
@@ -2514,7 +2514,7 @@ export const importedProducts: Product[] = [
     "brand": "verba",
     "category": "shoes",
     "sku": "'12632",
-    "price": 98,
+    "price": 350,
     "shortDescription": "Not your Grandpa’s shoes. These Loafers from Verba are classic in silhouette, yet contemporary with a vegetable-dyed, calf leather body. Leather…",
     "description": "Not your Grandpa’s shoes. These Loafers from Verba are classic in silhouette, yet contemporary with a vegetable-dyed, calf leather body. Leather trim. Color Rose. Made in Italy. Also Available in Rose .",
     "colors": [
@@ -3317,7 +3317,7 @@ export const importedProducts: Product[] = [
     "brand": "ter-et-bantine",
     "category": "shoes",
     "sku": "'13995",
-    "price": 498,
+    "price": 285,
     "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company A classic oxford is given a superbly slouchy redo. With the…",
     "description": "This is a demonstration store. You can purchase products like this from Baby & Company A classic oxford is given a superbly slouchy redo. With the back half removed, the slide from Ter et Bantine is at once totally easy and a complete classic. Color Black. 100% Leather. Also available in Brown . Shop our collection of Ter et Bantine.",
     "colors": [
@@ -3375,7 +3375,7 @@ export const importedProducts: Product[] = [
     "brand": "ter-et-bantine",
     "category": "shoes",
     "sku": "'13988",
-    "price": 498,
+    "price": 290,
     "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company A fresh take on the timeless menswear staple. Beautifully…",
     "description": "This is a demonstration store. You can purchase products like this from Baby & Company A fresh take on the timeless menswear staple. Beautifully crafted leather shoe from Ter et Bantine slides perfectly into one’s daily ensemble. Color Brown. 100% Leather. Made in Italy. Also available in Black . Shop our collection of Ter et Bantine.",
     "colors": [
@@ -4002,7 +4002,7 @@ export const importedProducts: Product[] = [
     "brand": "meher-kakalia",
     "category": "shoes",
     "sku": "'20411",
-    "price": 118,
+    "price": 375,
     "shortDescription": "A slip-on loafer with a little extra pizazz. A beaded toe cap keeps you tapping as shimmery supple leather wraps the back. Three quarter inch heel…",
     "description": "A slip-on loafer with a little extra pizazz. A beaded toe cap keeps you tapping as shimmery supple leather wraps the back. Three quarter inch heel and rubber sole to save you a trip to the cobbler. Leather lining. Color Rose/Aubergine. Made in Pakistan. Also available in Grey Moss/Gold .",
     "colors": [
@@ -7658,7 +7658,7 @@ export const importedProducts: Product[] = [
     "brand": "marsell",
     "category": "shoes",
     "sku": "'16987",
-    "price": 518,
+    "price": 310,
     "shortDescription": "Expertly constructed, Marsèll focuses on material and craftsmanship. Made from premium Italian leather these shoes are thoughtful and faultlessly…",
     "description": "Expertly constructed, Marsèll focuses on material and craftsmanship. Made from premium Italian leather these shoes are thoughtful and faultlessly stylish. Distressed pebbled grain indentations mark the Listello lace up boot featuring an exposed back zip as well as a lace up front. The slight slouch gives the boot a well worn, relaxed appearance. A small stacked heel finishes the sole. Color Slate Grey. 100% Leather. Made in Italy.",
     "colors": [
@@ -7713,7 +7713,7 @@ export const importedProducts: Product[] = [
     "brand": "marsell",
     "category": "shoes",
     "sku": "'16993",
-    "price": 358,
+    "price": 305,
     "shortDescription": "Expertly constructed, Marsèll focuses on material and craftsmanship. Made from premium Italian leather these shoes are thoughtful and faultlessly…",
     "description": "Expertly constructed, Marsèll focuses on material and craftsmanship. Made from premium Italian leather these shoes are thoughtful and faultlessly stylish. Distressed grained indentations mark the Listello Short Boot featuring lace up ties and an upturned rounded toe. Color Black. 100% Leather. Made in Italy. Also available in Black .",
     "colors": [
@@ -7770,7 +7770,7 @@ export const importedProducts: Product[] = [
     "brand": "marsell",
     "category": "shoes",
     "sku": "'16999",
-    "price": 358,
+    "price": 360,
     "shortDescription": "Expertly constructed, Marsèll focuses on material and craftsmanship. Made from premium Italian leather these shoes are thoughtful and faultlessly…",
     "description": "Expertly constructed, Marsèll focuses on material and craftsmanship. Made from premium Italian leather these shoes are thoughtful and faultlessly stylish. Distressed grained indentations mark the Listello Short Boot featuring lace up ties and an upturned rounded toe. Color Black. 100% Leather. Made in Italy. Also available in Mud .",
     "colors": [

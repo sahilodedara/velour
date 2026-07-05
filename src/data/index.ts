@@ -3,12 +3,35 @@ import { importedBrands, importedProducts } from "./imported";
 import { signatureProducts } from "./signature";
 import { collectionBrands, collectionProducts } from "./collection";
 import { shoeProducts } from "./shoes";
+import { extraBrands, extraProducts } from "./extras";
 import type { Brand, Category, Product, Review, SortKey } from "./types";
 import { discountPercent } from "@/lib/utils";
 
-/** Seed catalog + signature pieces + Shopify-CSV imports + demo collection + shoes. */
-export const brands: Brand[] = [...seedBrands, ...importedBrands, ...collectionBrands];
-export const products: Product[] = [...collectionProducts, ...shoeProducts, ...seedProducts, ...signatureProducts, ...importedProducts];
+/** Convenient "charm" pricing: every price ≤ $1099 and ends in 99 (e.g. $499, $699),
+ *  so nothing feels out of reach. High-end pieces compress into a $699–$1099 band. */
+function seededUnit(s: string): number {
+  let h = 2166136261;
+  for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); }
+  return ((h >>> 0) % 1000) / 1000;
+}
+function charm(price: number, seed: string): number {
+  if (price <= 1099) return Math.min(1099, Math.max(99, Math.round((price - 99) / 100) * 100 + 99));
+  const bands = price >= 6000 ? [999, 1099] : price >= 3000 ? [899, 999] : price >= 2000 ? [799, 899] : [699, 799];
+  return bands[Math.floor(seededUnit(seed) * bands.length)];
+}
+function normPrice(p: Product): Product {
+  const price = charm(p.price, p.id);
+  let originalPrice = p.originalPrice ? charm(p.originalPrice, `${p.id}o`) : undefined;
+  if (originalPrice != null && originalPrice <= price) originalPrice = undefined;
+  return { ...p, price, originalPrice };
+}
+
+/** Seed catalog + signature + imports + demo collection + shoes + extras (perfumes/accessories). */
+const allBrands: Brand[] = [...seedBrands, ...importedBrands, ...collectionBrands, ...extraBrands];
+export const brands: Brand[] = allBrands.filter((b, i) => allBrands.findIndex((x) => x.slug === b.slug) === i);
+export const products: Product[] = [
+  ...collectionProducts, ...shoeProducts, ...seedProducts, ...signatureProducts, ...importedProducts, ...extraProducts,
+].map(normPrice);
 export { categories };
 export type { Brand, Category, Product, Review, SortKey };
 

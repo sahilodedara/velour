@@ -30,3 +30,13 @@ next-env.d.ts
 
 # Local-only counterfeit-branded shoe photos — never publish
 public/collection/shoes/
+
+# OpenNext
+.open-next
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+
+!.env.example

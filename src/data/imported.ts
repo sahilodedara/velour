@@ -363,6 +363,12 @@ export const importedBrands: Brand[] = [
     "description": "An imported collection featured on VELOUR — Kiss by Fiona Bennett."
   },
   {
+    "slug": "kristensen-du-nord",
+    "name": "Kristensen du Nord",
+    "monogram": "K",
+    "description": "An imported collection featured on VELOUR — Kristensen du Nord."
+  },
+  {
     "slug": "pip-squeak-chapeau",
     "name": "Pip-Squeak Chapeau",
     "monogram": "P",
@@ -387,16 +393,46 @@ export const importedBrands: Brand[] = [
     "description": "An imported collection featured on VELOUR — Kelly Cole Group."
   },
   {
+    "slug": "denis-colomb",
+    "name": "Denis Colomb",
+    "monogram": "D",
+    "description": "An imported collection featured on VELOUR — Denis Colomb."
+  },
+  {
     "slug": "kate-s-mensah",
     "name": "Kate S Mensah",
     "monogram": "K",
     "description": "An imported collection featured on VELOUR — Kate S Mensah."
   },
   {
+    "slug": "co",
+    "name": "Co",
+    "monogram": "C",
+    "description": "An imported collection featured on VELOUR — Co."
+  },
+  {
     "slug": "guibert",
     "name": "Guibert",
     "monogram": "G",
     "description": "An imported collection featured on VELOUR — Guibert."
+  },
+  {
+    "slug": "just-in-case",
+    "name": "Just in Case",
+    "monogram": "J",
+    "description": "An imported collection featured on VELOUR — Just in Case."
+  },
+  {
+    "slug": "lareida",
+    "name": "Lareida",
+    "monogram": "L",
+    "description": "An imported collection featured on VELOUR — Lareida."
+  },
+  {
+    "slug": "lars-andersson",
+    "name": "Lars Andersson",
+    "monogram": "L",
+    "description": "An imported collection featured on VELOUR — Lars Andersson."
   },
   {
     "slug": "ivan-grundahl",
@@ -487,6 +523,18 @@ export const importedBrands: Brand[] = [
     "name": "United By Blue",
     "monogram": "U",
     "description": "An imported collection featured on VELOUR — United By Blue."
+  },
+  {
+    "slug": "red-wing",
+    "name": "Red Wing",
+    "monogram": "R",
+    "description": "An imported collection featured on VELOUR — Red Wing."
+  },
+  {
+    "slug": "supply-dark",
+    "name": "Supply Dark",
+    "monogram": "S",
+    "description": "An imported collection featured on VELOUR — Supply Dark."
   }
 ];
 
@@ -544,71 +592,16 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_18_Lana_Look1101.jpeg?v=1437081385",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_18_Lana_Look1104.jpeg?v=1437081385",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_18_Lana_Look1103.jpeg?v=1437081385",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_18_Lana_Look1105.jpeg?v=1437081385"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-s14-onl-li-5656-black",
-    "slug": "s14-onl-li-5656-black",
-    "name": "Delicious Camisole",
-    "brand": "only-hearts",
-    "category": "clothing",
-    "sku": "'11897",
-    "price": 78,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Lace trim accentuates the neckline of this lightweight…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Lace trim accentuates the neckline of this lightweight Camisole by Only Hearts. 90% Nylon, 10% Lycra. Color Black. Lana is wearing a size Small. Also available in Bone , Bronze , and Navy . Shop our collection of Only Hearts.",
-    "colors": [
-      {
-        "name": "Black",
-        "hex": "#15140f"
-      }
-    ],
-    "sizes": [
-      "Small"
-    ],
-    "material": "—",
-    "stock": 4,
-    "rating": 4.4,
-    "reviewCount": 13,
-    "tags": [
-      "arrivals",
-      "AW15",
-      "black",
-      "camisole",
-      "F14",
-      "foundation"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#23211d",
-      "#6a5a3a"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Only Hearts"
-      },
-      {
-        "label": "Type",
-        "value": "women's lingerie"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_18_Lana_Look1105.jpeg?v=1437081385",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_18_Lana_Look1402.jpeg?v=1437081378",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_18_Lana_Look1401.jpeg?v=1437081378",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_18_Lana_Look1403.jpeg?v=1437081378",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_18_Lana_Look1404.jpeg?v=1437081378"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_18_Lana_Look1401.jpeg?v=1437081378"
     ],
     "custom": false
   },
   {
     "id": "imp-s14-oto-br-br-41-silver",
     "slug": "s14-oto-br-br-41-silver",
-    "name": "Bracelet 41 in Silver",
+    "name": "Bracelet 41",
     "brand": "1-100",
     "category": "jewelry",
     "sku": "'11960",
@@ -663,7 +656,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-s14-oto-br-br-3-silver",
     "slug": "s14-oto-br-br-3-silver",
-    "name": "Bracelet 3 in Silver",
+    "name": "Bracelet 3",
     "brand": "1-100",
     "category": "jewelry",
     "sku": "'11963",
@@ -717,7 +710,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-s14-frm-sh-s-gry-12000-no-color",
     "slug": "s14-frm-sh-s-gry-12000-no-color",
-    "name": "Paul Shirt in Grey Flannel",
+    "name": "Paul Shirt",
     "brand": "frank-eileen",
     "category": "clothing",
     "sku": "'12000",
@@ -728,6 +721,10 @@ export const importedProducts: Product[] = [
       {
         "name": "Grey Flannel",
         "hex": "#6f7178"
+      },
+      {
+        "name": "Sherbet Stripe",
+        "hex": "#8a857c"
       }
     ],
     "sizes": [
@@ -768,23 +765,28 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_3_Addis_Look6_02.jpeg?v=1437081354",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_3_Addis_Look6_04.jpeg?v=1437081354",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_3_Addis_Look6_03.jpeg?v=1437081354",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_3_Addis_Look6_05.jpeg?v=1437081354"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_3_Addis_Look6_05.jpeg?v=1437081354",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_18_Addis_Look0301.jpeg?v=1437078378"
     ],
     "custom": false
   },
   {
     "id": "imp-s14-oto-br-b-84-silver",
     "slug": "s14-oto-br-b-84-silver",
-    "name": "Bracelet 84 in Silver",
+    "name": "Bracelet 84",
     "brand": "1-100",
     "category": "jewelry",
     "sku": "'12072",
-    "price": 998,
+    "price": 418,
     "shortDescription": "Curved and lovely, 1-100 jewelry gives an organic touch to understated elegance. This cuff is intentionally designed to be lacking mechanical…",
     "description": "Curved and lovely, 1-100 jewelry gives an organic touch to understated elegance. This cuff is intentionally designed to be lacking mechanical precision assures individuality to the wearer. Color Silver. 100% Sterling Silver. Made in U.S.A. Length 6 & 1/2\", 2 & 1/2\" Wide.",
     "colors": [
       {
         "name": "Silver",
+        "hex": "#c4c7cd"
+      },
+      {
+        "name": "Polished Silver",
         "hex": "#c4c7cd"
       }
     ],
@@ -825,14 +827,16 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_20_12072_21332.jpeg?v=1437081343",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_20_12072_21333.jpeg?v=1437081343",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_20_12072_21334.jpeg?v=1437081343",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_20_12072_21335.jpeg?v=1437081343"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_20_12072_21335.jpeg?v=1437081343",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_33_21247_12792.jpeg?v=1437071327",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_33_21247_12795.jpeg?v=1437071327"
     ],
     "custom": false
   },
   {
     "id": "imp-s14-oto-ri-rng-56-silver",
     "slug": "s14-oto-ri-rng-56-silver",
-    "name": "Ring 56 in Silver",
+    "name": "Ring 56",
     "brand": "1-100",
     "category": "jewelry",
     "sku": "'12075",
@@ -888,7 +892,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-iranta-leather-dress-black",
     "slug": "iranta-leather-dress-black",
-    "name": "Iranta Leather Dress in Black",
+    "name": "Iranta Leather Dress",
     "brand": "by-malene-birger",
     "category": "clothing",
     "sku": "'12148",
@@ -944,7 +948,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-overprint-tunic-navy",
     "slug": "overprint-tunic-navy",
-    "name": "Overprint T-Shirt in Navy",
+    "name": "Overprint T-Shirt",
     "brand": "avant-toi",
     "category": "clothing",
     "sku": "'12172",
@@ -955,6 +959,10 @@ export const importedProducts: Product[] = [
       {
         "name": "Navy",
         "hex": "#1f2535"
+      },
+      {
+        "name": "Green",
+        "hex": "#3c5a45"
       }
     ],
     "sizes": [
@@ -993,71 +1001,17 @@ export const importedProducts: Product[] = [
     "images": [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_3_Addis_Look13_01.jpeg?v=1437081303",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_3_Addis_Look13_03.jpeg?v=1437081303",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_3_Addis_Look13_02.jpeg?v=1437081303"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-overprint-tunic-green",
-    "slug": "overprint-tunic-green",
-    "name": "Overprint T-Shirt in Green",
-    "brand": "avant-toi",
-    "category": "clothing",
-    "sku": "'12176",
-    "price": 88,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Internationally respected for merging art and fashion,…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Internationally respected for merging art and fashion, Avant Toi specially dyed T’s are indispensable for the growing collection. Color Green. Made in Italy. Addis is wearing a size Medium. Addis is 6’2”, Chest 38.5”, Waist 31”, Inseam 32”.",
-    "colors": [
-      {
-        "name": "Green",
-        "hex": "#3c5a45"
-      }
-    ],
-    "sizes": [
-      "Small"
-    ],
-    "material": "—",
-    "stock": 1,
-    "rating": 4.4,
-    "reviewCount": 13,
-    "tags": [
-      "Avant Toi",
-      "cyber",
-      "dyed",
-      "green",
-      "Man",
-      "ombre"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#23211d",
-      "#6a5a3a"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Avant Toi"
-      },
-      {
-        "label": "Type",
-        "value": "men's t-shirts"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_3_Addis_Look13_02.jpeg?v=1437081303",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_3_Addis_Look12_01.jpeg?v=1437081298",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_3_Addis_Look12_02.jpeg?v=1437081298",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_3_Addis_Look12_03.jpeg?v=1437081298",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_3_Addis_Look12_04.jpeg?v=1437081298"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_3_Addis_Look12_03.jpeg?v=1437081298"
     ],
     "custom": false
   },
   {
     "id": "imp-melange-tunic-navy-black",
     "slug": "melange-tunic-navy-black",
-    "name": "Melange T-Shirt in Navy/Black",
+    "name": "Melange T-Shirt",
     "brand": "avant-toi",
     "category": "clothing",
     "sku": "'12192",
@@ -1114,7 +1068,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-lemy-blazer-grey",
     "slug": "lemy-blazer-grey",
-    "name": "Lemy Blazer in Grey",
+    "name": "Lemy Blazer",
     "brand": "hannes-roether",
     "category": "clothing",
     "sku": "'12273",
@@ -1172,7 +1126,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-lio-shirt-grey",
     "slug": "lio-shirt-grey",
-    "name": "Lio Shirt in Grey",
+    "name": "Lio Shirt",
     "brand": "hannes-roether",
     "category": "clothing",
     "sku": "'12283",
@@ -1230,7 +1184,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-layered-contrast-dress-white-black",
     "slug": "layered-contrast-dress-white-black",
-    "name": "Layered Contrast Dress in Cream/Black",
+    "name": "Layered Contrast Dress",
     "brand": "amelia-toro",
     "category": "clothing",
     "sku": "'12370",
@@ -1288,7 +1242,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-asymmetric-dress-black",
     "slug": "asymmetric-dress-black",
-    "name": "Asymmetric Dress in Black",
+    "name": "Asymmetric Dress",
     "brand": "amelia-toro",
     "category": "clothing",
     "sku": "'12380",
@@ -1298,6 +1252,10 @@ export const importedProducts: Product[] = [
     "colors": [
       {
         "name": "Black",
+        "hex": "#15140f"
+      },
+      {
+        "name": "Cream/Black",
         "hex": "#15140f"
       }
     ],
@@ -1339,72 +1297,15 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look034_05.jpeg?v=1437081220",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look034_01.jpeg?v=1437081220",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look034_07.jpeg?v=1437081220",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look034_08.jpeg?v=1437081220"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-asymmetric-dress-cream-black",
-    "slug": "asymmetric-dress-cream-black",
-    "name": "Asymmetric Dress in Cream/Black",
-    "brand": "amelia-toro",
-    "category": "clothing",
-    "sku": "'12386",
-    "price": 578,
-    "shortDescription": "Hand crafted from concept to finished product, the Columbian label Amelia Toro is authentically kind and creative. Sleeveless dress with…",
-    "description": "Hand crafted from concept to finished product, the Columbian label Amelia Toro is authentically kind and creative. Sleeveless dress with asymmetrical collar takes a traditional piece unforgettable. Interesting banded fabrication on front, long paneling in back. Back zip closure. Color Cream/Black. 100% Crepe Wool. Made in Columbia. Lana is wearing a Size 4. Also available in Black .",
-    "colors": [
-      {
-        "name": "Cream/Black",
-        "hex": "#15140f"
-      }
-    ],
-    "sizes": [
-      "4"
-    ],
-    "material": "—",
-    "stock": 1,
-    "rating": 4.8,
-    "reviewCount": 139,
-    "tags": [
-      "Amelia Toro",
-      "Black",
-      "contrast",
-      "Cream",
-      "cyber",
-      "Dress"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": true,
-    "newArrival": true,
-    "palette": [
-      "#23211d",
-      "#6a5a3a"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Amelia Toro"
-      },
-      {
-        "label": "Type",
-        "value": "women's dresses"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look05_01.jpeg?v=1437081211",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look05_03.jpeg?v=1437081211",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look05_04.jpeg?v=1437081211",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look05_05.jpeg?v=1437081211",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look05_06.jpeg?v=1437081211"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look034_08.jpeg?v=1437081220",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look05_01.jpeg?v=1437081211"
     ],
     "custom": false
   },
   {
     "id": "imp-golf-shoe-black",
     "slug": "golf-shoe-black",
-    "name": "Golf Shoe in Black",
+    "name": "Golf Shoe",
     "brand": "amelia-toro",
     "category": "shoes",
     "sku": "'12405",
@@ -1415,6 +1316,10 @@ export const importedProducts: Product[] = [
       {
         "name": "Black",
         "hex": "#15140f"
+      },
+      {
+        "name": "White",
+        "hex": "#f4f1ea"
       }
     ],
     "sizes": [
@@ -1455,72 +1360,15 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-30_Ashley_Look_02_8367_e425efca-7205-428b-a95a-90c111ff1182.jpeg?v=1437081189",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-02_Accessories_13_12409_2135.jpeg?v=1437081189",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-02_Accessories_13_12409_2137.jpeg?v=1437081189",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Product_Shoes_AmeliaToro_GolfShoe_black_03.jpeg?v=1437081189"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-golf-shoe-white",
-    "slug": "golf-shoe-white",
-    "name": "Golf Shoe in White",
-    "brand": "amelia-toro",
-    "category": "shoes",
-    "sku": "'12412",
-    "price": 568,
-    "shortDescription": "A wingtip toe and a monk's strap closure, the Golf Shoe from Amelia Toro is as well made as they come. A leather sole with an inch and a quarter…",
-    "description": "A wingtip toe and a monk's strap closure, the Golf Shoe from Amelia Toro is as well made as they come. A leather sole with an inch and a quarter leather heel, the Amelia Toro stamp of approval is the metal tag at back. Color White. 100% Leather. Made in Italy. Also available in Black .",
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#f4f1ea"
-      }
-    ],
-    "sizes": [
-      "37"
-    ],
-    "material": "—",
-    "stock": 2,
-    "rating": 4.9,
-    "reviewCount": 169,
-    "tags": [
-      "Amelia Toro",
-      "arrivals",
-      "AW15",
-      "Constructed Luxury",
-      "footwear",
-      "golf shoe"
-    ],
-    "featured": false,
-    "trending": true,
-    "bestSeller": true,
-    "newArrival": true,
-    "palette": [
-      "#1a1714",
-      "#5a4a35"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Amelia Toro"
-      },
-      {
-        "label": "Type",
-        "value": "women's shoes"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-02_Accessories_12_12413_2126.jpeg?v=1437081179",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-06_Lana_Look5_02.jpeg?v=1437081179",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-02_Accessories_12_12413_2130.jpeg?v=1437081179",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-02_Accessories_12_12413_2131.jpeg?v=1437081179",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Product_Shoes_AmeliaToro_GolfShoe_white04.jpeg?v=1437081179"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Product_Shoes_AmeliaToro_GolfShoe_black_03.jpeg?v=1437081189",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-02_Accessories_12_12413_2126.jpeg?v=1437081179"
     ],
     "custom": false
   },
   {
     "id": "imp-wingtip-loafer-blue",
     "slug": "wingtip-loafer-blue",
-    "name": "Wingtip Loafer in Blue",
+    "name": "Wingtip Loafer",
     "brand": "verba",
     "category": "shoes",
     "sku": "'12590",
@@ -1531,6 +1379,18 @@ export const importedProducts: Product[] = [
       {
         "name": "Blue",
         "hex": "#2f3c66"
+      },
+      {
+        "name": "Orange",
+        "hex": "#b5652a"
+      },
+      {
+        "name": "Lime",
+        "hex": "#8a857c"
+      },
+      {
+        "name": "Yellow",
+        "hex": "#c8a464"
       }
     ],
     "sizes": [
@@ -1570,185 +1430,16 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/Products_126592a.jpeg?v=1437081140",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/Products_126592c.jpeg?v=1437081141",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/Products_126592b.jpeg?v=1437081141",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Products_126592d.jpeg?v=1437081141"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-wingtip-loafer-orange",
-    "slug": "wingtip-loafer-orange",
-    "name": "Wingtip Loafer in Orange",
-    "brand": "verba",
-    "category": "shoes",
-    "sku": "'12597",
-    "price": 98,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Not your Grandfather’s house shoes. These Loafers from…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Not your Grandfather’s house shoes. These Loafers from Verba are classic in silhouette, yet contemporary with a canvas body and neon soles. Leather trim. Color Orange. Made in Italy. Also available in Lime , Yellow , and Blue .",
-    "colors": [
-      {
-        "name": "Orange",
-        "hex": "#b5652a"
-      }
-    ],
-    "sizes": [
-      "36"
-    ],
-    "material": "—",
-    "stock": 12,
-    "rating": 4.9,
-    "reviewCount": 172,
-    "tags": [
-      "accessories",
-      "footwear",
-      "orange",
-      "S14",
-      "SALE",
-      "Sale50"
-    ],
-    "featured": false,
-    "trending": true,
-    "bestSeller": true,
-    "newArrival": true,
-    "palette": [
-      "#1a1714",
-      "#5a4a35"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Verba"
-      },
-      {
-        "label": "Type",
-        "value": "women's shoes"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Products_126592d.jpeg?v=1437081141",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/Verba_6773.jpeg?v=1437081133",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Verba_6776.jpeg?v=1437081133",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Verba_6778.jpeg?v=1437081133",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Verba_6780.jpeg?v=1437081133"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-wingtip-loafer-lime",
-    "slug": "wingtip-loafer-lime",
-    "name": "Wingtip Loafer in Lime",
-    "brand": "verba",
-    "category": "shoes",
-    "sku": "'12604",
-    "price": 98,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Not your Grandfather’s house shoes. These Loafers from…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Not your Grandfather’s house shoes. These Loafers from Verba are classic in silhouette, yet contemporary with a canvas body and neon soles. Leather trim. Color Lime. Made in Italy. Also available in Orange , Yellow and Blue .",
-    "colors": [
-      {
-        "name": "Lime",
-        "hex": "#8a857c"
-      }
-    ],
-    "sizes": [
-      "36"
-    ],
-    "material": "—",
-    "stock": 1,
-    "rating": 4.6,
-    "reviewCount": 64,
-    "tags": [
-      "accessories",
-      "brown",
-      "cyber",
-      "flat",
-      "footwear",
-      "green"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#1a1714",
-      "#5a4a35"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Verba"
-      },
-      {
-        "label": "Type",
-        "value": "women's shoes"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Products_12606a.jpeg?v=1437081126",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Products_12606c.jpeg?v=1437081126",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Products_12606b.jpeg?v=1437081126",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Products_12606d.jpeg?v=1437081126"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-wingtip-loafer-yellow",
-    "slug": "wingtip-loafer-yellow",
-    "name": "Wingtip Loafer in Yellow",
-    "brand": "verba",
-    "category": "shoes",
-    "sku": "'12613",
-    "price": 98,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Not your Grandfather’s house shoes. These Loafers from…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Not your Grandfather’s house shoes. These Loafers from Verba are classic in silhouette, yet contemporary with a canvas body and neon soles. Leather trim. Color Yellow. Made in Italy. Also available in Lime , Orange , and Blue .",
-    "colors": [
-      {
-        "name": "Yellow",
-        "hex": "#c8a464"
-      }
-    ],
-    "sizes": [
-      "38"
-    ],
-    "material": "—",
-    "stock": 12,
-    "rating": 4.5,
-    "reviewCount": 31,
-    "tags": [
-      "accessories",
-      "footwear",
-      "S14",
-      "SALE",
-      "SALE50",
-      "Shoes"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#1a1714",
-      "#5a4a35"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Verba"
-      },
-      {
-        "label": "Type",
-        "value": "women's shoes"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Verba_6796.jpeg?v=1437081120",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Verba_6799.jpeg?v=1437081120",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Verba_6800.jpeg?v=1437081120",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Verba_6802.jpeg?v=1437081120"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Verba_6776.jpeg?v=1437081133"
     ],
     "custom": false
   },
   {
     "id": "imp-s14-vrb-se-211-natural-lime",
     "slug": "s14-vrb-se-211-natural-lime",
-    "name": "Suede Oxford in Natural/Lime",
+    "name": "Suede Oxford",
     "brand": "verba",
     "category": "clothing",
     "sku": "'12618",
@@ -1805,7 +1496,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-leather-loafer-rose",
     "slug": "leather-loafer-rose",
-    "name": "Leather Loafer in Rose",
+    "name": "Leather Loafer",
     "brand": "verba",
     "category": "shoes",
     "sku": "'12625",
@@ -1815,6 +1506,10 @@ export const importedProducts: Product[] = [
     "colors": [
       {
         "name": "Rose",
+        "hex": "#8a857c"
+      },
+      {
+        "name": "Lime",
         "hex": "#8a857c"
       }
     ],
@@ -1856,71 +1551,15 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/Products_12625b.jpeg?v=1437081106",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/Products_12625c.jpeg?v=1437081106",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/Products_12625d.jpeg?v=1437081106",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Products_12625e.jpeg?v=1437081106"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-leather-loafer-lime",
-    "slug": "leather-loafer-lime",
-    "name": "Leather Loafer in Lime",
-    "brand": "verba",
-    "category": "shoes",
-    "sku": "'12632",
-    "price": 98,
-    "shortDescription": "Not your Grandpa’s shoes. These Loafers from Verba are classic in silhouette, yet contemporary with a vegetable-dyed, calf leather body. Leather…",
-    "description": "Not your Grandpa’s shoes. These Loafers from Verba are classic in silhouette, yet contemporary with a vegetable-dyed, calf leather body. Leather trim. Color Rose. Made in Italy. Also Available in Rose .",
-    "colors": [
-      {
-        "name": "Lime",
-        "hex": "#8a857c"
-      }
-    ],
-    "sizes": [
-      "36"
-    ],
-    "material": "—",
-    "stock": 12,
-    "rating": 4.8,
-    "reviewCount": 129,
-    "tags": [
-      "accessories",
-      "cyber",
-      "flat",
-      "footwear",
-      "green",
-      "lime"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": true,
-    "palette": [
-      "#1a1714",
-      "#5a4a35"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Verba"
-      },
-      {
-        "label": "Type",
-        "value": "women's shoes"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Products_12632a.jpeg?v=1437081099",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Products_12632d.jpeg?v=1437081099",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Products_12632c.jpeg?v=1437081099",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Products_12632b.jpeg?v=1437081099"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Products_12625e.jpeg?v=1437081106",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Products_12632a.jpeg?v=1437081099"
     ],
     "custom": false
   },
   {
     "id": "imp-s14-vrb-se-111-black-blue",
     "slug": "s14-vrb-se-111-black-blue",
-    "name": "Suede Loafers - Black/Blue",
+    "name": "Suede Loafers",
     "brand": "verba",
     "category": "clothing",
     "sku": "'12640",
@@ -2036,7 +1675,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-s14-hac-tr-s63059893-black",
     "slug": "s14-hac-tr-s63059893-black",
-    "name": "Leather Panel Trouser in Black",
+    "name": "Leather Panel Trouser",
     "brand": "hache",
     "category": "clothing",
     "sku": "'12696",
@@ -2094,7 +1733,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-floral-button-up-blue",
     "slug": "floral-button-up-blue",
-    "name": "Floral Button-Up in Blue",
+    "name": "Floral Button-Up",
     "brand": "drumohr",
     "category": "clothing",
     "sku": "'12794",
@@ -2152,7 +1791,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-button-up-shirt-navy",
     "slug": "button-up-shirt-navy",
-    "name": "Button Up Shirt in Navy",
+    "name": "Button Up Shirt",
     "brand": "drumohr",
     "category": "clothing",
     "sku": "'12802",
@@ -2209,7 +1848,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-peone-jacket-khaki",
     "slug": "peone-jacket-khaki",
-    "name": "Peone Jacket in Khaki",
+    "name": "Peone Jacket",
     "brand": "duvetica",
     "category": "clothing",
     "sku": "'12857",
@@ -2267,7 +1906,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-curios-sweatshirt-steel-grey",
     "slug": "curios-sweatshirt-steel-grey",
-    "name": "Curios Sweatshirt in Steel Grey",
+    "name": "Curios Sweatshirt",
     "brand": "hannes-roether",
     "category": "clothing",
     "sku": "'12990",
@@ -2325,7 +1964,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-garbo-grey",
     "slug": "garbo-grey",
-    "name": "Garbo Henley in Grey",
+    "name": "Garbo Henley",
     "brand": "hannes-roether",
     "category": "clothing",
     "sku": "'12995",
@@ -2383,7 +2022,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-secon-shale-shirt-slate",
     "slug": "secon-shale-shirt-slate",
-    "name": "Secon Shale Shirt in Slate",
+    "name": "Secon Shale Shirt",
     "brand": "hannes-roether",
     "category": "clothing",
     "sku": "'10791",
@@ -2440,7 +2079,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-stiro-oxford-slate",
     "slug": "stiro-oxford-slate",
-    "name": "Stiro Oxford in Slate",
+    "name": "Stiro Oxford",
     "brand": "marsell",
     "category": "clothing",
     "sku": "'13129",
@@ -2451,6 +2090,10 @@ export const importedProducts: Product[] = [
       {
         "name": "Slate",
         "hex": "#8a857c"
+      },
+      {
+        "name": "Black",
+        "hex": "#15140f"
       }
     ],
     "sizes": [
@@ -2490,71 +2133,16 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-13_Reshoot_Look4_13129_21790.jpeg?v=1437080975",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/Products_13130b.jpeg?v=1437080975",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/Products_13130c.jpeg?v=1437080975",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Products_13130d.jpeg?v=1437080975"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-stiro-oxford-black",
-    "slug": "stiro-oxford-black",
-    "name": "Stiro Oxford in Black",
-    "brand": "marsell",
-    "category": "clothing",
-    "sku": "'23753",
-    "price": 358,
-    "shortDescription": "Marsèll's Oxfords are a superb example of fine construction and simple design. The lace up design is reinvented with a pebbled effect finish.…",
-    "description": "Marsèll's Oxfords are a superb example of fine construction and simple design. The lace up design is reinvented with a pebbled effect finish. These versatile Italian made shoes will ensure long lasting comfort and cool through the seasons. Color Black. 100% Leather. Made in Italy. Also Available in Chocolate, Slate , and Petroleum Blue .",
-    "colors": [
-      {
-        "name": "Black",
-        "hex": "#15140f"
-      }
-    ],
-    "sizes": [
-      "43"
-    ],
-    "material": "—",
-    "stock": 1,
-    "rating": 4.9,
-    "reviewCount": 144,
-    "tags": [
-      "accessories",
-      "black",
-      "cyber",
-      "footwear",
-      "last",
-      "Leather"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": true,
-    "newArrival": true,
-    "palette": [
-      "#23211d",
-      "#6a5a3a"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Marsell"
-      },
-      {
-        "label": "Type",
-        "value": "men's shoes"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Products_13130d.jpeg?v=1437080975",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-13_Reshoot_Look8_16572_21799.jpeg?v=1437080969",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Products_13136a.jpeg?v=1437080969",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Products_13136b.jpeg?v=1437080969",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Products_13136c.jpeg?v=1437080969"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Products_13136a.jpeg?v=1437080969"
     ],
     "custom": false
   },
   {
     "id": "imp-ink-splatter-shoulder-bag-mustard-blue",
     "slug": "ink-splatter-shoulder-bag-mustard-blue",
-    "name": "Ink Splatter Shoulder Bag in Mustard/Blue",
+    "name": "Ink Splatter Shoulder Bag",
     "brand": "saisei",
     "category": "bags",
     "sku": "'13292",
@@ -2610,7 +2198,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-brandy-tank-black",
     "slug": "brandy-tank-black",
-    "name": "Brandy Tank in Black",
+    "name": "Brandy Tank",
     "brand": "drifter",
     "category": "clothing",
     "sku": "'13669",
@@ -2666,7 +2254,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-s14-ter-se-3104e01-black",
     "slug": "s14-ter-se-3104e01-black",
-    "name": "Backless Oxford in Black",
+    "name": "Backless Oxford",
     "brand": "ter-et-bantine",
     "category": "shoes",
     "sku": "'13995",
@@ -2677,6 +2265,10 @@ export const importedProducts: Product[] = [
       {
         "name": "Black",
         "hex": "#15140f"
+      },
+      {
+        "name": "Brown",
+        "hex": "#5a4a35"
       }
     ],
     "sizes": [
@@ -2717,65 +2309,8 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-30_Reshoot_03_13996_21432.jpeg?v=1437080839",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-30_Reshoot_03_13996_21433.jpeg?v=1437080839",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-30_Reshoot_03_13996_21434.jpeg?v=1437080839",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-30_Reshoot_03_13996_21435.jpeg?v=1437080839"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-backless-oxford-brown",
-    "slug": "backless-oxford-brown",
-    "name": "Backless Oxford in Brown",
-    "brand": "ter-et-bantine",
-    "category": "shoes",
-    "sku": "'13988",
-    "price": 498,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company A fresh take on the timeless menswear staple. Beautifully…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company A fresh take on the timeless menswear staple. Beautifully crafted leather shoe from Ter et Bantine slides perfectly into one’s daily ensemble. Color Brown. 100% Leather. Made in Italy. Also available in Black . Shop our collection of Ter et Bantine.",
-    "colors": [
-      {
-        "name": "Brown",
-        "hex": "#5a4a35"
-      }
-    ],
-    "sizes": [
-      "36"
-    ],
-    "material": "—",
-    "stock": 1,
-    "rating": 4.9,
-    "reviewCount": 154,
-    "tags": [
-      "arrivals",
-      "AW15",
-      "backless",
-      "bounty",
-      "brown",
-      "footwear"
-    ],
-    "featured": false,
-    "trending": true,
-    "bestSeller": true,
-    "newArrival": true,
-    "palette": [
-      "#1a1714",
-      "#5a4a35"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Ter et Bantine"
-      },
-      {
-        "label": "Type",
-        "value": "women's shoes"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-30_Reshoot_03_13988_21425.jpeg?v=1437080830",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-30_Reshoot_03_13988_21427.jpeg?v=1437080830",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-30_Reshoot_03_13988_21428.jpeg?v=1437080830",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-30_Reshoot_03_13988_21429.jpeg?v=1437080830",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-30_Reshoot_03_13988_21430.jpeg?v=1437080830"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-30_Reshoot_03_13996_21435.jpeg?v=1437080839",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-30_Reshoot_03_13988_21425.jpeg?v=1437080830"
     ],
     "custom": false
   },
@@ -2830,14 +2365,16 @@ export const importedProducts: Product[] = [
     ],
     "images": [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_05_14103_21517.jpeg?v=1437080810",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_05_14103_21518.jpeg?v=1437080810"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_05_14103_21518.jpeg?v=1437080810",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_05_23497_21519.jpeg?v=1437066231",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_05_23497_21520.jpeg?v=1437066231"
     ],
     "custom": false
   },
   {
     "id": "imp-azur-bracelet-blue-azurite",
     "slug": "azur-bracelet-blue-azurite",
-    "name": "Azur Bracelet in Blue Azurite",
+    "name": "Azur Bracelet",
     "brand": "5-octobre",
     "category": "jewelry",
     "sku": "'14120",
@@ -2893,7 +2430,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-leopold-bracelet-green-chrysopras",
     "slug": "leopold-bracelet-green-chrysopras",
-    "name": "Leopold Bracelet in Green Chrysoprase",
+    "name": "Leopold Bracelet",
     "brand": "5-octobre",
     "category": "jewelry",
     "sku": "'14131",
@@ -2902,7 +2439,7 @@ export const importedProducts: Product[] = [
     "description": "Hues of jade offer a quiet elegance perfected for completion. Beautiful beads strung with gold accentuate silver statement pendant. 5 Octobre. Color Green Chrysoprase.",
     "colors": [
       {
-        "name": "Green Chrysopras",
+        "name": "Green Chrysoprase",
         "hex": "#3c5a45"
       }
     ],
@@ -2949,7 +2486,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-laurier-tee-black-navy",
     "slug": "laurier-tee-black-navy",
-    "name": "Laurier Tee in Black/Navy",
+    "name": "Laurier Tee",
     "brand": "drifter",
     "category": "clothing",
     "sku": "'14427",
@@ -3006,7 +2543,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-goof-jacket-tar",
     "slug": "goof-jacket-tar",
-    "name": "Goof Jacket in Tar",
+    "name": "Goof Jacket",
     "brand": "hannes-roether",
     "category": "clothing",
     "sku": "'14525",
@@ -3064,7 +2601,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-riga-jacket-tar",
     "slug": "riga-jacket-tar",
-    "name": "Riga Jacket in Tar",
+    "name": "Riga Jacket",
     "brand": "hannes-roether",
     "category": "clothing",
     "sku": "'14530",
@@ -3122,7 +2659,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-daris-tee-black",
     "slug": "daris-tee-black",
-    "name": "Daris Tee in Black",
+    "name": "Daris Tee",
     "brand": "hannes-roether",
     "category": "clothing",
     "sku": "'14592",
@@ -3133,6 +2670,14 @@ export const importedProducts: Product[] = [
       {
         "name": "Black",
         "hex": "#15140f"
+      },
+      {
+        "name": "Blue",
+        "hex": "#2f3c66"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5a5a35"
       }
     ],
     "sizes": [
@@ -3173,127 +2718,15 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/1-26-15_Addis_Look_23_14594_1192.jpeg?v=1437080623",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/1-26-15_Addis_Look_23_14594_1190_copy.jpeg?v=1437080623",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/1-26-15_Addis_Look_23_14594_1181.jpeg?v=1437080623",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/1-26-15_Addis_Look_23_14594_1187.jpeg?v=1437080623"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-daris-tee-blue",
-    "slug": "daris-tee-blue",
-    "name": "Daris Tee in Blue",
-    "brand": "hannes-roether",
-    "category": "clothing",
-    "sku": "'14597",
-    "price": 98,
-    "shortDescription": "Understated yet classic, Roether’s pieces offer versatility through timeless silhouette. The Daris Tee presents raw refinery. Raglan sleeves and…",
-    "description": "Understated yet classic, Roether’s pieces offer versatility through timeless silhouette. The Daris Tee presents raw refinery. Raglan sleeves and unfinished crew neckline. Color Blue. 100% Cotton. Made in EU. Addis is wearing a Small. Also available in Olive and Black . Shop our collection of Hannes Roether.",
-    "colors": [
-      {
-        "name": "Blue",
-        "hex": "#2f3c66"
-      }
-    ],
-    "sizes": [
-      "Small"
-    ],
-    "material": "—",
-    "stock": 2,
-    "rating": 4.7,
-    "reviewCount": 111,
-    "tags": [
-      "Hannes Roether",
-      "Man",
-      "S14",
-      "t-shirts",
-      "tops",
-      "visible"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#23211d",
-      "#6a5a3a"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Hannes Roether"
-      },
-      {
-        "label": "Type",
-        "value": "men's t-shirts"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/1-26-15_Addis_Look_22_14597_1175_copy.jpeg?v=1437080616",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/1-26-15_Addis_Look_22_14597_1172.jpeg?v=1437080616",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/1-26-15_Addis_Look_22_14597_1174.jpeg?v=1437080616",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/1-26-15_Addis_Look_22_14597_1175.jpeg?v=1437080616"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-daris-tee-olive",
-    "slug": "daris-tee-olive",
-    "name": "Daris Tee in Olive",
-    "brand": "hannes-roether",
-    "category": "clothing",
-    "sku": "'14602",
-    "price": 98,
-    "shortDescription": "Understated yet classic, Roether’s pieces offer versatility through timeless silhouette. The Daris Tee presents raw refinery. Raglan sleeves and…",
-    "description": "Understated yet classic, Roether’s pieces offer versatility through timeless silhouette. The Daris Tee presents raw refinery. Raglan sleeves and unfinished crew neckline. Color Olive. 100% Cotton. Made in EU. Addis is wearing a Small. Also available in Blue and Black . Shop our collection of Hannes Roether.",
-    "colors": [
-      {
-        "name": "Olive",
-        "hex": "#5a5a35"
-      }
-    ],
-    "sizes": [
-      "Small"
-    ],
-    "material": "—",
-    "stock": 1,
-    "rating": 4.8,
-    "reviewCount": 127,
-    "tags": [
-      "Hannes Roether",
-      "Man",
-      "S14",
-      "t-shirts",
-      "tops",
-      "visible"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": true,
-    "palette": [
-      "#23211d",
-      "#6a5a3a"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Hannes Roether"
-      },
-      {
-        "label": "Type",
-        "value": "men's t-shirts"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/1-26-15_Addis_Look_20_14602_1129.jpeg?v=1437080610",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/1-26-15_Addis_Look_20_14602_1132.jpeg?v=1437080610",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/1-26-15_Addis_Look_20_14602_1146.jpeg?v=1437080610"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/1-26-15_Addis_Look_23_14594_1187.jpeg?v=1437080623",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/1-26-15_Addis_Look_22_14597_1175_copy.jpeg?v=1437080616"
     ],
     "custom": false
   },
   {
     "id": "imp-marquee-coat-steel",
     "slug": "marquee-coat-steel",
-    "name": "Marquee Coat in Steel",
+    "name": "Marquee Coat",
     "brand": "hannes-roether",
     "category": "clothing",
     "sku": "'14637",
@@ -3351,7 +2784,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-bizi-rose-aubergine",
     "slug": "bizi-rose-aubergine",
-    "name": "Bizi Cap Toe Loafer in Rose/Aubergine",
+    "name": "Bizi Cap Toe Loafer",
     "brand": "meher-kakalia",
     "category": "shoes",
     "sku": "'20411",
@@ -3408,7 +2841,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-unbalanced-cardigan-black",
     "slug": "unbalanced-cardigan-black",
-    "name": "Unbalanced Cardigan in Black",
+    "name": "Unbalanced Cardigan",
     "brand": "maria-calderara",
     "category": "clothing",
     "sku": "'15061",
@@ -3465,7 +2898,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-hempel-shirt-white",
     "slug": "hempel-shirt-white",
-    "name": "Hempel Shirt in White",
+    "name": "Hempel Shirt",
     "brand": "hannes-roether",
     "category": "clothing",
     "sku": "'15357",
@@ -3523,7 +2956,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-weave-jacket-black-blue",
     "slug": "weave-jacket-black-blue",
-    "name": "Weave Jacket in Black/Blue",
+    "name": "Weave Jacket",
     "brand": "hache",
     "category": "clothing",
     "sku": "'15398",
@@ -3581,7 +3014,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-tessuto-jacket-navy",
     "slug": "tessuto-jacket-navy",
-    "name": "Tessuto Jacket in Navy",
+    "name": "Tessuto Jacket",
     "brand": "ter-et-bantine",
     "category": "clothing",
     "sku": "'15405",
@@ -3592,6 +3025,10 @@ export const importedProducts: Product[] = [
       {
         "name": "Navy",
         "hex": "#1f2535"
+      },
+      {
+        "name": "Cream",
+        "hex": "#e8dfc9"
       }
     ],
     "sizes": [
@@ -3632,72 +3069,15 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_08_11_Lana_Look1_04.jpeg?v=1437080492",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_08_11_Lana_Look1_10.jpeg?v=1437080492",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_08_11_Lana_Look1_06.jpeg?v=1437080492",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_08_11_Lana_Look1_11.jpeg?v=1437080492"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-tessuto-jacket-cream",
-    "slug": "tessuto-jacket-cream",
-    "name": "Tessuto Jacket in Cream",
-    "brand": "ter-et-bantine",
-    "category": "clothing",
-    "sku": "'15410",
-    "price": 638,
-    "shortDescription": "A sleek and sensible collarless coat from Ter et Bantine in a luxurious premium cotton twill that feels more like an easy denim. Raw edges at…",
-    "description": "A sleek and sensible collarless coat from Ter et Bantine in a luxurious premium cotton twill that feels more like an easy denim. Raw edges at center front hide hand-sewn snaps. Center back vent and a small vent at each sleeve. Color Cream. 100% Cotton. Lana is wearing the Size 42. Also available in Navy .",
-    "colors": [
-      {
-        "name": "Cream",
-        "hex": "#e8dfc9"
-      }
-    ],
-    "sizes": [
-      "42"
-    ],
-    "material": "—",
-    "stock": 12,
-    "rating": 4.6,
-    "reviewCount": 79,
-    "tags": [
-      "cream",
-      "cyber",
-      "jacket",
-      "last",
-      "Minimalism",
-      "Outerwear"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#23211d",
-      "#6a5a3a"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Ter et Bantine"
-      },
-      {
-        "label": "Type",
-        "value": "women's coats & jackets"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_08_11_Lana_Look5_03.jpeg?v=1437080479",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_08_11_Lana_Look5_02.jpeg?v=1437080479",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_08_11_Lana_Look5_08.jpeg?v=1437080479",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_08_11_Lana_Look5_06.jpeg?v=1437080479",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_08_11_Lana_Look5_07.jpeg?v=1437080479"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_08_11_Lana_Look1_11.jpeg?v=1437080492",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_08_11_Lana_Look5_03.jpeg?v=1437080479"
     ],
     "custom": false
   },
   {
     "id": "imp-tulle-pleat-skirt-navy",
     "slug": "tulle-pleat-skirt-navy",
-    "name": "Tulle Pleat Skirt in Navy",
+    "name": "Tulle Pleat Skirt",
     "brand": "ter-et-bantine",
     "category": "clothing",
     "sku": "'15413",
@@ -3708,6 +3088,10 @@ export const importedProducts: Product[] = [
       {
         "name": "Navy",
         "hex": "#1f2535"
+      },
+      {
+        "name": "Cream",
+        "hex": "#e8dfc9"
       }
     ],
     "sizes": [
@@ -3748,72 +3132,15 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look13_01.jpeg?v=1437080466",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look13_04.jpeg?v=1437080466",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look13_05.jpeg?v=1437080466",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look13_02.jpeg?v=1437080466"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-tulle-pleat-skirt-cream",
-    "slug": "tulle-pleat-skirt-cream",
-    "name": "Tulle Pleat Skirt in Cream",
-    "brand": "ter-et-bantine",
-    "category": "clothing",
-    "sku": "'15418",
-    "price": 348,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Timeless and inventive, Manuela Arcari’s designs for Ter et…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Timeless and inventive, Manuela Arcari’s designs for Ter et Bantine are exquisitely minimalistic while including touches of femininity. A-line skirt with subtle paneling. Back darts add to clean silhouette. Zip closure in back. Color Cream. 63% Cotton, 21% Polyester, 16% Seta. Made in Italy. Color Cream . Lana is wearing a Size 38. Also available in Navy .",
-    "colors": [
-      {
-        "name": "Cream",
-        "hex": "#e8dfc9"
-      }
-    ],
-    "sizes": [
-      "38"
-    ],
-    "material": "—",
-    "stock": 12,
-    "rating": 4.9,
-    "reviewCount": 146,
-    "tags": [
-      "a-line",
-      "below-the-knee",
-      "bottoms",
-      "cream",
-      "cyber",
-      "S14"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": true,
-    "newArrival": true,
-    "palette": [
-      "#23211d",
-      "#6a5a3a"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Ter et Bantine"
-      },
-      {
-        "label": "Type",
-        "value": "women's skirts"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look11_01.jpeg?v=1437080456",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look11_02.jpeg?v=1437080456",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look11_04.jpeg?v=1437080456",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look11_05.jpeg?v=1437080456",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look11_03.jpeg?v=1437080456"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look13_02.jpeg?v=1437080466",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look11_01.jpeg?v=1437080456"
     ],
     "custom": false
   },
   {
     "id": "imp-s14-ter-dr-s11176439-denim",
     "slug": "s14-ter-dr-s11176439-denim",
-    "name": "Denim Dress in Denim",
+    "name": "Denim Dress",
     "brand": "ter-et-bantine",
     "category": "clothing",
     "sku": "'15445",
@@ -3871,7 +3198,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-s14-dnl-sh-gjqdem-beige",
     "slug": "s14-dnl-sh-gjqdem-beige",
-    "name": "Patterned Button Up in Beige",
+    "name": "Patterned Button Up",
     "brand": "dnl",
     "category": "clothing",
     "sku": "'15581",
@@ -3929,7 +3256,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-s14-dnl-sh-lhldec-blue-diamond",
     "slug": "s14-dnl-sh-lhldec-blue-diamond",
-    "name": "Linen Button Up in Blue Diamond",
+    "name": "Linen Button Up",
     "brand": "dnl",
     "category": "clothing",
     "sku": "'15595",
@@ -3987,7 +3314,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-s14-dnl-sh-lkadec-beige-blue",
     "slug": "s14-dnl-sh-lkadec-beige-blue",
-    "name": "Linen Western Shirt in Beige/Blue",
+    "name": "Linen Western Shirt",
     "brand": "dnl",
     "category": "clothing",
     "sku": "'15601",
@@ -4044,7 +3371,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-bracelet-65-black",
     "slug": "bracelet-65-black",
-    "name": "Bracelet 65 in Black",
+    "name": "Bracelet 65",
     "brand": "1-100",
     "category": "jewelry",
     "sku": "'15664",
@@ -4099,7 +3426,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-silver-chain-bracelet-sterling",
     "slug": "silver-chain-bracelet-sterling",
-    "name": "Silver I.D. Bracelet in Sterling",
+    "name": "Silver I.D. Bracelet",
     "brand": "1-100",
     "category": "jewelry",
     "sku": "'15667",
@@ -4154,7 +3481,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-silver-coil-ring-sterling",
     "slug": "silver-coil-ring-sterling",
-    "name": "Silver Coil Ring in Sterling",
+    "name": "Silver Coil Ring",
     "brand": "1-100",
     "category": "jewelry",
     "sku": "'15668",
@@ -4211,7 +3538,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-western-arkansas-button-up-dark-hash-floral",
     "slug": "western-arkansas-button-up-dark-hash-floral",
-    "name": "Western Arkansas Button-Up in Dark Hash Floral",
+    "name": "Western Arkansas Button-Up",
     "brand": "aglini",
     "category": "clothing",
     "sku": "'15675",
@@ -4222,6 +3549,14 @@ export const importedProducts: Product[] = [
       {
         "name": "Dark Hash Floral",
         "hex": "#8a857c"
+      },
+      {
+        "name": "Blue Floral",
+        "hex": "#2f3c66"
+      },
+      {
+        "name": "Grey Floral",
+        "hex": "#6f7178"
       }
     ],
     "sizes": [
@@ -4262,72 +3597,15 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_216.jpeg?v=1437080323",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_214.jpeg?v=1437080323",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_217.jpeg?v=1437080323",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_218.jpeg?v=1437080323"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-western-arkansas-button-up-blue-floral",
-    "slug": "western-arkansas-button-up-blue-floral",
-    "name": "Western Arkansas Button-Up in Blue Floral",
-    "brand": "aglini",
-    "category": "clothing",
-    "sku": "'15681",
-    "price": 108,
-    "shortDescription": "A Western style shirt gets a sweet touch with an all over floral motif. Two flap pockets at the chest and a classic western style yoke finishes…",
-    "description": "A Western style shirt gets a sweet touch with an all over floral motif. Two flap pockets at the chest and a classic western style yoke finishes the back. Aglini. Color Blue Floral. 100% Cotton. Made in Italy. Matt is wearing an Italian 42. Matt is 6’2”, Chest 38”, Waist 31”, Inseam 34.5”. Also available in Dark Hash Floral and Grey Floral . Shop our collection of Aglini.",
-    "colors": [
-      {
-        "name": "Blue Floral",
-        "hex": "#2f3c66"
-      }
-    ],
-    "sizes": [
-      "40"
-    ],
-    "material": "—",
-    "stock": 12,
-    "rating": 4.5,
-    "reviewCount": 30,
-    "tags": [
-      "Aglini",
-      "button up",
-      "Button-ups",
-      "Cotton",
-      "F14",
-      "floral"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#23211d",
-      "#6a5a3a"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Aglini"
-      },
-      {
-        "label": "Type",
-        "value": "men's button-ups"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_164.jpeg?v=1437080316",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_169.jpeg?v=1437080316",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_167.jpeg?v=1437080316",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_168.jpeg?v=1437080316",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_171.jpeg?v=1437080316"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_218.jpeg?v=1437080323",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_164.jpeg?v=1437080316"
     ],
     "custom": false
   },
   {
     "id": "imp-riccardo-button-up-plaid-multi",
     "slug": "riccardo-button-up-plaid-multi",
-    "name": "Riccardo Button-Up in Plaid Multi",
+    "name": "Riccardo Button-Up",
     "brand": "aglini",
     "category": "clothing",
     "sku": "'15688",
@@ -4385,7 +3663,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-stretch-tee-milk",
     "slug": "stretch-tee-milk",
-    "name": "Stretch Tee in Milk",
+    "name": "Stretch Tee",
     "brand": "album-di-famiglia",
     "category": "clothing",
     "sku": "'15735",
@@ -4442,7 +3720,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-knit-hooded-jumpsuit-black",
     "slug": "knit-hooded-jumpsuit-black",
-    "name": "Knit Hooded Jumpsuit in Black",
+    "name": "Knit Hooded Jumpsuit",
     "brand": "album-di-famiglia",
     "category": "clothing",
     "sku": "'15764",
@@ -4498,7 +3776,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-silk-shift-tweed-net",
     "slug": "silk-shift-tweed-net",
-    "name": "Silk Shift in Tweed and Net",
+    "name": "Silk Shift",
     "brand": "antoni-alison",
     "category": "clothing",
     "sku": "'15777",
@@ -4507,7 +3785,7 @@ export const importedProducts: Product[] = [
     "description": "Artisanal prints are creeping in this season with Antoni & Alison's silk dresses. A wispy sleeveless shifts keep it simple while eye-catching collages made us look twice. Color Tweed & Net. 100% Silk. Lana is wearing a UK 10. Also available in Pearls on Gold .",
     "colors": [
       {
-        "name": "Tweed & Net",
+        "name": "Tweed and Net",
         "hex": "#8a857c"
       }
     ],
@@ -4556,7 +3834,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-nuit-short-black",
     "slug": "nuit-short-black",
-    "name": "Nuit Shorts in Black",
+    "name": "Nuit Shorts",
     "brand": "drifter",
     "category": "clothing",
     "sku": "'15821",
@@ -4614,7 +3892,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-symphonie-sweatshirt-black",
     "slug": "symphonie-sweatshirt-black",
-    "name": "Symphonie Sweatshirt in Black",
+    "name": "Symphonie Sweatshirt",
     "brand": "drifter",
     "category": "clothing",
     "sku": "'15830",
@@ -4670,7 +3948,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-millenium-tank-black",
     "slug": "millenium-tank-black",
-    "name": "Millenium Tank in Black",
+    "name": "Millenium Tank",
     "brand": "drifter",
     "category": "clothing",
     "sku": "'15852",
@@ -4727,7 +4005,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-trench-coat-black",
     "slug": "trench-coat-black",
-    "name": "Trench Coat in Black",
+    "name": "Trench Coat",
     "brand": "amelia-toro",
     "category": "accessories",
     "sku": "'15878",
@@ -4784,7 +4062,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-boucle-turtle-neck-green-black",
     "slug": "boucle-turtle-neck-green-black",
-    "name": "Boucle Turtle Neck in Green/Black",
+    "name": "Boucle Turtle Neck",
     "brand": "amelia-toro",
     "category": "clothing",
     "sku": "'15886",
@@ -4842,7 +4120,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-stretch-fitted-pant-black",
     "slug": "stretch-fitted-pant-black",
-    "name": "Stretch Fitted Pant in Black",
+    "name": "Stretch Fitted Pant",
     "brand": "amelia-toro",
     "category": "clothing",
     "sku": "'15890",
@@ -4899,7 +4177,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-tie-neck-wool-dress-black",
     "slug": "tie-neck-wool-dress-black",
-    "name": "Tie Neck Wool Dress in Black",
+    "name": "Tie Neck Wool Dress",
     "brand": "amelia-toro",
     "category": "accessories",
     "sku": "'15903",
@@ -4955,7 +4233,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-mirco-pant-stone",
     "slug": "mirco-pant-stone",
-    "name": "Mirco Pant in Stone",
+    "name": "Mirco Pant",
     "brand": "annette-gortz",
     "category": "accessories",
     "sku": "'15930",
@@ -5013,7 +4291,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-antidote-joie-tee-taupe",
     "slug": "antidote-joie-tee-taupe",
-    "name": "Antidote \"Joie\" Tee in Taupe",
+    "name": "Antidote \"Joie\" Tee",
     "brand": "blk-opm",
     "category": "clothing",
     "sku": "'16149",
@@ -5071,7 +4349,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-antidote-13-tee-mood-indigo",
     "slug": "antidote-13-tee-mood-indigo",
-    "name": "Antidote \"13\" Tee in Mood Indigo",
+    "name": "Antidote \"13\" Tee",
     "brand": "blk-opm",
     "category": "clothing",
     "sku": "'16152",
@@ -5125,7 +4403,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-deskle-cardigan-multi",
     "slug": "deskle-cardigan-multi",
-    "name": "Deskle Cardigan in Heather",
+    "name": "Deskle Cardigan",
     "brand": "bellerose",
     "category": "clothing",
     "sku": "'16172",
@@ -5134,7 +4412,7 @@ export const importedProducts: Product[] = [
     "description": "Color blocked cuffs, hem and neck elevate a prep-inspired cardigan. A small breast pocket is outlined in a hazy blue. Deep v-neckline has a four button closure. Color Multi. 50% Super Kid Mohair, 32% Polyamide, 18% Merino Wool. Ashley is wearing a size 0.",
     "colors": [
       {
-        "name": "Multi",
+        "name": "Heather",
         "hex": "#8a857c"
       }
     ],
@@ -5183,7 +4461,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-houndstooth-square-rouge",
     "slug": "houndstooth-square-rouge",
-    "name": "Houndstooth Square in Rouge",
+    "name": "Houndstooth Square",
     "brand": "epice",
     "category": "accessories",
     "sku": "'16204",
@@ -5193,6 +4471,10 @@ export const importedProducts: Product[] = [
     "colors": [
       {
         "name": "Rouge",
+        "hex": "#8a857c"
+      },
+      {
+        "name": "Slate",
         "hex": "#8a857c"
       }
     ],
@@ -5231,60 +4513,7 @@ export const importedProducts: Product[] = [
     ],
     "images": [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/products_scarves_epice_16204_a_1024x1024_b3237e3c-eede-41ce-8a07-60a7baeeeb00.jpeg?v=1437079874",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/products_scarves_epice_16204_b.jpeg?v=1437079874"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-houndstooth-square-slate",
-    "slug": "houndstooth-square-slate",
-    "name": "Houndstooth Square in Slate",
-    "brand": "epice",
-    "category": "clothing",
-    "sku": "'16205",
-    "price": 68,
-    "shortDescription": "Pops of color fringe the borders of a traditional houndstooth patterned scarf. Epic. Color Slate. 100% Wool. Made in India. Length 28\" X 28\". Also…",
-    "description": "Pops of color fringe the borders of a traditional houndstooth patterned scarf. Epic. Color Slate. 100% Wool. Made in India. Length 28\" X 28\". Also available in Black , Rouge , and Mocha .",
-    "colors": [
-      {
-        "name": "Slate",
-        "hex": "#8a857c"
-      }
-    ],
-    "sizes": [
-      "One Size"
-    ],
-    "material": "—",
-    "stock": 2,
-    "rating": 4.6,
-    "reviewCount": 73,
-    "tags": [
-      "Accessories",
-      "Epice",
-      "F14",
-      "grey",
-      "houndstooth",
-      "Houndstooth Square"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#23211d",
-      "#6a5a3a"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Epice"
-      },
-      {
-        "label": "Type",
-        "value": "women's scarves"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/products_scarves_epice_16204_b.jpeg?v=1437079874",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/Product_16205_a_1024x1024_5a868817-7fd6-43f3-a092-faa7069ca7a3.jpeg?v=1437079871",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/Product_16205_b.jpeg?v=1437079871",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-09_Ashley_Look_31_4624.jpeg?v=1437079871"
@@ -5294,7 +4523,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-reversible-beanie-amber",
     "slug": "reversible-beanie-amber",
-    "name": "Reversible Beanie in Amber",
+    "name": "Reversible Beanie",
     "brand": "epice",
     "category": "clothing",
     "sku": "'16213",
@@ -5352,7 +4581,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-egon-pant-check",
     "slug": "egon-pant-check",
-    "name": "Egon Pant in Check",
+    "name": "Egon Pant",
     "brand": "bellerose",
     "category": "clothing",
     "sku": "'16230",
@@ -5409,7 +4638,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-serra-blazer-forest",
     "slug": "serra-blazer-forest",
-    "name": "Serra Blazer in Forest",
+    "name": "Serra Blazer",
     "brand": "bellerose",
     "category": "clothing",
     "sku": "'16246",
@@ -5467,7 +4696,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-jeth-sweatshirt-grey-rust",
     "slug": "jeth-sweatshirt-grey-rust",
-    "name": "Jeth Sweatshirt in Grey/Rust",
+    "name": "Jeth Sweatshirt",
     "brand": "bellerose",
     "category": "clothing",
     "sku": "'16267",
@@ -5478,6 +4707,10 @@ export const importedProducts: Product[] = [
       {
         "name": "Grey/Rust",
         "hex": "#6f7178"
+      },
+      {
+        "name": "Blue/Royal",
+        "hex": "#2f3c66"
       }
     ],
     "sizes": [
@@ -5517,72 +4750,16 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-26_Spencer_Look_03_03.jpeg?v=1437079678",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-26_Spencer_Look_03_04.jpeg?v=1437079678",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-26_Spencer_Look_03_06.jpeg?v=1437079678",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-26_Spencer_Look_03_07.jpeg?v=1437079678"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-jeth-sweatshirt-blue-royal",
-    "slug": "jeth-sweatshirt-blue-royal",
-    "name": "Jeth Sweatshirt in Blue/Royal",
-    "brand": "bellerose",
-    "category": "clothing",
-    "sku": "'16278",
-    "price": 78,
-    "shortDescription": "A casual sweatshirt from Bellerose becomes irresistible when its lined in royal colored fur. Bellerose. Colors Blue/Royal. 90% Cotton, 10%…",
-    "description": "A casual sweatshirt from Bellerose becomes irresistible when its lined in royal colored fur. Bellerose. Colors Blue/Royal. 90% Cotton, 10% Polyester. Spencer is wearing a size Large. Also Available in Grey/Rust .",
-    "colors": [
-      {
-        "name": "Blue/Royal",
-        "hex": "#2f3c66"
-      }
-    ],
-    "sizes": [
-      "Small"
-    ],
-    "material": "—",
-    "stock": 1,
-    "rating": 4.9,
-    "reviewCount": 164,
-    "tags": [
-      "Bellerose",
-      "F14",
-      "Fur",
-      "Knitwear",
-      "Man",
-      "Mens"
-    ],
-    "featured": false,
-    "trending": true,
-    "bestSeller": true,
-    "newArrival": true,
-    "palette": [
-      "#23211d",
-      "#6a5a3a"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Bellerose"
-      },
-      {
-        "label": "Type",
-        "value": "men's knits"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-26_Spencer_Look_03_07.jpeg?v=1437079678",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_09_26_Spencer_Look_06_02.jpeg?v=1437079636",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_09_26_Spencer_Look_06_03.jpeg?v=1437079636",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_09_26_Spencer_Look_06_05.jpeg?v=1437079636",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_09_26_Spencer_Look_06_06.jpeg?v=1437079636",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_09_26_Spencer_Look_06_08.jpeg?v=1437079636"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_09_26_Spencer_Look_06_03.jpeg?v=1437079636"
     ],
     "custom": false
   },
   {
     "id": "imp-luke-shirt-red-stripe",
     "slug": "luke-shirt-red-stripe",
-    "name": "Luke Shirt in Red Stripe",
+    "name": "Luke Shirt",
     "brand": "frank-eileen",
     "category": "clothing",
     "sku": "'16334",
@@ -5697,7 +4874,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-shahmeena-cocoon-coat-black",
     "slug": "shahmeena-cocoon-coat-black",
-    "name": "Shahmeena Cocoon Coat in Black",
+    "name": "Shahmeena Cocoon Coat",
     "brand": "gianfranco-scotti",
     "category": "clothing",
     "sku": "'16350",
@@ -5754,7 +4931,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-full-collar-poplin-blouse-off-white",
     "slug": "full-collar-poplin-blouse-off-white",
-    "name": "Full Collar Poplin Blouse in Off White",
+    "name": "Full Collar Poplin Blouse",
     "brand": "gianfranco-scotti",
     "category": "clothing",
     "sku": "'16356",
@@ -5765,6 +4942,10 @@ export const importedProducts: Product[] = [
       {
         "name": "Off White",
         "hex": "#f4f1ea"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2535"
       }
     ],
     "sizes": [
@@ -5804,72 +4985,16 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-02_Lana_Look_31_713.jpeg?v=1437079479",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-02_Lana_Look_31_723.jpeg?v=1437079479",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-02_Lana_Look_31_702_17928698-bc11-4701-aea3-92594f0b3283.jpeg?v=1437079479",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-02_Lana_Look_32_737_73b71fd0-4297-458e-844f-da2d61c87b4d.jpeg?v=1437079479"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-full-collar-poplin-blouse-navy",
-    "slug": "full-collar-poplin-blouse-navy",
-    "name": "Full Collar Poplin Blouse in Navy",
-    "brand": "gianfranco-scotti",
-    "category": "clothing",
-    "sku": "'16360",
-    "price": 328,
-    "shortDescription": "The softest cotton manages to also be the crispest in Gianfranco Scotti's semi-couture poplin blouse. The hidden placket button-up is given an…",
-    "description": "The softest cotton manages to also be the crispest in Gianfranco Scotti's semi-couture poplin blouse. The hidden placket button-up is given an artful flair with a standing collar and full sleeves. Color Navy. 100% Cotton. Lana is wearing a French 38. Also available in Off-White .",
-    "colors": [
-      {
-        "name": "Navy",
-        "hex": "#1f2535"
-      }
-    ],
-    "sizes": [
-      "French 38"
-    ],
-    "material": "—",
-    "stock": 12,
-    "rating": 4.9,
-    "reviewCount": 166,
-    "tags": [
-      "blouse",
-      "button up",
-      "cotton",
-      "F14",
-      "Gianfranco Scotti",
-      "navy"
-    ],
-    "featured": false,
-    "trending": true,
-    "bestSeller": true,
-    "newArrival": true,
-    "palette": [
-      "#23211d",
-      "#6a5a3a"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Gianfranco Scotti"
-      },
-      {
-        "label": "Type",
-        "value": "women's tops"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-02_Lana_Look_32_737_73b71fd0-4297-458e-844f-da2d61c87b4d.jpeg?v=1437079479",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_25_Lana_Look37_02.jpeg?v=1437079473",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_25_Lana_Look37_01.jpeg?v=1437079473",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_25_Lana_Look37_03.jpeg?v=1437079473",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_25_Lana_Look37_04.jpeg?v=1437079473",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_25_Lana_Look37_05.jpeg?v=1437079473"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_25_Lana_Look37_01.jpeg?v=1437079473"
     ],
     "custom": false
   },
   {
     "id": "imp-trim-collar-poplin-blouse-off-white",
     "slug": "trim-collar-poplin-blouse-off-white",
-    "name": "Trim Collar Poplin Blouse in Off White",
+    "name": "Trim Collar Poplin Blouse",
     "brand": "gianfranco-scotti",
     "category": "clothing",
     "sku": "'16363",
@@ -5927,7 +5052,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-sleeveless-pleated-dress-navy",
     "slug": "sleeveless-pleated-dress-navy",
-    "name": "Sleeveless Pleated Dress in Navy",
+    "name": "Sleeveless Pleated Dress",
     "brand": "hache",
     "category": "clothing",
     "sku": "'16429",
@@ -6042,7 +5167,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-fleece-jersey-dress-black",
     "slug": "fleece-jersey-dress-black",
-    "name": "Fleece Jersey Dress in Black",
+    "name": "Fleece Jersey Dress",
     "brand": "harvey-faircloth",
     "category": "clothing",
     "sku": "'16602",
@@ -6100,7 +5225,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-ghost-wool-jacket-brown",
     "slug": "ghost-wool-jacket-brown",
-    "name": "Ghost Wool Jacket in Brown",
+    "name": "Ghost Wool Jacket",
     "brand": "hazel-brown",
     "category": "clothing",
     "sku": "'16638",
@@ -6157,7 +5282,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-sateen-trench-navy",
     "slug": "sateen-trench-navy",
-    "name": "Sateen Trench in Navy",
+    "name": "Sateen Trench",
     "brand": "jesse-kamm",
     "category": "accessories",
     "sku": "'16691",
@@ -6215,7 +5340,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-edged-wool-scarf-off-white",
     "slug": "edged-wool-scarf-off-white",
-    "name": "Edged Wool Scarf in Off White",
+    "name": "Edged Wool Scarf",
     "brand": "khadi-co",
     "category": "accessories",
     "sku": "'16703",
@@ -6271,7 +5396,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-diamond-scarf-black-natural",
     "slug": "diamond-scarf-black-natural",
-    "name": "Diamond Scarf in Black/Natural",
+    "name": "Diamond Scarf",
     "brand": "khadi-co",
     "category": "accessories",
     "sku": "'16705",
@@ -6326,7 +5451,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-crazy-mallory-jacket-blue-mix",
     "slug": "crazy-mallory-jacket-blue-mix",
-    "name": "Crazy Mallory Jacket in Blue Mix",
+    "name": "Crazy Mallory Jacket",
     "brand": "nigel-cabourn",
     "category": "clothing",
     "sku": "'16769",
@@ -6383,7 +5508,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-chambray-boyfriend-shirt-blue",
     "slug": "chambray-boyfriend-shirt-blue",
-    "name": "Chambray Boyfriend Shirt in Blue",
+    "name": "Chambray Boyfriend Shirt",
     "brand": "harvey-faircloth",
     "category": "clothing",
     "sku": "'16819",
@@ -6440,7 +5565,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-wool-shoulder-pouch-black-white",
     "slug": "wool-shoulder-pouch-black-white",
-    "name": "Wool Shoulder Pouch in Black/White",
+    "name": "Wool Shoulder Pouch",
     "brand": "harvey-faircloth",
     "category": "clothing",
     "sku": "'16826",
@@ -6496,7 +5621,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-camicia-classic-shirt-navy",
     "slug": "camicia-classic-shirt-navy",
-    "name": "Camicia Classic Shirt in Navy",
+    "name": "Camicia Classic Shirt",
     "brand": "mauro-grifoni",
     "category": "clothing",
     "sku": "'16831",
@@ -6551,7 +5676,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-camicia-slim-shirt-celestial",
     "slug": "camicia-slim-shirt-celestial",
-    "name": "Camicia Slim Shirt in Celestial",
+    "name": "Camicia Slim Shirt",
     "brand": "mauro-grifoni",
     "category": "clothing",
     "sku": "'16835",
@@ -6606,7 +5731,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-mens-completo-suit-grey",
     "slug": "mens-completo-suit-grey",
-    "name": "Men's Completo Suit in Grey",
+    "name": "Men's Completo Suit",
     "brand": "mauro-grifoni",
     "category": "clothing",
     "sku": "'16839",
@@ -6664,7 +5789,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-mens-chino-black",
     "slug": "mens-chino-black",
-    "name": "Men's Chino in Black",
+    "name": "Men's Chino",
     "brand": "mauro-grifoni",
     "category": "clothing",
     "sku": "'16843",
@@ -6835,7 +5960,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-basic-gilet-navy",
     "slug": "basic-gilet-navy",
-    "name": "Basic Gilet in Navy",
+    "name": "Basic Gilet",
     "brand": "mauro-grifoni",
     "category": "clothing",
     "sku": "'16864",
@@ -6893,7 +6018,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-raglan-maniche-coat-olive",
     "slug": "raglan-maniche-coat-olive",
-    "name": "Raglan Maniche Coat in Olive",
+    "name": "Raglan Maniche Coat",
     "brand": "mauro-grifoni",
     "category": "clothing",
     "sku": "'16878",
@@ -6951,7 +6076,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-ludo-vest-marine",
     "slug": "ludo-vest-marine",
-    "name": "Ludo Vest in Marine",
+    "name": "Ludo Vest",
     "brand": "labo-art",
     "category": "clothing",
     "sku": "'16906",
@@ -7007,7 +6132,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-listello-lace-up-boot-slate-grey",
     "slug": "listello-lace-up-boot-slate-grey",
-    "name": "Listello Lace-Up Boot in Slate Grey",
+    "name": "Listello Lace-Up Boot",
     "brand": "marsell",
     "category": "shoes",
     "sku": "'16987",
@@ -7062,7 +6187,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-listello-short-boot-mud",
     "slug": "listello-short-boot-mud",
-    "name": "Listello Short Boot in Mud",
+    "name": "Listello Short Boot",
     "brand": "marsell",
     "category": "shoes",
     "sku": "'16993",
@@ -7073,6 +6198,10 @@ export const importedProducts: Product[] = [
       {
         "name": "Mud",
         "hex": "#8a857c"
+      },
+      {
+        "name": "Black",
+        "hex": "#15140f"
       }
     ],
     "sizes": [
@@ -7112,70 +6241,16 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-13_Reshoot_Look5_16995_21792.jpeg?v=1437078593",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/Product_Shoes_Marsell_listelloshortboot_mud02.jpeg?v=1437078593",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/Product_Shoes_Marsell_listelloshortboot_mud03.jpeg?v=1437078593",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_01_01_3ba4b3a6-2c11-4edc-895a-c6854484a783.jpeg?v=1437078593"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-listello-short-boot-black",
-    "slug": "listello-short-boot-black",
-    "name": "Listello Short Boot in Black",
-    "brand": "marsell",
-    "category": "shoes",
-    "sku": "'16999",
-    "price": 358,
-    "shortDescription": "Expertly constructed, Marsèll focuses on material and craftsmanship. Made from premium Italian leather these shoes are thoughtful and faultlessly…",
-    "description": "Expertly constructed, Marsèll focuses on material and craftsmanship. Made from premium Italian leather these shoes are thoughtful and faultlessly stylish. Distressed grained indentations mark the Listello Short Boot featuring lace up ties and an upturned rounded toe. Color Black. 100% Leather. Made in Italy. Also available in Mud .",
-    "colors": [
-      {
-        "name": "Black",
-        "hex": "#15140f"
-      }
-    ],
-    "sizes": [
-      "40.5"
-    ],
-    "material": "—",
-    "stock": 12,
-    "rating": 4.7,
-    "reviewCount": 92,
-    "tags": [
-      "accessories",
-      "Black",
-      "Boot",
-      "F14",
-      "footwear",
-      "lace up"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#1a1714",
-      "#5a4a35"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Marsell"
-      },
-      {
-        "label": "Type",
-        "value": "men's shoes"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_01_01_3ba4b3a6-2c11-4edc-895a-c6854484a783.jpeg?v=1437078593",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-13_Reshoot_Look6_17002_21794.jpeg?v=1437078587",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Product_Shoes_Marsell_listelloshortboot_black02.jpeg?v=1437078587",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Product_Shoes_Marsell_listelloshortboot_black03.jpeg?v=1437078587"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Product_Shoes_Marsell_listelloshortboot_black02.jpeg?v=1437078587"
     ],
     "custom": false
   },
   {
     "id": "imp-fantasma-bag-mud",
     "slug": "fantasma-bag-mud",
-    "name": "Fantasma Bag in Mud",
+    "name": "Fantasma Bag",
     "brand": "marsell",
     "category": "bags",
     "sku": "'17007",
@@ -7233,7 +6308,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-square-stitch-knee-short-black",
     "slug": "square-stitch-knee-short-black",
-    "name": "Square Stitch Knee Short in Black",
+    "name": "Square Stitch Knee Short",
     "brand": "harvey-faircloth",
     "category": "clothing",
     "sku": "'17012",
@@ -7291,7 +6366,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-striped-web-belt-navy-white",
     "slug": "striped-web-belt-navy-white",
-    "name": "Striped Web Belt in Navy/White",
+    "name": "Striped Web Belt",
     "brand": "harvey-faircloth",
     "category": "accessories",
     "sku": "'17040",
@@ -7346,7 +6421,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-a-line-pocket-shift-black",
     "slug": "a-line-pocket-shift-black",
-    "name": "A-Line Pocket Shift in Black",
+    "name": "A-Line Pocket Shift",
     "brand": "mauro-grifoni",
     "category": "clothing",
     "sku": "'17057",
@@ -7404,7 +6479,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-chambray-shirtdress-blue",
     "slug": "chambray-shirtdress-blue",
-    "name": "Chambray Shirtdress in Blue",
+    "name": "Chambray Shirtdress",
     "brand": "harvey-faircloth",
     "category": "clothing",
     "sku": "'17065",
@@ -7460,7 +6535,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-oaxacan-bracelet-garnet",
     "slug": "oaxacan-bracelet-garnet",
-    "name": "Oaxacan Bracelet in Garnet",
+    "name": "Oaxacan Bracelet",
     "brand": "kalosoma-jewelry",
     "category": "jewelry",
     "sku": "'17083",
@@ -7514,7 +6589,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-ostrich-plume-dress-black",
     "slug": "ostrich-plume-dress-black",
-    "name": "Ostrich Plume Dress in Black",
+    "name": "Ostrich Plume Dress",
     "brand": "ter-et-bantine",
     "category": "clothing",
     "sku": "'17128",
@@ -7571,7 +6646,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-pleated-rita-dress-dark-navy",
     "slug": "pleated-rita-dress-dark-navy",
-    "name": "Pleated Rita Dress in Dark Navy",
+    "name": "Pleated Rita Dress",
     "brand": "ter-et-bantine",
     "category": "clothing",
     "sku": "'17104",
@@ -7628,7 +6703,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-contrast-cuff-pant-black",
     "slug": "contrast-cuff-pant-black",
-    "name": "Contrast Cuff Pant in Black",
+    "name": "Contrast Cuff Pant",
     "brand": "ter-et-bantine",
     "category": "clothing",
     "sku": "'17111",
@@ -7684,65 +6759,9 @@ export const importedProducts: Product[] = [
     "custom": false
   },
   {
-    "id": "imp-paul-shirt-sherbet-stripe",
-    "slug": "paul-shirt-sherbet-stripe",
-    "name": "Paul Shirt in Sherbet Stripe",
-    "brand": "frank-eileen",
-    "category": "clothing",
-    "sku": "'17169",
-    "price": 108,
-    "shortDescription": "Almost as ubiquitous as the cotton T-shirt, but, made from the finest Italian cotton, Frank & Eileen shirts feature an intentional wrinkled effect…",
-    "description": "Almost as ubiquitous as the cotton T-shirt, but, made from the finest Italian cotton, Frank & Eileen shirts feature an intentional wrinkled effect adding even more personality to a brand that takes its name from an old-fashioned love story. A closet staple made more interesting by its wrinkled effect, features slim orange stripes, a breast pocket and center back seam. 100% Cotton. Made in U.S.A. Addis is wearing a size Large. Addis is 6’2”, Chest 38.5”, Waist 31”, Inseam 32”.",
-    "colors": [
-      {
-        "name": "Sherbet Stripe",
-        "hex": "#8a857c"
-      }
-    ],
-    "sizes": [
-      "Small"
-    ],
-    "material": "—",
-    "stock": 1,
-    "rating": 4.6,
-    "reviewCount": 78,
-    "tags": [
-      "Button-ups",
-      "cotton",
-      "F14",
-      "Frank & Eileen",
-      "Man",
-      "orange"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#23211d",
-      "#6a5a3a"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Frank & Eileen"
-      },
-      {
-        "label": "Type",
-        "value": "men's button-ups"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_18_Addis_Look0301.jpeg?v=1437078378",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_18_Addis_Look0302.jpeg?v=1437078378",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_18_Addis_Look0303.jpeg?v=1437078378"
-    ],
-    "custom": false
-  },
-  {
     "id": "imp-knit-neck-warmer-grey",
     "slug": "knit-neck-warmer-grey",
-    "name": "Knit Neck Warmer in Grey",
+    "name": "Knit Neck Warmer",
     "brand": "avant-toi",
     "category": "clothing",
     "sku": "'17205",
@@ -7798,7 +6817,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-casio-trousers-stone",
     "slug": "casio-trousers-stone",
-    "name": "Casio Trousers in Stone",
+    "name": "Casio Trousers",
     "brand": "annette-gortz",
     "category": "clothing",
     "sku": "'17240",
@@ -7853,7 +6872,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-camiliah-trouser-black",
     "slug": "camiliah-trouser-black",
-    "name": "Camiliah Trouser in Black",
+    "name": "Camiliah Trouser",
     "brand": "by-malene-birger",
     "category": "clothing",
     "sku": "'17257",
@@ -7910,7 +6929,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-coopia-skirt-black",
     "slug": "coopia-skirt-black",
-    "name": "Coopia Skirt in Black",
+    "name": "Coopia Skirt",
     "brand": "by-malene-birger",
     "category": "clothing",
     "sku": "'17260",
@@ -7967,7 +6986,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-deione-coat-graphite-floral",
     "slug": "deione-coat-graphite-floral",
-    "name": "Deione Coat in Graphite Floral",
+    "name": "Deione Coat",
     "brand": "duvetica",
     "category": "clothing",
     "sku": "'17280",
@@ -8024,7 +7043,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-zola-coat-black",
     "slug": "zola-coat-black",
-    "name": "Zola Coat in Black",
+    "name": "Zola Coat",
     "brand": "hannes-roether",
     "category": "clothing",
     "sku": "'17357",
@@ -8082,7 +7101,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-madame-l-blouse-leopard",
     "slug": "madame-l-blouse-leopard",
-    "name": "Madame L Blouse in Leopard",
+    "name": "Madame L Blouse",
     "brand": "la-prestic-ouiston",
     "category": "clothing",
     "sku": "'17436",
@@ -8140,7 +7159,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-broken-leather-bomber-black",
     "slug": "broken-leather-bomber-black",
-    "name": "Broken Leather Bomber in Black",
+    "name": "Broken Leather Bomber",
     "brand": "giorgio-brato",
     "category": "clothing",
     "sku": "'17447",
@@ -8197,7 +7216,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-grizzly-pullover-greenfinch",
     "slug": "grizzly-pullover-greenfinch",
-    "name": "Grizzly Pullover in Greenfinch",
+    "name": "Grizzly Pullover",
     "brand": "esemplare",
     "category": "clothing",
     "sku": "'17462",
@@ -8255,7 +7274,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-alverstone-jacket-midnight",
     "slug": "alverstone-jacket-midnight",
-    "name": "Alverstone Jacket in Midnight",
+    "name": "Alverstone Jacket",
     "brand": "esemplare",
     "category": "clothing",
     "sku": "'17467",
@@ -8313,7 +7332,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-cashmere-knit-sock-bronze",
     "slug": "cashmere-knit-sock-bronze",
-    "name": "Cashmere Knit Sock in Bronze",
+    "name": "Cashmere Knit Sock",
     "brand": "avant-toi",
     "category": "clothing",
     "sku": "'17477",
@@ -8324,6 +7343,14 @@ export const importedProducts: Product[] = [
       {
         "name": "Bronze",
         "hex": "#8a857c"
+      },
+      {
+        "name": "Grey",
+        "hex": "#6f7178"
+      },
+      {
+        "name": "Blue",
+        "hex": "#2f3c66"
       }
     ],
     "sizes": [
@@ -8361,115 +7388,9 @@ export const importedProducts: Product[] = [
     ],
     "images": [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/products_socks_17477_a.jpeg?v=1437077761",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/products_socks_17477_b.jpeg?v=1437077761"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-cashmere-knit-sock-grey",
-    "slug": "cashmere-knit-sock-grey",
-    "name": "Cashmere Knit Sock in Grey",
-    "brand": "avant-toi",
-    "category": "clothing",
-    "sku": "'17478",
-    "price": 98,
-    "shortDescription": "Color blocking rib knit delicious cashmere socks. Lightweight and extremely indulgent with exposed seams at heel. Color Grey. 100% Cashmere. Made…",
-    "description": "Color blocking rib knit delicious cashmere socks. Lightweight and extremely indulgent with exposed seams at heel. Color Grey. 100% Cashmere. Made in Italy. One Size. Also available in Bronze and Blue .",
-    "colors": [
-      {
-        "name": "Grey",
-        "hex": "#6f7178"
-      }
-    ],
-    "sizes": [
-      "One Size"
-    ],
-    "material": "—",
-    "stock": 2,
-    "rating": 4.5,
-    "reviewCount": 27,
-    "tags": [
-      "accessories",
-      "Avant Toi",
-      "cashmere",
-      "fuschia",
-      "gift guide",
-      "grey"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#23211d",
-      "#6a5a3a"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Avant Toi"
-      },
-      {
-        "label": "Type",
-        "value": "unisex socks"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/products_socks_17477_b.jpeg?v=1437077761",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/products_socks_17478_a.jpeg?v=1437077758",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/products_socks_17478_b.jpeg?v=1437077758"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-cashmere-knit-sock-blue",
-    "slug": "cashmere-knit-sock-blue",
-    "name": "Cashmere Knit Sock in Blue",
-    "brand": "avant-toi",
-    "category": "clothing",
-    "sku": "'17479",
-    "price": 98,
-    "shortDescription": "Color blocking rib knit cashmere socks. Lightweight and extremely indulgent with exposed seams at heel. Color Blue. 100% Cashmere. Made in Italy.…",
-    "description": "Color blocking rib knit cashmere socks. Lightweight and extremely indulgent with exposed seams at heel. Color Blue. 100% Cashmere. Made in Italy. One Size. Also available in Bronze and Grey .",
-    "colors": [
-      {
-        "name": "Blue",
-        "hex": "#2f3c66"
-      }
-    ],
-    "sizes": [
-      "One Size"
-    ],
-    "material": "—",
-    "stock": 2,
-    "rating": 4.7,
-    "reviewCount": 83,
-    "tags": [
-      "accessories",
-      "Avant Toi",
-      "cashmere",
-      "gift guide",
-      "knit",
-      "knits"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#23211d",
-      "#6a5a3a"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Avant Toi"
-      },
-      {
-        "label": "Type",
-        "value": "unisex socks"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/products_socks_17478_b.jpeg?v=1437077758",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/products_socks_17479_a.jpeg?v=1437077754",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/products_socks_17479_b.jpeg?v=1437077754"
     ],
@@ -8478,7 +7399,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-pill-zip-sweater-black",
     "slug": "pill-zip-sweater-black",
-    "name": "Pill Zip Sweater in Black",
+    "name": "Pill Zip Sweater",
     "brand": "avant-toi",
     "category": "clothing",
     "sku": "'17486",
@@ -8489,6 +7410,10 @@ export const importedProducts: Product[] = [
       {
         "name": "Black",
         "hex": "#15140f"
+      },
+      {
+        "name": "Anthracite",
+        "hex": "#8a857c"
       }
     ],
     "sizes": [
@@ -8528,72 +7453,16 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_16_05.jpeg?v=1437077702",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_07_04.jpeg?v=1437077702",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_16_02.jpeg?v=1437077702",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_07_06.jpeg?v=1437077702"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-pill-zip-sweater-anthracite",
-    "slug": "pill-zip-sweater-anthracite",
-    "name": "Pill Zip Sweater in Anthracite",
-    "brand": "avant-toi",
-    "category": "clothing",
-    "sku": "'17489",
-    "price": 318,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company A long and comfortable hooded knit sweater with a uniform…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company A long and comfortable hooded knit sweater with a uniform pilling that makes this cashmere and wool blend less precious. Don't be afraid to wear this one to death. Avant Toi. Color Anthracite. 70% Merino Wool, 30% Cashmere. Made in Italy. Addis is wearing a size Small. Addis is 6’2”, Chest 38.5”, Waist 31”, Inseam 32”. Also available in Black .",
-    "colors": [
-      {
-        "name": "Anthracite",
-        "hex": "#8a857c"
-      }
-    ],
-    "sizes": [
-      "Small"
-    ],
-    "material": "—",
-    "stock": 1,
-    "rating": 4.5,
-    "reviewCount": 44,
-    "tags": [
-      "Anthracite",
-      "Avant Toi",
-      "Grey",
-      "hood",
-      "hooded",
-      "hoodie"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#23211d",
-      "#6a5a3a"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Avant Toi"
-      },
-      {
-        "label": "Type",
-        "value": "men's knits"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_07_06.jpeg?v=1437077702",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_15_14.jpeg?v=1437077686",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_15_18.jpeg?v=1437077686",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_15_17.jpeg?v=1437077686",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_15_20.jpeg?v=1437077686",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_15_16.jpeg?v=1437077686"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_15_18.jpeg?v=1437077686"
     ],
     "custom": false
   },
   {
     "id": "imp-cascade-necklace-black",
     "slug": "cascade-necklace-black",
-    "name": "Cascade Necklace in Black",
+    "name": "Cascade Necklace",
     "brand": "maria-calderara",
     "category": "jewelry",
     "sku": "'17511",
@@ -8604,6 +7473,10 @@ export const importedProducts: Product[] = [
       {
         "name": "Black",
         "hex": "#15140f"
+      },
+      {
+        "name": "Silver",
+        "hex": "#c4c7cd"
       }
     ],
     "sizes": [
@@ -8641,60 +7514,7 @@ export const importedProducts: Product[] = [
     ],
     "images": [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/product_necklace_mariacalderara_cascade-necklace_black01.jpeg?v=1437077607",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/product_necklace_mariacalderara_cascade-necklace_black02.jpeg?v=1437077607"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-cascade-necklace-silver",
-    "slug": "cascade-necklace-silver",
-    "name": "Cascade Necklace in Silver",
-    "brand": "maria-calderara",
-    "category": "jewelry",
-    "sku": "'17512",
-    "price": 158,
-    "shortDescription": "With chains that cascade like water, we can see where this multimedia necklace gets its name. Silk tie closure. Color Silver. Length 52\", 7\" Wide.…",
-    "description": "With chains that cascade like water, we can see where this multimedia necklace gets its name. Silk tie closure. Color Silver. Length 52\", 7\" Wide. Also Available in Black .",
-    "colors": [
-      {
-        "name": "Silver",
-        "hex": "#c4c7cd"
-      }
-    ],
-    "sizes": [
-      "One Size"
-    ],
-    "material": "—",
-    "stock": 2,
-    "rating": 4.9,
-    "reviewCount": 143,
-    "tags": [
-      "Accessories",
-      "Accessory",
-      "F14",
-      "jewelry",
-      "Maria Calderara",
-      "Necklaces"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": true,
-    "newArrival": true,
-    "palette": [
-      "#241d12",
-      "#9a7b3f"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Maria Calderara"
-      },
-      {
-        "label": "Type",
-        "value": "women's necklaces"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/product_necklace_mariacalderara_cascade-necklace_black02.jpeg?v=1437077607",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/product_necklace_mariacalderara_cascade-necklace_silver01.jpeg?v=1437077603",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/product_necklace_mariacalderara_cascade-necklace_silver02.jpeg?v=1437077603"
     ],
@@ -8758,7 +7578,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-drop-cluster-earring-black",
     "slug": "drop-cluster-earring-black",
-    "name": "Drop Cluster Earring in Black",
+    "name": "Drop Cluster Earring",
     "brand": "maria-calderara",
     "category": "jewelry",
     "sku": "'17528",
@@ -8813,7 +7633,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-lattice-bead-cuff-silver-black",
     "slug": "lattice-bead-cuff-silver-black",
-    "name": "Lattice Bead Cuff in Silver/Black",
+    "name": "Lattice Bead Cuff",
     "brand": "maria-calderara",
     "category": "clothing",
     "sku": "'17532",
@@ -8867,7 +7687,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-rose-necklace-red",
     "slug": "rose-necklace-red",
-    "name": "Rose Necklace in Red",
+    "name": "Rose Necklace",
     "brand": "maria-calderara",
     "category": "jewelry",
     "sku": "'17533",
@@ -8922,7 +7742,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-float-bead-earring-pearl",
     "slug": "float-bead-earring-pearl",
-    "name": "Float Bead Earring in Pearl",
+    "name": "Float Bead Earring",
     "brand": "maria-calderara",
     "category": "jewelry",
     "sku": "'17536",
@@ -8977,7 +7797,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-extra-long-sleeve-sweater-cavern",
     "slug": "extra-long-sleeve-sweater-cavern",
-    "name": "Extra Long Sleeve Sweater in Cavern",
+    "name": "Extra Long Sleeve Sweater",
     "brand": "isabel-benenato",
     "category": "clothing",
     "sku": "'17610",
@@ -9034,7 +7854,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-button-shoulder-pullover-black",
     "slug": "button-shoulder-pullover-black",
-    "name": "Button Shoulder Pullover in Black",
+    "name": "Button Shoulder Pullover",
     "brand": "isabel-benenato",
     "category": "clothing",
     "sku": "'17614",
@@ -9091,7 +7911,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-hidden-placket-cardigan-black",
     "slug": "hidden-placket-cardigan-black",
-    "name": "Hidden Placket Cardigan in Black",
+    "name": "Hidden Placket Cardigan",
     "brand": "isabel-benenato",
     "category": "clothing",
     "sku": "'17619",
@@ -9102,6 +7922,10 @@ export const importedProducts: Product[] = [
       {
         "name": "Black",
         "hex": "#15140f"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#2f2f31"
       }
     ],
     "sizes": [
@@ -9142,80 +7966,29 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_182.jpeg?v=1437077439",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_179_38f21a89-a299-4de5-8f92-6e249e26347f.jpeg?v=1437077439",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_180.jpeg?v=1437077439",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_178_864d8eb3-d05b-47d7-835d-2d17eb3a4490.jpeg?v=1437077439"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-hidden-placket-cardigan-charcoal",
-    "slug": "hidden-placket-cardigan-charcoal",
-    "name": "Hidden Placket Cardigan in Charcoal",
-    "brand": "isabel-benenato",
-    "category": "clothing",
-    "sku": "'17623",
-    "price": 278,
-    "shortDescription": "A merino wool cardigan in classic shape and length. A hidden button placket creates a clean line and the two patch pockets have a refined curl to…",
-    "description": "A merino wool cardigan in classic shape and length. A hidden button placket creates a clean line and the two patch pockets have a refined curl to the knit edge. Isabel Benenato. Color Charcoal. 100% Extrafine Merino Wool. Matt is wearing a size Medium. Matt is 6’2”, Chest 38”, Waist 31”, Inseam 34.5”. Also available in Black .",
-    "colors": [
-      {
-        "name": "Charcoal",
-        "hex": "#2f2f31"
-      }
-    ],
-    "sizes": [
-      "Small"
-    ],
-    "material": "—",
-    "stock": 12,
-    "rating": 4.6,
-    "reviewCount": 72,
-    "tags": [
-      "Cardigan",
-      "Charcoal",
-      "F14",
-      "isabel benenato",
-      "Knitwear",
-      "Man"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#23211d",
-      "#6a5a3a"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Isabel Benenato"
-      },
-      {
-        "label": "Type",
-        "value": "men's knitwear"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_225.jpeg?v=1437077432",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_224.jpeg?v=1437077432",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_226.jpeg?v=1437077432"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_178_864d8eb3-d05b-47d7-835d-2d17eb3a4490.jpeg?v=1437077439",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_225.jpeg?v=1437077432"
     ],
     "custom": false
   },
   {
     "id": "imp-merino-knit-turtleneck-black",
     "slug": "merino-knit-turtleneck-black",
-    "name": "Merino Knit Turtleneck in Black",
+    "name": "Merino Knit Turtleneck",
     "brand": "isabel-benenato",
     "category": "clothing",
     "sku": "'17627",
-    "price": 228,
+    "price": 198,
     "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company A refined layering piece to put under a jacket and achieve…",
     "description": "This is a demonstration store. You can purchase products like this from Baby & Company A refined layering piece to put under a jacket and achieve a non-bulky stance. The Knit Turtleneck from Isabel Benenato has a standing raised collar and a smooth hand. Color Black. 100% Extrafine Merino Wool. Spencer is wearing a size Medium. Also available in Cavern .",
     "colors": [
       {
         "name": "Black",
         "hex": "#15140f"
+      },
+      {
+        "name": "Cavern",
+        "hex": "#8a857c"
       }
     ],
     "sizes": [
@@ -9256,72 +8029,15 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-14_Spencer_Look_04_08.jpeg?v=1437077426",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-14_Spencer_Look_04_09.jpeg?v=1437077426",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-14_Spencer_Look_04_02.jpeg?v=1437077426",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-14_Spencer_Look_04_22.jpeg?v=1437077426"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-merino-knit-turtleneck-cavern",
-    "slug": "merino-knit-turtleneck-cavern",
-    "name": "Merino Knit Turtleneck in Cavern",
-    "brand": "isabel-benenato",
-    "category": "clothing",
-    "sku": "'17633",
-    "price": 198,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company A refined layering piece to put under a jacket and achieve…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company A refined layering piece to put under a jacket and achieve a non-bulky stance. The Knit Turtleneck from Isabel Benenato has a standing raised collar and a smooth hand. Color Cavern. 100% Extrafine Merino Wool. Also available in Black .",
-    "colors": [
-      {
-        "name": "Cavern",
-        "hex": "#8a857c"
-      }
-    ],
-    "sizes": [
-      "Small"
-    ],
-    "material": "—",
-    "stock": 1,
-    "rating": 4.7,
-    "reviewCount": 106,
-    "tags": [
-      "Cavern",
-      "F14",
-      "Knitwear",
-      "Man",
-      "Merino Wool",
-      "SALE"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#23211d",
-      "#6a5a3a"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Isabel Benenato"
-      },
-      {
-        "label": "Type",
-        "value": "men's knitwear"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_106.jpeg?v=1437077418",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_107.jpeg?v=1437077418",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_108.jpeg?v=1437077418",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_109.jpeg?v=1437077418",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_110.jpeg?v=1437077418"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-14_Spencer_Look_04_22.jpeg?v=1437077426",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_106.jpeg?v=1437077418"
     ],
     "custom": false
   },
   {
     "id": "imp-mesh-over-tee-navy",
     "slug": "mesh-over-tee-navy",
-    "name": "Mesh Over Tee in Navy",
+    "name": "Mesh Over Tee",
     "brand": "maria-calderara",
     "category": "clothing",
     "sku": "'17650",
@@ -9378,7 +8094,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-quilted-mesh-mini-dress-navy",
     "slug": "quilted-mesh-mini-dress-navy",
-    "name": "Quilted Mesh Mini Dress in Navy",
+    "name": "Quilted Mesh Mini Dress",
     "brand": "maria-calderara",
     "category": "clothing",
     "sku": "'17659",
@@ -9435,7 +8151,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-cuffed-mesh-tee-navy-black",
     "slug": "cuffed-mesh-tee-navy-black",
-    "name": "Cuffed Mesh Tee in Navy/Black",
+    "name": "Cuffed Mesh Tee",
     "brand": "maria-calderara",
     "category": "clothing",
     "sku": "'17662",
@@ -9445,6 +8161,10 @@ export const importedProducts: Product[] = [
     "colors": [
       {
         "name": "Navy/Black",
+        "hex": "#15140f"
+      },
+      {
+        "name": "Cream/Black",
         "hex": "#15140f"
       }
     ],
@@ -9484,60 +8204,7 @@ export const importedProducts: Product[] = [
     "images": [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_09_06_Lana_Look3_05.jpeg?v=1437077380",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_09_06_Lana_Look3_07.jpeg?v=1437077380",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_09_06_Lana_Look3_01.jpeg?v=1437077380"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-cuffed-mesh-tee-cream-black",
-    "slug": "cuffed-mesh-tee-cream-black",
-    "name": "Cuffed Mesh Tee in Cream/Black",
-    "brand": "maria-calderara",
-    "category": "clothing",
-    "sku": "'17668",
-    "price": 128,
-    "shortDescription": "A fun take on the usual crew neck sweater, the ribbing at collar and cuff contrast the stiff mesh body, which promises never to stretch out and…",
-    "description": "A fun take on the usual crew neck sweater, the ribbing at collar and cuff contrast the stiff mesh body, which promises never to stretch out and lose it's shape. Color Cream/Black. 100% Polyamide. Lana is wearing a size 2. Also available in Black/Black and Navy/Black .",
-    "colors": [
-      {
-        "name": "Cream/Black",
-        "hex": "#15140f"
-      }
-    ],
-    "sizes": [
-      "2"
-    ],
-    "material": "—",
-    "stock": 12,
-    "rating": 4.9,
-    "reviewCount": 171,
-    "tags": [
-      "Black",
-      "Cream",
-      "F14",
-      "long sleeve",
-      "longsleeve",
-      "Maria Calderara"
-    ],
-    "featured": false,
-    "trending": true,
-    "bestSeller": true,
-    "newArrival": true,
-    "palette": [
-      "#23211d",
-      "#6a5a3a"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Maria Calderara"
-      },
-      {
-        "label": "Type",
-        "value": "women's tops"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_09_06_Lana_Look3_01.jpeg?v=1437077380",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_09_06_Lana_Look4_16.jpeg?v=1437077369",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_09_06_Lana_Look4_14.jpeg?v=1437077369"
     ],
@@ -9603,7 +8270,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-easy-slim-pant-navy",
     "slug": "easy-slim-pant-navy",
-    "name": "Easy Slim Pant in Navy",
+    "name": "Easy Slim Pant",
     "brand": "maria-calderara",
     "category": "clothing",
     "sku": "'17691",
@@ -9661,7 +8328,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-quilted-mesh-t-shirt-dress-navy",
     "slug": "quilted-mesh-t-shirt-dress-navy",
-    "name": "Quilted Mesh T-Shirt Dress in Navy",
+    "name": "Quilted Mesh T-Shirt Dress",
     "brand": "maria-calderara",
     "category": "clothing",
     "sku": "'17714",
@@ -9718,7 +8385,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-mesh-over-dress-pink",
     "slug": "mesh-over-dress-pink",
-    "name": "Mesh Over Dress in Pink",
+    "name": "Mesh Over Dress",
     "brand": "maria-calderara",
     "category": "clothing",
     "sku": "'17718",
@@ -9729,6 +8396,10 @@ export const importedProducts: Product[] = [
       {
         "name": "Pink",
         "hex": "#caa79b"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2535"
       }
     ],
     "sizes": [
@@ -9769,72 +8440,15 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-20_Lana_Look_08_03.jpeg?v=1437077259",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-20_Lana_Look_08_08.jpeg?v=1437077259",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-20_Lana_Look_08_04.jpeg?v=1437077259",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-20_Lana_Look_08_09.jpeg?v=1437077259"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-mesh-over-dress-navy",
-    "slug": "mesh-over-dress-navy",
-    "name": "Mesh Over Dress in Navy",
-    "brand": "maria-calderara",
-    "category": "clothing",
-    "sku": "'17722",
-    "price": 128,
-    "shortDescription": "An edgy basic to layer over and under all of your current closet items. Bold and rectangular in shape the stiff material won't stretch out or lose…",
-    "description": "An edgy basic to layer over and under all of your current closet items. Bold and rectangular in shape the stiff material won't stretch out or lose its shape. The dress falls just below the knee if wearing true to your size. Maria Calderara. Color Navy. 100% Polyamide. Lana is wearing a size 2. Also Available in Pink and Black .",
-    "colors": [
-      {
-        "name": "Navy",
-        "hex": "#1f2535"
-      }
-    ],
-    "sizes": [
-      "2"
-    ],
-    "material": "—",
-    "stock": 2,
-    "rating": 4.8,
-    "reviewCount": 135,
-    "tags": [
-      "blue",
-      "Dress",
-      "Dresses",
-      "F14",
-      "Maria Calderara",
-      "Navy"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": true,
-    "palette": [
-      "#23211d",
-      "#6a5a3a"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Maria Calderara"
-      },
-      {
-        "label": "Type",
-        "value": "women's dresses"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_18_Lana_Look0504.jpeg?v=1437077251",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_18_Lana_Look0506.jpeg?v=1437077251",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_18_Lana_Look0505.jpeg?v=1437077251",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_18_Lana_Look0501.jpeg?v=1437077251",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_18_Lana_Look0507.jpeg?v=1437077251"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-20_Lana_Look_08_09.jpeg?v=1437077259",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_18_Lana_Look0504.jpeg?v=1437077251"
     ],
     "custom": false
   },
   {
     "id": "imp-border-dress-black-silver",
     "slug": "border-dress-black-silver",
-    "name": "Border Dress in Black/Silver",
+    "name": "Border Dress",
     "brand": "maria-calderara",
     "category": "clothing",
     "sku": "'17736",
@@ -9892,7 +8506,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-quilted-mesh-waistcoat-black-white",
     "slug": "quilted-mesh-waistcoat-black-white",
-    "name": "Quilted Mesh Waistcoat in Black/White",
+    "name": "Quilted Mesh Waistcoat",
     "brand": "maria-calderara",
     "category": "clothing",
     "sku": "'17761",
@@ -9950,7 +8564,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-swing-bomber-black",
     "slug": "swing-bomber-black",
-    "name": "Swing Bomber in Black",
+    "name": "Swing Bomber",
     "brand": "ar-srpls",
     "category": "clothing",
     "sku": "'17767",
@@ -10006,7 +8620,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-big-army-jacket-olive",
     "slug": "big-army-jacket-olive",
-    "name": "Big Army Jacket in Olive",
+    "name": "Big Army Jacket",
     "brand": "ar-srpls",
     "category": "clothing",
     "sku": "'17771",
@@ -10063,7 +8677,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-loopwheeler-sweatshirt-grey",
     "slug": "loopwheeler-sweatshirt-grey",
-    "name": "Loopwheeler Sweatshirt in Grey",
+    "name": "Loopwheeler Sweatshirt",
     "brand": "ar-srpls",
     "category": "clothing",
     "sku": "'17797",
@@ -10074,6 +8688,10 @@ export const importedProducts: Product[] = [
       {
         "name": "Grey",
         "hex": "#6f7178"
+      },
+      {
+        "name": "Black",
+        "hex": "#15140f"
       }
     ],
     "sizes": [
@@ -10114,71 +8732,15 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_25_Lana_Look11_04.jpeg?v=1437077107",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_25_Lana_Look11_02.jpeg?v=1437077107",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_25_Lana_Look11_03.jpeg?v=1437077107",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_25_Lana_Look11_05.jpeg?v=1437077107"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-loopwheeler-sweatshirt-black",
-    "slug": "loopwheeler-sweatshirt-black",
-    "name": "Loopwheeler Sweatshirt in Black",
-    "brand": "ar-srpls",
-    "category": "clothing",
-    "sku": "'17800",
-    "price": 118,
-    "shortDescription": "A substantial crew neck sweatshirt from Japanese company AR SRPLS who are know for their military with a twist collections. A closed silver zip…",
-    "description": "A substantial crew neck sweatshirt from Japanese company AR SRPLS who are know for their military with a twist collections. A closed silver zip runs the length of the center back. Color Black. 100% Cotton. Lana is wearing a size Small. Also available in Grey .",
-    "colors": [
-      {
-        "name": "Black",
-        "hex": "#15140f"
-      }
-    ],
-    "sizes": [
-      "Small"
-    ],
-    "material": "—",
-    "stock": 1,
-    "rating": 4.6,
-    "reviewCount": 56,
-    "tags": [
-      "AR Srpls",
-      "black",
-      "F14",
-      "knit",
-      "knits",
-      "SALE"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#23211d",
-      "#6a5a3a"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "AR Srpls"
-      },
-      {
-        "label": "Type",
-        "value": "women's knitwear"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_25_Lana_Look14_03.jpeg?v=1437077098",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_25_Lana_Look14_01.jpeg?v=1437077098",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_25_Lana_Look14_02.jpeg?v=1437077098",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_25_Lana_Look14_04.jpeg?v=1437077098"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_25_Lana_Look11_05.jpeg?v=1437077107",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_25_Lana_Look14_03.jpeg?v=1437077098"
     ],
     "custom": false
   },
   {
     "id": "imp-military-skirt-camo",
     "slug": "military-skirt-camo",
-    "name": "Military Skirt in Camo",
+    "name": "Military Skirt",
     "brand": "ar-srpls",
     "category": "clothing",
     "sku": "'17810",
@@ -10236,7 +8798,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-loopwheeler-star-pant-grey",
     "slug": "loopwheeler-star-pant-grey",
-    "name": "Loopwheeler Star Pant in Grey",
+    "name": "Loopwheeler Star Pant",
     "brand": "ar-srpls",
     "category": "clothing",
     "sku": "'17814",
@@ -10294,7 +8856,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-pointed-collar-blouse-rose",
     "slug": "pointed-collar-blouse-rose",
-    "name": "Pointed Collar Blouse in Rose",
+    "name": "Pointed Collar Blouse",
     "brand": "hovman",
     "category": "clothing",
     "sku": "'17827",
@@ -10351,7 +8913,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-quilt-pattern-cardigan-black-navy",
     "slug": "quilt-pattern-cardigan-black-navy",
-    "name": "Quilt Pattern Cardigan in Black/Navy",
+    "name": "Quilt Pattern Cardigan",
     "brand": "yoshi-kondo",
     "category": "clothing",
     "sku": "'17960",
@@ -10408,7 +8970,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-bulk-stitch-cardigan-cloud",
     "slug": "bulk-stitch-cardigan-cloud",
-    "name": "Bulk Stitch Cardigan in Cloud",
+    "name": "Bulk Stitch Cardigan",
     "brand": "private-02-04",
     "category": "clothing",
     "sku": "'18061",
@@ -10466,7 +9028,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-easy-ribbed-tank-black",
     "slug": "easy-ribbed-tank-black",
-    "name": "Easy Ribbed Tank in Black",
+    "name": "Easy Ribbed Tank",
     "brand": "private-02-04",
     "category": "clothing",
     "sku": "'18082",
@@ -10524,7 +9086,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-giant-throw-scarf-slate",
     "slug": "giant-throw-scarf-slate",
-    "name": "Giant Throw Scarf in Slate",
+    "name": "Giant Throw Scarf",
     "brand": "private-02-04",
     "category": "accessories",
     "sku": "'18113",
@@ -10582,7 +9144,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-girlfriend-trouser-black",
     "slug": "girlfriend-trouser-black",
-    "name": "Girlfriend Trouser in Black",
+    "name": "Girlfriend Trouser",
     "brand": "la-prestic-ouiston",
     "category": "clothing",
     "sku": "'18122",
@@ -10638,7 +9200,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-ilo-coat-teak",
     "slug": "ilo-coat-teak",
-    "name": "Ilo Coat in Teak",
+    "name": "Ilo Coat",
     "brand": "duvetica",
     "category": "clothing",
     "sku": "'18159",
@@ -10696,7 +9258,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-sueded-cotton-pant-khaki",
     "slug": "sueded-cotton-pant-khaki",
-    "name": "Sueded Cotton Pant in Khaki",
+    "name": "Sueded Cotton Pant",
     "brand": "nico",
     "category": "clothing",
     "sku": "'18220",
@@ -10752,7 +9314,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-diamond-weave-trouser-hazel",
     "slug": "diamond-weave-trouser-hazel",
-    "name": "Diamond Weave Trouser in Hazel",
+    "name": "Diamond Weave Trouser",
     "brand": "pence",
     "category": "clothing",
     "sku": "'18236",
@@ -10762,6 +9324,10 @@ export const importedProducts: Product[] = [
     "colors": [
       {
         "name": "Hazel",
+        "hex": "#8a857c"
+      },
+      {
+        "name": "Sky",
         "hex": "#8a857c"
       }
     ],
@@ -10802,72 +9368,16 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_3_Addis_Look1_01.jpeg?v=1437076178",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_3_Addis_Look1_02.jpeg?v=1437076178",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_3_Addis_Look1_03.jpeg?v=1437076178",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_3_Addis_Look1_04.jpeg?v=1437076178"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-diamond-weave-trouser-sky",
-    "slug": "diamond-weave-trouser-sky",
-    "name": "Diamond Weave Trouser in Sky",
-    "brand": "pence",
-    "category": "clothing",
-    "sku": "'18241",
-    "price": 198,
-    "shortDescription": "With a fascinating micro-pattern these simple washed cotton trousers from Pence feature two pockets on the front and two welt pockets on the back…",
-    "description": "With a fascinating micro-pattern these simple washed cotton trousers from Pence feature two pockets on the front and two welt pockets on the back with a button closure. Color Sky. 98% Cotton. Matt is wearing an Italian 50. Matt is 6’2”, Chest 38”, Waist 31”, Inseam 34.5”. Also available in Brown and Hazel .",
-    "colors": [
-      {
-        "name": "Sky",
-        "hex": "#8a857c"
-      }
-    ],
-    "sizes": [
-      "Italian 46"
-    ],
-    "material": "—",
-    "stock": 12,
-    "rating": 4.7,
-    "reviewCount": 99,
-    "tags": [
-      "blue",
-      "bottoms",
-      "F14",
-      "Man",
-      "pants",
-      "Pence"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#23211d",
-      "#6a5a3a"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Pence"
-      },
-      {
-        "label": "Type",
-        "value": "men's trousers"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_3_Addis_Look1_04.jpeg?v=1437076178",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_179.jpeg?v=1437076172",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_173.jpeg?v=1437076172",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_175.jpeg?v=1437076172",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_178.jpeg?v=1437076172",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_187.jpeg?v=1437076172"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_173.jpeg?v=1437076172"
     ],
     "custom": false
   },
   {
     "id": "imp-watercolor-sport-jacket-brown-blue",
     "slug": "watercolor-sport-jacket-brown-blue",
-    "name": "Watercolor Sport Jacket in Brown/Blue",
+    "name": "Watercolor Sport Jacket",
     "brand": "pence",
     "category": "clothing",
     "sku": "'18251",
@@ -10925,7 +9435,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-sport-jacket-blue",
     "slug": "sport-jacket-blue",
-    "name": "Sport Jacket in Blue",
+    "name": "Sport Jacket",
     "brand": "pence",
     "category": "clothing",
     "sku": "'18255",
@@ -10936,6 +9446,10 @@ export const importedProducts: Product[] = [
       {
         "name": "Blue",
         "hex": "#2f3c66"
+      },
+      {
+        "name": "Brown",
+        "hex": "#5a4a35"
       }
     ],
     "sizes": [
@@ -10976,71 +9490,15 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_189.jpeg?v=1437076150",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_192.jpeg?v=1437076150",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_191.jpeg?v=1437076150",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_193.jpeg?v=1437076150"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-sport-jacket-brown",
-    "slug": "sport-jacket-brown",
-    "name": "Sport Jacket in Brown",
-    "brand": "pence",
-    "category": "clothing",
-    "sku": "'18259",
-    "price": 298,
-    "shortDescription": "This Sport Jacket by Pence is tailored for the modern man in a classic two-button, notch-lapel cut that upholds sophisticated style. The front has…",
-    "description": "This Sport Jacket by Pence is tailored for the modern man in a classic two-button, notch-lapel cut that upholds sophisticated style. The front has two flap patch pockets, inner tech pockets and 4 buttoned cuffs. Back vented hem. Color Brown. 54% Cotton, 23% Wool, 23% Acrylic. Matt is wearing an Italian 50. Matt is 6’2”, Chest 38”, Waist 31”, Inseam 34.5”. Also available in Blue .",
-    "colors": [
-      {
-        "name": "Brown",
-        "hex": "#5a4a35"
-      }
-    ],
-    "sizes": [
-      "Italian 48"
-    ],
-    "material": "—",
-    "stock": 1,
-    "rating": 4.6,
-    "reviewCount": 61,
-    "tags": [
-      "Brown",
-      "Cotton",
-      "F14",
-      "Jacket",
-      "Man",
-      "Men's"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#23211d",
-      "#6a5a3a"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Pence"
-      },
-      {
-        "label": "Type",
-        "value": "men's coats & jackets"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_150.jpeg?v=1437076143",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_148.jpeg?v=1437076143",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_154.jpeg?v=1437076143",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_149.jpeg?v=1437076143"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_193.jpeg?v=1437076150",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_150.jpeg?v=1437076143"
     ],
     "custom": false
   },
   {
     "id": "imp-tencel-jersey-mini-heather-grey",
     "slug": "tencel-jersey-mini-heather-grey",
-    "name": "Tencel Jersey Mini in Heather Grey",
+    "name": "Tencel Jersey Mini",
     "brand": "v-room",
     "category": "clothing",
     "sku": "'18305",
@@ -11096,7 +9554,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-highsoft-cropped-sweat-heather-grey",
     "slug": "highsoft-cropped-sweat-heather-grey",
-    "name": "Highsoft Cropped Sweat in Heather Grey",
+    "name": "Highsoft Cropped Sweat",
     "brand": "v-room",
     "category": "clothing",
     "sku": "'18312",
@@ -11107,6 +9565,10 @@ export const importedProducts: Product[] = [
       {
         "name": "Heather Grey",
         "hex": "#6f7178"
+      },
+      {
+        "name": "Black",
+        "hex": "#15140f"
       }
     ],
     "sizes": [
@@ -11146,72 +9608,16 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_09_06_Lana_Look20_03.jpeg?v=1437076003",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_09_06_Lana_Look20_07.jpeg?v=1437076003",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_09_06_Lana_Look20_05.jpeg?v=1437076003",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_09_06_Lana_Look20_08.jpeg?v=1437076003"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-highsoft-cropped-sweat-black",
-    "slug": "highsoft-cropped-sweat-black",
-    "name": "Highsoft Cropped Sweat in Black",
-    "brand": "v-room",
-    "category": "clothing",
-    "sku": "'18315",
-    "price": 108,
-    "shortDescription": "A loose knit French terry sweatpant with drawstring waist. Ribbed cuffs at the ankle and contrast trim line front and back pockets. Color Black.…",
-    "description": "A loose knit French terry sweatpant with drawstring waist. Ribbed cuffs at the ankle and contrast trim line front and back pockets. Color Black. 88% Cotton, 12% Nylon. Lana is wearing a size Small. Also available in Heather Grey .",
-    "colors": [
-      {
-        "name": "Black",
-        "hex": "#15140f"
-      }
-    ],
-    "sizes": [
-      "Small"
-    ],
-    "material": "—",
-    "stock": 1,
-    "rating": 4.9,
-    "reviewCount": 143,
-    "tags": [
-      "Black",
-      "bottoms",
-      "drawstring",
-      "F14",
-      "Grey",
-      "Heather"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": true,
-    "newArrival": true,
-    "palette": [
-      "#23211d",
-      "#6a5a3a"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "V:Room"
-      },
-      {
-        "label": "Type",
-        "value": "women's pants"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_09_06_Lana_Look20_08.jpeg?v=1437076003",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_11_Lana_Look1_01.jpeg?v=1437075996",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_11_Lana_Look1_03.jpeg?v=1437075996",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_11_Lana_Look1_05.jpeg?v=1437075996",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_11_Lana_Look1_06.jpeg?v=1437075996",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_11_Lana_Look1_08.jpeg?v=1437075996"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_11_Lana_Look1_03.jpeg?v=1437075996"
     ],
     "custom": false
   },
   {
     "id": "imp-kasuri-jersey-button-up-ivory-black",
     "slug": "kasuri-jersey-button-up-ivory-black",
-    "name": "Kasuri Jersey Button-Up in Ivory/Black",
+    "name": "Kasuri Jersey Button-Up",
     "brand": "v-room",
     "category": "clothing",
     "sku": "'18333",
@@ -11222,6 +9628,10 @@ export const importedProducts: Product[] = [
       {
         "name": "Ivory/Black",
         "hex": "#15140f"
+      },
+      {
+        "name": "Blue Grey",
+        "hex": "#2f3c66"
       }
     ],
     "sizes": [
@@ -11261,72 +9671,16 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_066.jpeg?v=1437075977",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_062.jpeg?v=1437075977",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_065.jpeg?v=1437075977",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_067.jpeg?v=1437075977"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-kasuri-jersey-button-up-blue-grey",
-    "slug": "kasuri-jersey-button-up-blue-grey",
-    "name": "Kasuri Jersey Button-Up in Blue Grey",
-    "brand": "v-room",
-    "category": "clothing",
-    "sku": "'18336",
-    "price": 88,
-    "shortDescription": "V:Room takes the classic button up and plays it casual by giving it a contrasting fabric inside. Curved hem with side splits. Color Blue/Grey.…",
-    "description": "V:Room takes the classic button up and plays it casual by giving it a contrasting fabric inside. Curved hem with side splits. Color Blue/Grey. 100% Cotton. Matt is wearing a size Large. Matt is 6’2”, Chest 38”, Waist 31”, Inseam 34.5”. Also available in Ivory/Black .",
-    "colors": [
-      {
-        "name": "Blue Grey",
-        "hex": "#2f3c66"
-      }
-    ],
-    "sizes": [
-      "Medium"
-    ],
-    "material": "—",
-    "stock": 12,
-    "rating": 4.7,
-    "reviewCount": 99,
-    "tags": [
-      "Blue",
-      "Button-Up",
-      "cotton",
-      "F14",
-      "Grey",
-      "heathered"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#23211d",
-      "#6a5a3a"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "V:Room"
-      },
-      {
-        "label": "Type",
-        "value": "men's button-ups"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_067.jpeg?v=1437075977",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_058.jpeg?v=1437075970",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_054.jpeg?v=1437075970",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_060.jpeg?v=1437075971",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_056.jpeg?v=1437075971",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_059.jpeg?v=1437075971"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-08-25_Matt_Look_054.jpeg?v=1437075970"
     ],
     "custom": false
   },
   {
     "id": "imp-cashmere-jersey-long-sleeve-tee-navy",
     "slug": "cashmere-jersey-long-sleeve-tee-navy",
-    "name": "Cashmere Jersey Long Sleeve Tee in Navy",
+    "name": "Cashmere Jersey Long Sleeve Tee",
     "brand": "v-room",
     "category": "clothing",
     "sku": "'18342",
@@ -11383,7 +9737,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-british-officers-shirt-sky-blue",
     "slug": "british-officers-shirt-sky-blue",
-    "name": "British Officer's Shirt in Sky Blue",
+    "name": "British Officer's Shirt",
     "brand": "nigel-cabourn",
     "category": "clothing",
     "sku": "'18361",
@@ -11433,14 +9787,16 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_11_33.jpeg?v=1442349874",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_11_32.jpeg?v=1442349874",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_11_34.jpeg?v=1442349874",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_11_35.jpeg?v=1442349874"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_11_35.jpeg?v=1442349874",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-03_Jake_Look_17_32013_18171.jpeg?v=1442349860",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-03_Jake_Look_17_32013_18180.jpeg?v=1442349860"
     ],
     "custom": false
   },
   {
     "id": "imp-alex-twill-pant-navy",
     "slug": "alex-twill-pant-navy",
-    "name": "Alex Twill Pant in Navy",
+    "name": "Alex Twill Pant",
     "brand": "homecore",
     "category": "clothing",
     "sku": "'18399",
@@ -11451,6 +9807,14 @@ export const importedProducts: Product[] = [
       {
         "name": "Navy",
         "hex": "#1f2535"
+      },
+      {
+        "name": "Mariner",
+        "hex": "#8a857c"
+      },
+      {
+        "name": "Sand",
+        "hex": "#8a857c"
       }
     ],
     "sizes": [
@@ -11490,71 +9854,16 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_3_Addis_Look14_01.jpeg?v=1437075887",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_3_Addis_Look14_02.jpeg?v=1437075887",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_3_Addis_Look14_03.jpeg?v=1437075887",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_3_Addis_Look14_04.jpeg?v=1437075887"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-alex-twill-pant-mariner",
-    "slug": "alex-twill-pant-mariner",
-    "name": "Alex Twill Pant in Mariner",
-    "brand": "homecore",
-    "category": "clothing",
-    "sku": "'18406",
-    "price": 198,
-    "shortDescription": "Richly dyed cotton sets off cleanly styled, incredibly soft pants cut with a straight leg and classic five-pocket style by Homecore. Color…",
-    "description": "Richly dyed cotton sets off cleanly styled, incredibly soft pants cut with a straight leg and classic five-pocket style by Homecore. Color Mariner. 98% Cotton. Addis is wearing a size 31. Addis is 6’2”, Chest 38.5”, Waist 31”, Inseam 32”. Also available in Sand , Bordeaux , Dark Grey , and Navy . Shop our collection of Homecore.",
-    "colors": [
-      {
-        "name": "Mariner",
-        "hex": "#8a857c"
-      }
-    ],
-    "sizes": [
-      "29"
-    ],
-    "material": "—",
-    "stock": 12,
-    "rating": 4.7,
-    "reviewCount": 89,
-    "tags": [
-      "AW15",
-      "blue",
-      "bottoms",
-      "Homecore",
-      "Man",
-      "marine"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#23211d",
-      "#6a5a3a"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Homecore"
-      },
-      {
-        "label": "Type",
-        "value": "men's trousers"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_3_Addis_Look14_04.jpeg?v=1437075887",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_05_33_e5bd1ec6-f6f0-41b1-b0b1-afd6f0e527be.jpeg?v=1437075880",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_05_34.jpeg?v=1437075880",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_05_29_4b82bf39-d8c5-47cc-ac3a-01438e8be9a9.jpeg?v=1437075880",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_05_30_eb9a3c76-1eda-436c-a4e7-cfedc220e6bd.jpeg?v=1437075880"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-04_Addis_Look_05_34.jpeg?v=1437075880"
     ],
     "custom": false
   },
   {
     "id": "imp-a-line-mini-dress-blue",
     "slug": "a-line-mini-dress-blue",
-    "name": "A-Line Mini Dress in Blue",
+    "name": "A-Line Mini Dress",
     "brand": "aspesi",
     "category": "clothing",
     "sku": "'18484",
@@ -11611,7 +9920,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-prince-leather-field-jacket-meteor",
     "slug": "prince-leather-field-jacket-meteor",
-    "name": "Prince Leather Field Jacket in Meteor",
+    "name": "Prince Leather Field Jacket",
     "brand": "handstich",
     "category": "clothing",
     "sku": "'18501",
@@ -11669,7 +9978,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-taban-coat-phantom",
     "slug": "taban-coat-phantom",
-    "name": "Taban Coat in Phantom",
+    "name": "Taban Coat",
     "brand": "hannes-roether",
     "category": "clothing",
     "sku": "'18508",
@@ -11680,6 +9989,10 @@ export const importedProducts: Product[] = [
       {
         "name": "Phantom",
         "hex": "#8a857c"
+      },
+      {
+        "name": "Black",
+        "hex": "#15140f"
       }
     ],
     "sizes": [
@@ -11720,72 +10033,15 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-14_Spencer_Look_04_34.jpeg?v=1437075736",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-14_Spencer_Look_04_30.jpeg?v=1437075736",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-14_Spencer_Look_04_31.jpeg?v=1437075736",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-14_Spencer_Look_04_23.jpeg?v=1437075736"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-taban-coat-black",
-    "slug": "taban-coat-black",
-    "name": "Taban Coat in Black",
-    "brand": "hannes-roether",
-    "category": "clothing",
-    "sku": "'18512",
-    "price": 388,
-    "shortDescription": "A sheath of durable cotton fabric, the Taban Coat is worked into a military look with two front patch pockets, vertical welted pockets and a…",
-    "description": "A sheath of durable cotton fabric, the Taban Coat is worked into a military look with two front patch pockets, vertical welted pockets and a double breasted button closure. Leather detailing is seen throughout the coat. Back vent at hem. Hannes Roether. Color Black. 100% Cotton, 100% Lamb Leather. Spencer is wearing a size Large. Also Available in Phantom .",
-    "colors": [
-      {
-        "name": "Black",
-        "hex": "#15140f"
-      }
-    ],
-    "sizes": [
-      "Small"
-    ],
-    "material": "—",
-    "stock": 2,
-    "rating": 4.5,
-    "reviewCount": 43,
-    "tags": [
-      "black",
-      "Coat",
-      "cotton",
-      "F14",
-      "Hannes Roether",
-      "Jackets"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#23211d",
-      "#6a5a3a"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Hannes Roether"
-      },
-      {
-        "label": "Type",
-        "value": "men's coats & jackets"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-14_Spencer_Look_08_21.jpeg?v=1437075727",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-14_Spencer_Look_08_10.jpeg?v=1437075727",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-14_Spencer_Look_08_13.jpeg?v=1437075727",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-14_Spencer_Look_08_18.jpeg?v=1437075727",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-14_Spencer_Look_08_17.jpeg?v=1437075727"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-14_Spencer_Look_04_23.jpeg?v=1437075736",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-14_Spencer_Look_08_21.jpeg?v=1437075727"
     ],
     "custom": false
   },
   {
     "id": "imp-taurin-jacket-navy",
     "slug": "taurin-jacket-navy",
-    "name": "Taurin Jacket in Navy",
+    "name": "Taurin Jacket",
     "brand": "hannes-roether",
     "category": "clothing",
     "sku": "'18517",
@@ -11843,7 +10099,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-lakai-pant-phantom",
     "slug": "lakai-pant-phantom",
-    "name": "Lakai Pant in Phantom",
+    "name": "Lakai Pant",
     "brand": "hannes-roether",
     "category": "clothing",
     "sku": "'18522",
@@ -11900,7 +10156,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-hubbard-jacket-navy",
     "slug": "hubbard-jacket-navy",
-    "name": "Hubbard Jacket in Navy",
+    "name": "Hubbard Jacket",
     "brand": "esemplare",
     "category": "clothing",
     "sku": "'18529",
@@ -11911,6 +10167,10 @@ export const importedProducts: Product[] = [
       {
         "name": "Navy",
         "hex": "#1f2535"
+      },
+      {
+        "name": "Dark Green",
+        "hex": "#3c5a45"
       }
     ],
     "sizes": [
@@ -11950,72 +10210,16 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_09_14_Spencer_Look1_08.jpeg?v=1437075698",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_09_14_Spencer_Look1_14.jpeg?v=1437075698",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_09_14_Spencer_Look1_13.jpeg?v=1437075698",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_09_14_Spencer_Look1_15.jpeg?v=1437075698"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-hubbard-jacket-dark-green",
-    "slug": "hubbard-jacket-dark-green",
-    "name": "Hubbard Jacket in Dark Green",
-    "brand": "esemplare",
-    "category": "clothing",
-    "sku": "'18534",
-    "price": 248,
-    "shortDescription": "A warm hooded sweater jacket with zip and button closure. A front breast pocket and side angled pockets for your hands. Esemplare . Color Dark…",
-    "description": "A warm hooded sweater jacket with zip and button closure. A front breast pocket and side angled pockets for your hands. Esemplare . Color Dark Green. 100% Wool. Spencer is wearing a size Large. Also available in Navy .",
-    "colors": [
-      {
-        "name": "Dark Green",
-        "hex": "#3c5a45"
-      }
-    ],
-    "sizes": [
-      "Small"
-    ],
-    "material": "—",
-    "stock": 1,
-    "rating": 4.7,
-    "reviewCount": 92,
-    "tags": [
-      "brown",
-      "button",
-      "cardigan",
-      "Dark Green",
-      "Esemplare",
-      "F14"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#23211d",
-      "#6a5a3a"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Esemplare"
-      },
-      {
-        "label": "Type",
-        "value": "men's coats & jackets"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_09_14_Spencer_Look1_15.jpeg?v=1437075698",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-14_Spencer_Look_09_07.jpeg?v=1437075691",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-14_Spencer_Look_09_11.jpeg?v=1437075691",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-14_Spencer_Look_09_15.jpeg?v=1437075691",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-14_Spencer_Look_09_29.jpeg?v=1437075691",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-14_Spencer_Look_09_12.jpeg?v=1437075691"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-14_Spencer_Look_09_11.jpeg?v=1437075691"
     ],
     "custom": false
   },
   {
     "id": "imp-dartmouth-shirt-white",
     "slug": "dartmouth-shirt-white",
-    "name": "Dartmouth Shirt in White",
+    "name": "Dartmouth Shirt",
     "brand": "circle-of-gentlemen",
     "category": "clothing",
     "sku": "'18572",
@@ -12073,7 +10277,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-amand-shirt-brown",
     "slug": "amand-shirt-brown",
-    "name": "Amand Shirt in Brown",
+    "name": "Amand Shirt",
     "brand": "circle-of-gentlemen",
     "category": "clothing",
     "sku": "'18579",
@@ -12128,7 +10332,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-swift-low-blazer-navy",
     "slug": "swift-low-blazer-navy",
-    "name": "Swift Low Blazer in Navy",
+    "name": "Swift Low Blazer",
     "brand": "circle-of-gentlemen",
     "category": "clothing",
     "sku": "'18586",
@@ -12186,7 +10390,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-sheridan-trouser-blue",
     "slug": "sheridan-trouser-blue",
-    "name": "Sheridan Trouser in Blue",
+    "name": "Sheridan Trouser",
     "brand": "circle-of-gentlemen",
     "category": "clothing",
     "sku": "'18598",
@@ -12243,7 +10447,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-sinclair-trouser-navy-stripe",
     "slug": "sinclair-trouser-navy-stripe",
-    "name": "Sinclair Trouser in Navy Stripe",
+    "name": "Sinclair Trouser",
     "brand": "circle-of-gentlemen",
     "category": "clothing",
     "sku": "'18602",
@@ -12300,7 +10504,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-hooded-parka-black",
     "slug": "hooded-parka-black",
-    "name": "Hooded Parka in Black",
+    "name": "Hooded Parka",
     "brand": "esemplare",
     "category": "clothing",
     "sku": "'18605",
@@ -12358,7 +10562,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-hemp-dress-natural",
     "slug": "hemp-dress-natural",
-    "name": "Hemp Dress in Natural",
+    "name": "Hemp Dress",
     "brand": "hazel-brown",
     "category": "clothing",
     "sku": "'18613",
@@ -12416,7 +10620,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-petale-coat-silver-blue",
     "slug": "petale-coat-silver-blue",
-    "name": "Petale Coat in Silver/Blue",
+    "name": "Petale Coat",
     "brand": "lilith",
     "category": "clothing",
     "sku": "'18619",
@@ -12473,7 +10677,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-panetier-jacket-ink",
     "slug": "panetier-jacket-ink",
-    "name": "Panetier Jacket in Ink",
+    "name": "Panetier Jacket",
     "brand": "lilith",
     "category": "clothing",
     "sku": "'18623",
@@ -12531,7 +10735,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-pikki-mittens-blue",
     "slug": "pikki-mittens-blue",
-    "name": "Pikki Mittens in Blue",
+    "name": "Pikki Mittens",
     "brand": "lilith",
     "category": "accessories",
     "sku": "'18735",
@@ -12542,6 +10746,10 @@ export const importedProducts: Product[] = [
       {
         "name": "Blue",
         "hex": "#2f3c66"
+      },
+      {
+        "name": "Fuchsia",
+        "hex": "#8a857c"
       }
     ],
     "sizes": [
@@ -12580,60 +10788,7 @@ export const importedProducts: Product[] = [
     "images": [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/product_knit_pikki-mittens_blue01.jpeg?v=1437075321",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/product_knit_pikki-mittens_blue02.jpeg?v=1437075321",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-16_Ashley_Look_40_6550.jpeg?v=1437075321"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-pikki-mittens-fuschia",
-    "slug": "pikki-mittens-fuschia",
-    "name": "Pikki Mittens in Fuchsia",
-    "brand": "lilith",
-    "category": "accessories",
-    "sku": "'18736",
-    "price": 48,
-    "shortDescription": "Stay warm while still turning pages in these fingerless mittens with ribbed cuffs and thumbholes. Colors that make sure they aren't lost in the…",
-    "description": "Stay warm while still turning pages in these fingerless mittens with ribbed cuffs and thumbholes. Colors that make sure they aren't lost in the snow. Lilith. Color Fuchsia. 35% Mohair, 35% Alpaca. One Size. Also available in Blue . Shop our collection of Lilith.",
-    "colors": [
-      {
-        "name": "Fuschia",
-        "hex": "#8a857c"
-      }
-    ],
-    "sizes": [
-      "One Size"
-    ],
-    "material": "—",
-    "stock": 2,
-    "rating": 4.9,
-    "reviewCount": 159,
-    "tags": [
-      "Accessories",
-      "alpaca",
-      "F14",
-      "fuschia",
-      "gift guide",
-      "glove"
-    ],
-    "featured": false,
-    "trending": true,
-    "bestSeller": true,
-    "newArrival": true,
-    "palette": [
-      "#1d1d20",
-      "#5f6168"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Lilith"
-      },
-      {
-        "label": "Type",
-        "value": "women's gloves"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-16_Ashley_Look_40_6550.jpeg?v=1437075321",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/product_knit_pikki-mittens_fuschia02.jpeg?v=1437075316",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/product_knit_pikki-mittens_fuschia01.jpeg?v=1437075316",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/product_knit_pikki-mittens_fuschia03.jpeg?v=1437075316"
@@ -12643,7 +10798,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-orang-outang-sock-bark",
     "slug": "orang-outang-sock-bark",
-    "name": "Orang Outang Sock in Bark",
+    "name": "Orang Outang Sock",
     "brand": "lilith",
     "category": "clothing",
     "sku": "'18747",
@@ -12699,7 +10854,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-oscar-luggage-tag-rose",
     "slug": "oscar-luggage-tag-rose",
-    "name": "Oscar Luggage Tag in Rose",
+    "name": "Oscar Luggage Tag",
     "brand": "lilith",
     "category": "clothing",
     "sku": "'18755",
@@ -12710,6 +10865,10 @@ export const importedProducts: Product[] = [
       {
         "name": "Rose",
         "hex": "#8a857c"
+      },
+      {
+        "name": "Blueberry",
+        "hex": "#2f3c66"
       }
     ],
     "sizes": [
@@ -12747,60 +10906,7 @@ export const importedProducts: Product[] = [
     ],
     "images": [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/product_misc_lilith_oscar-luggage-tag_rose01_1024x1024_f693cb85-b9e2-416e-9f80-2c9b96549d0c.jpeg?v=1437075256",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/product_misc_lilith_oscar-luggage-tag_rose02.jpeg?v=1437075256"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-oscar-luggage-tag-blueberry",
-    "slug": "oscar-luggage-tag-blueberry",
-    "name": "Oscar Luggage Tag in Blueberry",
-    "brand": "lilith",
-    "category": "clothing",
-    "sku": "'18756",
-    "price": 8,
-    "shortDescription": "A polka dot leather tag adds a playful, and recognizable, touch to any piece of luggage. Attached by leather buckle. Lilith. Color Blueberry. 100%…",
-    "description": "A polka dot leather tag adds a playful, and recognizable, touch to any piece of luggage. Attached by leather buckle. Lilith. Color Blueberry. 100% Leather. One Size. Also available in Rose , Lagoon and Garnet . Shop our collection of Lilith.",
-    "colors": [
-      {
-        "name": "Blueberry",
-        "hex": "#2f3c66"
-      }
-    ],
-    "sizes": [
-      "One Size"
-    ],
-    "material": "—",
-    "stock": 2,
-    "rating": 4.6,
-    "reviewCount": 53,
-    "tags": [
-      "accessories",
-      "Bags",
-      "blue",
-      "F14",
-      "gift guide",
-      "leather"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#23211d",
-      "#6a5a3a"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Lilith"
-      },
-      {
-        "label": "Type",
-        "value": "women's bags"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/product_misc_lilith_oscar-luggage-tag_rose02.jpeg?v=1437075256",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/product_misc_lilith_oscar-luggage-tag_blueberry01_1024x1024_3bc06ee3-79c1-4e67-981f-be431f6fd5e8.jpeg?v=1437075253",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/product_misc_lilith_oscar-luggage-tag_blueberry02.jpeg?v=1437075253"
     ],
@@ -12809,7 +10915,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-buckle-cap-felt",
     "slug": "buckle-cap-felt",
-    "name": "Buckle Cap in Felt",
+    "name": "Buckle Cap",
     "brand": "rundholz",
     "category": "accessories",
     "sku": "'18784",
@@ -12865,7 +10971,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-tall-bag-black",
     "slug": "tall-bag-black",
-    "name": "Tall Bag in Black",
+    "name": "Tall Bag",
     "brand": "rundholz",
     "category": "bags",
     "sku": "'18793",
@@ -12976,7 +11082,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-pennolina-calf-boot-brown",
     "slug": "pennolina-calf-boot-brown",
-    "name": "Pennolina Calf Boot in Brown",
+    "name": "Pennolina Calf Boot",
     "brand": "marsell",
     "category": "shoes",
     "sku": "'16529",
@@ -13032,7 +11138,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-knee-high-boot-black",
     "slug": "knee-high-boot-black",
-    "name": "Knee-High Boot in Black",
+    "name": "Knee-High Boot",
     "brand": "marsell",
     "category": "shoes",
     "sku": "'16534",
@@ -13089,7 +11195,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-scavata-ankle-boot-bronze",
     "slug": "scavata-ankle-boot-bronze",
-    "name": "Scavata Ankle Boot in Bronze",
+    "name": "Scavata Ankle Boot",
     "brand": "marsell",
     "category": "shoes",
     "sku": "'16541",
@@ -13145,7 +11251,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-sassolo-oxford-black",
     "slug": "sassolo-oxford-black",
-    "name": "Sassolo Oxford in Black",
+    "name": "Sassolo Oxford",
     "brand": "marsell",
     "category": "clothing",
     "sku": "'16564",
@@ -13203,7 +11309,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-prayer-bead-necklace-grey-blue",
     "slug": "prayer-bead-necklace-grey-blue",
-    "name": "Prayer Bead Necklace in Grey/Blue",
+    "name": "Prayer Bead Necklace",
     "brand": "en-shalla",
     "category": "jewelry",
     "sku": "'18967",
@@ -13258,7 +11364,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-austin-shirt-blue",
     "slug": "austin-shirt-blue",
-    "name": "Austin Shirt in Blue",
+    "name": "Austin Shirt",
     "brand": "circle-of-gentlemen",
     "category": "clothing",
     "sku": "'18848",
@@ -13313,7 +11419,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-kobe-vest-brown",
     "slug": "kobe-vest-brown",
-    "name": "Kobe Vest in Brown",
+    "name": "Kobe Vest",
     "brand": "homecore",
     "category": "clothing",
     "sku": "'19257",
@@ -13426,7 +11532,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-zoulou-coat-black",
     "slug": "zoulou-coat-black",
-    "name": "Zoulou Coat in Black",
+    "name": "Zoulou Coat",
     "brand": "hannes-roether",
     "category": "clothing",
     "sku": "'19272",
@@ -13484,7 +11590,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-raps-pant-black",
     "slug": "raps-pant-black",
-    "name": "Raps Pant in Black",
+    "name": "Raps Pant",
     "brand": "hannes-roether",
     "category": "clothing",
     "sku": "'19280",
@@ -13542,7 +11648,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-zig-coat-evening",
     "slug": "zig-coat-evening",
-    "name": "Zig Coat in Evening",
+    "name": "Zig Coat",
     "brand": "hannes-roether",
     "category": "clothing",
     "sku": "'19285",
@@ -13600,7 +11706,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-morten-jacket-black",
     "slug": "morten-jacket-black",
-    "name": "Morten Jacket in Black",
+    "name": "Morten Jacket",
     "brand": "hannes-roether",
     "category": "clothing",
     "sku": "'19290",
@@ -13658,7 +11764,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-chiffon-cape-back-dress-sand",
     "slug": "chiffon-cape-back-dress-sand",
-    "name": "Chiffon Cape Back Dress in Sand",
+    "name": "Chiffon Cape Back Dress",
     "brand": "louiza-babouryan",
     "category": "accessories",
     "sku": "'19294",
@@ -13716,7 +11822,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-poet-silk-sweater-black",
     "slug": "poet-silk-sweater-black",
-    "name": "Poet Silk Sweater in Black",
+    "name": "Poet Silk Sweater",
     "brand": "louiza-babouryan",
     "category": "clothing",
     "sku": "'19305",
@@ -13774,7 +11880,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-double-breasted-hoodie-forest-plaid",
     "slug": "double-breasted-hoodie-forest-plaid",
-    "name": "Double Breasted Hoodie in Forest Plaid",
+    "name": "Double Breasted Hoodie",
     "brand": "v-room",
     "category": "clothing",
     "sku": "'19329",
@@ -14099,7 +12205,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-lane-bead-bracelet-gold-brass",
     "slug": "lane-bead-bracelet-gold-brass",
-    "name": "Lane Bead Bracelet in Gold Brass",
+    "name": "Lane Bead Bracelet",
     "brand": "5-octobre",
     "category": "jewelry",
     "sku": "'19362",
@@ -14261,7 +12367,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-contrast-zipper-skirt-navy",
     "slug": "contrast-zipper-skirt-navy",
-    "name": "Contrast Zipper Skirt in Navy",
+    "name": "Contrast Zipper Skirt",
     "brand": "hache",
     "category": "clothing",
     "sku": "'16412",
@@ -14319,7 +12425,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-side-zip-slim-pant-black",
     "slug": "side-zip-slim-pant-black",
-    "name": "Side Zip Slim Pant in Black",
+    "name": "Side Zip Slim Pant",
     "brand": "hache",
     "category": "clothing",
     "sku": "'16421",
@@ -14377,7 +12483,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-work-vest-tan",
     "slug": "work-vest-tan",
-    "name": "Work Vest in Tan",
+    "name": "Work Vest",
     "brand": "nigel-cabourn",
     "category": "clothing",
     "sku": "'16765",
@@ -14434,7 +12540,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-fair-isle-vest-army",
     "slug": "fair-isle-vest-army",
-    "name": "Fair Isle Vest in Army",
+    "name": "Fair Isle Vest",
     "brand": "nigel-cabourn",
     "category": "clothing",
     "sku": "'16728",
@@ -14491,7 +12597,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-wrinkled-tux-shirt-navy",
     "slug": "wrinkled-tux-shirt-navy",
-    "name": "Wrinkled Tux Shirt in Navy",
+    "name": "Wrinkled Tux Shirt",
     "brand": "sibel-saral",
     "category": "clothing",
     "sku": "'19215",
@@ -14549,7 +12655,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-square-cardigan-navy",
     "slug": "square-cardigan-navy",
-    "name": "Square Cardigan in Navy",
+    "name": "Square Cardigan",
     "brand": "sibel-saral",
     "category": "clothing",
     "sku": "'19237",
@@ -14560,6 +12666,10 @@ export const importedProducts: Product[] = [
       {
         "name": "Navy",
         "hex": "#1f2535"
+      },
+      {
+        "name": "Black",
+        "hex": "#15140f"
       }
     ],
     "sizes": [
@@ -14600,14 +12710,15 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-30_Ashley_Look_20_8670.jpeg?v=1437073963",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-30_Ashley_Look_20_8674.jpeg?v=1437073963",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-30_Ashley_Look_20_8667.jpeg?v=1437073963",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-30_Ashley_Look_20_8679.jpeg?v=1437073963"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-30_Ashley_Look_20_8679.jpeg?v=1437073963",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-30_Ashley_Look_13_8555.jpeg?v=1437073815"
     ],
     "custom": false
   },
   {
     "id": "imp-contrast-felted-sweater-black",
     "slug": "contrast-felted-sweater-black",
-    "name": "Contrast Felted Sweater in Black",
+    "name": "Contrast Felted Sweater",
     "brand": "ter-et-bantine",
     "category": "clothing",
     "sku": "'19010",
@@ -14665,7 +12776,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-pleated-waistband-trouser-black",
     "slug": "pleated-waistband-trouser-black",
-    "name": "Pleated Waistband Trouser in Black",
+    "name": "Pleated Waistband Trouser",
     "brand": "ter-et-bantine",
     "category": "clothing",
     "sku": "'19013",
@@ -14781,7 +12892,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-silk-vintage-tee-cork",
     "slug": "silk-vintage-tee-cork",
-    "name": "Silk Vintage Tee in Cork",
+    "name": "Silk Vintage Tee",
     "brand": "via-spare",
     "category": "clothing",
     "sku": "'18976",
@@ -14837,7 +12948,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-vintage-sweatshirt-light-grey",
     "slug": "vintage-sweatshirt-light-grey",
-    "name": "Vintage Sweatshirt in Light Grey",
+    "name": "Vintage Sweatshirt",
     "brand": "via-spare",
     "category": "clothing",
     "sku": "'18981",
@@ -14893,67 +13004,9 @@ export const importedProducts: Product[] = [
     "custom": false
   },
   {
-    "id": "imp-square-cardigan-in-black",
-    "slug": "square-cardigan-in-black",
-    "name": "Square Cardigan in Black",
-    "brand": "sibel-saral",
-    "category": "clothing",
-    "sku": "'19229",
-    "price": 478,
-    "shortDescription": "As the name implies it is a square knit cardigan with high side vents creating movement when you move. Understated through and through the long…",
-    "description": "As the name implies it is a square knit cardigan with high side vents creating movement when you move. Understated through and through the long rib knit cuffs can be rolled up and beautiful mother of pearl buttons add a hint of luxury. Fantastic inset pockets at the hip are barely noticeable staying close to the body of the knit. Sibel Saral. Color Black. 85% Cotton, 15% Cashmere. Ashley is wearing an X-Small. Also available in Navy and Camel .",
-    "colors": [
-      {
-        "name": "Black",
-        "hex": "#15140f"
-      }
-    ],
-    "sizes": [
-      "X-Small"
-    ],
-    "material": "—",
-    "stock": 1,
-    "rating": 4.6,
-    "reviewCount": 74,
-    "tags": [
-      "black",
-      "boxy",
-      "button up",
-      "buttons",
-      "cardigan",
-      "F14"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#23211d",
-      "#6a5a3a"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Sibel Saral"
-      },
-      {
-        "label": "Type",
-        "value": "women's knitwear"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-30_Ashley_Look_13_8555.jpeg?v=1437073815",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-30_Ashley_Look_13_8556.jpeg?v=1437073815",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-30_Ashley_Look_13_8560.jpeg?v=1437073815",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-30_Ashley_Look_13_8559.jpeg?v=1437073815",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-09-30_Ashley_Look_13_8562.jpeg?v=1437073815"
-    ],
-    "custom": false
-  },
-  {
     "id": "imp-pau-shirt-in-white",
     "slug": "pau-shirt-in-white",
-    "name": "Pau Shirt in White",
+    "name": "Pau Shirt",
     "brand": "sibel-saral",
     "category": "accessories",
     "sku": "'19200",
@@ -15011,7 +13064,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-linea-tight-capri",
     "slug": "linea-tight-capri",
-    "name": "Linea Tight in Capri",
+    "name": "Linea Tight",
     "brand": "hansel-from-basel",
     "category": "clothing",
     "sku": "'16574",
@@ -15066,7 +13119,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-quin-argyle-crew-brown",
     "slug": "quin-argyle-crew-brown",
-    "name": "Quin Argyle Crew in Brown",
+    "name": "Quin Argyle Crew",
     "brand": "hansel-from-basel",
     "category": "clothing",
     "sku": "'20538",
@@ -15122,7 +13175,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-camelia-reversible-jacket-navy-blue",
     "slug": "camelia-reversible-jacket-navy-blue",
-    "name": "Camelia Reversible Jacket in Navy/Blue",
+    "name": "Camelia Reversible Jacket",
     "brand": "lardini",
     "category": "clothing",
     "sku": "'19110",
@@ -15133,6 +13186,10 @@ export const importedProducts: Product[] = [
       {
         "name": "Navy/Blue",
         "hex": "#1f2535"
+      },
+      {
+        "name": "Black/Red",
+        "hex": "#15140f"
       }
     ],
     "sizes": [
@@ -15173,40 +13230,41 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_25_Lana_Look43_07.jpeg?v=1437073644",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_25_Lana_Look43_08.jpeg?v=1437073644",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_25_Lana_Look43_10.jpeg?v=1437073644",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_25_Lana_Look43_11.jpeg?v=1437073644"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_25_Lana_Look43_11.jpeg?v=1437073644",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_09_27_Lana_Look_30_05.jpeg?v=1437073632"
     ],
     "custom": false
   },
   {
-    "id": "imp-camelia-reversible-jacket-black-red",
-    "slug": "camelia-reversible-jacket-black-red",
-    "name": "Camelia Reversible Jacket in Black/Red",
-    "brand": "lardini",
+    "id": "imp-second-skin-slip-nude",
+    "slug": "second-skin-slip-nude",
+    "name": "Second Skin Slip",
+    "brand": "only-hearts",
     "category": "clothing",
-    "sku": "'19115",
-    "price": 488,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Truly versatile jacket of woven, tweed exterior, and ideal…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Truly versatile jacket of woven, tweed exterior, and ideal down ratio interior. Ready for one's diverse life schedule, this jacket offers the comfort, practicality, and look of the working women. Color Black/Red. Exterior 95% Wool, 5% Nylon, Lining 100% Nylon, Fill 90% Down, 10% Feather. Made in Italy. Lana is wearing an Italian 40. Also available in Navy/Blue",
+    "sku": "'19383",
+    "price": 88,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Hugging every curve this slip by Only Hearts features a…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Hugging every curve this slip by Only Hearts features a scoop neck and thin adjustable straps. Color Nude. 67% Nylon, 33% Spandex. Also available in Black . Shop our collection of Only Hearts.",
     "colors": [
       {
-        "name": "Black/Red",
-        "hex": "#15140f"
+        "name": "Nude",
+        "hex": "#8a857c"
       }
     ],
     "sizes": [
-      "Italian 40"
+      "Petite/Small"
     ],
     "material": "—",
-    "stock": 12,
+    "stock": 2,
     "rating": 4.5,
-    "reviewCount": 31,
+    "reviewCount": 36,
     "tags": [
-      "black",
-      "jacket",
-      "lardini",
-      "outerwear",
-      "puffer",
-      "red"
+      "arrivals",
+      "AW15",
+      "cream",
+      "F14",
+      "Intimates",
+      "nude"
     ],
     "featured": false,
     "trending": false,
@@ -15219,7 +13277,7 @@ export const importedProducts: Product[] = [
     "specs": [
       {
         "label": "Vendor",
-        "value": "Lardini"
+        "value": "Only Hearts"
       },
       {
         "label": "Type",
@@ -15227,18 +13285,18 @@ export const importedProducts: Product[] = [
       }
     ],
     "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_09_27_Lana_Look_30_05.jpeg?v=1437073632",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_09_27_Lana_Look_29_04.jpeg?v=1437073632",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_09_27_Lana_Look_29_03.jpeg?v=1437073632",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_09_27_Lana_Look_29_08.jpeg?v=1437073632",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_09_27_Lana_Look_29_10.jpeg?v=1437073632"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-10-18_Lana_Look_01_01.jpeg?v=1437073592",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-10-18_Lana_Look_01_02.jpeg?v=1437073592",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-10-18_Lana_Look_01_03.jpeg?v=1437073592",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-10-18_Lana_Look_01_04.jpeg?v=1437073592",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-10-18_Lana_Look_01_05.jpeg?v=1437073592"
     ],
     "custom": false
   },
   {
     "id": "imp-kate-hat-black",
     "slug": "kate-hat-black",
-    "name": "Kate Hat in Black",
+    "name": "Kate Hat",
     "brand": "kiss-by-fiona-bennett",
     "category": "accessories",
     "sku": "'19418",
@@ -15249,6 +13307,10 @@ export const importedProducts: Product[] = [
       {
         "name": "Black",
         "hex": "#15140f"
+      },
+      {
+        "name": "Steel Grey",
+        "hex": "#6f7178"
       }
     ],
     "sizes": [
@@ -15287,71 +13349,17 @@ export const importedProducts: Product[] = [
     "images": [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/product_2014_11_15_19419_a.jpeg?v=1437073560",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/product_2014_11_15_19419_b.jpeg?v=1437073560",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look22_01.jpeg?v=1437073560"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-kate-hat-steel-grey",
-    "slug": "kate-hat-steel-grey",
-    "name": "Kate Hat in Steel Grey",
-    "brand": "kiss-by-fiona-bennett",
-    "category": "accessories",
-    "sku": "'19420",
-    "price": 298,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Internationally acclaimed hat designer, Fiona Bennett,…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Internationally acclaimed hat designer, Fiona Bennett, offers superior-made headwear of fur felt and Alpaca wool through her new label, Kiss by Fiona Bennett. Sleek, classic, and comfortable, her pieces are crafted to age well while offering relevant statements. The Kate Hat with attached scarf gives the two in one. Color Steel Grey. 100% Fur Felt, 100% Alpaca Wool. Made in Berlin. Also available in Black .",
-    "colors": [
-      {
-        "name": "Steel Grey",
-        "hex": "#6f7178"
-      }
-    ],
-    "sizes": [
-      "57/58"
-    ],
-    "material": "—",
-    "stock": 12,
-    "rating": 4.7,
-    "reviewCount": 107,
-    "tags": [
-      "Accessories",
-      "F14",
-      "grey",
-      "hat",
-      "hats",
-      "kiss"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#1d1d20",
-      "#5f6168"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Kiss by Fiona Bennett"
-      },
-      {
-        "label": "Type",
-        "value": "Women's Accessories"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look22_01.jpeg?v=1437073560",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/product_2014_11_15_19421_a.jpeg?v=1437073555",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/product_2014_11_15_19421_b.jpeg?v=1437073555",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look25_02.jpeg?v=1437073555",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look25_03.jpeg?v=1437073555"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look25_02.jpeg?v=1437073555"
     ],
     "custom": false
   },
   {
     "id": "imp-charles-hat-steel-grey",
     "slug": "charles-hat-steel-grey",
-    "name": "Charles Hat in Steel Grey",
+    "name": "Charles Hat",
     "brand": "kiss-by-fiona-bennett",
     "category": "accessories",
     "sku": "'19425",
@@ -15408,7 +13416,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-kraig-hat-steel-grey",
     "slug": "kraig-hat-steel-grey",
-    "name": "Kraig Hat in Steel Grey",
+    "name": "Kraig Hat",
     "brand": "kiss-by-fiona-bennett",
     "category": "accessories",
     "sku": "'19427",
@@ -15461,9 +13469,296 @@ export const importedProducts: Product[] = [
     "custom": false
   },
   {
+    "id": "imp-cinosura-coat-in-navy",
+    "slug": "cinosura-coat-in-navy",
+    "name": "Cinosura Coat",
+    "brand": "duvetica",
+    "category": "clothing",
+    "sku": "'19471",
+    "price": 558,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Remaining true to Duvetica’s label, the Cinosura Jacket…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Remaining true to Duvetica’s label, the Cinosura Jacket offers warmth supplied by premium, grey goose down, and intelligent combinations of synthetic and natural fibers. Cozy slim fit with detachable hood insures versatility. Double angled front pockets, interior detachable pocket, Quilted front and back wool paneling. Color Navy. 30% Virgin Wool, 70% Polyamide, 100% Polyamide, Grey Goose Down. Made in Bulgaria. Lana is wearing the Size 42.",
+    "colors": [
+      {
+        "name": "Navy",
+        "hex": "#1f2535"
+      }
+    ],
+    "sizes": [
+      "40"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.7,
+    "reviewCount": 100,
+    "tags": [
+      "Coats",
+      "down",
+      "Duvetica",
+      "jacket",
+      "navy",
+      "outerwear"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Duvetica"
+      },
+      {
+        "label": "Type",
+        "value": "women's coats & jackets"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_08_Lana_Look10_02.jpeg?v=1442348382",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_08_Lana_Look10_03.jpeg?v=1442348382",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_08_Lana_Look10_04.jpeg?v=1442348382",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_08_Lana_Look10_05.jpeg?v=1442348382"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-orietta-coat-in-tan",
+    "slug": "orietta-coat-in-tan",
+    "name": "Orietta Coat",
+    "brand": "by-malene-birger",
+    "category": "clothing",
+    "sku": "'19481",
+    "price": 741,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Timeless full-length trench made irresistibly chic. Lovely…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Timeless full-length trench made irresistibly chic. Lovely on all frames and crafted from exquisite materials, its silhouette elongates and complements the form. Wide lapel with fastening collar details, deep side pockets, prominent back yoke with waist belt and cuff ties. By Malene Birger. Color Light Tan. 100% Polyester, 100% Viscose. Ashley is wearing the Size 34. Shop our collection of By Malene Birger.",
+    "colors": [
+      {
+        "name": "Tan",
+        "hex": "#b08d57"
+      }
+    ],
+    "sizes": [
+      "32"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.8,
+    "reviewCount": 128,
+    "tags": [
+      "beige",
+      "By Malene Birger",
+      "grey",
+      "light grey",
+      "Minimalism",
+      "outerwear"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "By Malene Birger"
+      },
+      {
+        "label": "Type",
+        "value": "women's coats & jackets"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-05_Ashley_Look_07_19482_8921.jpeg?v=1437073447",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-05_Ashley_Look_07_19482_8946.jpeg?v=1437073447",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-05_Ashley_Look_07_19482_8920.jpeg?v=1437073447",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-05_Ashley_Look_07_19482_8929.jpeg?v=1437073447",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-05_Ashley_Look_07_19482_8935_6f5d5b3e-4788-4aee-a757-af10acc5c52d.jpeg?v=1437073447"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-elvira-dress",
+    "slug": "elvira-dress",
+    "name": "Elvira Dress",
+    "brand": "by-malene-birger",
+    "category": "clothing",
+    "sku": "'19485",
+    "price": 391,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Tunic-like dress presents Audrey elegance for any woman.…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Tunic-like dress presents Audrey elegance for any woman. Exquisite front paneling creates wanted volume and length to an already lovely piece. Diverse and classic, this is the season’s wear-all staple. Capped sleeves, attached accented sash, and asymmetrical hemline. By Malene Birger. Color Black. 100% Silk. Lana is wearing the Size 34. Shop our collection of By Malene Birger.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "32"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.7,
+    "reviewCount": 86,
+    "tags": [
+      "black",
+      "By Malene Birger",
+      "dress",
+      "dresses",
+      "Minimalism",
+      "pre collection"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "By Malene Birger"
+      },
+      {
+        "label": "Type",
+        "value": "Dresses"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_08_Lana_Look9_01.jpeg?v=1437073432",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_08_Lana_Look9_03.jpeg?v=1437073432",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_08_Lana_Look9_04.jpeg?v=1437073432",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_08_Lana_Look9_06.jpeg?v=1437073432",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_08_Lana_Look9_02.jpeg?v=1437073432"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-cotton-henley-in-blue-grey",
+    "slug": "cotton-henley-in-blue-grey",
+    "name": "Cotton Henley",
+    "brand": "kristensen-du-nord",
+    "category": "clothing",
+    "sku": "'9921",
+    "price": 118,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company copy Addis is wearing a Medium. Addis is 6’2”, Chest 38.5”,…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company copy Addis is wearing a Medium. Addis is 6’2”, Chest 38.5”, Waist 31”, Inseam 32”.",
+    "colors": [
+      {
+        "name": "Blue Grey",
+        "hex": "#2f3c66"
+      }
+    ],
+    "sizes": [
+      "Medium"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.6,
+    "reviewCount": 76,
+    "tags": [
+      "blue",
+      "cotton",
+      "F13",
+      "grey",
+      "Kristensen du Nord",
+      "Man"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Kristensen du Nord"
+      },
+      {
+        "label": "Type",
+        "value": "men's t-shirts"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_3_Addis_Look3_01.jpeg?v=1437073407",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_3_Addis_Look3_03.jpeg?v=1437073407",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_3_Addis_Look3_02.jpeg?v=1437073407",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_3_Addis_Look3_04.jpeg?v=1437073407",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_3_Addis_Look3_05.jpeg?v=1437073407"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-delicious-hipster-in-black",
+    "slug": "delicious-hipster-in-black",
+    "name": "Delicious Hipster",
+    "brand": "only-hearts",
+    "category": "clothing",
+    "sku": "'200009",
+    "price": 28,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Delicious Hipster offers a satisfactory amount of…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Delicious Hipster offers a satisfactory amount of coverage and comfort. Color Black. 90% Nylon, 10% Lycra. Made in U.S.A. Shop our collection of Only Hearts.",
+    "colors": [
+      {
+        "name": "Default",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "Small"
+    ],
+    "material": "—",
+    "stock": 2,
+    "rating": 4.6,
+    "reviewCount": 72,
+    "tags": [
+      "03/11",
+      "arrivals",
+      "AW15",
+      "black",
+      "intimates",
+      "lingerie"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Only Hearts"
+      },
+      {
+        "label": "Type",
+        "value": "women's lingerie"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_41_20009_12835.jpeg?v=1437073320",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_41_20009_12836.jpeg?v=1437073320",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_41_20009_12838.jpeg?v=1437073320"
+    ],
+    "custom": false
+  },
+  {
     "id": "imp-tie-dress-in-navy",
     "slug": "tie-dress-in-navy",
-    "name": "Tie Dress in Navy",
+    "name": "Tie Dress",
     "brand": "harvey-faircloth",
     "category": "accessories",
     "sku": "'20031",
@@ -15519,9 +13814,651 @@ export const importedProducts: Product[] = [
     "custom": false
   },
   {
+    "id": "imp-circle-skirt-in-navy",
+    "slug": "circle-skirt-in-navy",
+    "name": "Circle Skirt",
+    "brand": "harvey-faircloth",
+    "category": "clothing",
+    "sku": "'20033",
+    "price": 405,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company With the structure of wool, and a silk hand, the Circle…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company With the structure of wool, and a silk hand, the Circle Skirt from Harvey Faircloth is sophistication with just enough fun. Add some sway to your workday, or elegance to Sunday brunch. Invisible zip closure in back. Fully-lined. Color Navy. 51% Silk, 49% Wool, 100% Silk. Made in U.S.A. Lana is wearing a Size 2. Shop our collection of Harvey Faircloth.",
+    "colors": [
+      {
+        "name": "Navy",
+        "hex": "#1f2535"
+      }
+    ],
+    "sizes": [
+      "2"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.6,
+    "reviewCount": 78,
+    "tags": [
+      "bottoms",
+      "Harvey Faircloth",
+      "navy",
+      "pre-season",
+      "Relaxed Luxury",
+      "SALE"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Harvey Faircloth"
+      },
+      {
+        "label": "Type",
+        "value": "women's skirts"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look10_01.jpeg?v=1437073298",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look10_02.jpeg?v=1437073298",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look10_03.jpeg?v=1437073298"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-ruffled-tank-top-in-navy",
+    "slug": "ruffled-tank-top-in-navy",
+    "name": "Ruffled Tank Top",
+    "brand": "harvey-faircloth",
+    "category": "clothing",
+    "sku": "'20038",
+    "price": 293,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Lovely ruffled layers compose this otherwise basic staple.…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Lovely ruffled layers compose this otherwise basic staple. Made for diverse weather, this tank is the ideal carryover piece. Skirt-tailed back hem. Invisible side zip opening for easy in and out access. Harvey Faircloth. Color Navy. 100% Polyester, 100% Silk, 100% Polyester. Made in U.S.A. Lana is wearing a Size 2. Shop our collection of Harvey Faircloth.",
+    "colors": [
+      {
+        "name": "Navy",
+        "hex": "#1f2535"
+      }
+    ],
+    "sizes": [
+      "2"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.8,
+    "reviewCount": 141,
+    "tags": [
+      "Harvey Faircloth",
+      "navy",
+      "pre-season",
+      "ruffle",
+      "SALE",
+      "SS15"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Harvey Faircloth"
+      },
+      {
+        "label": "Type",
+        "value": "women's tops"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look26_03.jpeg?v=1437073293",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look26_06.jpeg?v=1437073293",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look26_04.jpeg?v=1437073293",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look26_01.jpeg?v=1437073293"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-longsleeve-blouse-in-blue-stripe",
+    "slug": "longsleeve-blouse-in-blue-stripe",
+    "name": "Longsleeve Blouse",
+    "brand": "harvey-faircloth",
+    "category": "clothing",
+    "sku": "'20043",
+    "price": 244,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Effortless chic Harvey Faircloth blouse makes a lively…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Effortless chic Harvey Faircloth blouse makes a lively twist of yellow. Contrasting in color and material, the back panel navigates any age. Single front button placket opening. Peter Pan collar. Color Blue Stripe. 100% Cotton, 100% Silk. Made in U.S.A. Lana is wearing a Size 2. Shop our collection of Harvey Faircloth.",
+    "colors": [
+      {
+        "name": "Blue Stripe",
+        "hex": "#2f3c66"
+      }
+    ],
+    "sizes": [
+      "2"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.8,
+    "reviewCount": 120,
+    "tags": [
+      "blouse",
+      "blue",
+      "button-up",
+      "Harvey Faircloth",
+      "pre-season",
+      "SALE"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Harvey Faircloth"
+      },
+      {
+        "label": "Type",
+        "value": "women's button-ups"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look36_06.jpeg?v=1437073287",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look36_04.jpeg?v=1437073287",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look36_08.jpeg?v=1437073287",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look36_07.jpeg?v=1437073287"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-sleeve-top-in-navy-stripe",
+    "slug": "sleeve-top-in-navy-stripe",
+    "name": "Sleeve Top",
+    "brand": "harvey-faircloth",
+    "category": "clothing",
+    "sku": "'20053",
+    "price": 188,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Harvey Faircloth's Sleeve Top takes a standard look and…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Harvey Faircloth's Sleeve Top takes a standard look and gives it personality. Raglan sleeves with symmetrical seaming on shoulders are subtle but expressive. Unfinished hem with sheer overlay draw in the waist. Invisible zip closure at side. Color Navy Stripe. Made in U.S.A. Ashley is wearing a Size 2. Shop our collection of Harvey Faircloth.",
+    "colors": [
+      {
+        "name": "Navy Stripe",
+        "hex": "#1f2535"
+      }
+    ],
+    "sizes": [
+      "2"
+    ],
+    "material": "—",
+    "stock": 2,
+    "rating": 4.7,
+    "reviewCount": 93,
+    "tags": [
+      "cooloff",
+      "Harvey Faircloth",
+      "navy",
+      "pre-season",
+      "SALE",
+      "shirt"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Harvey Faircloth"
+      },
+      {
+        "label": "Type",
+        "value": "women's tops"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-14_Ashley_Look22_23667_22310.jpeg?v=1437073273",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-14_Ashley_Look22_23667_22327.jpeg?v=1437073273",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-14_Ashley_Look22_20053_22344.jpeg?v=1437073273",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-14_Ashley_Look22_23667_22326.jpeg?v=1437073273",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-14_Ashley_Look22_20053_22347.jpeg?v=1437073273"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-eda-pants-in-black",
+    "slug": "eda-pants-in-black",
+    "name": "Eda Pants",
+    "brand": "sibel-saral",
+    "category": "clothing",
+    "sku": "'20058",
+    "price": 458,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Beautiful construction with versatile wear. This easy fit…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Beautiful construction with versatile wear. This easy fit trouser offers a wide leg while remaining true to size at waist. Waist tie at back side band. Back pocket. Side angled pockets. Hook and tab closure at front with button. Sibel Saral. Color Black. 85% Wool, 15% Elastane. Made in Turkey. Lana is wearing an Extra-Small.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "X Small"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.6,
+    "reviewCount": 63,
+    "tags": [
+      "black",
+      "bottoms",
+      "FW14",
+      "Minimalism",
+      "pant",
+      "Sibel Saal"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Sibel Saral"
+      },
+      {
+        "label": "Type",
+        "value": "women's pants"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look32_05.jpeg?v=1437073266",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look32_09.jpeg?v=1437073266",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look32_06.jpeg?v=1437073266",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look32_10.jpeg?v=1437073266"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-winter-pants-in-black",
+    "slug": "winter-pants-in-black",
+    "name": "Winter Pants",
+    "brand": "sibel-saral",
+    "category": "clothing",
+    "sku": "'20065",
+    "price": 438,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Sibel Saral's staple pants encourage comfort and undeniable…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Sibel Saral's staple pants encourage comfort and undeniable chic. Wide, trouser leg fit. Side angled pockets, front zip fly closure. Back pocket. Color Black. 85% Wool, 15% Elastane. Made in Turkey. Lana is wearing an Extra-Small.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "X Small"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.9,
+    "reviewCount": 155,
+    "tags": [
+      "black",
+      "bottoms",
+      "cropped",
+      "FW124",
+      "last",
+      "Minimalism"
+    ],
+    "featured": false,
+    "trending": true,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Sibel Saral"
+      },
+      {
+        "label": "Type",
+        "value": "women's pants"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look29_02.jpeg?v=1437073253",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look29_03.jpeg?v=1437073253",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look29_06.jpeg?v=1437073253",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look29_05.jpeg?v=1437073253"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-wrap-snap-skirt-in-black",
+    "slug": "wrap-snap-skirt-in-black",
+    "name": "Wrap Snap Skirt",
+    "brand": "pip-squeak-chapeau",
+    "category": "clothing",
+    "sku": "'20080",
+    "price": 286,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Wrap Snap Skirt by Pip-Squeak Chapeau has a slight…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Wrap Snap Skirt by Pip-Squeak Chapeau has a slight flare through the knee. With raw seams and hems, this wrapped skirt is versatile, light, and unfussy. Snap button at front waistband with back detail pockets. Color Black. 100% Linen. Made in U.S.A. One Size. Shop our collection of Pip-Squeak Chapeau .",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "O/S"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.6,
+    "reviewCount": 60,
+    "tags": [
+      "11/10",
+      "black",
+      "bottoms",
+      "o/s",
+      "one size",
+      "Pip-Squeak Chapeau"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Pip-Squeak Chapeau"
+      },
+      {
+        "label": "Type",
+        "value": "women's skirts"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-958.jpeg?v=1437073230",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-971.jpeg?v=1437073230",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-969.jpeg?v=1437073230",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-932.jpeg?v=1437073230",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-967.jpeg?v=1437073230"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-pleated-wool-skirt-in-navy",
+    "slug": "pleated-wool-skirt-in-navy",
+    "name": "Pleated Wool Skirt",
+    "brand": "pip-squeak-chapeau",
+    "category": "clothing",
+    "sku": "'20084",
+    "price": 230,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Flared, beautifully woven knee length skirt by Pip-Squeak…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Flared, beautifully woven knee length skirt by Pip-Squeak Chapeau invites second glances. Accent pleats creates desired fullness through skirt. Invisible side zip. Color Navy. 100% Wool. Made in U.S.A. Lana is wearing a Small. Shop our collection of Pip-Squeak Chapeau .",
+    "colors": [
+      {
+        "name": "Navy",
+        "hex": "#1f2535"
+      }
+    ],
+    "sizes": [
+      "Small"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.7,
+    "reviewCount": 92,
+    "tags": [
+      "11/10",
+      "bottoms",
+      "FW14",
+      "navy",
+      "one",
+      "one6/11"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Pip-Squeak Chapeau"
+      },
+      {
+        "label": "Type",
+        "value": "women's skirts"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look24_06.jpeg?v=1437073214",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look24_07.jpeg?v=1437073214",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look24_09.jpeg?v=1437073214",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look24_08.jpeg?v=1437073214"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-boy-shirt-in-pin",
+    "slug": "boy-shirt-in-pin",
+    "name": "Boy Shirt",
+    "brand": "pip-squeak-chapeau",
+    "category": "clothing",
+    "sku": "'20086",
+    "price": 167,
+    "originalPrice": 196,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Boy Shirt from Pip-Squeak Chapeau is anything but…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Boy Shirt from Pip-Squeak Chapeau is anything but boyish. Classically cut and slim throughout, this top remains uniquely feminine. With a intentional wrinkled body, never worry about an iron. Color Pin. 100% Cotton. Made in U.S.A. Lana is wearing a Small.",
+    "colors": [
+      {
+        "name": "Pin",
+        "hex": "#8a857c"
+      },
+      {
+        "name": "11 Pin",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "X Small"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.5,
+    "reviewCount": 50,
+    "tags": [
+      "11/10",
+      "button up",
+      "FW14",
+      "Pip-Squeak Chapeau",
+      "SALE",
+      "shirt"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Pip-Squeak Chapeau"
+      },
+      {
+        "label": "Type",
+        "value": "women's button-ups"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look35_03.jpeg?v=1442346910",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look35_02.jpeg?v=1442346910",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look35_04.jpeg?v=1442346910",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look35_05.jpeg?v=1442346910",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-14_Ashley_Look13_2009_22076.jpeg?v=1437073193",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-14_Ashley_Look13_2009_22062.jpeg?v=1437073193"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-griffon-coat-in-black",
+    "slug": "griffon-coat-in-black",
+    "name": "Griffon Coat",
+    "brand": "pip-squeak-chapeau",
+    "category": "clothing",
+    "sku": "'20098",
+    "price": 342,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Griffon Coat by Pip-Squeak Chapeau reinterprets the…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Griffon Coat by Pip-Squeak Chapeau reinterprets the velvet coat. Single button closure at front placket, pointed lapels, and subtle cuff slits. Color Black. Made in U.S.A. Lana is wearing a Small. Shop our collection of Pip-Squeak Chapeau .",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "Small"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.6,
+    "reviewCount": 77,
+    "tags": [
+      "11/10",
+      "black",
+      "coat",
+      "jacket",
+      "outerwear",
+      "Pip-Squeak Chapeau"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Pip-Squeak Chapeau"
+      },
+      {
+        "label": "Type",
+        "value": "women's coats & jackets"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look21_01.jpeg?v=1437073187",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look21_02.jpeg?v=1437073187",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look21_03.jpeg?v=1437073187",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look21_04.jpeg?v=1437073187"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-candle-in-riz-blanc",
+    "slug": "candle-in-riz-blanc",
+    "name": "Candle",
+    "brand": "mad-et-len",
+    "category": "clothing",
+    "sku": "'20105",
+    "price": 98,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The French designer Mad et Len crafts a remarkable…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The French designer Mad et Len crafts a remarkable collection of candles and perfumes. Warm, light, and delicious. This scent is a combination of nutty sugar cookies with touches of buttery vanilla. Made in France. One Size.",
+    "colors": [
+      {
+        "name": "Riz Blanc",
+        "hex": "#8a857c"
+      },
+      {
+        "name": "Sichuan",
+        "hex": "#8a857c"
+      },
+      {
+        "name": "Turpentine",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "material": "—",
+    "stock": 2,
+    "rating": 4.6,
+    "reviewCount": 65,
+    "tags": [
+      "accessories",
+      "AW15",
+      "candle",
+      "f14",
+      "gift guide",
+      "Mad et Len"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Mad et Len"
+      },
+      {
+        "label": "Type",
+        "value": "Toiletries"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/product_2014_11_15_20105_b.jpeg?v=1442349454",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/product_2014_11_15_20014_b.jpeg?v=1442349555",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/product_2014_11_15_20016_b.jpeg?v=1442349573"
+    ],
+    "custom": false
+  },
+  {
     "id": "imp-no-77-perfume-in-figue-orange",
     "slug": "no-77-perfume-in-figue-orange",
-    "name": "No. 77 Perfume in Figue Orange",
+    "name": "No. 77 Perfume",
     "brand": "mad-et-len",
     "category": "perfumes",
     "sku": "'20106",
@@ -15530,8 +14467,8 @@ export const importedProducts: Product[] = [
     "description": "This is a demonstration store. You can purchase products like this from Baby & Company The French designer Mad et Len crafts a remarkable collection of candles and perfumes. Slightly citrus and completely lovely, this scent brings you home for the holidays. Just enough fruit to be sweet while remaining sophisticated. Made in France. One Size.",
     "colors": [
       {
-        "name": "Default",
-        "hex": "#15140f"
+        "name": "Figue Orange",
+        "hex": "#b5652a"
       }
     ],
     "material": "—",
@@ -15572,7 +14509,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-no-v-perfume-in-vetyver",
     "slug": "no-v-perfume-in-vetyver",
-    "name": "No. V Perfume in Vetyver",
+    "name": "No. V Perfume",
     "brand": "mad-et-len",
     "category": "perfumes",
     "sku": "'20111",
@@ -15581,8 +14518,8 @@ export const importedProducts: Product[] = [
     "description": "The French designer Mad et Len crafts a remarkable collection of candles and perfumes. Softly smoked florals. This scent is warm and earthy. Evokes the sense of being surrounded in the mountains. Made in France. One Size.",
     "colors": [
       {
-        "name": "Default",
-        "hex": "#15140f"
+        "name": "Vetyver",
+        "hex": "#8a857c"
       }
     ],
     "material": "—",
@@ -15621,9 +14558,357 @@ export const importedProducts: Product[] = [
     "custom": false
   },
   {
+    "id": "imp-variety-pack-in-white",
+    "slug": "variety-pack-in-white",
+    "name": "Variety Pack",
+    "brand": "homecore",
+    "category": "clothing",
+    "sku": "'20125",
+    "price": 160,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Gather your basic t's all in one place. A subtle scoop to…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Gather your basic t's all in one place. A subtle scoop to the neck and a flat lock seam in red down the spine of this soft cotton tee lets the world know you are keeping an eye on the details. Homecore. Color White, Sheer, Off-White. 100% Cotton. Made in Portugal. Also available for single sale in White Cotton , White Wool , White Linen . Shop our collection of Homecore.",
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#f4f1ea"
+      }
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.4,
+    "reviewCount": 18,
+    "tags": [
+      "11/17",
+      "F14",
+      "full moon",
+      "Homecore",
+      "man",
+      "mens"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Homecore"
+      },
+      {
+        "label": "Type",
+        "value": "men's t-shirts"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/product_homecorea.jpeg?v=1437073111",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/product_homecore.jpeg?v=1437073111",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-10-10_Addis_Look_01_02_copy.jpeg?v=1437073111"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-comfort-tee-white-linen",
+    "slug": "comfort-tee-white-linen",
+    "name": "Comfort Tee",
+    "brand": "homecore",
+    "category": "clothing",
+    "sku": "'20132",
+    "price": 88,
+    "originalPrice": 108,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company A subtle scoop to the neck and a flat lock seam in red down…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company A subtle scoop to the neck and a flat lock seam in red down the spine of this soft cotton tee lets the world know you are keeping an eye on the details. Homecore. Color Off-White. 30% Cotton, 70% Wool. Made in Portugal. Addis is wearing a Small.",
+    "colors": [
+      {
+        "name": "White Linen",
+        "hex": "#f4f1ea"
+      },
+      {
+        "name": "White Wool Blend",
+        "hex": "#f4f1ea"
+      }
+    ],
+    "sizes": [
+      "Small"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.8,
+    "reviewCount": 142,
+    "tags": [
+      "11/17",
+      "AW15",
+      "F14",
+      "full moon",
+      "Homecore",
+      "Man"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Homecore"
+      },
+      {
+        "label": "Type",
+        "value": "men's t-shirts"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/1-26-15_Addis_Look_18_20135_0969.jpeg?v=1442348471",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/1-26-15_Addis_Look_18_20135_0976.jpeg?v=1442348471",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/1-26-15_Addis_Look_18_20135_0982.jpeg?v=1442348471",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/1-26-15_Addis_Look_18_20135_0991.jpeg?v=1442348471",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Look_01_20132_0225.jpeg?v=1442348448",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Look_01_20132_0218_copy_1.jpeg?v=1442348448"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-lined-silhouette-dress-in-black",
+    "slug": "lined-silhouette-dress-in-black",
+    "name": "Lined Silhouette Dress",
+    "brand": "amelia-toro",
+    "category": "clothing",
+    "sku": "'20142",
+    "price": 448,
+    "shortDescription": "Hand crafted from concept to finished product, this Columbian label is authentically kind and creative. The Lined Silhouette Dress offers a…",
+    "description": "Hand crafted from concept to finished product, this Columbian label is authentically kind and creative. The Lined Silhouette Dress offers a natural silhouette with a slight flare at the hem. Back paneling flatters the silhouette. Capped sleeves. Asymmetrical, pointed neckline. Invisible back zip closure. Amelia Toro. Color Black. 100% Wool. Made in Columbia. Lana is wearing a Size 4.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "4"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.9,
+    "reviewCount": 148,
+    "tags": [
+      "Amelia Toro",
+      "black",
+      "Dress",
+      "dresses",
+      "F13",
+      "last"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Amelia Toro"
+      },
+      {
+        "label": "Type",
+        "value": "women's dresses"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look07_09.jpeg?v=1437073089",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look07_12.jpeg?v=1437073089",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look07_10.jpeg?v=1437073089",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look07_11.jpeg?v=1437073089",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look07_08.jpeg?v=1437073089"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-pearl-fastened-dress",
+    "slug": "pearl-fastened-dress",
+    "name": "Pearl Fastened Dress",
+    "brand": "amelia-toro",
+    "category": "clothing",
+    "sku": "'10440",
+    "price": 498,
+    "shortDescription": "The Pearl Fastened Dress is organically graceful. Slim fitting throught the knee, this piece envokes an exquisite silhouette. Beautiful seaming,…",
+    "description": "The Pearl Fastened Dress is organically graceful. Slim fitting throught the knee, this piece envokes an exquisite silhouette. Beautiful seaming, dolman sleeves, and slight opening with pearl button closure at back neck. Graceful self-fabric collar. Amelia Toro. Color Cream/Black. 100% Wool, 80% Wool, 20% Polyester. Made in Columbia. Lana is wearing a Size 4.",
+    "colors": [
+      {
+        "name": "Cream/Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "4"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.6,
+    "reviewCount": 61,
+    "tags": [
+      "Amelia Toro",
+      "Dress",
+      "dresses",
+      "F13",
+      "Little Black Dress",
+      "two-tone"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Amelia Toro"
+      },
+      {
+        "label": "Type",
+        "value": "women's dresses"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look03_01.jpeg?v=1437073080",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look03_02.jpeg?v=1437073080",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look03_03.jpeg?v=1437073080",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look03_04.jpeg?v=1437073080",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look03_05.jpeg?v=1437073080"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-sheen-button-up-in-red-tan",
+    "slug": "sheen-button-up-in-red-tan",
+    "name": "Sheen Button-Up",
+    "brand": "hache",
+    "category": "clothing",
+    "sku": "'11383",
+    "price": 238,
+    "shortDescription": "Classically tailored to modern perfection. The Sheen Button-Up by Hache maintains the borrowed shirt look with feminine details. Slightly there…",
+    "description": "Classically tailored to modern perfection. The Sheen Button-Up by Hache maintains the borrowed shirt look with feminine details. Slightly there slits at cuffs. Silk-like hand. Single front button placket opening. Back yoke. Hache. Color Red/Tan. 100% Polyester. Made in Italy. Lana is wearing a Size 38.",
+    "colors": [
+      {
+        "name": "Red/Tan",
+        "hex": "#8a2b2b"
+      }
+    ],
+    "sizes": [
+      "38"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.6,
+    "reviewCount": 79,
+    "tags": [
+      "button-up",
+      "F13",
+      "Hache",
+      "red",
+      "shirt",
+      "stripe"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Hache"
+      },
+      {
+        "label": "Type",
+        "value": "women's button-ups"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look31_02.jpeg?v=1437073042",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look31_01.jpeg?v=1437073042",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look31_03.jpeg?v=1437073042",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look31_04.jpeg?v=1437073042"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-net-dress-in-black",
+    "slug": "net-dress-in-black",
+    "name": "Net Dress",
+    "brand": "maria-calderara",
+    "category": "clothing",
+    "sku": "'20148",
+    "price": 238,
+    "shortDescription": "The Net Dress by Maria Calderera is eye catching and unique. With front draped accents and mesh sleeves, one is bound to stand out. Natural…",
+    "description": "The Net Dress by Maria Calderera is eye catching and unique. With front draped accents and mesh sleeves, one is bound to stand out. Natural fitting silhouette through the knee. Color Black. 40% Polyester, 30% Polyamide, 26% Viscose, 4% Elastane. Made in Italy. Lana is wearing a Size 1.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "1"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.6,
+    "reviewCount": 78,
+    "tags": [
+      "black",
+      "dress",
+      "dresses",
+      "F13",
+      "Maria Calderara",
+      "net"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Maria Calderara"
+      },
+      {
+        "label": "Type",
+        "value": "women's dresses"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look15_02.jpeg?v=1437073035",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look15_04.jpeg?v=1437073035",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look15_01.jpeg?v=1437073035",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look15_03.jpeg?v=1437073035",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_17_Lana_Look15_05.jpeg?v=1437073035"
+    ],
+    "custom": false
+  },
+  {
     "id": "imp-tie-waist-dress",
     "slug": "tie-waist-dress",
-    "name": "Tie Waist Dress in Black",
+    "name": "Tie Waist Dress",
     "brand": "aspesi",
     "category": "accessories",
     "sku": "'11218",
@@ -15677,9 +14962,467 @@ export const importedProducts: Product[] = [
     "custom": false
   },
   {
+    "id": "imp-sheer-rainbow-blouse",
+    "slug": "sheer-rainbow-blouse",
+    "name": "Sheer Rainbow Blouse",
+    "brand": "pero",
+    "category": "clothing",
+    "sku": "'20256",
+    "price": 678,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company This blouse top provides just enough color to hint warmer…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company This blouse top provides just enough color to hint warmer temperatures while remaining universally seasonless. Intricate paneling and gathers throughout adds to the piece's eclecticism. Completely handmade, stitched, and embroidered. Long sleeves with silk cuffs, a naturally loose silhouette. Single button placket opening. Tailored collar. Pero. Color White. 50% Cotton, 50% Silk. Made in India. Lana is wearing a size 38. Shop our collection of Péro.",
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#f4f1ea"
+      }
+    ],
+    "sizes": [
+      "38"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.8,
+    "reviewCount": 117,
+    "tags": [
+      "11/23",
+      "arrivals",
+      "AW15",
+      "blouse",
+      "pero",
+      "Resort"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Pero"
+      },
+      {
+        "label": "Type",
+        "value": "women's tops"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-1436.jpeg?v=1437072873",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-1434.jpeg?v=1437072873",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-1446.jpeg?v=1437072873",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-1464.jpeg?v=1437072873",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-1470.jpeg?v=1437072873"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-floral-front-peasant-blouse-in-white",
+    "slug": "floral-front-peasant-blouse-in-white",
+    "name": "Floral Front Peasant Blouse",
+    "brand": "pero",
+    "category": "clothing",
+    "sku": "'20258",
+    "price": 498,
+    "shortDescription": "This top provides just enough color and floral print to hint springtime while remaining universally seasonless. Intricate gathers and paneling…",
+    "description": "This top provides just enough color and floral print to hint springtime while remaining universally seasonless. Intricate gathers and paneling throughout adds to the piece's eclecticism. Completely handmade, stitched, and embroidered. Long sleeves with gathered cuffs with a loose silhouette. Single button placket closure at back. Boatneck collar. Pero. Color White. 50% Cotton, 50% Silk. Made in India. Lana is wearing a size 36. Shop our collection of Péro",
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#f4f1ea"
+      }
+    ],
+    "sizes": [
+      "36"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.8,
+    "reviewCount": 125,
+    "tags": [
+      "11/23",
+      "arrivals",
+      "AW15",
+      "pero",
+      "Resort",
+      "Signature"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Pero"
+      },
+      {
+        "label": "Type",
+        "value": "women's tops"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-1486.jpeg?v=1437072859",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-1476.jpeg?v=1437072859",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-1500.jpeg?v=1437072859"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-floral-tent-dress-in-white",
+    "slug": "floral-tent-dress-in-white",
+    "name": "Floral Tent Dress",
+    "brand": "pero",
+    "category": "clothing",
+    "sku": "'20259",
+    "price": 648,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company This tunic dress provides just enough color to hint warmer…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company This tunic dress provides just enough color to hint warmer temperatures while remaining universally seasonless. Intricate gathers throughout adds to the piece's eclecticism. Completely handmade, stitched, and embroidered. Short sleeves with side slits and a loose silhouette. Single button placket opening. Hits knee-length. Wide hem. Pero. Color White. 100% Cotton. Made in India. Lana is wearing a size 38. Shop our collection of Péro",
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#f4f1ea"
+      }
+    ],
+    "sizes": [
+      "38"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.4,
+    "reviewCount": 16,
+    "tags": [
+      "11/23",
+      "arrivals",
+      "AW15",
+      "dress",
+      "dresses",
+      "peasant"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Pero"
+      },
+      {
+        "label": "Type",
+        "value": "women's dresses"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-1520.jpeg?v=1437072854",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-1528.jpeg?v=1437072854",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-1539.jpeg?v=1437072854",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-1552.jpeg?v=1437072854"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-pleated-sleeve-tunic-in-white",
+    "slug": "pleated-sleeve-tunic-in-white",
+    "name": "Pleated Sleeve Tunic",
+    "brand": "pero",
+    "category": "clothing",
+    "sku": "'20261",
+    "price": 698,
+    "shortDescription": "This tunic top provides just enough color to hint warmer temperatures while remaining universally seasonless. Intricate paneling and asymmetrical…",
+    "description": "This tunic top provides just enough color to hint warmer temperatures while remaining universally seasonless. Intricate paneling and asymmetrical layers throughout adds to the piece's eclecticism. Completely handmade, stitched, and embroidered. Long sleeves with tailored cuffs, side slits, loose silhouette. Single button placket opening. Tailored collar. Pero. Color White. 100% Cotton. Made in India. Lana is wearing a 38. Shop our collection of Péro",
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#f4f1ea"
+      }
+    ],
+    "sizes": [
+      "38"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.5,
+    "reviewCount": 43,
+    "tags": [
+      "11/23",
+      "AW15",
+      "dresses",
+      "pero",
+      "Resort",
+      "shirt"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Pero"
+      },
+      {
+        "label": "Type",
+        "value": "women's tops"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look22_20293_0758.jpeg?v=1437072837",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look22_20293_0768.jpeg?v=1437072837",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look22_20293_0757.jpeg?v=1437072837",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look22_20293_0759.jpeg?v=1437072837",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look22_20293_0769.jpeg?v=1437072837"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-pink-bib-dress-in-white",
+    "slug": "pink-bib-dress-in-white",
+    "name": "Pink Bib Dress",
+    "brand": "pero",
+    "category": "clothing",
+    "sku": "'20262",
+    "price": 758,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company This dress provides just enough color to hint warmer…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company This dress provides just enough color to hint warmer temperatures while remaining universally seasonless. Intricate gathers and paneling throughout adds to the piece's eclecticism. Completely handmade, stitched, and embroidered. Long sleeves with silk cuffs,and a natural, loose silhouette. Single button closure at center back. Pero. Color White. 50% Cotton, 50% Silk. Made in India. Lana is wearing a size 38. Shop our collection of Péro",
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#f4f1ea"
+      }
+    ],
+    "sizes": [
+      "38"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.5,
+    "reviewCount": 42,
+    "tags": [
+      "11/23",
+      "arrivals",
+      "AW15",
+      "dresses",
+      "pero",
+      "putty"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Pero"
+      },
+      {
+        "label": "Type",
+        "value": "women's dresses"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-1395.jpeg?v=1437072830",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-1390.jpeg?v=1437072830",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-1401.jpeg?v=1437072830",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-1408.jpeg?v=1437072830",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-1418.jpeg?v=1437072830"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-babydoll-tank-in-white",
+    "slug": "babydoll-tank-in-white",
+    "name": "Babydoll Tank",
+    "brand": "pero",
+    "category": "clothing",
+    "sku": "'20263",
+    "price": 678,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Péro, where irregularities assure handmade excellence. This…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Péro, where irregularities assure handmade excellence. This tank provides just enough color to hint warmer temperatures while remaining universally seasonless. Intricate pleating and paneling throughout adds to the piece's eclecticism. Completely handmade, stitched, and embroidered. Color White. 50% Cotton, 50% Silk. Made in India. Lana is wearing a size 38.",
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#f4f1ea"
+      }
+    ],
+    "sizes": [
+      "38"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.8,
+    "reviewCount": 119,
+    "tags": [
+      "11/23",
+      "arrivals",
+      "AW15",
+      "handmade",
+      "pero",
+      "putty"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Pero"
+      },
+      {
+        "label": "Type",
+        "value": "women's tops"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-1302.jpeg?v=1442348618",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-1305.jpeg?v=1442348618",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-1323.jpeg?v=1442348618",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-1326.jpeg?v=1442348618"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-garden-dress-in-floral",
+    "slug": "garden-dress-in-floral",
+    "name": "Garden Dress",
+    "brand": "pero",
+    "category": "clothing",
+    "sku": "'20264",
+    "price": 528,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company This dress provides just enough color to hint warmer…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company This dress provides just enough color to hint warmer temperatures while remaining universally seasonless. Beautifully printed flora throughout. Completely handmade, stitched, and embroidered. A natural, loose silhouette. Slim straps, and hits just below the knee in length. Sweet ruffled hem. Pero. Color Floral. 100% Cotton. Made in India. Lana is wearing a size 36. Shop our collection of Péro",
+    "colors": [
+      {
+        "name": "Floral",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "36"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.8,
+    "reviewCount": 142,
+    "tags": [
+      "11/23",
+      "arrivals",
+      "AW15",
+      "dresses",
+      "floral",
+      "pero"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Pero"
+      },
+      {
+        "label": "Type",
+        "value": "women's dresses"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-1362.jpeg?v=1437072816",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-1370.jpeg?v=1437072816",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-1373.jpeg?v=1437072816",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-1377.jpeg?v=1437072816"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-stripe-textile-in-blue-multi",
+    "slug": "stripe-textile-in-blue-multi",
+    "name": "Stripe Textile",
+    "brand": "pero",
+    "category": "clothing",
+    "sku": "'20269",
+    "price": 228,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Comfy, yet cool. Textiles from péro are seasonless while…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Comfy, yet cool. Textiles from péro are seasonless while remaining modern. Experts in the handmade, péro's woven patterns demonstrate excellence in art. The Stripe Textile offers an inviting Houndstooth pattern. Color Blue Muti. 100% Cotton. Made in India. Length 33 X 64\".",
+    "colors": [
+      {
+        "name": "Blue Multi",
+        "hex": "#2f3c66"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.8,
+    "reviewCount": 141,
+    "tags": [
+      "02/26",
+      "11/23",
+      "accessories",
+      "arrivals",
+      "AW15",
+      "feather"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Pero"
+      },
+      {
+        "label": "Type",
+        "value": "Women's Accessories"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-12-12_Textile_03_7185_1024x1024_46b0ad1f-2cd0-41a2-81a0-d25d1222d9ea.jpeg?v=1437072763",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-12-12_Textile_03_7186.jpeg?v=1437072763",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-12-12_Textile_03_7187.jpeg?v=1437072763",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2014-12-12_Textile_03_7188.jpeg?v=1437072763"
+    ],
+    "custom": false
+  },
+  {
     "id": "imp-striped-woven-cloth-bag-in-red",
     "slug": "striped-woven-cloth-bag-in-red",
-    "name": "Woven Oversized Tote in Red Stripe",
+    "name": "Woven Oversized Tote",
     "brand": "pero",
     "category": "bags",
     "sku": "'20273",
@@ -15737,7 +15480,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-garnet-bracelet-in-frothy-pearl",
     "slug": "garnet-bracelet-in-frothy-pearl",
-    "name": "Garnet Bracelet in Frothy Pearl",
+    "name": "Garnet Bracelet",
     "brand": "kalosoma-jewelry",
     "category": "jewelry",
     "sku": "'10032",
@@ -15746,8 +15489,8 @@ export const importedProducts: Product[] = [
     "description": "Kalosoma Jewelry demonstrates the rigorous beauty in the handmade. Inching details combined into the delicate beauty go the Seed Bracelet. Scarab detail. Gem closure. Color White. Made in Mexico. Length 7 inches.",
     "colors": [
       {
-        "name": "Default",
-        "hex": "#15140f"
+        "name": "Frothy Pearl",
+        "hex": "#8a857c"
       }
     ],
     "sizes": [
@@ -15793,9 +15536,240 @@ export const importedProducts: Product[] = [
     "custom": false
   },
   {
+    "id": "imp-long-sleeve-blouse-in-black-floral",
+    "slug": "long-sleeve-blouse-in-black-floral",
+    "name": "Long Sleeve Blouse",
+    "brand": "harvey-faircloth",
+    "category": "clothing",
+    "sku": "'20317",
+    "price": 279,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Floral all over, this blouse ignites springtime joys.…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Floral all over, this blouse ignites springtime joys. Tailored to slim fit. Feminine, soft Peter Pan collar. Single button front placket. Tapered cuffs. Back yoke. Harvey Faircloth. Color Black/Floral. 100% Cotton. Made in U.S.A. Lana is wearing a size 2. Shop our collection of Harvey Faircloth.",
+    "colors": [
+      {
+        "name": "Black/Floral",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "2"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.5,
+    "reviewCount": 46,
+    "tags": [
+      "12/01",
+      "black",
+      "blouse",
+      "button-up",
+      "floral",
+      "Harvey Faircloth"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Harvey Faircloth"
+      },
+      {
+        "label": "Type",
+        "value": "women's button-ups"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-597.jpeg?v=1437072680",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-599.jpeg?v=1437072680",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-591.jpeg?v=1437072680",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-600.jpeg?v=1437072680",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-623.jpeg?v=1437072680"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-shawl-collar-blazer-in-black",
+    "slug": "shawl-collar-blazer-in-black",
+    "name": "Shawl Collar Blazer",
+    "brand": "harvey-faircloth",
+    "category": "clothing",
+    "sku": "'20325",
+    "price": 370,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Black tie formal blazer crafted exclusively for the…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Black tie formal blazer crafted exclusively for the feminine form. Princess seaming emanates a classic silhouette for a tailored beauty. Single button front closure. Front waist pockets. Fully lined. Harvey Faircloth. Color Black. 100% Wool, 65% Acetate, 29% Polyamide, 6% Elastane. Lining, 100% Polyester. Made in U.S.A. Lana is wearing a size 2. Shop our collection of Harvey Faircloth.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "2"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.7,
+    "reviewCount": 84,
+    "tags": [
+      "12/01",
+      "black",
+      "blazer",
+      "coat",
+      "Harvey Faircloth",
+      "jacket"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Harvey Faircloth"
+      },
+      {
+        "label": "Type",
+        "value": "women's coats & jackets"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-226.jpeg?v=1437072663",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-215.jpeg?v=1437072663",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-237.jpeg?v=1437072663",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-260.jpeg?v=1437072663"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-cotton-long-tee-in-ink",
+    "slug": "cotton-long-tee-in-ink",
+    "name": "Cotton Long Tee",
+    "brand": "pip-squeak-chapeau",
+    "category": "clothing",
+    "sku": "'20350",
+    "price": 188,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Cotton Long Tee from Pip-Squeak Chapeau is not one's…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Cotton Long Tee from Pip-Squeak Chapeau is not one's standard basic. Layered gauze renders the texture notable while not revealing. Raw edges caress this turtleneck. Color Ink. 100% Cotton Gauze. Made in U.S.A. Lana is wearing a Small. Shop our collection of Pip-Squeak Chapeau .",
+    "colors": [
+      {
+        "name": "Ink",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "Small"
+    ],
+    "material": "—",
+    "stock": 2,
+    "rating": 4.5,
+    "reviewCount": 28,
+    "tags": [
+      "12/01",
+      "ink",
+      "longsleeve",
+      "Pipsqueak-Chapeau",
+      "SALE",
+      "spring4"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Pip-Squeak Chapeau"
+      },
+      {
+        "label": "Type",
+        "value": "women's tops"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-815.jpeg?v=1437072650",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-864.jpeg?v=1437072650",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-818.jpeg?v=1437072650",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-840.jpeg?v=1437072650",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-854.jpeg?v=1437072650"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-pleated-skirt-in-glitter-dots",
+    "slug": "pleated-skirt-in-glitter-dots",
+    "name": "Pleated Skirt",
+    "brand": "pip-squeak-chapeau",
+    "category": "clothing",
+    "sku": "'20346",
+    "price": 286,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Dot love. The Pleated Skirt offers the flattering A-line…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Dot love. The Pleated Skirt offers the flattering A-line cut with delighting pleats at side. Back darts accentuate desirable fit. Hits knee-length. Pip-Squeak Chapeau. Color Glitter Dots. 100% Cotton. Made in U.S.A. Lana is wearing a size Small. Lana is 5'7, hips 36.5\", waist 25\", bust 34.5\". Shop our collection of Pip-Squeak Chapeau .",
+    "colors": [
+      {
+        "name": "Glitter Dots",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "Small"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 5,
+    "reviewCount": 175,
+    "tags": [
+      "12/01",
+      "bottom",
+      "bottoms",
+      "last",
+      "one",
+      "one6/11"
+    ],
+    "featured": false,
+    "trending": true,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Pip-Squeak Chapeau"
+      },
+      {
+        "label": "Type",
+        "value": "women's skirts"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-443.jpeg?v=1437072628",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-416.jpeg?v=1437072628",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-400.jpeg?v=1437072628",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-435.jpeg?v=1437072628",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-448.jpeg?v=1437072628"
+    ],
+    "custom": false
+  },
+  {
     "id": "imp-wrap-sandal-in-black-steel",
     "slug": "wrap-sandal-in-black-steel",
-    "name": "Wrap Sandal in Black/Steel",
+    "name": "Wrap Sandal",
     "brand": "marsell",
     "category": "shoes",
     "sku": "'20351",
@@ -15853,7 +15827,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-buckle-strap-heel-in-brown",
     "slug": "buckle-strap-heel-in-brown",
-    "name": "Buckle Strap Heel in Brown",
+    "name": "Buckle Strap Heel",
     "brand": "marsell",
     "category": "shoes",
     "sku": "'20363",
@@ -15910,7 +15884,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-block-wedge-in-black",
     "slug": "block-wedge-in-black",
-    "name": "Block Wedge in Black",
+    "name": "Block Wedge",
     "brand": "marsell",
     "category": "shoes",
     "sku": "'20376",
@@ -15919,8 +15893,12 @@ export const importedProducts: Product[] = [
     "description": "This is a demonstration store. You can purchase products like this from Baby & Company Married aesthetics of innovation and tradition, Marséll crafts shoes of mastering technique. Where modern classism takes wearable shape, anticipate artistic expression epitomized in leather footwear. The gorgeous Block Wedge at its' essence is seasonless and versatile. With the perfect pedicure or favorite tights, these wedges will take you places. Color Black. 100% Leather. Made in Italy.",
     "colors": [
       {
-        "name": "Default",
+        "name": "Black",
         "hex": "#15140f"
+      },
+      {
+        "name": "Dark Slate",
+        "hex": "#8a857c"
       }
     ],
     "sizes": [
@@ -15960,71 +15938,16 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-30_Reshoot_02_20379_21410.jpeg?v=1442348964",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-30_Reshoot_02_20379_21411.jpeg?v=1442348964",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-30_Reshoot_02_20379_21413.jpeg?v=1442348964",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-30_Reshoot_02_20379_21415.jpeg?v=1442348964"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-block-wedge-in-dark-slate",
-    "slug": "block-wedge-in-dark-slate",
-    "name": "Block Wedge in Dark Slate",
-    "brand": "marsell",
-    "category": "shoes",
-    "sku": "'20384",
-    "price": 692,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Married aesthetics of innovation and tradition, Marséll…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Married aesthetics of innovation and tradition, Marséll crafts shoes of mastering technique. Where modern classism takes wearable shape, anticipate artistic expression epitomized in leather footwear. The gorgeous Block Wedge at its' essence is seasonless and versatile. With the perfect pedicure or favorite tights, these wedges will take you places. Color Dark Slate. 100% Leather. Made in Italy.",
-    "colors": [
-      {
-        "name": "Dark Slate",
-        "hex": "#8a857c"
-      }
-    ],
-    "sizes": [
-      "36"
-    ],
-    "material": "—",
-    "stock": 12,
-    "rating": 4.9,
-    "reviewCount": 169,
-    "tags": [
-      "12/1",
-      "grey",
-      "leather",
-      "marsell",
-      "putty",
-      "reshoot"
-    ],
-    "featured": false,
-    "trending": true,
-    "bestSeller": true,
-    "newArrival": true,
-    "palette": [
-      "#1a1714",
-      "#5a4a35"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Marsell"
-      },
-      {
-        "label": "Type",
-        "value": "women's shoes"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-30_Reshoot_02_20379_21415.jpeg?v=1442348964",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-30_Reshoot_02_20387_21417.jpeg?v=1442348955",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-30_Reshoot_02_20387_21418.jpeg?v=1442348955",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-30_Reshoot_02_20387_21420.jpeg?v=1442348955",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-30_Reshoot_02_20387_21422.jpeg?v=1442348955"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-30_Reshoot_02_20387_21418.jpeg?v=1442348955"
     ],
     "custom": false
   },
   {
     "id": "imp-arsella-sandal-in-red",
     "slug": "arsella-sandal-in-red",
-    "name": "Arsella Sandal in Red",
+    "name": "Arsella Sandal",
     "brand": "marsell",
     "category": "shoes",
     "sku": "'20392",
@@ -16081,7 +16004,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-diamond-slip-on-in-white",
     "slug": "diamond-slip-on-in-white",
-    "name": "Diamond Slip-On in White",
+    "name": "Diamond Slip-On",
     "brand": "marsell",
     "category": "shoes",
     "sku": "'20398",
@@ -16139,7 +16062,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-circle-bag-in-black",
     "slug": "circle-bag-in-black",
-    "name": "Circle Bag in Black",
+    "name": "Circle Bag",
     "brand": "marsell",
     "category": "bags",
     "sku": "'20406",
@@ -16195,9 +16118,65 @@ export const importedProducts: Product[] = [
     "custom": false
   },
   {
+    "id": "imp-feather-sash-in-black",
+    "slug": "feather-sash-in-black",
+    "name": "Feather Sash",
+    "brand": "louiza-babouryan",
+    "category": "clothing",
+    "sku": "'20413",
+    "price": 148,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Add some spunk to your look with the Feather Sash from…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Add some spunk to your look with the Feather Sash from Louiza Babouryan. Ideal for layering, wrapping, and tying for a spark of detail. Louiza Babouryan. Color Black. Ostrich Feather. Made in the U.S.A. Length 68\". Also available in Grey. Shop our collection of Louiza Babouryan",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.9,
+    "reviewCount": 155,
+    "tags": [
+      "12/1",
+      "accessories",
+      "arrivals",
+      "AW15",
+      "black",
+      "bounty"
+    ],
+    "featured": false,
+    "trending": true,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Louiza Babouryan"
+      },
+      {
+        "label": "Type",
+        "value": "Women's Accessories"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/LouizaB_6887.jpeg?v=1437072539",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/LouizaB_6888.jpeg?v=1437072539",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/LouizaB_6890.jpeg?v=1437072539",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_36_20413_12810.jpeg?v=1437072539",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_35_32111_12803.jpeg?v=1437067056",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_35_32111_12807.jpeg?v=1437067056"
+    ],
+    "custom": false
+  },
+  {
     "id": "imp-low-chelsea-boot-in-black",
     "slug": "low-chelsea-boot-in-black",
-    "name": "Low Chelsea Boot in Black",
+    "name": "Low Chelsea Boot",
     "brand": "marsell",
     "category": "shoes",
     "sku": "'20473",
@@ -16255,7 +16234,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-marrone-oxford-in-brown",
     "slug": "marrone-oxford-in-brown",
-    "name": "Marrone Oxford in Brown",
+    "name": "Marrone Oxford",
     "brand": "marsell",
     "category": "shoes",
     "sku": "'20420",
@@ -16310,7 +16289,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-marsacco-lace-up-in-brown",
     "slug": "marsacco-lace-up-in-brown",
-    "name": "Marsacco Lace Up in Bark",
+    "name": "Marsacco Lace Up",
     "brand": "marsell",
     "category": "shoes",
     "sku": "'20426",
@@ -16365,7 +16344,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-combat-ankle-boot-in-black",
     "slug": "combat-ankle-boot-in-black",
-    "name": "Combat Ankle Boot in Black",
+    "name": "Combat Ankle Boot",
     "brand": "marsell",
     "category": "shoes",
     "sku": "'20438",
@@ -16422,7 +16401,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-buckle-less-belt-in-black",
     "slug": "buckle-less-belt-in-black",
-    "name": "Buckle-less Belt in Black",
+    "name": "Buckle-less Belt",
     "brand": "kelly-cole-group",
     "category": "accessories",
     "sku": "'20445",
@@ -16433,6 +16412,10 @@ export const importedProducts: Product[] = [
       {
         "name": "Black",
         "hex": "#15140f"
+      },
+      {
+        "name": "Brown",
+        "hex": "#5a4a35"
       }
     ],
     "sizes": [
@@ -16472,71 +16455,16 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/Kelly_Cole_6998.jpeg?v=1437072496",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/Kelly_Cole_6994.jpeg?v=1437072496",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/Kelly_Cole_6996.jpeg?v=1437072496",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Kelly_Cole_7000.jpeg?v=1437072496"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-buckle-less-belt-in-brown",
-    "slug": "buckle-less-belt-in-brown",
-    "name": "Buckle-less Belt in Brown",
-    "brand": "kelly-cole-group",
-    "category": "accessories",
-    "sku": "'20449",
-    "price": 128,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Color Brown 100% Leather. Made in U.S.A. Length 28 X 2\".…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Color Brown 100% Leather. Made in U.S.A. Length 28 X 2\". Also available in Black .",
-    "colors": [
-      {
-        "name": "Brown",
-        "hex": "#5a4a35"
-      }
-    ],
-    "sizes": [
-      "28"
-    ],
-    "material": "—",
-    "stock": 1,
-    "rating": 4.7,
-    "reviewCount": 85,
-    "tags": [
-      "11/10",
-      "12/01",
-      "Accessories",
-      "belt",
-      "brown",
-      "Man"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#1d1d20",
-      "#5f6168"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Kelly Cole Group"
-      },
-      {
-        "label": "Type",
-        "value": "unisex belts"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Kelly_Cole_7000.jpeg?v=1437072496",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/Kelly_Cole_7004.jpeg?v=1437072491",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Kelly_Cole_7001.jpeg?v=1437072491",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Kelly_Cole_7003.jpeg?v=1437072491",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Kelly_Cole_7006.jpeg?v=1437072491"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Kelly_Cole_7001.jpeg?v=1437072491"
     ],
     "custom": false
   },
   {
     "id": "imp-harlequin-belt-in-brown",
     "slug": "harlequin-belt-in-brown",
-    "name": "Harlequin Belt in Brown",
+    "name": "Harlequin Belt",
     "brand": "kelly-cole-group",
     "category": "accessories",
     "sku": "'20453",
@@ -16645,71 +16573,15 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/Kelly_Cole_6988.jpeg?v=1437072481",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/Kelly_Cole_6990.jpeg?v=1437072481",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/Kelly_Cole_6993.jpeg?v=1437072481",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Kelly_Cole_6989.jpeg?v=1437072481"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-garrison-belt-in-black",
-    "slug": "garrison-belt-in-black",
-    "name": "Garrison Belt",
-    "brand": "kelly-cole-group",
-    "category": "accessories",
-    "sku": "'20461",
-    "price": 128,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Kelly Cole Group. Color Black. 100% Leather. Made in U.S.A.…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Kelly Cole Group. Color Black. 100% Leather. Made in U.S.A. Length 1 X 32\". Also available in Brown .",
-    "colors": [
-      {
-        "name": "Black",
-        "hex": "#15140f"
-      }
-    ],
-    "sizes": [
-      "32"
-    ],
-    "material": "—",
-    "stock": 1,
-    "rating": 4.6,
-    "reviewCount": 63,
-    "tags": [
-      "12/01",
-      "Accessories",
-      "arrivals",
-      "AW15",
-      "belt",
-      "black"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#1d1d20",
-      "#5f6168"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Kelly Cole Group"
-      },
-      {
-        "label": "Type",
-        "value": "unisex belts"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Kelly_Cole_6983.jpeg?v=1437072476",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Kelly_Cole_6984.jpeg?v=1437072476",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Kelly_Cole_6985.jpeg?v=1437072476",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Kelly_Cole_6987.jpeg?v=1437072476"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Kelly_Cole_6989.jpeg?v=1437072481",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Kelly_Cole_6983.jpeg?v=1437072476"
     ],
     "custom": false
   },
   {
     "id": "imp-plain-belt-in-black",
     "slug": "plain-belt-in-black",
-    "name": "Plain Belt in Black",
+    "name": "Plain Belt",
     "brand": "kelly-cole-group",
     "category": "accessories",
     "sku": "'20465",
@@ -16720,6 +16592,10 @@ export const importedProducts: Product[] = [
       {
         "name": "Black",
         "hex": "#15140f"
+      },
+      {
+        "name": "Brown",
+        "hex": "#5a4a35"
       }
     ],
     "sizes": [
@@ -16759,71 +16635,16 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/Kelly_Cole_7012.jpeg?v=1437072471",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/Kelly_Cole_7007.jpeg?v=1437072471",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/Kelly_Cole_7010.jpeg?v=1437072471",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Kelly_Cole_7009.jpeg?v=1437072471"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-plain-belt-in-brown",
-    "slug": "plain-belt-in-brown",
-    "name": "Plain Belt in Brown",
-    "brand": "kelly-cole-group",
-    "category": "accessories",
-    "sku": "'20469",
-    "price": 90,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Kelly Cole Group. Color Brown. 100% Leather. Made in U.S.A.…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Kelly Cole Group. Color Brown. 100% Leather. Made in U.S.A. Length 1 X 32\". Also available in Black .",
-    "colors": [
-      {
-        "name": "Brown",
-        "hex": "#5a4a35"
-      }
-    ],
-    "sizes": [
-      "32"
-    ],
-    "material": "—",
-    "stock": 1,
-    "rating": 4.8,
-    "reviewCount": 142,
-    "tags": [
-      "12/01",
-      "Accessories",
-      "belt",
-      "Brown",
-      "leather belt",
-      "Man"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": true,
-    "newArrival": true,
-    "palette": [
-      "#1d1d20",
-      "#5f6168"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Kelly Cole Group"
-      },
-      {
-        "label": "Type",
-        "value": "unisex belts"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Kelly_Cole_7009.jpeg?v=1437072471",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/Kelly_Cole_7020.jpeg?v=1437072466",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Kelly_Cole_7018.jpeg?v=1437072466",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Kelly_Cole_7021.jpeg?v=1437072466",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Kelly_Cole_7015.jpeg?v=1437072466"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Kelly_Cole_7018.jpeg?v=1437072466"
     ],
     "custom": false
   },
   {
     "id": "imp-sandal-heel-in-brown",
     "slug": "sandal-heel-in-brown",
-    "name": "Farlill Heel in Brown",
+    "name": "Farlill Heel",
     "brand": "by-malene-birger",
     "category": "shoes",
     "sku": "'20480",
@@ -16879,9 +16700,408 @@ export const importedProducts: Product[] = [
     "custom": false
   },
   {
+    "id": "imp-sleeveless-jumpsuit-in-navy",
+    "slug": "sleeveless-jumpsuit-in-navy",
+    "name": "Sleeveless Jumpsuit",
+    "brand": "harvey-faircloth",
+    "category": "clothing",
+    "sku": "'20484",
+    "price": 349,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company This playful, loose fitting jumpsuit is a fantastic…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company This playful, loose fitting jumpsuit is a fantastic functional piece. Elastic neckline for security between thin, over the shoulder straps. Adjustable waist tie. Side angled pockets. Gathered accents with paneling aids to the shape. Invisible zip closure at side. Harvey Faircloth. Color Navy. 100% Wool/Silk Blend. Pocket Lining, 100% Polyester. Made in U.S.A. Lana is wearing a size 2. Shop our collection of Harvey Faircloth.",
+    "colors": [
+      {
+        "name": "Navy",
+        "hex": "#1f2535"
+      }
+    ],
+    "sizes": [
+      "2"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.6,
+    "reviewCount": 57,
+    "tags": [
+      "12/8",
+      "bottoms",
+      "cooloff",
+      "harvey faircloth",
+      "jumpsuit",
+      "SALE"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Harvey Faircloth"
+      },
+      {
+        "label": "Type",
+        "value": "women's jumpsuits"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-541.jpeg?v=1437072452",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-485.jpeg?v=1437072452",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-473.jpeg?v=1437072452",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-489.jpeg?v=1437072452",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-507.jpeg?v=1437072452"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-day-coat-in-navy",
+    "slug": "day-coat-in-navy",
+    "name": "Day Coat",
+    "brand": "harvey-faircloth",
+    "category": "clothing",
+    "sku": "'20493",
+    "price": 405,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Day Coat softly flares through the skirt for a…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Day Coat softly flares through the skirt for a comfortable fit. Detailed seaming and darts add to quality cut and silhouette. Double breasted front button closure. Rounded lapels and collar. 3/4 length sleeves. Back belt. Fully lined. Harvey Faircloth. Color Navy. 100% Wool, 100% Cotton, 100% Polyester. Made in U.S.A.",
+    "colors": [
+      {
+        "name": "Navy",
+        "hex": "#1f2535"
+      }
+    ],
+    "sizes": [
+      "2"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.7,
+    "reviewCount": 101,
+    "tags": [
+      "12/8",
+      "coat",
+      "harvey faircloth",
+      "jacket",
+      "outerwear",
+      "SALE"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Harvey Faircloth"
+      },
+      {
+        "label": "Type",
+        "value": "women's coats & jackets"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-887.jpeg?v=1442348356",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-911.jpeg?v=1442348356",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-893.jpeg?v=1442348356",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-907.jpeg?v=1442348356"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-worker-jumpsuit-in-navy",
+    "slug": "worker-jumpsuit-in-navy",
+    "name": "Worker Jumpsuit",
+    "brand": "harvey-faircloth",
+    "category": "clothing",
+    "sku": "'20498",
+    "price": 370,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company A modern one piece for the riveters at heart. The Worker…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company A modern one piece for the riveters at heart. The Worker Jumpsuit is utilitarian and adaptable, with sophisticated structure. Wide collar, classic cuffs, snap button and front zip closure. Side angled pockets. Harvey Faircloth. Color Navy. Made in U.S.A. Lana is wearing a size 2. Shop our collection of Harvey Faircloth.",
+    "colors": [
+      {
+        "name": "Navy",
+        "hex": "#1f2535"
+      }
+    ],
+    "sizes": [
+      "2"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.9,
+    "reviewCount": 158,
+    "tags": [
+      "12/8",
+      "bottoms",
+      "harvey faircloth",
+      "jumpsuit",
+      "navy",
+      "SALE"
+    ],
+    "featured": false,
+    "trending": true,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Harvey Faircloth"
+      },
+      {
+        "label": "Type",
+        "value": "women's jumpsuits"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-737.jpeg?v=1437072425",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-655.jpeg?v=1437072425",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-727.jpeg?v=1437072425",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-731.jpeg?v=1437072425",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-671.jpeg?v=1437072425"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-patch-pocket-pant-in-navy",
+    "slug": "patch-pocket-pant-in-navy",
+    "name": "Patch Pocket Pant",
+    "brand": "harvey-faircloth",
+    "category": "clothing",
+    "sku": "'20504",
+    "price": 279,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company This slim fitting pant hits comfortably just above the…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company This slim fitting pant hits comfortably just above the ankle. Back darts lead to flattering fit. Straight-on front pockets. Single button fly air closure at front. Back pockets. Harvey Faircloth. Color Navy. 100% Wool. Pocket Lining, 100% Polyester. Made in U.S.A. Lana is wearing a size 2. Shop our collection of Harvey Faircloth.",
+    "colors": [
+      {
+        "name": "Navy",
+        "hex": "#1f2535"
+      }
+    ],
+    "sizes": [
+      "2"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.6,
+    "reviewCount": 73,
+    "tags": [
+      "12/8",
+      "blue",
+      "bottoms",
+      "cooloff",
+      "harvey faircloth",
+      "navy"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Harvey Faircloth"
+      },
+      {
+        "label": "Type",
+        "value": "women's pants"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-988.jpeg?v=1437072415",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-1007.jpeg?v=1437072415",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-1003.jpeg?v=1437072415",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-1007_copy.jpeg?v=1437072415",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/20141215_Lana-1001.jpeg?v=1437072415"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-cashmere-tassel-blanket-in-brown",
+    "slug": "cashmere-tassel-blanket-in-brown",
+    "name": "Cashmere Tassel Blanket",
+    "brand": "denis-colomb",
+    "category": "clothing",
+    "sku": "'20510",
+    "price": 2748,
+    "shortDescription": "Lover of travel and culture, Designer Denis Colomb discovered his lifestyle brand of blankets and shawls through inspired of the traditional…",
+    "description": "Lover of travel and culture, Designer Denis Colomb discovered his lifestyle brand of blankets and shawls through inspired of the traditional Nepalese artisans. In combination of genuine Mongolian cashmere, traditional methods, and a modern aesthetic, Colomb offers stunning pieces to last the years. Color Brown. 100% Cashmere. Made in Nepal. Length 52 X 80\".",
+    "colors": [
+      {
+        "name": "Brown",
+        "hex": "#5a4a35"
+      }
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.6,
+    "reviewCount": 67,
+    "tags": [
+      "12/8",
+      "accessories",
+      "arrivals",
+      "AW15",
+      "blanket",
+      "denis colomb"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Denis Colomb"
+      },
+      {
+        "label": "Type",
+        "value": "Home Accessories"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/IMG_7031_1024x1024_56f058ba-8925-4432-9d80-e684c7bad347.jpeg?v=1442349536",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/IMG_7035.jpeg?v=1442349536",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/IMG_7039.jpeg?v=1442349536",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/IMG_7034.jpeg?v=1442349536"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-cashmere-dot-shawl-in-black-white",
+    "slug": "cashmere-dot-shawl-in-black-white",
+    "name": "Cashmere Dot Shawl",
+    "brand": "denis-colomb",
+    "category": "clothing",
+    "sku": "'20512",
+    "price": 928,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Lover of travel and culture, Designer Denis Colomb…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Lover of travel and culture, Designer Denis Colomb discovered his lifestyle brand of blankets and shawls through inspired of the traditional Nepalese artisans. In combination of genuine Mongolian cashmere, traditional methods, and a modern aesthetic, Colomb offers stunning pieces to last the years. Color Black/White. 80% Cashmere, 20% Cotton. Made in Nepal. Length 35.5 X 70\".",
+    "colors": [
+      {
+        "name": "Black/White",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "material": "—",
+    "stock": 2,
+    "rating": 4.5,
+    "reviewCount": 46,
+    "tags": [
+      "12/8",
+      "accessories",
+      "arrivals",
+      "AW15",
+      "denis colomb",
+      "home"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Denis Colomb"
+      },
+      {
+        "label": "Type",
+        "value": "Home Accessories"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/IMG_7053_1024x1024_bab50220-dbf0-4ffa-a734-0d6af0b88021.jpeg?v=1437072393",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/IMG_7058.jpeg?v=1437072393",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/IMG_7059.jpeg?v=1437072393",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/IMG_7055.jpeg?v=1437072393"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-dolpo-shawl-in-lotus-red-multi",
+    "slug": "dolpo-shawl-in-lotus-red-multi",
+    "name": "Dolpo Shawl",
+    "brand": "denis-colomb",
+    "category": "clothing",
+    "sku": "'20513",
+    "price": 928,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Lover of travel and culture, Designer Denis Colomb…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Lover of travel and culture, Designer Denis Colomb discovered his lifestyle brand of blankets and shawls through inspired of the traditional Nepalese artisans. In combination of genuine Mongolian cashmere, traditional methods, and a modern aesthetic, Colomb offers stunning pieces to last the years. Color Red Multi. 80% Cashmere, 20% Cotton. Made in Nepal. Length 35.5 X 70\".",
+    "colors": [
+      {
+        "name": "Red Multi",
+        "hex": "#8a2b2b"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.7,
+    "reviewCount": 90,
+    "tags": [
+      "12/8",
+      "accessories",
+      "AW15",
+      "blankets",
+      "denis colomb",
+      "grey"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Denis Colomb"
+      },
+      {
+        "label": "Type",
+        "value": "Home Accessories"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_06_20513_3390_1.jpeg?v=1437072387",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_06_20513_3385.jpeg?v=1437072387",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_06_20513_3389.jpeg?v=1437072387",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_06_20513_3388.jpeg?v=1437072387"
+    ],
+    "custom": false
+  },
+  {
     "id": "imp-studded-leather-wallet-in-black",
     "slug": "studded-leather-wallet-in-black",
-    "name": "Elodie Leather Wallet in Black",
+    "name": "Elodie Leather Wallet",
     "brand": "kate-s-mensah",
     "category": "accessories",
     "sku": "'20522",
@@ -16939,7 +17159,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-studded-leather-clutch-in-black",
     "slug": "studded-leather-clutch-in-black",
-    "name": "Roxanne Leather Clutch in Black",
+    "name": "Roxanne Leather Clutch",
     "brand": "kate-s-mensah",
     "category": "bags",
     "sku": "'20523",
@@ -16950,6 +17170,10 @@ export const importedProducts: Product[] = [
       {
         "name": "Black",
         "hex": "#15140f"
+      },
+      {
+        "name": "Brown",
+        "hex": "#5a4a35"
       }
     ],
     "sizes": [
@@ -16990,24 +17214,190 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/Kate_Mensah_Roxanne_clutch_black_0045.jpeg?v=1437072370",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/Kate_Mensah_Roxanne_clutch_black_0046.jpeg?v=1437072370",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/Kate_Mensah_Roxanne_clutch_black_0044.jpeg?v=1437072370",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Kate_Mensah_Roxanne_clutch_black_0049.jpeg?v=1437072370"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Kate_Mensah_Roxanne_clutch_black_0049.jpeg?v=1437072370",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Kate_Mensah_Roxanne_clutch_brown_0053.jpeg?v=1437072362"
     ],
     "custom": false
   },
   {
-    "id": "imp-studded-leather-clutch-in-brown",
-    "slug": "studded-leather-clutch-in-brown",
-    "name": "Roxanne Leather Clutch in Brown",
-    "brand": "kate-s-mensah",
-    "category": "bags",
-    "sku": "'20524",
-    "price": 538,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Embossed leather spikes add to the spunk of Kate Mensah's…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Embossed leather spikes add to the spunk of Kate Mensah's designs. Interior pockets with interior zip ensure optimal storage potential. The Roxanne Clutch acts as a statement handbag for any outfit . Exterior zip closure with hand pull. Color Brown. 100% Leather. Length 11.5\" X 5\". Also available in Black . Shop our collection of Kate S Mensah.",
+    "id": "imp-top-stripe-crew-in-ivory-multi",
+    "slug": "top-stripe-crew-in-ivory-multi",
+    "name": "Top Stripe Crew",
+    "brand": "hansel-from-basel",
+    "category": "clothing",
+    "sku": "'20535",
+    "price": 18,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Los Angeles label Hansel from Basel invites fun and joy…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Los Angeles label Hansel from Basel invites fun and joy into the realm of accessories. This season's sock collection is a whimsical array of springtime joy, too cute to hide under pants. Say yes to colorful feet for spring! Color Multi Ivory. 70% Cotton, 25% Nylon, 5% Elastane. One Size.",
     "colors": [
       {
-        "name": "Brown",
-        "hex": "#5a4a35"
+        "name": "Ivory Multi",
+        "hex": "#efe9dd"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "material": "—",
+    "stock": 6,
+    "rating": 4.8,
+    "reviewCount": 132,
+    "tags": [
+      "2/16",
+      "arrivals",
+      "AW15",
+      "hansel from basel",
+      "salefave3",
+      "shot 5/8"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Hansel from Basel"
+      },
+      {
+        "label": "Type",
+        "value": "women's socks"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-08_Laydown_Look11_20535_21691.jpeg?v=1437072354",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-08_Laydown_Look11_20535_21692.jpeg?v=1437072354",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-08_Laydown_Look11_20535_21693.jpeg?v=1437072354"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-tipsy-anklet-in-black",
+    "slug": "tipsy-anklet-in-black",
+    "name": "Tipsy Anklet",
+    "brand": "hansel-from-basel",
+    "category": "clothing",
+    "sku": "'20537",
+    "price": 18,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Los Angeles label Hansel from Basel invites fun and joy…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Los Angeles label Hansel from Basel invites fun and joy into the realm of accessories. This season's sock collection is a whimsical array of springtime joy, too cute to hide under pants. Say yes to colorful feet for spring! Color Black. 75% Cotton, 20% Nylon, 3% Acrylic, 2% Spandex. One Size. Also available in Ivory. Shop our collection of Hansel from Basel.",
+    "colors": [
+      {
+        "name": "Default",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "material": "—",
+    "stock": 2,
+    "rating": 4.6,
+    "reviewCount": 82,
+    "tags": [
+      "2/16",
+      "accessories",
+      "arrivals",
+      "AW15",
+      "hansel from basel",
+      "mothermoon"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Hansel from Basel"
+      },
+      {
+        "label": "Type",
+        "value": "women's socks"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_11_20537_21313.jpeg?v=1437072350"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-colorblock-silk-crew-in-coral",
+    "slug": "colorblock-silk-crew-in-coral",
+    "name": "Colorblock Silk Crew",
+    "brand": "hansel-from-basel",
+    "category": "clothing",
+    "sku": "'20539",
+    "price": 28,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Los Angeles label Hansel from Basel invites fun and joy…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Los Angeles label Hansel from Basel invites fun and joy into the realm of accessories. This season's sock collection is a whimsical array of springtime joy, too cute to hide under pants. Say yes to colorful feet for spring! Color Coral. 61% Silk, 34% Nylon, 5% Spandex. One Size. Also available in Mustard .",
+    "colors": [
+      {
+        "name": "Coral",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "material": "—",
+    "stock": 2,
+    "rating": 4.8,
+    "reviewCount": 125,
+    "tags": [
+      "2/16",
+      "accessories",
+      "arrivals",
+      "AW15",
+      "hansel from basel",
+      "mothermoon"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Hansel from Basel"
+      },
+      {
+        "label": "Type",
+        "value": "women's socks"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_09_20539_21307.jpeg?v=1437072348",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_11_20537_21314.jpeg?v=1437072346"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-diamond-no-show-ivory-multi",
+    "slug": "diamond-no-show-ivory-multi",
+    "name": "Diamond No Show",
+    "brand": "hansel-from-basel",
+    "category": "clothing",
+    "sku": "'20542",
+    "price": 18,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Los Angeles label Hansel from Basel invites fun and joy…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Los Angeles label Hansel from Basel invites fun and joy into the realm of accessories. This season's sock collection is a whimsical array of springtime joy, too cute to hide under pants. Say yes to colorful feet for spring! Color Ivory. 83% Cotton, 13% Nylon, 2% Acrylic, 2% Spandex. One Size.",
+    "colors": [
+      {
+        "name": "Ivory",
+        "hex": "#efe9dd"
       }
     ],
     "sizes": [
@@ -17015,40 +17405,615 @@ export const importedProducts: Product[] = [
     ],
     "material": "—",
     "stock": 3,
-    "rating": 5,
-    "reviewCount": 179,
+    "rating": 4.8,
+    "reviewCount": 116,
     "tags": [
-      "12/8",
+      "2/16",
       "accessories",
       "arrivals",
       "AW15",
-      "brown",
-      "clutch"
+      "hansel from basel",
+      "mothermoon"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Hansel from Basel"
+      },
+      {
+        "label": "Type",
+        "value": "women's socks"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_17_20542_21324.jpeg?v=1437072342"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-large-polka-dot-sheer-crew-in-ivory",
+    "slug": "large-polka-dot-sheer-crew-in-ivory",
+    "name": "Large Polka Dot Sheer Crew",
+    "brand": "hansel-from-basel",
+    "category": "clothing",
+    "sku": "'20546",
+    "price": 28,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Los Angeles label Hansel from Basel invites fun and joy…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Los Angeles label Hansel from Basel invites fun and joy into the realm of accessories. This season's sock collection is a whimsical array of springtime joy, too cute to hide under pants. Say yes to colorful feet for spring! Color Ivory. 100% Nylon. One Size.",
+    "colors": [
+      {
+        "name": "Ivory",
+        "hex": "#efe9dd"
+      }
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "material": "—",
+    "stock": 8,
+    "rating": 4.5,
+    "reviewCount": 51,
+    "tags": [
+      "2/16",
+      "Accessories",
+      "arrivals",
+      "AW15",
+      "hansel from basel",
+      "salefave3"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Hansel from Basel"
+      },
+      {
+        "label": "Type",
+        "value": "women's socks"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-08_Laydown_Look9_20546_21687.jpeg?v=1437072336",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-08_Laydown_Look9_20546_21683.jpeg?v=1437072336",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-08_Laydown_Look8_50033_21680.jpeg?v=1437064546",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-08_Laydown_Look8_50033_21681.jpeg?v=1437064546"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-short-sleeve-knit-in-black",
+    "slug": "short-sleeve-knit-in-black",
+    "name": "Ribbed Short Sleeve Knit",
+    "brand": "co",
+    "category": "clothing",
+    "sku": "'20551",
+    "price": 230,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Knit rib sleeves add some much needed texture to the…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Knit rib sleeves add some much needed texture to the classic black top. Simplicity is never boring, and adds a classy edge. Crew neckline. Co. Color Black. 100% Cotton. Ashley is wearing a Small. Shop our collection of Co.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "Small"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.9,
+    "reviewCount": 158,
+    "tags": [
+      "1/26",
+      "co collection",
+      "knits",
+      "knitwear",
+      "new",
+      "nightout"
     ],
     "featured": false,
     "trending": true,
     "bestSeller": true,
     "newArrival": true,
     "palette": [
-      "#1c1b18",
-      "#7a6a44"
+      "#23211d",
+      "#6a5a3a"
     ],
     "specs": [
       {
         "label": "Vendor",
-        "value": "Kate S Mensah"
+        "value": "Co"
       },
       {
         "label": "Type",
-        "value": "women's bags"
+        "value": "women's knitwear"
       }
     ],
     "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Kate_Mensah_Roxanne_clutch_brown_0053.jpeg?v=1437072362",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Kate_Mensah_Roxanne_clutch_brown_0056.jpeg?v=1437072362",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Kate_Mensah_Roxanne_clutch_brown_0058.jpeg?v=1437072362",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Kate_Mensah_Roxanne_clutch_brown_0059.jpeg?v=1437072362",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Kate_Mensah_Roxanne_clutch_brown_0061.jpeg?v=1437072362"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Look_11_20551_1522_copy.jpeg?v=1437072322",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Look_11_20551_1519.jpeg?v=1437072322",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Look_11_20551_1522.jpeg?v=1437072322",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Look_11_20551_1524.jpeg?v=1437072322"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-puff-sleeve-knit-in-grey",
+    "slug": "puff-sleeve-knit-in-grey",
+    "name": "Cashmere Puff Sleeve Knit",
+    "brand": "co",
+    "category": "clothing",
+    "sku": "'20554",
+    "price": 412,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Channel your inner bohemian with the spirited elegance of…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Channel your inner bohemian with the spirited elegance of this piece from Co. Gathered at the neck, this top offers an oversized silhouette. Raglan sleeves with puffs. Single button closure at center back. Color Grey. 100% Cashmere. Shop our collection of Co.",
+    "colors": [
+      {
+        "name": "Grey",
+        "hex": "#6f7178"
+      }
+    ],
+    "sizes": [
+      "X-Small"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.5,
+    "reviewCount": 44,
+    "tags": [
+      "1/26",
+      "cashmere",
+      "co collection",
+      "knits",
+      "knitwear",
+      "SALE"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Co"
+      },
+      {
+        "label": "Type",
+        "value": "women's knitwear"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Look_30_20554_1713.jpeg?v=1437072315",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Look_30_20554_1721.jpeg?v=1437072315",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Look_31_13163_1722.jpeg?v=1437072315",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Look_31_13163_1725.jpeg?v=1437072315",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Look_31_13163_1729.jpeg?v=1437072315"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-a-line-jacket-in-black",
+    "slug": "a-line-jacket-in-black",
+    "name": "A-Line Jacket",
+    "brand": "co",
+    "category": "clothing",
+    "sku": "'20557",
+    "price": 699,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The A-Line Jacket by Co. offers structural ease for a…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The A-Line Jacket by Co. offers structural ease for a polished look. Added linen presents added texture and gorgeous interest. Covered, snap button closure at front. Full lined. Color Black. 72% Viscose, 28% Linen, Lining 100% Polyester.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "X-Small"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.7,
+    "reviewCount": 102,
+    "tags": [
+      "2/23",
+      "black",
+      "Co",
+      "coats",
+      "jackets",
+      "nightout"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Co"
+      },
+      {
+        "label": "Type",
+        "value": "women's coats & jackets"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-26_Ashley_Look_28_20557_7133.jpeg?v=1442346933",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-26_Ashley_Look_29_20566_7292.jpeg?v=1442346933",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-26_Ashley_Look_28_20557_7128.jpeg?v=1442346933",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-26_Ashley_Look_29_20566_7310.jpeg?v=1442346933",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-26_Ashley_Look_29_20566_7300.jpeg?v=1442346933"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-peasant-top-in-black",
+    "slug": "peasant-top-in-black",
+    "name": "Bubble Peasant Top",
+    "brand": "co",
+    "category": "clothing",
+    "sku": "'20560",
+    "price": 419,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Bubble Peasant Top from Co. adds some chic fun to your…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Bubble Peasant Top from Co. adds some chic fun to your spring selections. Parallel gathers at neck and waist, this piece makes a graceful staple. Dolman sleeves. Hook and eye closure. Invisible back zip closure at center back neck. Color Black. 82% Triacetate, 18% Polyester. Ashley is wearing an X Small. Also available in Pale Pink . Shop our collection of Co.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "Small"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.8,
+    "reviewCount": 127,
+    "tags": [
+      "1/26",
+      "Co",
+      "one",
+      "one6/11",
+      "SALE",
+      "SS15"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Co"
+      },
+      {
+        "label": "Type",
+        "value": "women's tops"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01292015_Ashley_04_205601392.jpeg?v=1437072297",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01292015_Ashley_04_205601394.jpeg?v=1437072297",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01292015_Ashley_04_205601399.jpeg?v=1437072297",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01292015_Ashley_04_205601401.jpeg?v=1437072297",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01292015_Ashley_04_205601402.jpeg?v=1437072297",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Look_19_20563_1609.jpeg?v=1442346886"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-front-press-pant-in-black",
+    "slug": "front-press-pant-in-black",
+    "name": "Front Press Pant",
+    "brand": "co",
+    "category": "clothing",
+    "sku": "'20566",
+    "price": 489,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Front Press Pant is a wide leg wonder. Beautifully…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Front Press Pant is a wide leg wonder. Beautifully shaped for a flattering silhouette. Hook and eye closure with fly zip at center front. Side angled pockets at front, one pocket at left back. Co. Color Black. 82% Triacetate, 18% Polyester. Ashley is wearing a Smalls Shop our collection of Co.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "Small"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.9,
+    "reviewCount": 163,
+    "tags": [
+      "2/23",
+      "black",
+      "bottoms",
+      "Co",
+      "nightout",
+      "pants"
+    ],
+    "featured": false,
+    "trending": true,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Co"
+      },
+      {
+        "label": "Type",
+        "value": "women's pants"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-26_Ashley_Look_29_20566_7200.jpeg?v=1437072283",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-26_Ashley_Look_29_20566_7214.jpeg?v=1437072283",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-26_Ashley_Look_29_20566_7208.jpeg?v=1437072283",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-26_Ashley_Look_29_20566_7208_copy.jpeg?v=1437072283",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-26_Ashley_Look_29_20566_7190.jpeg?v=1437072283"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-v-neck-dress-in-black",
+    "slug": "v-neck-dress-in-black",
+    "name": "V-Neck Dress",
+    "brand": "co",
+    "category": "clothing",
+    "sku": "'20568",
+    "price": 615,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company This season's little black dress award goes to this V-Neck…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company This season's little black dress award goes to this V-Neck piece. Tailoring delicacy, this dress has a fitted bodice which flows into poised layering of the full skirt. Barely past knee length. Gentle v-neckline. Invisible zip at center back neck. Lined. Co. Color Black. 82% Triacetate, 18% Polyester. Ashley is wearing an X-Small. Shop our collection of Co.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "X-Small"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.7,
+    "reviewCount": 105,
+    "tags": [
+      "2/23",
+      "black",
+      "Co",
+      "dresses",
+      "nightout",
+      "publish"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Co"
+      },
+      {
+        "label": "Type",
+        "value": "women's dresses"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-26_Ashley_Look_27_20568_7089.jpeg?v=1437072274",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-26_Ashley_Look_27_20568_7093.jpeg?v=1437072274",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-26_Ashley_Look_27_20568_7097.jpeg?v=1437072274",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-26_Ashley_Look_27_20568_7100.jpeg?v=1437072274",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-26_Ashley_Look_27_20568_7102.jpeg?v=1437072274"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-sleeveless-dress-in-black",
+    "slug": "sleeveless-dress-in-black",
+    "name": "Sleeveless Flow Dress",
+    "brand": "co",
+    "category": "clothing",
+    "sku": "'20572",
+    "price": 510,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Flow Dress reminds us why we loved 1960's style, and…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Flow Dress reminds us why we loved 1960's style, and we're in love. With a trapeze shape and full skirt this piece is twirling into one of our favorites. Hook and eye closure. Invisible zip closure at center back neck. Co. Color Black. 82% Triacetate, 18% Polyester. Ashley is wearing an X Small. Shop our collection of Co.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "X-Small"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.9,
+    "reviewCount": 160,
+    "tags": [
+      "1/26",
+      "Co",
+      "dresses",
+      "nightout",
+      "SALE",
+      "SS15"
+    ],
+    "featured": false,
+    "trending": true,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Co"
+      },
+      {
+        "label": "Type",
+        "value": "women's dresses"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Look_09_20572_1496.jpeg?v=1437072264",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Look_09_20572_1495.jpeg?v=1437072264",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Look_09_20572_1490.jpeg?v=1437072264",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Look_09_20572_1491.jpeg?v=1437072264",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Look_09_20572_1497.jpeg?v=1437072264"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-organza-ruffle-top-in-black",
+    "slug": "organza-ruffle-top-in-black",
+    "name": "Organza Ruffle Top",
+    "brand": "co",
+    "category": "clothing",
+    "sku": "'40963",
+    "price": 531,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Ruffle Top is the tasteful fun needed for springtime…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Ruffle Top is the tasteful fun needed for springtime festivities. Sleeveless, crew neckline. Co. Color Black. Invisible zip closure at center back. Lined. 100% Silk, Lining 100% Acetate. Ashley is wearing an X-Small. Shop our collection of Co.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "X-Small"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.9,
+    "reviewCount": 164,
+    "tags": [
+      "2/23",
+      "black",
+      "Co",
+      "nightout",
+      "publish",
+      "SALE"
+    ],
+    "featured": false,
+    "trending": true,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Co"
+      },
+      {
+        "label": "Type",
+        "value": "women's tops"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-26_Ashley_Look_29_20566_7267.jpeg?v=1437072232",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-26_Ashley_Look_29_20566_7274_copy.jpeg?v=1437072232",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-26_Ashley_Look_29_20566_7256.jpeg?v=1437072232",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-26_Ashley_Look_29_20566_7283_9714a5f1-da6f-476c-a823-8d614e503bd4.jpeg?v=1437072232",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-26_Ashley_Look_29_20566_7263.jpeg?v=1437072232"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-short-silk-skirt-in-flower-print",
+    "slug": "short-silk-skirt-in-flower-print",
+    "name": "Short Silk Skirt",
+    "brand": "co",
+    "category": "clothing",
+    "sku": "'20585",
+    "price": 545,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Blossoming in print while flowing in fullness, the Short…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Blossoming in print while flowing in fullness, the Short Silk Skirt is a lively closet addition. Knee length. Elastic waistband for ease. Fully lined. Co. Color Floral Print. 100% Silk, Lining 100% Acetate. Ashley is wearing an X-Small. Shop our collection of Co.",
+    "colors": [
+      {
+        "name": "Flower Print",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "X-Small"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.4,
+    "reviewCount": 19,
+    "tags": [
+      "2/23",
+      "black",
+      "bottoms",
+      "Co",
+      "floral",
+      "nightout"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Co"
+      },
+      {
+        "label": "Type",
+        "value": "women's skirts"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-26_Ashley_Look_28_20557_7170.jpeg?v=1437072224",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-26_Ashley_Look_28_20557_7166.jpeg?v=1437072224",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-26_Ashley_Look_28_20557_7173.jpeg?v=1437072224",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-26_Ashley_Look_28_20557_7179.jpeg?v=1437072224",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-26_Ashley_Look_28_20557_7179_copy.jpeg?v=1437072224"
     ],
     "custom": false
   },
@@ -17105,122 +18070,9 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_10_Bag4_3469.jpeg?v=1437072123",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_10_Bag4_3470.jpeg?v=1437072123",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_10_Bag4_3473.jpeg?v=1437072123",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_10_Bag4_3477.jpeg?v=1437072123"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-pretty-grooming-bag-in-turtledove",
-    "slug": "pretty-grooming-bag-in-turtledove",
-    "name": "Pretty Grooming Bag",
-    "brand": "guibert",
-    "category": "bags",
-    "sku": "'20631",
-    "price": 1528,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Pretty Grooming Bag is a welcoming size for this 24/7…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Pretty Grooming Bag is a welcoming size for this 24/7 lifestyle. Adjustable leather hand and shoulder strap. Interior zip and fold-over pockets. Guibert. Color Turtledove. 100% Taurillion Bull Leather. Made in the EU. Shop our collection of Guibert.",
-    "colors": [
-      {
-        "name": "Turtledove",
-        "hex": "#8a857c"
-      }
-    ],
-    "sizes": [
-      "One Size"
-    ],
-    "material": "—",
-    "stock": 3,
-    "rating": 4.6,
-    "reviewCount": 73,
-    "tags": [
-      "2/9",
-      "accessories",
-      "arrivals",
-      "AW15",
-      "bag",
-      "bounty"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#1c1b18",
-      "#7a6a44"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Guibert"
-      },
-      {
-        "label": "Type",
-        "value": "women's bags"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_10_Bag4_3477.jpeg?v=1437072123",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_11_Bag5_3479.jpeg?v=1437072115",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-05_Ashley_Look_01_32001_8761.jpeg?v=1437072115",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_11_Bag5_3480.jpeg?v=1437072115",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_11_Bag5_3484.jpeg?v=1437072115",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_11_Bag5_3485.jpeg?v=1437072115"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-pretty-grooming-bag-in-havana",
-    "slug": "pretty-grooming-bag-in-havana",
-    "name": "Pretty Grooming Bag",
-    "brand": "guibert",
-    "category": "bags",
-    "sku": "'20632",
-    "price": 1678,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company With a rich history of equestrian leatherwear, Pierre…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company With a rich history of equestrian leatherwear, Pierre Guibert's knowledge and experience is effortlessly represented in his accessory line of bags and belts. Each piece is conceptualized with the intention of performance which produces immaculately designed products of utility and beauty. The Pretty Grooming Tote is a welcoming size for this 24/7 lifestyle. Adjustable leather hand and shoulder strap. Interior zip and fold-over pockets. Color Dark Brown. 100% Calf Leather. Made in the EU. Shop our collection of Guibert.",
-    "colors": [
-      {
-        "name": "Dark Brown",
-        "hex": "#5a4a35"
-      }
-    ],
-    "sizes": [
-      "One Size"
-    ],
-    "material": "—",
-    "stock": 2,
-    "rating": 4.8,
-    "reviewCount": 121,
-    "tags": [
-      "2/9",
-      "accessories",
-      "arrivals",
-      "AW15",
-      "bag",
-      "bounty"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": true,
-    "palette": [
-      "#1c1b18",
-      "#7a6a44"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Guibert"
-      },
-      {
-        "label": "Type",
-        "value": "women's bags"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-07-08_Laydown_20632_24490.jpeg?v=1437072107",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-07-08_Laydown_20632_24493.jpeg?v=1437072107",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-07-08_Laydown_20632_24503.jpeg?v=1437072107",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-07-08_Laydown_20632_24416.jpeg?v=1437072107"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-05_Ashley_Look_01_32001_8761.jpeg?v=1437072115"
     ],
     "custom": false
   },
@@ -17277,65 +18129,9 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_17_20653_3539.jpeg?v=1437072101",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_17_20653_3544.jpeg?v=1437072102",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_17_20653_3545.jpeg?v=1437072102",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_17_20653_3540.jpeg?v=1437072102"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-breastplate-belt-in-gold",
-    "slug": "breastplate-belt-in-gold",
-    "name": "Breastplate Belt",
-    "brand": "guibert",
-    "category": "accessories",
-    "sku": "'20637",
-    "price": 202,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company With a rich history of equestrian leatherwear, Pierre…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company With a rich history of equestrian leatherwear, Pierre Guibert's knowledge and experience is effortlessly represented in his accessory line of bags and belts. Each piece is conceptualized with the intention of performance which produces immaculately designed products of utility and beauty. Color Gold. 100% Barénia Leather. Made in the EU. Shop our collection of Guibert.",
-    "colors": [
-      {
-        "name": "Gold",
-        "hex": "#c8a464"
-      }
-    ],
-    "sizes": [
-      "80"
-    ],
-    "material": "—",
-    "stock": 1,
-    "rating": 4.8,
-    "reviewCount": 135,
-    "tags": [
-      "2/9",
-      "accessories",
-      "belt",
-      "guibert",
-      "new",
-      "SALE"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": true,
-    "palette": [
-      "#1d1d20",
-      "#5f6168"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Guibert"
-      },
-      {
-        "label": "Type",
-        "value": "women's belts"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_17_20653_3540.jpeg?v=1437072102",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_14_20639_3510_322f576b-c2ab-426f-a8d6-27657d053ac6.jpeg?v=1437072094",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_14_20639_3515.jpeg?v=1437072094",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_14_20639_3512.jpeg?v=1437072094",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_14_20639_3516.jpeg?v=1437072094",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_14_20639_3556.jpeg?v=1437072094"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_14_20639_3515.jpeg?v=1437072094"
     ],
     "custom": false
   },
@@ -17392,39 +18188,1261 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_13_20642_3499.jpeg?v=1437072086",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_13_20642_3560.jpeg?v=1437072086",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_13_20642_3501.jpeg?v=1437072086",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_13_20642_3503.jpeg?v=1437072086"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_13_20642_3503.jpeg?v=1437072086",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_16_20646_3530.jpeg?v=1437072078",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_16_20646_3535.jpeg?v=1437072078"
     ],
     "custom": false
   },
   {
-    "id": "imp-full-size-breastplate-in-gold",
-    "slug": "full-size-breastplate-in-gold",
-    "name": "Full Size Breastplate Belt",
-    "brand": "guibert",
-    "category": "accessories",
-    "sku": "'20645",
-    "price": 230,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company With a rich history of equestrian leatherwear, Pierre…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company With a rich history of equestrian leatherwear, Pierre Guibert's knowledge and experience is effortlessly represented in his accessory line of bags and belts. Each piece is conceptualized with the intention of performance which produces immaculately designed products of utility and beauty. Color Gold. 100% Barénia Leather. Made in the EU. Ashley is wearing a Size 80. Also available in Black and Red. Shop our collection of Guibert.",
+    "id": "imp-sergio-pant-white",
+    "slug": "sergio-pant-white",
+    "name": "Sergio Pant",
+    "brand": "homecore",
+    "category": "clothing",
+    "sku": "'20665",
+    "price": 160,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Sergio Pant is a straight leg with a clean look. Five…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Sergio Pant is a straight leg with a clean look. Five button fly closure at front. Four exterior pockets. Homecore. Color White. 100% Cotton. Made in Portugal. Matt is wearing a Size 30. Matt is 6’2”, Chest 38”, Waist 31”, Inseam 34.5”.",
     "colors": [
       {
-        "name": "Gold",
-        "hex": "#c8a464"
+        "name": "White",
+        "hex": "#f4f1ea"
       }
     ],
     "sizes": [
-      "80"
+      "30"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.4,
+    "reviewCount": 20,
+    "tags": [
+      "4/6",
+      "AW15",
+      "bottom",
+      "bottoms",
+      "homecore",
+      "man"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Homecore"
+      },
+      {
+        "label": "Type",
+        "value": "men's trousers"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look1_20665_22718_copy.jpeg?v=1437072053",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look1_20665_22727_copy.jpeg?v=1437072053",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look1_20665_22713.jpeg?v=1437072053",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look1_20665_22718.jpeg?v=1437072053",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look6_20671_22827_copy.jpeg?v=1437072050",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look6_20671_22829_copy.jpeg?v=1437072050"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-bali-pant-navy",
+    "slug": "bali-pant-navy",
+    "name": "Bali Pant",
+    "brand": "homecore",
+    "category": "clothing",
+    "sku": "'20675",
+    "price": 139,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Bali Pant is a classic look with pleasing stretch. Side…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Bali Pant is a classic look with pleasing stretch. Side angled pockets at front. Addible waistband with zip fly closure. Homecore. Color Navy. 100% Cotton. Made in Portugal. Matt is wearing a Large. Matt is 6’2”, Chest 38”, Waist 31”, Inseam 34.5”.",
+    "colors": [
+      {
+        "name": "Navy",
+        "hex": "#1f2535"
+      }
+    ],
+    "sizes": [
+      "Medium"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.6,
+    "reviewCount": 54,
+    "tags": [
+      "4/6",
+      "AW15",
+      "bottoms",
+      "homecore",
+      "man",
+      "navy"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Homecore"
+      },
+      {
+        "label": "Type",
+        "value": "men's trousers"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look9_20676_22935.jpeg?v=1437072046",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look9_20676_22946.jpeg?v=1437072046",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look9_20676_22932.jpeg?v=1437072046",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look9_20691_22957_61d935ea-d4e5-4596-ad61-92bcd1506403.jpeg?v=1437072046"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-sergio-shorts-metal",
+    "slug": "sergio-shorts-metal",
+    "name": "Sergio Short",
+    "brand": "homecore",
+    "category": "clothing",
+    "sku": "'20679",
+    "price": 153,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Sergio Short is a summer staple. Three exterior…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Sergio Short is a summer staple. Three exterior pockets. Five button fly closure at front. Leather tie. Homecore. Color Metal. 100% Cotton. Made in Portugal. Matt is wearing a Size 32. Matt is 6’2”, Chest 38”, Waist 31”, Inseam 34.5”.",
+    "colors": [
+      {
+        "name": "Metal",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "31"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.4,
+    "reviewCount": 8,
+    "tags": [
+      "4/6",
+      "AW15",
+      "bottoms",
+      "homecore",
+      "man",
+      "newman"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Homecore"
+      },
+      {
+        "label": "Type",
+        "value": "men's shorts"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look1_20686_22797_copy.jpeg?v=1437072043",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look1_20680_22768.jpeg?v=1437072043",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look1_20680_22761_copy.jpeg?v=1437072043",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look1_20680_22775_copy.jpeg?v=1437072043",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look1_20680_22775.jpeg?v=1437072043"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-gumy-lamo-top-navy",
+    "slug": "gumy-lamo-top-navy",
+    "name": "Gumy Lamo Top",
+    "brand": "homecore",
+    "category": "clothing",
+    "sku": "'20684",
+    "price": 209,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Amiable texture for the pleasure seeking. Plenty of stretch…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Amiable texture for the pleasure seeking. Plenty of stretch with the coolness of summer. Four button closure at front. Two exterior pockets, one interior. Homecore. Color Navy. 90% Cotton, 10% Elastane. Made in Portugal. Matt is wearing a Large. Matt is 6’2”, Chest 38”, Waist 31”, Inseam 34.5”.",
+    "colors": [
+      {
+        "name": "Navy",
+        "hex": "#1f2535"
+      }
+    ],
+    "sizes": [
+      "Small"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 5,
+    "reviewCount": 180,
+    "tags": [
+      "4/6",
+      "AW15",
+      "button ups",
+      "homecore",
+      "man",
+      "navy"
+    ],
+    "featured": false,
+    "trending": true,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Homecore"
+      },
+      {
+        "label": "Type",
+        "value": "men's t-shirts"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look1_20686_22797.jpeg?v=1437072039",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look1_20686_22822.jpeg?v=1437072039",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look1_20686_22822_copy.jpeg?v=1437072039",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look1_20686_22816.jpeg?v=1437072039",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look1_20686_22810.jpeg?v=1437072039"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-citib-pique-jacket-navy",
+    "slug": "citib-pique-jacket-navy",
+    "name": "Citib Pique Jacket",
+    "brand": "homecore",
+    "category": "clothing",
+    "sku": "'20689",
+    "price": 298,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Citib Pique is a strong cotton weave for a classic…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Citib Pique is a strong cotton weave for a classic look. Four button closure at front. Side angled pockets at front. One interior pocket. Homecore. Color Navy. 100% Cotton. Made in Portugal. Matt is wearing a Large. Matt is 6’2”, Chest 38”, Waist 31”, Inseam 34.5”.",
+    "colors": [
+      {
+        "name": "Navy",
+        "hex": "#1f2535"
+      }
+    ],
+    "sizes": [
+      "Small"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.5,
+    "reviewCount": 31,
+    "tags": [
+      "4/6",
+      "AW15",
+      "coats",
+      "homecore",
+      "jacket",
+      "man"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Homecore"
+      },
+      {
+        "label": "Type",
+        "value": "men's coats & jackets"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look6_20691_22923.jpeg?v=1437072034",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look6_20691_22926.jpeg?v=1437072034",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look9_20691_22958.jpeg?v=1437072034",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look6_20691_22923_copy.jpeg?v=1437072034"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-marl-jacket-grey",
+    "slug": "marl-jacket-grey",
+    "name": "Marl Jacket",
+    "brand": "homecore",
+    "category": "clothing",
+    "sku": "'20694",
+    "price": 318,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Marl Jacket presents the structure of a suit jacket…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Marl Jacket presents the structure of a suit jacket with the comfort of your favorite sweater. Three exterior pockets, three interior pockets. Homecore. Lining. Color Grey. 77% Cotton, 19% Polyester, 4% Elastane. Made in Portugal. Matt is 6'2 and wears a Medium. Product fits true to size.",
+    "colors": [
+      {
+        "name": "Grey",
+        "hex": "#6f7178"
+      }
+    ],
+    "sizes": [
+      "Small"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.7,
+    "reviewCount": 99,
+    "tags": [
+      "4/6",
+      "AW15",
+      "coats",
+      "grey",
+      "homecore",
+      "jacket"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Homecore"
+      },
+      {
+        "label": "Type",
+        "value": "men's coats & jackets"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look_20695_23088_copy.jpeg?v=1437072030",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look_20695_23088_copy_1.jpeg?v=1437072030",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look_20695_23098_17531e6e-3e8e-4eba-b373-84772f7c3e6c.jpeg?v=1437072030"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-carsten-gab-shirt-antra",
+    "slug": "carsten-gab-shirt-antra",
+    "name": "Carsten Gab Shirt",
+    "brand": "homecore",
+    "category": "clothing",
+    "sku": "'20703",
+    "price": 153,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Carsten Gab Shirt offers a bomber fit and acts as a…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Carsten Gab Shirt offers a bomber fit and acts as a light jacket. Side angled pockets at front. Hidden button closure at front. Mandarin Collar. Homecore. Color Antra. 100% Cotton. Made in Portugal. Matt is wearing a Large. Matt is 6’2”, Chest 38”, Waist 31”, Inseam 34.5”.",
+    "colors": [
+      {
+        "name": "Antra",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "Small"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 5,
+    "reviewCount": 173,
+    "tags": [
+      "4/6",
+      "antra",
+      "AW15",
+      "coats",
+      "grey",
+      "homecore"
+    ],
+    "featured": false,
+    "trending": true,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Homecore"
+      },
+      {
+        "label": "Type",
+        "value": "men's t-shirts"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look6_20705_22870.jpeg?v=1437072018",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look6_20705_22874.jpeg?v=1437072018",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look6_20705_22874_copy.jpeg?v=1437072018",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look6_20705_22870_copy.jpeg?v=1437072018",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-04-Matt_Look6_20705_22866.jpeg?v=1437072018"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-jack-pyramid-sweater-anthracite",
+    "slug": "jack-pyramid-sweater-anthracite",
+    "name": "Jack Pyramid Sweater",
+    "brand": "homecore",
+    "category": "clothing",
+    "sku": "'20708",
+    "price": 139,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company This comfortable knit sweater delights the eye in a diamond…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company This comfortable knit sweater delights the eye in a diamond pattern as well as the body. Slim fitting silhouette with movement. Homecore. Crew neckline. Color Anthracite. 100% Cotton. Made in Portugal. Jacob is wearing a Medium. Also available in Ash Blue . Shop our collection of Homecore.",
+    "colors": [
+      {
+        "name": "Anthracite",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "Small"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.5,
+    "reviewCount": 31,
+    "tags": [
+      "03/20",
+      "anthracite",
+      "fathersday",
+      "homecore",
+      "knits",
+      "Knitwear"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Homecore"
+      },
+      {
+        "label": "Type",
+        "value": "men's knitwear"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-03_Jake_Look_03_20709_17931.jpeg?v=1437072012",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-03_Jake_Look_03_20709_17927.jpeg?v=1437072012",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-03_Jake_Look_03_20709_17932.jpeg?v=1437072012",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-03_Jake_Look_03_20709_17934.jpeg?v=1437072012",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-03_Jake_Look_03_20709_17938.jpeg?v=1437072012"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-milano-shirt-navy",
+    "slug": "milano-shirt-navy",
+    "name": "Milano Shirt",
+    "brand": "homecore",
+    "category": "clothing",
+    "sku": "'20712",
+    "price": 178,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Milano Shirt is classically tailored as the everyday…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Milano Shirt is classically tailored as the everyday button up shirt for both casual and more formal wear. Red embroidery cascades the center back seam as a nicely added detail. Covered button placket closure at front. Homecore. Color Navy. 100% Cotton. Made in Portugal. Jacob is wearing a Large. Also available in White . Shop our collection of Homecore.",
+    "colors": [
+      {
+        "name": "Navy",
+        "hex": "#1f2535"
+      }
+    ],
+    "sizes": [
+      "Medium"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.5,
+    "reviewCount": 30,
+    "tags": [
+      "03/20",
+      "AW15",
+      "Button-ups",
+      "homecore",
+      "man",
+      "navy"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Homecore"
+      },
+      {
+        "label": "Type",
+        "value": "men's button-ups"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-30_Jake_Look_45_20172_16925.jpeg?v=1437072005",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-30_Jake_Look_45_20172_16935.jpeg?v=1437072005",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-30_Jake_Look_45_20172_16937.jpeg?v=1437072005",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-30_Jake_Look_45_20172_16938.jpeg?v=1437072005",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-30_Jake_Look_46_23637_16943.jpeg?v=1437072005",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-30_Jake_Look_42_20716_16904.jpeg?v=1437071997"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-hibi-top-white",
+    "slug": "hibi-top-white",
+    "name": "Hibi T-Shirt",
+    "brand": "homecore",
+    "category": "clothing",
+    "sku": "'20719",
+    "price": 78,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Homecore's Hibi is the t-shirt of your dreams. Incredibly…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Homecore's Hibi is the t-shirt of your dreams. Incredibly soft cotton in a classic style makes everyday casual Friday. Exposed seam down back. Color White. 100% Cotton. Made in Portugal. Jacob is wearing a Medium. Shop our collection of Homecore .",
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#f4f1ea"
+      }
+    ],
+    "sizes": [
+      "Small"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.7,
+    "reviewCount": 93,
+    "tags": [
+      "03/20",
+      "AW15",
+      "full moon",
+      "homecore",
+      "man",
+      "Shot 4/3"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Homecore"
+      },
+      {
+        "label": "Type",
+        "value": "men's t-shirts"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-03_Jake_Look_01_2072017913.jpeg?v=1437071989",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-03_Jake_Look_01_2072017912.jpeg?v=1437071989",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-03_Jake_Look_01_2072017911.jpeg?v=1437071989",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-03_Jake_Look_01_2072017914.jpeg?v=1437071989",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-03_Jake_Look_01_2072017923.jpeg?v=1437071989"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-drifter-top-in-ivory",
+    "slug": "drifter-top-in-ivory",
+    "name": "Drifter Top",
+    "brand": "jesse-kamm",
+    "category": "clothing",
+    "sku": "'20820",
+    "price": 223,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Drifter Top is one's romantic essential for that…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Drifter Top is one's romantic essential for that weekend getaway. Covered button placket at front. Mandarin collar. Jesse Kamm. Color Ivory. 53% Cotton, 47% Tencel. Made in U.S.A. Ashley is wearing an X-Small. Also available in Seaglass . Shop our collection of Jesse Kamm.",
+    "colors": [
+      {
+        "name": "Ivory",
+        "hex": "#efe9dd"
+      }
+    ],
+    "sizes": [
+      "X-Small"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 5,
+    "reviewCount": 175,
+    "tags": [
+      "02/17",
+      "6/1one",
+      "button ups",
+      "cooloff",
+      "jesse kamm",
+      "Minimal"
+    ],
+    "featured": false,
+    "trending": true,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Jesse Kamm"
+      },
+      {
+        "label": "Type",
+        "value": "women's tops"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_38_20820_6185.jpeg?v=1437071961",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_38_20820_6206_copy.jpeg?v=1437071961",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_38_20820_6189_copy.jpeg?v=1437071961",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_38_20820_6202.jpeg?v=1437071961",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_38_20820_6211.jpeg?v=1437071961"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-classic-button-down-in-seaglass",
+    "slug": "classic-button-down-in-seaglass",
+    "name": "Classic Button Down",
+    "brand": "jesse-kamm",
+    "category": "clothing",
+    "sku": "'30901",
+    "price": 265,
+    "originalPrice": 365,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Classic Button Down from Jesse Kamm drapes gracefully…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Classic Button Down from Jesse Kamm drapes gracefully across the form with enough structure to remain composed. Mandarin collar. Button placket closure at front. Breast pocket at left front. Color Sea Glass. 55% Cotton, 45% Lyocell. Made in U.S.A. Ashley is wearing an X-Small.",
+    "colors": [
+      {
+        "name": "Sea Glass",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "X-Small"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.8,
+    "reviewCount": 122,
+    "tags": [
+      "02/17",
+      "blue",
+      "button ups",
+      "cooloff",
+      "jesse kamm",
+      "Minimal"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Jesse Kamm"
+      },
+      {
+        "label": "Type",
+        "value": "women's button-ups"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/babyco1.jpg?v=1443019234",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_33_20810_5966.jpeg?v=1443019234",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_33_20810_5953.jpeg?v=1443019234",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_33_20810_5962.jpeg?v=1443019234",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_34_20818_5988.jpeg?v=1443019234",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_35_20814_6058.jpeg?v=1437071942"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-acb-top-in-chipped-brick",
+    "slug": "acb-top-in-chipped-brick",
+    "name": "ACB Top",
+    "brand": "jesse-kamm",
+    "category": "clothing",
+    "sku": "'30905",
+    "price": 279,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Spring forward with glorious enthusiasm for summer with…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Spring forward with glorious enthusiasm for summer with Jesse Kamm's ACB Top. The line is charming and easy, with hints of nautical inspiration. Open back with V. Button placket closure at center back. Color Brick. 45% Tencel, 40% Cotton, 15% Flax. Made in U.S.A. Ashley is wearing an X-Small.",
+    "colors": [
+      {
+        "name": "Brick",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "X-Small"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.6,
+    "reviewCount": 61,
+    "tags": [
+      "02/17",
+      "full moon",
+      "jesse kamm",
+      "Minimal",
+      "Minimalism",
+      "new arrivals"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Jesse Kamm"
+      },
+      {
+        "label": "Type",
+        "value": "women's tops"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_34_20818_6039_1.jpeg?v=1442346843",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_34_20818_6035.jpeg?v=1442346843",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_34_20818_6039.jpeg?v=1442346843",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_34_20818_6050_1.jpeg?v=1442346843"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-ranch-skirt-in-white",
+    "slug": "ranch-skirt-in-white",
+    "name": "Ranch Skirt",
+    "brand": "jesse-kamm",
+    "category": "clothing",
+    "sku": "'30859",
+    "price": 314,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company This whimsical piece is a full-length, full skirted beauty.…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company This whimsical piece is a full-length, full skirted beauty. Take her for a spin. Jesse Kamm. Color White. 60% Cotton, 40% Polyester. Made in U.S.A. Ashley is wearing an X-Small. Also available in Black. Shop our collection of Jesse Kamm.",
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#f4f1ea"
+      }
+    ],
+    "sizes": [
+      "X-Small"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 5,
+    "reviewCount": 187,
+    "tags": [
+      "02/17",
+      "cooloff",
+      "jesse kamm",
+      "Minimal",
+      "Minimalism",
+      "nautical"
+    ],
+    "featured": false,
+    "trending": true,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Jesse Kamm"
+      },
+      {
+        "label": "Type",
+        "value": "women's skirts"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_23_20799_5651.jpeg?v=1437071925",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_23_20799_5634_2523e99b-315b-4df2-8cde-fe7eeadae136.jpeg?v=1437071925",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_23_20799_5660.jpeg?v=1437071925",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_23_20799_5664.jpeg?v=1437071925",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_23_20799_5641.jpeg?v=1437071925",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_27_20796_5797.jpeg?v=1437071917"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-trail-short-in-brick",
+    "slug": "trail-short-in-brick",
+    "name": "Trail Short",
+    "brand": "jesse-kamm",
+    "category": "clothing",
+    "sku": "'30896",
+    "price": 223,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Trail Short is perfect for all types of travel. Front…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Trail Short is perfect for all types of travel. Front pleats. Hook and eye with zip closure at front. Side angled pockets at front. Jesse Kamm. Color Brick. 45% Tencel, 40% Cotton, 15% Flax. Made in U.S.A. Ashley is wearing a Small. Shop our collection of Jesse Kamm.",
+    "colors": [
+      {
+        "name": "Brick",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "Small"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.9,
+    "reviewCount": 172,
+    "tags": [
+      "02/17",
+      "jesse kamm",
+      "Minimal",
+      "Minimalism",
+      "putty",
+      "red"
+    ],
+    "featured": false,
+    "trending": true,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Jesse Kamm"
+      },
+      {
+        "label": "Type",
+        "value": "women's shorts"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_34_20818_6016.jpeg?v=1437071901",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_34_20818_6025.jpeg?v=1437071901",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_34_20818_6019.jpeg?v=1437071901",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_34_20818_6034.jpeg?v=1437071901",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_34_20818_6028.jpeg?v=1437071901"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-imperial-tunic-in-white",
+    "slug": "imperial-tunic-in-white",
+    "name": "Imperial Tunic",
+    "brand": "jesse-kamm",
+    "category": "clothing",
+    "sku": "'20833",
+    "price": 363,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company A painters smock with a little extra length allowing it to…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company A painters smock with a little extra length allowing it to be worn as a dress. Pin tucks at the collar stretch out into an easy volume that can be tied up with cotton trim at the center front. Jesse Kamm. Color White. 100% Cotton. Made in U.S.A. Ashley is wearing an X-Small.",
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#f4f1ea"
+      }
+    ],
+    "sizes": [
+      "X-Small"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.5,
+    "reviewCount": 46,
+    "tags": [
+      "02/17",
+      "cooloff",
+      "cross sell",
+      "jesse kamm",
+      "Minimal",
+      "Minimalism"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Jesse Kamm"
+      },
+      {
+        "label": "Type",
+        "value": "women's tops"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/babyandco2.jpg?v=1443017523",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_09_20833_5267.jpeg?v=1443017523",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_09_20833_5273.jpeg?v=1443017523",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_09_20833_5262.jpeg?v=1443017523"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-box-trench-in-oyster",
+    "slug": "box-trench-in-oyster",
+    "name": "Box Trench",
+    "brand": "jesse-kamm",
+    "category": "clothing",
+    "sku": "'30898",
+    "price": 482,
+    "shortDescription": "The Box Trench from Jesse Kamm is fantastically oversized while incredibly chic. Matching tie belt. Bucket pockets at side. Color Oyster. 100%…",
+    "description": "The Box Trench from Jesse Kamm is fantastically oversized while incredibly chic. Matching tie belt. Bucket pockets at side. Color Oyster. 100% Linen. Made in U.S.A.",
+    "colors": [
+      {
+        "name": "Oyster",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "X-Small"
     ],
     "material": "—",
     "stock": 2,
     "rating": 4.7,
-    "reviewCount": 94,
+    "reviewCount": 89,
     "tags": [
-      "2/9",
-      "accessories",
-      "belt",
-      "guibert",
-      "nautical",
+      "02/17",
+      "coats",
+      "jackets",
+      "jesse kamm",
+      "Minimal",
+      "Minimalism"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Jesse Kamm"
+      },
+      {
+        "label": "Type",
+        "value": "women's coats & jackets"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_37_20837_6161.jpeg?v=1442348395",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_37_20837_6162.jpeg?v=1442348395",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_37_20837_6173.jpeg?v=1442348395",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_37_20837_6179.jpeg?v=1442348395"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-scotland-button-up-in-navy",
+    "slug": "scotland-button-up-in-navy",
+    "name": "Scotland Button-Up",
+    "brand": "mauro-grifoni",
+    "category": "clothing",
+    "sku": "'20798",
+    "price": 188,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The coolness of navy is epitomized in the Scotland Shirt…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The coolness of navy is epitomized in the Scotland Shirt from Mauro Grifoni. Extreme comfort to wearer communications intention of design and quality of fibers. Offers a fantastic fit with slight stretch. Color Navy. 100% Cotton. Made in Italy. Addis is wearing an Italian 42. Also available in Black . Shop our collection of Mauro Grifoni.",
+    "colors": [
+      {
+        "name": "Navy",
+        "hex": "#1f2535"
+      },
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "Italian 42"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.6,
+    "reviewCount": 64,
+    "tags": [
+      "12/19",
+      "bounty",
+      "button-up",
+      "man",
+      "Mauro Grifoni",
+      "Men"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Mauro Grifoni"
+      },
+      {
+        "label": "Type",
+        "value": "men's button-ups"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/1-26-15_Addis_Look_16_21852_0921.jpeg?v=1437071844",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/1-26-15_Addis_Look_16_21852_0902.jpeg?v=1437071844",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/1-26-15_Addis_Look_16_21852_0907.jpeg?v=1437071844",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/1-26-15_Addis_Look_16_21852_0924.jpeg?v=1437071844",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/1-26-15_Addis_Look_16_21852_0931.jpeg?v=1437071844",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/1-26-15_Addis_Look_17_20802_0941.jpeg?v=1437071836"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-cotton-jacket-in-navy",
+    "slug": "cotton-jacket-in-navy",
+    "name": "Cotton Jacket",
+    "brand": "mauro-grifoni",
+    "category": "clothing",
+    "sku": "'20806",
+    "price": 482,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company This knitted blazer from Mauro Grifoni presents the comfort…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company This knitted blazer from Mauro Grifoni presents the comfort of a cardigan with the structure of a suit jacket. Durable yet presents subtle softness in appearance. Tailored lapels, front facing pockets, and single button opening. Color Navy. 100% Cotton, 57% Viscose Rayon, 43% Polyester. Made in Italy. Addis is wearing an Italian 48.",
+    "colors": [
+      {
+        "name": "Navy",
+        "hex": "#1f2535"
+      }
+    ],
+    "sizes": [
+      "Italian 48"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.8,
+    "reviewCount": 142,
+    "tags": [
+      "12/19",
+      "bounty",
+      "jacket",
+      "man",
+      "Mauro Grifoni",
+      "Men"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Mauro Grifoni"
+      },
+      {
+        "label": "Type",
+        "value": "men's coats & jackets"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/1-26-15_Addis_Look_19_20806_1031_1ef0d9b9-3935-4897-b064-58aa00329acb.jpeg?v=1440605524",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/1-26-15_Addis_Look_19_20806_1048.jpeg?v=1440605524",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/1-26-15_Addis_Look_19_20806_1036.jpeg?v=1440605524",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/1-26-15_Addis_Look_19_20806_1069.jpeg?v=1440605524"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-cox-skirt-in-bronze",
+    "slug": "cox-skirt-in-bronze",
+    "name": "Cox Skirt",
+    "brand": "just-in-case",
+    "category": "clothing",
+    "sku": "'20827",
+    "price": 111,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The softened color palette invokes feelings of a childhood…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The softened color palette invokes feelings of a childhood summer, now long lost, but the memories remain. The Cox Skirt from Just in Case offers an iridescent-like glamour for this A-lined staple. Elastic waistband for ease. Front facing zip closure. Color Bronze. 100% Polyester. French Sizing. Shop our collection of Just in Case .",
+    "colors": [
+      {
+        "name": "Bronze",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "36"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.8,
+    "reviewCount": 130,
+    "tags": [
+      "bottoms",
+      "bronze",
+      "gold",
+      "iridescent",
+      "just in case",
+      "metallic"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Just in Case"
+      },
+      {
+        "label": "Type",
+        "value": "women's skirts"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK22_20827_20932.jpeg?v=1437071804",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK22_20827_20908.jpeg?v=1437071804",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK22_20827_20946.jpeg?v=1437071804",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK22_20827_20902.jpeg?v=1437071804",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK22_20827_20936.jpeg?v=1437071804"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-frech-sweater-in-nude-embroidery",
+    "slug": "frech-sweater-in-nude-embroidery",
+    "name": "Frech Bomber",
+    "brand": "just-in-case",
+    "category": "clothing",
+    "sku": "'20843",
+    "price": 209,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Frech Sweater is the pretty Letterman's jacket. Zip…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Frech Sweater is the pretty Letterman's jacket. Zip closure at front placket. Side angled pockets at front. Just in Case. Color Nude. 33% Polyester, 30% Silk, 20% Cotton, 17% Metallic Thread, 2nd Fabric 100% Cupro. Lana is wearing a French 38. Shop our collection of Just in Case",
+    "colors": [
+      {
+        "name": "Nude",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "38"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.4,
+    "reviewCount": 17,
+    "tags": [
+      "blush",
+      "embroidery",
+      "floral",
+      "just in case",
+      "knitwear",
+      "nude"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Just in Case"
+      },
+      {
+        "label": "Type",
+        "value": "women's outerwear"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK16_20843_20518.jpeg?v=1437071790",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK16_20843_20489.jpeg?v=1437071790",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK16_20843_20482.jpeg?v=1437071790",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK16_20843_20492.jpeg?v=1437071790",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK16_20843_20471.jpeg?v=1437071790"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-pat-sweater-in-print",
+    "slug": "pat-sweater-in-print",
+    "name": "Pat Raglan Tee",
+    "brand": "just-in-case",
+    "category": "clothing",
+    "sku": "'20853",
+    "price": 111,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The softened color palette invokes feelings of a childhood…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The softened color palette invokes feelings of a childhood summer, now long lost, but the memories remain. The Pat is tropical surrealism for your wearing pleasure. Raglan sleeves. Just in Case. Color Print. 70% Polyester, 30% Cotton. French Sizing. Lana is wearing a Small. Shop our collection of Just in Case.",
+    "colors": [
+      {
+        "name": "Beach Print",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "Small"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.7,
+    "reviewCount": 93,
+    "tags": [
+      "beach",
+      "just in case",
+      "palm tree",
+      "palms",
+      "print",
       "SALE"
     ],
     "featured": false,
@@ -17432,56 +19450,114 @@ export const importedProducts: Product[] = [
     "bestSeller": false,
     "newArrival": false,
     "palette": [
-      "#1d1d20",
-      "#5f6168"
+      "#23211d",
+      "#6a5a3a"
     ],
     "specs": [
       {
         "label": "Vendor",
-        "value": "Guibert"
+        "value": "Just in Case"
       },
       {
         "label": "Type",
-        "value": "women's belts"
+        "value": "women's tops"
       }
     ],
     "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_16_20646_3530.jpeg?v=1437072078",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_16_20646_3535.jpeg?v=1437072078",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_16_20646_3533.jpeg?v=1437072078",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_16_20646_3549.jpeg?v=1437072078",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_16_20646_3532.jpeg?v=1437072078"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK1_patshirt_20563_00078cce-c3f7-4940-81f3-7a5423c9ad05.jpeg?v=1437071776",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK1_patshirt_20550.jpeg?v=1437071776",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK1_patshirt_20571_a73ee2ff-b180-4e78-86d6-c5b4400a31f6.jpeg?v=1437071776",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK1_patshirt_20566.jpeg?v=1437071776"
     ],
     "custom": false
   },
   {
-    "id": "imp-full-size-breastplate-belt-in-pauillac",
-    "slug": "full-size-breastplate-belt-in-pauillac",
-    "name": "Full Size Breastplate Belt",
-    "brand": "guibert",
-    "category": "accessories",
-    "sku": "'20649",
-    "price": 265,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company With a rich history of equestrian leatherwear, Pierre…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company With a rich history of equestrian leatherwear, Pierre Guibert's knowledge and experience is effortlessly represented in his accessory line of bags and belts. Each piece is conceptualized with the intention of performance which produces immaculately designed products of utility and beauty. Color Red. 100% Barénia Leather. Made in the EU. Also available in Black and Gold . Shop our collection of Guibert.",
+    "id": "imp-poldo-jacket-in-atlantic",
+    "slug": "poldo-jacket-in-atlantic",
+    "name": "Poldo Jacket",
+    "brand": "labo-art",
+    "category": "clothing",
+    "sku": "'20915",
+    "price": 223,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Poldo Jacket is fantastically durable, yet lightweight.…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Poldo Jacket is fantastically durable, yet lightweight. Button placket closure at front. Two exterior button pocket at front. Labo.Art. Color Atlantic. 77% Cotton, 23% Linen. Made in Italy. Ashley is wearing a Size 1. Also available in Congo . Shop our collection of Labo.Art.",
     "colors": [
       {
-        "name": "Red",
-        "hex": "#8a2b2b"
+        "name": "Atlantic",
+        "hex": "#8a857c"
       }
     ],
     "sizes": [
-      "80"
+      "1"
     ],
     "material": "—",
-    "stock": 2,
+    "stock": 12,
     "rating": 4.7,
-    "reviewCount": 106,
+    "reviewCount": 107,
     "tags": [
-      "2/9",
-      "accessories",
-      "belt",
-      "guibert",
+      "02/18",
+      "2/23 shoot",
+      "jackets",
+      "labo art",
+      "outerwear",
+      "publish"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Labo.Art"
+      },
+      {
+        "label": "Type",
+        "value": "women's coats & jackets"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-23_Ashley-Look_42-1058.jpeg?v=1437071649",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-23_Ashley-Look_42-1063.jpeg?v=1437071649",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-23_Ashley-Look_42-1056.jpeg?v=1437071649",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-23_Ashley-Look_42-1066.jpeg?v=1437071649",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-23_Ashley-Look_42-1070.jpeg?v=1437071649",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-23_Ashley-Look_24-601.jpeg?v=1437071535"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-filippa-top-in-congo",
+    "slug": "filippa-top-in-congo",
+    "name": "Lietto Top",
+    "brand": "labo-art",
+    "category": "clothing",
+    "sku": "'20946",
+    "price": 111,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Lietto Top is a heathered joy. This functional piece…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Lietto Top is a heathered joy. This functional piece offers 3/4 inch sleeves, a scoop neckline, and raw hemline and cuffs. Labor.Art. Color Congo. 95% Linen, 5% Elastane. Made in Italy. Ashley is wearing a Size 0. Also available in White . Shop our collection of Labo.Art.",
+    "colors": [
+      {
+        "name": "Congo",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "0"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.7,
+    "reviewCount": 107,
+    "tags": [
+      "02/18",
+      "2/23 shoot",
+      "labo art",
+      "publish",
       "SALE",
       "salefave3"
     ],
@@ -17490,31 +19566,902 @@ export const importedProducts: Product[] = [
     "bestSeller": false,
     "newArrival": false,
     "palette": [
-      "#1d1d20",
-      "#5f6168"
+      "#23211d",
+      "#6a5a3a"
     ],
     "specs": [
       {
         "label": "Vendor",
-        "value": "Guibert"
+        "value": "Labo.Art"
       },
       {
         "label": "Type",
-        "value": "women's belts"
+        "value": "women's tops"
       }
     ],
     "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_15_20649_3519.jpeg?v=1437072071",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_15_20649_3521.jpeg?v=1437072071",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_15_20649_3522.jpeg?v=1437072071",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-20_Ashley_Look_15_23569_15492.jpeg?v=1437072071"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-23_Ashley-Look_46-1134.jpeg?v=1437071597",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-23_Ashley-Look_46-1131.jpeg?v=1437071597",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-23_Ashley-Look_46-1136.jpeg?v=1437071597",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-23_Ashley-Look_46-1138.jpeg?v=1437071597",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-23_Ashley-Look_46-1140.jpeg?v=1437071597"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-varazze-trouser-in-atlantic",
+    "slug": "varazze-trouser-in-atlantic",
+    "name": "Varazze Trouser",
+    "brand": "labo-art",
+    "category": "clothing",
+    "sku": "'20965",
+    "price": 174,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Varazze Trouser offers a wide fit with a tapered leg.…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Varazze Trouser offers a wide fit with a tapered leg. Elastic waistband for ease. Side angled pockets. One exterior pocket at right back. Labo.Art. Color Atlantic. 100% Cotton. Made in Italy. Ashley is wearing a Size 0. Also available in Smoke . Shop our collection of Labo.Art.",
+    "colors": [
+      {
+        "name": "Atlantic",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "0"
+    ],
+    "material": "—",
+    "stock": 2,
+    "rating": 4.8,
+    "reviewCount": 139,
+    "tags": [
+      "02/18",
+      "2/23 shoot",
+      "bottoms",
+      "labo art",
+      "nautical",
+      "New"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Labo.Art"
+      },
+      {
+        "label": "Type",
+        "value": "women's pants"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-23_Ashley-Look_43-1072.jpeg?v=1437071563",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-23_Ashley-Look_41-1050.jpeg?v=1437071563",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-23_Ashley-Look_43-1074.jpeg?v=1437071563",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-23_Ashley-Look_43-1079.jpeg?v=1437071563",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-23_Ashley-Look_43-1081.jpeg?v=1437071563",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-23_Ashley-Look_44-1090.jpeg?v=1437071555"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-neoprene-flower-dress-in-black",
+    "slug": "neoprene-flower-dress-in-black",
+    "name": "Neoprene Flower Dress",
+    "brand": "ter-et-bantine",
+    "category": "clothing",
+    "sku": "'21160",
+    "price": 594,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Emerging apparel textile neoprene is uniquely ideal for…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Emerging apparel textile neoprene is uniquely ideal for spring. Comfort in the material, neoprene offers flattering stretch for shapely fit. This sleeveless piece incorporates contrast trimming and floral appliqué. Zip closure at center back. Ter et Bantine. Color Black. 90% Polyester, 10% Elastane. Made in Italy. Ashley is wearing an Italian 40. Shop our collection of Ter et Bantine.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "Italian 40"
+    ],
+    "material": "—",
+    "stock": 2,
+    "rating": 4.6,
+    "reviewCount": 66,
+    "tags": [
+      "12/22",
+      "bounty",
+      "dress",
+      "dresses",
+      "reshoot",
+      "SALE"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Ter et Bantine"
+      },
+      {
+        "label": "Type",
+        "value": "women's dresses"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-11-Ashley_Look4_21160_23446.jpeg?v=1437071513",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-11-Ashley_Look4_21160_23453.jpeg?v=1437071513",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-06-11-Ashley_Look4_21160_23458.jpeg?v=1437071513",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look18_21174_0624.jpeg?v=1437071513"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-balloon-cotton-dress-in-yellow",
+    "slug": "balloon-cotton-dress-in-yellow",
+    "name": "Balloon Cotton Dress",
+    "brand": "ter-et-bantine",
+    "category": "clothing",
+    "sku": "'21168",
+    "price": 419,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Billowing skirts in the spring breeze take us out of the…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Billowing skirts in the spring breeze take us out of the winter lull to sunnier days. Full skirt with a statement silhouette, tailored collar, and V-neckline. Ter et Bantine. Color Yellow. 100% Cotton. Made in Italy. Lana is wearing an Italian 42. Also available in Black. Shop our collection of Ter et Bantine.",
+    "colors": [
+      {
+        "name": "Yellow",
+        "hex": "#c8a464"
+      }
+    ],
+    "sizes": [
+      "Italian 42"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.8,
+    "reviewCount": 129,
+    "tags": [
+      "12/22",
+      "bounty",
+      "dress",
+      "dresses",
+      "Minimal",
+      "Minimalism"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Ter et Bantine"
+      },
+      {
+        "label": "Type",
+        "value": "women's dresses"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look19_21168_0708.jpeg?v=1437071497",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look19_21168_0704.jpeg?v=1437071497",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look20_21168_0696.jpeg?v=1437071497",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look20_21168_0697.jpeg?v=1437071497",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look19_21168_0713.jpeg?v=1437071497"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-triangle-sleeveless-dress-in-multi",
+    "slug": "triangle-sleeveless-dress-in-multi",
+    "name": "Triangle Sleeveless Dress",
+    "brand": "ter-et-bantine",
+    "category": "clothing",
+    "sku": "'21178",
+    "price": 685,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Triangular pattering of bubbled shapes presents excellence…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Triangular pattering of bubbled shapes presents excellence in texture. This sleeveless piece incorporates our spring palette for an exclusive look. Zip closure at center back. Ter et Bantine. Color Multi. 60% Polyester, 21% Cotton, 8% Acrylic, 7% Silk, 4% Polyamide, 100% Cotton, 100% Cotton. Made in Italy. Lana is wearing an Italian 40. Shop our collection of Ter et Bantine.",
+    "colors": [
+      {
+        "name": "Multi",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "Italian 40"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.8,
+    "reviewCount": 132,
+    "tags": [
+      "12/22",
+      "blue",
+      "bounty",
+      "dress",
+      "dresses",
+      "embroidered"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Ter et Bantine"
+      },
+      {
+        "label": "Type",
+        "value": "women's dresses"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look21_21178_0738.jpeg?v=1437071465",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look21_21178_0726.jpeg?v=1437071465",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look21_21178_0733.jpeg?v=1437071465",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look21_21178_0752.jpeg?v=1437071465"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-zip-back-circle-blouse-in-black",
+    "slug": "zip-back-circle-blouse-in-black",
+    "name": "Zip Back Circle Blouse",
+    "brand": "ter-et-bantine",
+    "category": "clothing",
+    "sku": "'21182",
+    "price": 370,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company This sleeveless blouse takes knitted patterning to another…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company This sleeveless blouse takes knitted patterning to another level. The irregular circles resemble the elegance of peacock feathers in heathered black. Zip closure at center back. Front side darts. Ter et Bantine. Color Black. 80% Cotton, 11% Linen, 8% Polyamide, 1% Elastane. Made in Italy. Lana is wearing a size 40. Shop our collection of Ter et Bantine.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "40"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.9,
+    "reviewCount": 171,
+    "tags": [
+      "12/22",
+      "black",
+      "bounty",
+      "knitwear",
+      "reshoot",
+      "SALE"
+    ],
+    "featured": false,
+    "trending": true,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Ter et Bantine"
+      },
+      {
+        "label": "Type",
+        "value": "women's tops"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look1_21182_0058.jpeg?v=1437071458",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look1_21182_0051_copy.jpeg?v=1437071458",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look1_21182_0051.jpeg?v=1437071458",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look1_21182_0055.jpeg?v=1437071458"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-neoprene-flower-coat-in-black",
+    "slug": "neoprene-flower-coat-in-black",
+    "name": "Neoprene Flower Coat",
+    "brand": "ter-et-bantine",
+    "category": "clothing",
+    "sku": "'21186",
+    "price": 1049,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Emerging apparel textile neoprene is uniquely ideal for…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Emerging apparel textile neoprene is uniquely ideal for spring. Excellent insulator for cooler weather while roomy for layering. Floral appliqué. Fully finished. Thigh Length. 3/4\" length raglan sleeves. Single snap button front closure. Ter et Bantine. Color Black. 90% Polyester, 10% Elastane. Made in Italy. Lana is wearing an Italian 38. Shop our collection of Ter et Bantine.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "Italian 38"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.5,
+    "reviewCount": 31,
+    "tags": [
+      "12/22",
+      "bounty",
+      "jacket",
+      "outerwear",
+      "SALE",
+      "shoot"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Ter et Bantine"
+      },
+      {
+        "label": "Type",
+        "value": "women's coats & jackets"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look14_21186_0493-Edit.jpeg?v=1437071450",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look14_21186_0483.jpeg?v=1437071450",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look14_21186_0491.jpeg?v=1437071450",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look14_21186_0496-Edit.jpeg?v=1437071450",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look14_21186_0497.jpeg?v=1437071451"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-double-pocket-blazer-in-black",
+    "slug": "double-pocket-blazer-in-black",
+    "name": "Double Pocket Blazer",
+    "brand": "ter-et-bantine",
+    "category": "clothing",
+    "sku": "'21190",
+    "price": 938,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company This tailored blazer with a slight flair at waist presents…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company This tailored blazer with a slight flair at waist presents a flattering elegance to any form. With structured darts and paneling, this piece elongates the frame. Single button opening. Tailored lapels, sleeves, and collar. Lined throughout. Ter et Bantine. Color Black. 98% Cotton, 2% Elastane. Made in Italy. Ashley is wearing an Italian 40. Shop our collection of Ter et Bantine.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "Italian 40"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.6,
+    "reviewCount": 57,
+    "tags": [
+      "12/22",
+      "arrivals",
+      "AW15",
+      "blazer",
+      "bounty",
+      "outerwear"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Ter et Bantine"
+      },
+      {
+        "label": "Type",
+        "value": "women's coats & jackets"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-14_Ashley_Look4_21190_21880.jpeg?v=1437071441",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-14_Ashley_Look4_21190_21874.jpeg?v=1437071441",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-14_Ashley_Look4_21190_21895.jpeg?v=1437071441",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-14_Ashley_Look4_21190_21888_copy.jpeg?v=1437071441",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-14_Ashley_Look4_21190_21888.jpeg?v=1437071441"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-long-pencil-skirt-in-black",
+    "slug": "long-pencil-skirt-in-black",
+    "name": "Long Pencil Skirt",
+    "brand": "ter-et-bantine",
+    "category": "clothing",
+    "sku": "'21194",
+    "price": 448,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Classic pencil skirt is tea length with a slim silhouette.…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Classic pencil skirt is tea length with a slim silhouette. This diverse piece presents a work-worthy staple while potential for the cocktail party or the weekend outing. Back darts perfect trim fit. Skirt hook and eye closure with back zip. Ter et Bantine. Color Black. 98% Cotton, 2% Elastane. Made in Italy. Lana is wearing an Italian 40. Shop our collection of Ter et Bantine.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "Italian 40"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.9,
+    "reviewCount": 165,
+    "tags": [
+      "12/22",
+      "arrivals",
+      "AW15",
+      "black",
+      "bottoms",
+      "bounty"
+    ],
+    "featured": false,
+    "trending": true,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Ter et Bantine"
+      },
+      {
+        "label": "Type",
+        "value": "women's skirts"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-14_Ashley_Look6_21194_21918.jpeg?v=1437071433",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-14_Ashley_Look6_21194_21916.jpeg?v=1437071433",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-14_Ashley_Look5_40981_21903.jpeg?v=1437071433",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-14_Ashley_Look6_21194_21922_copy.jpeg?v=1437071433"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-tucked-sleeve-blouse-in-navy",
+    "slug": "tucked-sleeve-blouse-in-navy",
+    "name": "Tucked Sleeve Blouse",
+    "brand": "ter-et-bantine",
+    "category": "clothing",
+    "sku": "'21198",
+    "price": 314,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Tucked Sleeve Blouse is an exceptional piece with…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Tucked Sleeve Blouse is an exceptional piece with specialized tailoring. Hidden elastic gathering creates a truly unique shape. Subtle side darts for fit. Invisible zip at center back. Dropped cap sleeves. Fully-lined. Ter et Bantine. Color Navy. 88% Cotton, 12% Polyamide. Made in Italy. Lana is wearing a size 42. Shop our collection of Ter et Bantine.",
+    "colors": [
+      {
+        "name": "Navy",
+        "hex": "#1f2535"
+      }
+    ],
+    "sizes": [
+      "40"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.5,
+    "reviewCount": 40,
+    "tags": [
+      "12/22",
+      "bounty",
+      "new",
+      "reshoot",
+      "SALE",
+      "spring7"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Ter et Bantine"
+      },
+      {
+        "label": "Type",
+        "value": "women's tops"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look2_21199_0039.jpeg?v=1437071426",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look2_21199_0021.jpeg?v=1437071426",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look2_21199_0031-Edit.jpeg?v=1437071426",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look2_21199_0026.jpeg?v=1437071426",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look2_21199_0035.jpeg?v=1437071426"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-straight-seam-trouser-in-black",
+    "slug": "straight-seam-trouser-in-black",
+    "name": "Straight Seam Trouser",
+    "brand": "ter-et-bantine",
+    "category": "clothing",
+    "sku": "'21202",
+    "price": 588,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company This structured trouser offers a straight leg for a lasting…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company This structured trouser offers a straight leg for a lasting fit. With a touch of silk, this piece presents an irresistible luxe. Front zip fly with skirt hook and eye closure. Front side, and back pockets. Fully-finished. Ter et Bantine. Color Black. 92% Cotton, 8% Silk, 100% Cotton. Made in Italy. Ashley is wearing an Italian 40. Shop our collection of Ter et Bantine.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "Italian 40"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.9,
+    "reviewCount": 152,
+    "tags": [
+      "12/22",
+      "arrivals",
+      "AW15",
+      "black",
+      "bottoms",
+      "bounty"
+    ],
+    "featured": false,
+    "trending": true,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Ter et Bantine"
+      },
+      {
+        "label": "Type",
+        "value": "women's pants"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-14_Ashley_Look8_21202_21954.jpeg?v=1437071418",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-14_Ashley_Look8_21202_21960.jpeg?v=1437071418",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-14_Ashley_Look8_21202_21965.jpeg?v=1437071418",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-14_Ashley_Look8_21202_21969_copy_ea6b5082-3d89-4c11-ac64-2f273ae123b8.jpeg?v=1437071418",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-14_Ashley_Look8_21202_21969.jpeg?v=1437071418"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-pleat-back-blouse-in-white",
+    "slug": "pleat-back-blouse-in-white",
+    "name": "Pleat Back Blouse",
+    "brand": "ter-et-bantine",
+    "category": "clothing",
+    "sku": "'21206",
+    "price": 251,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Single back pleat creates a cape-like silhouette which…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Single back pleat creates a cape-like silhouette which flatters and fits. Lightweight material is perfect for hot weather. Subtle front side darts. Scoop neckline. Side slits at hem. Ter et Bantine. Color White. 100% Cotton. Made in Italy. Lana is wearing an Italian 40.",
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#f4f1ea"
+      }
+    ],
+    "sizes": [
+      "Italian 40"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.7,
+    "reviewCount": 103,
+    "tags": [
+      "12/22",
+      "bounty",
+      "cooloff",
+      "SALE",
+      "spring4",
+      "ss15"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Ter et Bantine"
+      },
+      {
+        "label": "Type",
+        "value": "women's tops"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look4_21206_0097.jpeg?v=1437071411",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look4_21206_0103.jpeg?v=1437071411",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look4_21206_0092.jpeg?v=1437071411",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look4_21206_0105.jpeg?v=1437071411"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-bow-skirt-in-black",
+    "slug": "bow-skirt-in-black",
+    "name": "Bow Skirt",
+    "brand": "ter-et-bantine",
+    "category": "clothing",
+    "sku": "'21210",
+    "price": 335,
+    "originalPrice": 360,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Ter et Bantine offers voluminous shapes flow into this…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Ter et Bantine offers voluminous shapes flow into this statement piece. Adjust worthy for a new look, take your own interpretation. Fully-finished. Knee length hem. Drawstring waist tie. Color Black. 100% Cotton. Made in Italy. Lana is wearing an Italian 38.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "Italian 38"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.6,
+    "reviewCount": 71,
+    "tags": [
+      "12/22",
+      "black",
+      "bottoms",
+      "bounty",
+      "drawstring",
+      "Italian designer"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Ter et Bantine"
+      },
+      {
+        "label": "Type",
+        "value": "women's skirts"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look8_21270_0208_1.jpeg?v=1442348889",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look8_21270_0214.jpeg?v=1442348889",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look8_21270_0219.jpeg?v=1442348889",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look8_21270_0223.jpeg?v=1442348889"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-wide-cropped-trouser-in-black",
+    "slug": "wide-cropped-trouser-in-black",
+    "name": "Wide Cropped Trouser",
+    "brand": "ter-et-bantine",
+    "category": "clothing",
+    "sku": "'21214",
+    "price": 377,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company This wide legged trouser makes one's spring collection…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company This wide legged trouser makes one's spring collection complete. Versatility is accomplished through layering with other closet essentials. Skirt hook and eye closures at sides. Side pockets. Cigarette length. Ter et Bantine. Color Back. 100% Cotton, 100% Cotton Lining. Made in Italy. Lana is wearing an Italian 40. Also available in Navy . Shop our collection of Ter et Bantine.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2535"
+      }
+    ],
+    "sizes": [
+      "Italian 40"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.8,
+    "reviewCount": 142,
+    "tags": [
+      "12/22",
+      "bottoms",
+      "bounty",
+      "new arrivals",
+      "pant",
+      "SALE"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Ter et Bantine"
+      },
+      {
+        "label": "Type",
+        "value": "women's pants"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look9_21282_0238.jpeg?v=1437071395",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look9_21282_0250_copy.jpeg?v=1437071395",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look9_21214_0256_copy.jpeg?v=1437071395",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look9_21214_0253.jpeg?v=1437071395",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look9_21214_0254.jpeg?v=1437071395",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look16_21219_0543_2.jpeg?v=1437071388"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-tac-trouser-in-mud",
+    "slug": "tac-trouser-in-mud",
+    "name": "Tac Trouser",
+    "brand": "annette-gortz",
+    "category": "clothing",
+    "sku": "'21226",
+    "price": 391,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Straight leg trouser nothing like it's linen counterparts.…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Straight leg trouser nothing like it's linen counterparts. Lightweight yet comfortable, these trousers are great for travel and an \"out and about\" lifestyle. Front angled pockets. Cuffed hem. Front zip fly with single button closure. Fully-finished. Annette Gortz. Color Mud. 69% Linen, 31% Elastomer, 100% Cotton. Made in EU. Lana is wearing a German 36. Shop our collection of Annette Görtz.",
+    "colors": [
+      {
+        "name": "Mud",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "German 36"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.4,
+    "reviewCount": 18,
+    "tags": [
+      "12/22",
+      "annette gortz",
+      "bottoms",
+      "bounty",
+      "brown",
+      "khaki"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Annette Gortz"
+      },
+      {
+        "label": "Type",
+        "value": "women's pants"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look5_21226_0132.jpeg?v=1437071366",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look5_21226_0138.jpeg?v=1437071366",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look5_21226_0133.jpeg?v=1437071366",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look5_21226_0139.jpeg?v=1437071366",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look5_21226_0140.jpeg?v=1437071366"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-cila-jumper-in-mud",
+    "slug": "cila-jumper-in-mud",
+    "name": "Cila Jumper",
+    "brand": "annette-gortz",
+    "category": "clothing",
+    "sku": "'21242",
+    "price": 489,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Graceful chainmail for the modern style warrior from…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Graceful chainmail for the modern style warrior from Annette Gortz. Nearly sleeveless with a wide neckline. Straight fit through thigh. Color Mud. 76% Viscose, 24% Polyamide. Made in EU. Lana is wearing a Small. Shop our collection of Annette Görtz.",
+    "colors": [
+      {
+        "name": "Mud",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "Small"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.4,
+    "reviewCount": 12,
+    "tags": [
+      "12/22",
+      "annette gortz",
+      "bounty",
+      "dresses",
+      "knitwear",
+      "putty"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Annette Gortz"
+      },
+      {
+        "label": "Type",
+        "value": "women's knitwear"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look6_21242_0167.jpeg?v=1437071347",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look6_21242_0161.jpeg?v=1437071347",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look6_21242_0169.jpeg?v=1437071347",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look6_21242_0170.jpeg?v=1437071347"
     ],
     "custom": false
   },
   {
     "id": "imp-bracelet-70-in-burnished-silver",
     "slug": "bracelet-70-in-burnished-silver",
-    "name": "Bracelet 70 in Burnished Silver",
+    "name": "Bracelet 70",
     "brand": "1-100",
     "category": "jewelry",
     "sku": "'21246",
@@ -17523,7 +20470,7 @@ export const importedProducts: Product[] = [
     "description": "This is a demonstration store. You can purchase products like this from Baby & Company Rustic yet lovely, 1-100 jewelry gives an organic feel while maintaining an understated elegance. Color Silver. Shop our collection of 1-100.",
     "colors": [
       {
-        "name": "Silver",
+        "name": "Burnished Silver",
         "hex": "#c4c7cd"
       }
     ],
@@ -17570,65 +20517,9 @@ export const importedProducts: Product[] = [
     "custom": false
   },
   {
-    "id": "imp-bracelet-84-in-polished-silver",
-    "slug": "bracelet-84-in-polished-silver",
-    "name": "Bracelet 84 in Polished Silver",
-    "brand": "1-100",
-    "category": "jewelry",
-    "sku": "'21247",
-    "price": 418,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Rustic yet lovely, 1-100 jewelry gives an organic feel…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Rustic yet lovely, 1-100 jewelry gives an organic feel while maintaining an understated elegance. Color Silver. Shop our collection of 1-100 .",
-    "colors": [
-      {
-        "name": "Silver",
-        "hex": "#c4c7cd"
-      }
-    ],
-    "sizes": [
-      "One Size"
-    ],
-    "material": "—",
-    "stock": 2,
-    "rating": 4.5,
-    "reviewCount": 40,
-    "tags": [
-      "1-100",
-      "12/29",
-      "Accessories",
-      "arrivals",
-      "AW15",
-      "bracelet"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#241d12",
-      "#9a7b3f"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "1-100"
-      },
-      {
-        "label": "Type",
-        "value": "unisex bracelets"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_33_21247_12792.jpeg?v=1437071327",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_33_21247_12795.jpeg?v=1437071327",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_33_21247_12794.jpeg?v=1437071327"
-    ],
-    "custom": false
-  },
-  {
     "id": "imp-bracelet-85-in-grey-silk-silver",
     "slug": "bracelet-85-in-grey-silk-silver",
-    "name": "Bracelet 85 in Grey Silk/Silver",
+    "name": "Bracelet 85",
     "brand": "1-100",
     "category": "jewelry",
     "sku": "'21248",
@@ -17637,8 +20528,8 @@ export const importedProducts: Product[] = [
     "description": "This is a demonstration store. You can purchase products like this from Baby & Company Rustic yet lovely, 1-100 jewelry gives an organic feel while maintaining an understated elegance. Bracelet 85 draws attention to the pendant with its silk wrap rope. Color Silver. Also available in Brown Silk/Silver. Shop our collection of 1-100.",
     "colors": [
       {
-        "name": "Silver",
-        "hex": "#c4c7cd"
+        "name": "Grey Silk/Silver",
+        "hex": "#6f7178"
       }
     ],
     "sizes": [
@@ -17686,7 +20577,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-ring-76-in-gold",
     "slug": "ring-76-in-gold",
-    "name": "Ring 76 in Gold Multi",
+    "name": "Ring 76",
     "brand": "1-100",
     "category": "jewelry",
     "sku": "'21252",
@@ -17743,7 +20634,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-ring-77-in-sterling-silver",
     "slug": "ring-77-in-sterling-silver",
-    "name": "Ring 77 in Sterling Silver",
+    "name": "Ring 77",
     "brand": "1-100",
     "category": "jewelry",
     "sku": "'21254",
@@ -17801,7 +20692,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-ring-83-in-gold",
     "slug": "ring-83-in-gold",
-    "name": "Ring 83 in Gold",
+    "name": "Ring 83",
     "brand": "1-100",
     "category": "jewelry",
     "sku": "'21256",
@@ -17857,9 +20748,640 @@ export const importedProducts: Product[] = [
     "custom": false
   },
   {
+    "id": "imp-lara-shirt-in-white",
+    "slug": "lara-shirt-in-white",
+    "name": "Lara Shirt",
+    "brand": "lareida",
+    "category": "clothing",
+    "sku": "'21261",
+    "price": 328,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The perfect blouse is a coveted thing. The German brand has…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The perfect blouse is a coveted thing. The German brand has devoted itself to harnessing the mastery and construction of this timeless piece. The Lara Shirt is elegantly tailored to glorify many forms. With short sleeves, this piece is splendid for warmer weather! Lareida. Color White. 100% Cotton. Made in Portugal. Lana is wearing a French 36. Lana is 5'7, hips 36.5\", waist 25\", bust 34.5\". Shop our collection of Lareida.",
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#f4f1ea"
+      }
+    ],
+    "sizes": [
+      "French 36"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.9,
+    "reviewCount": 152,
+    "tags": [
+      "12/29",
+      "arrivals",
+      "AW15",
+      "button ups",
+      "lareida",
+      "last"
+    ],
+    "featured": false,
+    "trending": true,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Lareida"
+      },
+      {
+        "label": "Type",
+        "value": "women's button-ups"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look11_21276_0346.jpeg?v=1437071254",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look11_21276_0334.jpeg?v=1437071254",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look11_21276_0356.jpeg?v=1437071254",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01052015_Lana_Look11_21276_0351.jpeg?v=1437071254"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-woven-shorts-in-black",
+    "slug": "woven-shorts-in-black",
+    "name": "Woven Shorts",
+    "brand": "amelia-toro",
+    "category": "clothing",
+    "sku": "'21286",
+    "price": 559,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Can the Bermuda be classy? We say yes. Meet the Woven…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Can the Bermuda be classy? We say yes. Meet the Woven Shorts by Amelia Toro. The fit is an elegant comfort of virgin wool. Pressed pleating embraces the tailored finnishes. Sizable front pockets for functionality. Invisible zip closure at center front. Color Black. 100% Wool. Made in Columbia. Ashley is wearing a Size 2. Shop our collection of Amelia Toro.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "2"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.6,
+    "reviewCount": 53,
+    "tags": [
+      "1/12",
+      "Amelia Toro",
+      "black",
+      "bottoms",
+      "SALE",
+      "shorts"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Amelia Toro"
+      },
+      {
+        "label": "Type",
+        "value": "women's shorts"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look2_0822_22279096-2ef0-401a-9913-2123063f6347.jpeg?v=1437071215",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look2_0836.jpeg?v=1437071215",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look2_0853.jpeg?v=1437071215",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look2_0856.jpeg?v=1437071215"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-wool-pant-in-navy",
+    "slug": "wool-pant-in-navy",
+    "name": "Wool Cropped Pant",
+    "brand": "amelia-toro",
+    "category": "clothing",
+    "sku": "'21291",
+    "price": 559,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Wool Cropped Pant by Amelia Toro is silky to the touch.…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Wool Cropped Pant by Amelia Toro is silky to the touch. A cropped length and light weave, this pant is perfect for spring. Invisible zip closure at center front. Color Navy. 100% Wool. Made in Columbia. Ashley is wearing a Size 2. Shop our collection of Amelia Toro.",
+    "colors": [
+      {
+        "name": "Navy",
+        "hex": "#1f2535"
+      }
+    ],
+    "sizes": [
+      "2"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.6,
+    "reviewCount": 65,
+    "tags": [
+      "1/12",
+      "Amelia Toro",
+      "bottoms",
+      "Pants",
+      "SALE",
+      "SS15"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Amelia Toro"
+      },
+      {
+        "label": "Type",
+        "value": "women's pants"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look12_21291_1150.jpeg?v=1437071209",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look12_21291_1146.jpeg?v=1437071209",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look12_21291_1154.jpeg?v=1437071209",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look12_21291_1159.jpeg?v=1437071209"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-knit-dress-in-navy-black",
+    "slug": "knit-dress-in-navy-black",
+    "name": "Ruched Party Dress",
+    "brand": "amelia-toro",
+    "category": "clothing",
+    "sku": "'21296",
+    "price": 615,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Amelia Toro like never before. The Ruched Party Dress…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Amelia Toro like never before. The Ruched Party Dress presents a versatility that is uncommon, and whole welcomed, to formal dress wear. Front panel ruching adds dimension and flare. With a full skirt and an asymmetrical neckline, how could this piece become a favorite? Color Navy/Black. 93% Nylon, 7% Elastane. Made in Columbia. Ashley is wearing a Size 2. Shop our collection of Amelia Toro.",
+    "colors": [
+      {
+        "name": "Navy",
+        "hex": "#1f2535"
+      }
+    ],
+    "sizes": [
+      "2"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 5,
+    "reviewCount": 186,
+    "tags": [
+      "1/12",
+      "Amelia Toro",
+      "dresses",
+      "navy",
+      "SALE",
+      "SS15"
+    ],
+    "featured": false,
+    "trending": true,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Amelia Toro"
+      },
+      {
+        "label": "Type",
+        "value": "women's dresses"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look21_21296_1417.jpeg?v=1437071202",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look21_21296_1418.jpeg?v=1437071202",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look21_21296_1412.jpeg?v=1437071202",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look21_21296_1396.jpeg?v=1437071202",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look21_21296_1415.jpeg?v=1437071202"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-cotton-dress-in-navy",
+    "slug": "cotton-dress-in-navy",
+    "name": "Voile V-Neck Dress",
+    "brand": "amelia-toro",
+    "category": "clothing",
+    "sku": "'21301",
+    "price": 1189,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Formalwear that's not trying too hard. The Voile V-Neck…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Formalwear that's not trying too hard. The Voile V-Neck Dress attracts an audience for all the right reasons: artistic pleating, full circle skirt, and a natural waistline. V-neckline with sheer back panel. Open back with single button closure at center back neck. Invisible zip closure at center back waist. Fully lined. Amelia Toro. Color Navy. 100% Cotton. Made in Columbia. Ashley is wearing a Size 2.",
+    "colors": [
+      {
+        "name": "Navy",
+        "hex": "#1f2535"
+      }
+    ],
+    "sizes": [
+      "2"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 5,
+    "reviewCount": 183,
+    "tags": [
+      "1/12",
+      "Amelia Toro",
+      "Dress",
+      "navy",
+      "SALE",
+      "SS15"
+    ],
+    "featured": false,
+    "trending": true,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Amelia Toro"
+      },
+      {
+        "label": "Type",
+        "value": "women's dresses"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look18_21301_1308.jpeg?v=1442346865",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look18_21301_1317.jpeg?v=1442346865",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look18_21301_1323.jpeg?v=1442346865",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look18_21301_1328.jpeg?v=1442346865"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-cotton-dress-in-graphite-pearl",
+    "slug": "cotton-dress-in-graphite-pearl",
+    "name": "Voile Dress",
+    "brand": "amelia-toro",
+    "category": "clothing",
+    "sku": "'21305",
+    "price": 1189,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Formalwear that's not trying too hard. The Voile Dress…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Formalwear that's not trying too hard. The Voile Dress attracts an audience for all the right reasons: artistic pleating, full circle skirt, and a natural waistline. Invisible zip closure at center back. Fully lined. Amelia Toro. Color Graphite/Pearl. 100% Cotton. Made in Columbia. Ashley is wearing a Size 2. Shop our collection of Amelia Toro.",
+    "colors": [
+      {
+        "name": "Grey Pearl",
+        "hex": "#6f7178"
+      }
+    ],
+    "sizes": [
+      "2"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.5,
+    "reviewCount": 32,
+    "tags": [
+      "1/12",
+      "Amelia Toro",
+      "Dresses",
+      "SALE",
+      "SS15",
+      "visible"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Amelia Toro"
+      },
+      {
+        "label": "Type",
+        "value": "women's dresses"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look20_21305_1362.jpeg?v=1437071182",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look20_21305_1380.jpeg?v=1437071182",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look20_21305_1361.jpeg?v=1437071182",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look20_21305_1352.jpeg?v=1437071182",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look20_21305_1390.jpeg?v=1437071182"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-simple-cotton-dress-in-navy",
+    "slug": "simple-cotton-dress-in-navy",
+    "name": "One Shoulder Dress",
+    "brand": "amelia-toro",
+    "category": "clothing",
+    "sku": "'21310",
+    "price": 1049,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Go ahead, take her for a spin. The One Shoulder Dress by…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Go ahead, take her for a spin. The One Shoulder Dress by Amelia Toro invites twirls and sighs. Full circle skirt with an intricately pleated bodice. Invisible zip closure at center back. Color Navy. 100% Cotton. Made in Columbia. Ashley is wearing a Size 2. Shop our collection of Amelia Toro.",
+    "colors": [
+      {
+        "name": "Navy",
+        "hex": "#1f2535"
+      }
+    ],
+    "sizes": [
+      "2"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.5,
+    "reviewCount": 49,
+    "tags": [
+      "1/12",
+      "Amelia Toro",
+      "dresses",
+      "SALE",
+      "SS15",
+      "visible"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Amelia Toro"
+      },
+      {
+        "label": "Type",
+        "value": "women's dresses"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look19_21310_1335.jpeg?v=1437071172",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look19_21310_1330.jpeg?v=1437071172",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look19_21310_1340.jpeg?v=1437071172",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look19_21310_1345.jpeg?v=1437071172",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look19_21310_1346.jpeg?v=1437071172"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-dream-dress-in-painted-floral",
+    "slug": "dream-dress-in-painted-floral",
+    "name": "Dream Dress",
+    "brand": "amelia-toro",
+    "category": "clothing",
+    "sku": "'21320",
+    "price": 699,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Dream Dress by Amelia Toro is a cacophony of color for…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Dream Dress by Amelia Toro is a cacophony of color for an eye catching display. Slim silhouette, crew neckline, and capped sleeves complete the ensemble. Exposed darts. Invisible zip closure at center back neck. Color Floral. 100% Polyester. Made in Columbia. Ashley is wearing a Size 2. Shop our collection of Amelia Toro.",
+    "colors": [
+      {
+        "name": "Painted Floral",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "2"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 5,
+    "reviewCount": 181,
+    "tags": [
+      "1/12",
+      "Amelia Toro",
+      "Dresses",
+      "SALE",
+      "spring6",
+      "spring9"
+    ],
+    "featured": false,
+    "trending": true,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Amelia Toro"
+      },
+      {
+        "label": "Type",
+        "value": "women's dresses"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look21_21296_1428.jpeg?v=1437071163",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look21_21296_1430.jpeg?v=1437071163",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look21_21296_1440.jpeg?v=1437071163",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look21_21296_1447.jpeg?v=1437071163",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look21_21296_1450.jpeg?v=1437071163"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-silk-shorts-in-grey",
+    "slug": "silk-shorts-in-grey",
+    "name": "Silk Shorts",
+    "brand": "amelia-toro",
+    "category": "clothing",
+    "sku": "'21326",
+    "price": 524,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Can the Bermuda be classy? We say yes. Meet the Silk Shorts…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Can the Bermuda be classy? We say yes. Meet the Silk Shorts by Amelia Toro. The fit is an elegant comfort of tasteful silk. Pressed pleating embraces the tailored air. Sizable front pockets add to functionality. Invisible zip closure at center front. Color Grey. 100% Silk. Made in Columbia. Ashley is wearing a Size 2. Shop our collection of Amelia Toro.",
+    "colors": [
+      {
+        "name": "Grey",
+        "hex": "#6f7178"
+      }
+    ],
+    "sizes": [
+      "2"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.5,
+    "reviewCount": 26,
+    "tags": [
+      "1/12",
+      "Amelia Toro",
+      "bermuda shorts",
+      "bottoms",
+      "grey",
+      "SALE"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Amelia Toro"
+      },
+      {
+        "label": "Type",
+        "value": "women's shorts"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look4_21326_0890_21a25a6e-f6f8-4acd-94be-b13b55665559.jpeg?v=1437071156",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look4_21326_0906.jpeg?v=1437071156",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look4_21326_0914.jpeg?v=1437071156"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-fancy-wool-pant-in-black",
+    "slug": "fancy-wool-pant-in-black",
+    "name": "Fancy Wool Pant",
+    "brand": "amelia-toro",
+    "category": "clothing",
+    "sku": "'21331",
+    "price": 531,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company With the comfort of hiram and the class of the tailored,…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company With the comfort of hiram and the class of the tailored, the Fancy Wool Pant from Amelia Toro is an everyday choice. Dress up or down, these pants always present style. Side angled pockets. Hook and eye, single snap button with zip closure at center front. Fully lined. Color Black. 100% Wool. Made in Columbia. Ashley is wearing a Size 2. Shop our collection of Amelia Toro.",
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "2"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.5,
+    "reviewCount": 32,
+    "tags": [
+      "1/12",
+      "Amelia Toro",
+      "bottoms",
+      "Pants",
+      "SALE",
+      "spring9"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Amelia Toro"
+      },
+      {
+        "label": "Type",
+        "value": "women's pants"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look8_21331_1050.jpeg?v=1437071150",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look8_21331_1058.jpeg?v=1437071150",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look8_21331_1053.jpeg?v=1437071150",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/01182015_ASHLEY_Look8_21331_1057.jpeg?v=1437071150"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-golf-shoes-in-brown",
+    "slug": "golf-shoes-in-brown",
+    "name": "Golf Shoes",
+    "brand": "amelia-toro",
+    "category": "clothing",
+    "sku": "'21336",
+    "price": 628,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company A wingtip toe and a monk's strap closure, the Golf Shoe…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company A wingtip toe and a monk's strap closure, the Golf Shoe from Amelia Toro is as well made as they come. A leather sole with an inch and a quarter heel, the Amelia Toro stamp of approval is the metal tag at the heel. Color Brown. 100% Leather. Made in Italy.",
+    "colors": [
+      {
+        "name": "Brown",
+        "hex": "#5a4a35"
+      }
+    ],
+    "sizes": [
+      "36"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.7,
+    "reviewCount": 110,
+    "tags": [
+      "1/12",
+      "Ameila Toro",
+      "arrivals",
+      "AW15",
+      "shoemoon",
+      "shoes"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Amelia Toro"
+      },
+      {
+        "label": "Type",
+        "value": "women's shoes"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-02_Accessories_10_21336_2097.jpeg?v=1437071143",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-02_Accessories_10_21336_2104.jpeg?v=1437071143",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-02_Accessories_10_21336_2101.jpeg?v=1437071143",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-02_Accessories_10_21336_2098.jpeg?v=1437071143",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-02_Accessories_10_21336_2102.jpeg?v=1437071143"
+    ],
+    "custom": false
+  },
+  {
     "id": "imp-buckle-shoes-in-navy",
     "slug": "buckle-shoes-in-navy",
-    "name": "Buckle Shoe in Navy",
+    "name": "Buckle Shoe",
     "brand": "amelia-toro",
     "category": "shoes",
     "sku": "'21340",
@@ -17911,6 +21433,239 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-02_Accessories_11_21341_2117.jpeg?v=1437071134",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-02_Accessories_11_21341_2116.jpeg?v=1437071134",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-02_Accessories_11_21341_2114.jpeg?v=1437071134"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-long-shawl-cardigan-in-eclipse",
+    "slug": "long-shawl-cardigan-in-eclipse",
+    "name": "Shawl Cardigan",
+    "brand": "lars-andersson",
+    "category": "clothing",
+    "sku": "'21394",
+    "price": 418,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Shawl Cardigan is a cozy spring selection with simple…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Shawl Cardigan is a cozy spring selection with simple caresses of silk. Lars Andersson. Color Shale. 60% Silk, 40% Cotton. Made in Nepal. Lana is wearing a Small. Shop our collection of Lars Andersson.",
+    "colors": [
+      {
+        "name": "Eclipse",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "Small"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.6,
+    "reviewCount": 74,
+    "tags": [
+      "arrivals",
+      "AW15",
+      "beige",
+      "bounty",
+      "cardigan",
+      "knitwear"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Lars Andersson"
+      },
+      {
+        "label": "Type",
+        "value": "women's knitwear"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK13_21394_20313.jpeg?v=1437071123",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK13_21394_20333.jpeg?v=1437071123",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK13_21394_20327.jpeg?v=1437071123",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK13_21394_20335.jpeg?v=1437071123",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK13_21394_20338.jpeg?v=1437071123",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK12_21410_20229.jpeg?v=1437071090"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-shawl-collar-cardigan-in-shale",
+    "slug": "shawl-collar-cardigan-in-shale",
+    "name": "Cropped Shawl Cardigan",
+    "brand": "lars-andersson",
+    "category": "clothing",
+    "sku": "'21398",
+    "price": 528,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Cropped Shawl Cardigan from Lars Andersson is a cozy…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Cropped Shawl Cardigan from Lars Andersson is a cozy spring selection with simple caresses of silk. Color Shale. 50% Silk, 35% Cotton, 15% Linen. Made in Nepal. Lana is wearing a Small. Shop our collection of Lars Andersson.",
+    "colors": [
+      {
+        "name": "Shale",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "Small"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.5,
+    "reviewCount": 33,
+    "tags": [
+      "arrivals",
+      "AW15",
+      "bounty",
+      "cardigan",
+      "grey",
+      "knitwear"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Lars Andersson"
+      },
+      {
+        "label": "Type",
+        "value": "women's knitwear"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK15_21398_20409.jpeg?v=1437071116",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK15_21398_20434.jpeg?v=1437071116",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK15_21398_20420.jpeg?v=1437071116",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK15_21398_20441.jpeg?v=1437071116",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK15_21398_20447.jpeg?v=1437071116"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-draped-neck-cardigan-in-shale",
+    "slug": "draped-neck-cardigan-in-shale",
+    "name": "Draped Neck Cardigan",
+    "brand": "lars-andersson",
+    "category": "clothing",
+    "sku": "'21402",
+    "price": 388,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Draped Neck Cardigan from Lars Andersson is a cozy…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Draped Neck Cardigan from Lars Andersson is a cozy spring selection with simple caresses of silk. Color Shale. 60% Silk, 40% Cotton. Made in Nepal. Lana is wearing a Small. Shop our collection of Lars Andersson.",
+    "colors": [
+      {
+        "name": "Shale",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "Small"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.8,
+    "reviewCount": 140,
+    "tags": [
+      "arrivals",
+      "AW15",
+      "bounty",
+      "cardigan",
+      "grey",
+      "knitwear"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": true,
+    "newArrival": true,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Lars Andersson"
+      },
+      {
+        "label": "Type",
+        "value": "women's knitwear"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK11_21403_20217.jpeg?v=1437071108",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK11_21403_20165.jpeg?v=1437071108",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK11_21403_20168.jpeg?v=1437071108",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK11_21403_20189.jpeg?v=1437071108",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK11_21403_20205.jpeg?v=1437071108"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-shrunken-cardigan-in-shale",
+    "slug": "shrunken-cardigan-in-shale",
+    "name": "Shrunken Cardigan",
+    "brand": "lars-andersson",
+    "category": "clothing",
+    "sku": "'21406",
+    "price": 418,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Shrunken Cardigan is a cozy spring selection with…",
+    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Shrunken Cardigan is a cozy spring selection with simple caresses of silk. Lars Andersson. Color Shale. 60% Silk, 40% Cotton. Made in Nepal. Lana is wearing a Small. Shop our collection of Lars Anderson.",
+    "colors": [
+      {
+        "name": "Shale",
+        "hex": "#8a857c"
+      }
+    ],
+    "sizes": [
+      "Small"
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.5,
+    "reviewCount": 42,
+    "tags": [
+      "arrivals",
+      "AW15",
+      "bounty",
+      "cardigan",
+      "knitwear",
+      "lars andersson"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#23211d",
+      "#6a5a3a"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Lars Andersson"
+      },
+      {
+        "label": "Type",
+        "value": "women's knitwear"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK10_21406_20112.jpeg?v=1437071099",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK10_21406_20110.jpeg?v=1437071099",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK10_21406_20125.jpeg?v=1437071099",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK10_21406_20133.jpeg?v=1437071099",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-19_LANA_LOOK10_21406_20135.jpeg?v=1437071099"
     ],
     "custom": false
   },
@@ -18031,7 +21786,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-washboard-hat-in-natural-white",
     "slug": "washboard-hat-in-natural-white",
-    "name": "Washboard Hat in Straw/White",
+    "name": "Washboard Hat",
     "brand": "lola",
     "category": "accessories",
     "sku": "'21656",
@@ -18089,7 +21844,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-wrapped-up-hat-in-natural-white",
     "slug": "wrapped-up-hat-in-natural-white",
-    "name": "Wrapped Up Hat in Straw/White",
+    "name": "Wrapped Up Hat",
     "brand": "lola",
     "category": "accessories",
     "sku": "'21671",
@@ -18205,7 +21960,7 @@ export const importedProducts: Product[] = [
   {
     "id": "imp-simple-scarf-in-latte",
     "slug": "simple-scarf-in-latte",
-    "name": "Simple Scarf in Latte",
+    "name": "Simple Scarf",
     "brand": "private-02-04",
     "category": "accessories",
     "sku": "'21839",
@@ -18214,7 +21969,15 @@ export const importedProducts: Product[] = [
     "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Simple Scarf offers undeniable comfort and warm, especially during those April showers. With enough material for full coverage, this piece will carry you through seasons. Private 02 04. Color Latte. 100% Cashmere. Made in Denmark. Length 78\" X 32\" Also available in Grey , Jasper Blue , and Old Black . Shop our collection of Prïvate 02 04.",
     "colors": [
       {
-        "name": "Default",
+        "name": "Latte",
+        "hex": "#8a857c"
+      },
+      {
+        "name": "Grey",
+        "hex": "#6f7178"
+      },
+      {
+        "name": "Old Black",
         "hex": "#15140f"
       }
     ],
@@ -18256,127 +22019,15 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/Private_0204_Simple_scarf_Latte_0150.jpeg?v=1437070124",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/Private_0204_Simple_scarf_Latte_0151.jpeg?v=1437070124",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/Private_0204_Simple_scarf_Latte_0152.jpeg?v=1437070124",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Private_0204_Simple_scarf_Latte_0153.jpeg?v=1437070124"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-simple-scarf-in-grey",
-    "slug": "simple-scarf-in-grey",
-    "name": "Simple Scarf in Grey",
-    "brand": "private-02-04",
-    "category": "accessories",
-    "sku": "'21841",
-    "price": 458,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Simple Scarf offers undeniable comfort and warm,…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Simple Scarf offers undeniable comfort and warm, especially during those April showers. With enough material for full coverage, this piece will carry you through seasons. Private 02 04. Color Grey. 100% Cashmere. Made in Denmark. Length 78\" X 32\" Also available in Latte , Jasper Blue , and Old Black . Shop our collection of Prïvate 02 04.",
-    "colors": [
-      {
-        "name": "Default",
-        "hex": "#15140f"
-      }
-    ],
-    "sizes": [
-      "O/S"
-    ],
-    "material": "—",
-    "stock": 3,
-    "rating": 4.8,
-    "reviewCount": 120,
-    "tags": [
-      "01/15",
-      "accessories",
-      "arrivals",
-      "AW15",
-      "fathersday",
-      "man"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": true,
-    "palette": [
-      "#1d1d20",
-      "#5f6168"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Private 02 04"
-      },
-      {
-        "label": "Type",
-        "value": "women's scarves"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Private_0204_Simple_scarf_grey_0145.jpeg?v=1437070109",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Private_0204_Simple_scarf_grey_0146.jpeg?v=1437070109",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Private_0204_Simple_scarf_grey_0148.jpeg?v=1437070109"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-simple-scarf-in-old-black",
-    "slug": "simple-scarf-in-old-black",
-    "name": "Simple Scarf in Old Black",
-    "brand": "private-02-04",
-    "category": "accessories",
-    "sku": "'21842",
-    "price": 458,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company The Simple Scarf offers undeniable comfort and warm,…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company The Simple Scarf offers undeniable comfort and warm, especially during those April showers. With enough material for full coverage, this piece will carry you through seasons. Private 02 04. Color Old Black. 100% Cashmere. Made in Denmark. Length 78\" X 32\" Also available in Grey , Jasper Blue , and Latte . Shop our collection of Prïvate 02 04.",
-    "colors": [
-      {
-        "name": "Default",
-        "hex": "#15140f"
-      }
-    ],
-    "sizes": [
-      "O/S"
-    ],
-    "material": "—",
-    "stock": 1,
-    "rating": 5,
-    "reviewCount": 174,
-    "tags": [
-      "Accessories",
-      "arrivals",
-      "AW15",
-      "last",
-      "man",
-      "one"
-    ],
-    "featured": false,
-    "trending": true,
-    "bestSeller": true,
-    "newArrival": true,
-    "palette": [
-      "#1d1d20",
-      "#5f6168"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Private 02 04"
-      },
-      {
-        "label": "Type",
-        "value": "women's scarves"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Private_0204_Simple_scarf_Old_black_0160.jpeg?v=1437070103",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Private_0204_Simple_scarf_Old_black_0163.jpeg?v=1437070103",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Private_0204_Simple_scarf_Old_black_0164.jpeg?v=1437070103",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/Private_0204_Simple_scarf_Old_black_0165.jpeg?v=1437070103"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Private_0204_Simple_scarf_Latte_0153.jpeg?v=1437070124",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/Private_0204_Simple_scarf_grey_0145.jpeg?v=1437070109"
     ],
     "custom": false
   },
   {
     "id": "imp-bro-belt-in-leather",
     "slug": "bro-belt-in-leather",
-    "name": "Bro Belt in Leather",
+    "name": "Bro Belt",
     "brand": "hannes-roether",
     "category": "accessories",
     "sku": "'21880",
@@ -18706,60 +22357,7 @@ export const importedProducts: Product[] = [
     ],
     "images": [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_20_30226_3592_f458547b-e617-4743-8cff-fa8858faf765.jpeg?v=1437069227",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_20_30226_3593_2f639038-86d7-43fc-af11-4648ff7440b6.jpeg?v=1437069227"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-compostella-scarf-1",
-    "slug": "compostella-scarf-1",
-    "name": "Compostella Scarf",
-    "brand": "faliero-sarti",
-    "category": "accessories",
-    "sku": "'30228",
-    "price": 398,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Add something exceptional to your life with the…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Add something exceptional to your life with the breathtaking scarves by Faliero Sarti. With prints ranging from cheeky to sophisticated, these colorful beauties can do no wrong. Color Green Multi. 50% Silk, 50% Modal. Made in Italy. Length 56\" X 36.\" Also available in Purple Multi . Shop our collection of Faliero Sarti .",
-    "colors": [
-      {
-        "name": "Green Multi",
-        "hex": "#3c5a45"
-      }
-    ],
-    "sizes": [
-      "One Size"
-    ],
-    "material": "—",
-    "stock": 1,
-    "rating": 4.7,
-    "reviewCount": 95,
-    "tags": [
-      "accessories",
-      "arrivals",
-      "AW15",
-      "faliero sarti",
-      "mothermoon",
-      "one"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#1d1d20",
-      "#5f6168"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Faliero Sarti"
-      },
-      {
-        "label": "Type",
-        "value": "women's scarves"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_20_30226_3593_2f639038-86d7-43fc-af11-4648ff7440b6.jpeg?v=1437069227",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_21_30228_3599.jpeg?v=1437069215",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_21_30228_3601.jpeg?v=1437069215"
     ],
@@ -18928,123 +22526,8 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_05_30496_3369.jpeg?v=1437068624",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_02_37497_5116.jpeg?v=1437068624",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-15_Addis_Look_10_30500_4167.jpeg?v=1437068624",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_02_37497_5114.jpeg?v=1437068624"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-hobo-hat-1",
-    "slug": "hobo-hat-1",
-    "name": "Hobo Hat",
-    "brand": "super-duper-hats",
-    "category": "accessories",
-    "sku": "'30501",
-    "price": 298,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Super Duper Hats' Hobo is our summer choice fedora. With…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Super Duper Hats' Hobo is our summer choice fedora. With its woven casual aesthetic, this piece is beach ready! Color Blue Anthracite. 100% Textile Cellulose. Made in Italy. Also available in White and Black . Shop our collection of Super Duper Hats.",
-    "colors": [
-      {
-        "name": "Blue Anthracite",
-        "hex": "#2f3c66"
-      }
-    ],
-    "sizes": [
-      "57"
-    ],
-    "material": "—",
-    "stock": 12,
-    "rating": 4.8,
-    "reviewCount": 119,
-    "tags": [
-      "1/2",
-      "accessories",
-      "arrivals",
-      "AW15",
-      "fathersday",
-      "hats"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": true,
-    "palette": [
-      "#1d1d20",
-      "#5f6168"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Super Duper Hats"
-      },
-      {
-        "label": "Type",
-        "value": "unisex hats"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_04_30503_3416.jpeg?v=1437068612",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_04_30503_3357.jpeg?v=1437068612",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_03_30502_5125_196c8c88-60ce-4051-8d4e-4e216c3b45cd.jpeg?v=1437068612",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-15_Addis_Look_11_30505_4180.jpeg?v=1437068612",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-15_Addis_Look_11_30505_4182.jpeg?v=1437068612"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-hobo-hat-2",
-    "slug": "hobo-hat-2",
-    "name": "Hobo Hat",
-    "brand": "super-duper-hats",
-    "category": "accessories",
-    "sku": "'30506",
-    "price": 298,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Super Duper Hats' Hobo is our summer choice fedora. With…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Super Duper Hats' Hobo is our summer choice fedora. With its woven casual aesthetic, this piece is beach ready! Color Black. 100% Textile Cellulose. Made in Italy. Also available in White and Navy . Shop our collection of Super Duper Hats.",
-    "colors": [
-      {
-        "name": "Black",
-        "hex": "#15140f"
-      }
-    ],
-    "sizes": [
-      "57"
-    ],
-    "material": "—",
-    "stock": 12,
-    "rating": 4.9,
-    "reviewCount": 144,
-    "tags": [
-      "1/2",
-      "accessories",
-      "arrivals",
-      "AW15",
-      "fathersday",
-      "hats"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": true,
-    "newArrival": true,
-    "palette": [
-      "#1d1d20",
-      "#5f6168"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Super Duper Hats"
-      },
-      {
-        "label": "Type",
-        "value": "unisex hats"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_03_30509_3428.jpeg?v=1437068599",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_03_30509_3350.jpeg?v=1437068599",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_04_30508_5128.jpeg?v=1437068599",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-15_Addis_Look_09_30510_4154.jpeg?v=1437068599",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_03_30509_3351.jpeg?v=1437068599"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-19_Ashley_Look_02_37497_5114.jpeg?v=1437068624",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_04_30503_3416.jpeg?v=1437068612"
     ],
     "custom": false
   },
@@ -19055,7 +22538,7 @@ export const importedProducts: Product[] = [
     "brand": "super-duper-hats",
     "category": "accessories",
     "sku": "'30511",
-    "price": 228,
+    "price": 198,
     "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Super Duper Hats' Big Moon is your anywhere, for any reason…",
     "description": "This is a demonstration store. You can purchase products like this from Baby & Company Super Duper Hats' Big Moon is your anywhere, for any reason accessory. With its traditional newsboy style and genius fit, this hat is fantastic addition to any closet. Hidden interior pocket. Color Olive. 50% Cotton, 50% Jute, Fodera Lining. Made in Italy. Addis is wearing a 61. Also available in Beige. Shop our collection of Super Duper Hats.",
     "colors": [
@@ -19102,72 +22585,15 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-15_Addis_Look_13_30276_4290_c6bd1a0a-7f75-4a61-95a7-db32defdbd08.jpeg?v=1437068589",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_02_30513_3341.jpeg?v=1437068589",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_02_30513_3343.jpeg?v=1437068589",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_02_30513_3402.jpeg?v=1437068589"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-big-moon-hat-1",
-    "slug": "big-moon-hat-1",
-    "name": "Big Moon Hat",
-    "brand": "super-duper-hats",
-    "category": "accessories",
-    "sku": "'30516",
-    "price": 198,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Super Duper Hats' Big Moon is your anywhere, for any reason…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Super Duper Hats' Big Moon is your anywhere, for any reason accessory. With its traditional newsboy style and genius fit, this hat is fantastic addition to any closet. Hidden interior pocket. Color Beige. 50% Cotton, 50% Jute, Fodera Lining. Made in Italy. Addis is wearing a 61. Also available in Olive. Shop our collection of Super Duper Hats.",
-    "colors": [
-      {
-        "name": "Beige",
-        "hex": "#cdbfa6"
-      }
-    ],
-    "sizes": [
-      "57"
-    ],
-    "material": "—",
-    "stock": 1,
-    "rating": 4.7,
-    "reviewCount": 102,
-    "tags": [
-      "accessories",
-      "arrivals",
-      "AW15",
-      "fathersday",
-      "hats",
-      "man"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#1d1d20",
-      "#5f6168"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Super Duper Hats"
-      },
-      {
-        "label": "Type",
-        "value": "unisex hats"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_01_30516_3406.jpeg?v=1437068581",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-15_Addis_Look_14_hat_4297.jpeg?v=1437068581",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_01_30516_3330.jpeg?v=1437068581",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_01_30516_3332.jpeg?v=1437068581",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_01_30516_3409.jpeg?v=1437068581"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_02_30513_3402.jpeg?v=1437068589",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_01_30516_3406.jpeg?v=1437068581"
     ],
     "custom": false
   },
   {
     "id": "imp-ring-24-in-silver",
     "slug": "ring-24-in-silver",
-    "name": "Ring 24 in Silver",
+    "name": "Ring 24",
     "brand": "1-100",
     "category": "jewelry",
     "sku": "'02074",
@@ -19176,7 +22602,7 @@ export const importedProducts: Product[] = [
     "description": "This is a demonstration store. You can purchase products like this from Baby & Company Rustic and lovely, 1-100 jewelry gives an organic feel while maintaining an understated elegance. Pummeled then polished, the 24 Ring is a masterful addition. Color Silver. 100% Sterling Silver. Made in U.S.A. Shop our collection of 1-100.",
     "colors": [
       {
-        "name": "Sterling Silver",
+        "name": "Silver",
         "hex": "#c4c7cd"
       }
     ],
@@ -19275,64 +22701,8 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_32_30561_3759.jpeg?v=1437068509",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_32_30561_3752.jpeg?v=1437068509",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_32_30561_3755.jpeg?v=1437068509",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_32_30561_3757.jpeg?v=1437068509"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-floral-cashmere-scarf-2",
-    "slug": "floral-cashmere-scarf-2",
-    "name": "Floral Cashmere Scarf",
-    "brand": "vassilisa",
-    "category": "accessories",
-    "sku": "'30563",
-    "price": 398,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Flora and fauna, together as one. Springtime has arrived at…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Flora and fauna, together as one. Springtime has arrived at Baby & Company with new accessory line Vassilisa is well represented in the world of fashion. Blooming pastels of exquisite patterning caress one;s neck in silky delight. Color Mauve. 10% Cashmere, 90% Modal. Made in the Italy. Length 55\" X 55\". Shop our collection of Vassilisa.",
-    "colors": [
-      {
-        "name": "Mauve",
-        "hex": "#8a857c"
-      }
-    ],
-    "sizes": [
-      "O/S"
-    ],
-    "material": "—",
-    "stock": 1,
-    "rating": 4.9,
-    "reviewCount": 148,
-    "tags": [
-      "02/11",
-      "arrivals",
-      "AW15",
-      "mauve",
-      "mothermoon",
-      "nautical"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": true,
-    "newArrival": true,
-    "palette": [
-      "#1d1d20",
-      "#5f6168"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Vassilisa"
-      },
-      {
-        "label": "Type",
-        "value": "women's scarves"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_33_30563_3761.jpeg?v=1437068496",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_33_30563_3770.jpeg?v=1437068496",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_33_30563_3768.jpeg?v=1437068496",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_33_30563_3766.jpeg?v=1437068496"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_32_30561_3757.jpeg?v=1437068509",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-02-13_Product_33_30563_3761.jpeg?v=1437068496"
     ],
     "custom": false
   },
@@ -19389,64 +22759,9 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-08_Laydown_Look4_30598_21599.jpeg?v=1442349135",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-08_Laydown_Look4_30598_21602.jpeg?v=1442349135",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-08_Laydown_Look4_30598_21604.jpeg?v=1442349135",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-08_Laydown_Look4_30598_21607.jpeg?v=1442349135"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-laceless-sneaker-1",
-    "slug": "laceless-sneaker-1",
-    "name": "Laceless Sneaker",
-    "brand": "marsell",
-    "category": "shoes",
-    "sku": "'30602",
-    "price": 598,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Married aesthetics of innovation and tradition, Marséll…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Married aesthetics of innovation and tradition, Marséll crafts shoes of mastering technique. Where modern classism takes wearable shape, anticipate artistic expression epitomized in leather footwear. Imagine that standard sneaker, but made of leather. That's what you'll find with Marsell's men's footwear collection. Easy on and off access, the Sneakers are uniquely versatile in footwear. Color Grey. 100% Leather. Made in Italy.",
-    "colors": [
-      {
-        "name": "Grey",
-        "hex": "#6f7178"
-      }
-    ],
-    "sizes": [
-      "41"
-    ],
-    "material": "—",
-    "stock": 12,
-    "rating": 4.8,
-    "reviewCount": 114,
-    "tags": [
-      "02/13",
-      "AW15",
-      "grey",
-      "man",
-      "marsell",
-      "menluggage"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#1a1714",
-      "#5a4a35"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Marsell"
-      },
-      {
-        "label": "Type",
-        "value": "men's shoes"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-08_Laydown_Look4_30598_21607.jpeg?v=1442349135",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_03_30603_17773.jpeg?v=1442349145",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_03_30603_17777.jpeg?v=1442349145",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_03_30603_17774.jpeg?v=1442349145",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_03_30603_17775.jpeg?v=1442349145"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_03_30603_17777.jpeg?v=1442349145"
     ],
     "custom": false
   },
@@ -19675,123 +22990,9 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-08_Laydown_Look16_30830_21710.jpeg?v=1437068032",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-08_Laydown_Look16_30830_21711.jpeg?v=1437068032",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-08_Laydown_Look16_30830_21712.jpeg?v=1437068032",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-08_Laydown_Look16_30830_21716.jpeg?v=1437068032"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-basic-tie-1",
-    "slug": "basic-tie-1",
-    "name": "Basic Tie",
-    "brand": "lardini",
-    "category": "accessories",
-    "sku": "'30831",
-    "price": 55,
-    "shortDescription": "Two-hundred and fifty internal seamstresses materialize the sartorial vision of four Italian designers and siblings of Lardini. The brand’s rigor…",
-    "description": "Two-hundred and fifty internal seamstresses materialize the sartorial vision of four Italian designers and siblings of Lardini. The brand’s rigor for providing elegance and mastery of tailoring has stemmed to its ecological conscience. Color Navy. 63% Cotton, 37% Flax. Made in Italy. Also available in Grey Check. Shop our collection of Lardini",
-    "colors": [
-      {
-        "name": "Navy",
-        "hex": "#1f2535"
-      }
-    ],
-    "sizes": [
-      "One Size"
-    ],
-    "material": "—",
-    "stock": 1,
-    "rating": 4.5,
-    "reviewCount": 35,
-    "tags": [
-      "2/16",
-      "accessories",
-      "bounty",
-      "fathersday",
-      "lardini",
-      "man"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#1d1d20",
-      "#5f6168"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Lardini"
-      },
-      {
-        "label": "Type",
-        "value": "Men's Accessories"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-08_Laydown_Look16_30830_21716.jpeg?v=1437068032",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-08_Laydown_Look15_30831_21705.jpeg?v=1437068024",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-08_Laydown_Look15_30831_21706.jpeg?v=1437068024",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-08_Laydown_Look15_30831_21707.jpeg?v=1437068024",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-08_Laydown_Look15_30831_21708.jpeg?v=1437068024",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-08_Laydown_Look15_30831_21709.jpeg?v=1437068024"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-basic-tie-2",
-    "slug": "basic-tie-2",
-    "name": "Basic Tie",
-    "brand": "lardini",
-    "category": "accessories",
-    "sku": "'30832",
-    "price": 55,
-    "shortDescription": "Two-hundred and fifty internal seamstresses materialize the sartorial vision of four Italian designers and siblings of Lardini. The brand’s rigor…",
-    "description": "Two-hundred and fifty internal seamstresses materialize the sartorial vision of four Italian designers and siblings of Lardini. The brand’s rigor for providing elegance and mastery of tailoring has stemmed to its ecological conscience. Color Grey/Black. 60% Flax, 26% Viscose, 13% Cotton, 1% Elastane. Made in Italy. Also available in Navy. Shop our collection of Lardini.",
-    "colors": [
-      {
-        "name": "Grey/Black",
-        "hex": "#15140f"
-      }
-    ],
-    "sizes": [
-      "One Size"
-    ],
-    "material": "—",
-    "stock": 2,
-    "rating": 4.4,
-    "reviewCount": 9,
-    "tags": [
-      "2/16",
-      "accessories",
-      "bounty",
-      "fathersday",
-      "lardini",
-      "man"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#1d1d20",
-      "#5f6168"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Lardini"
-      },
-      {
-        "label": "Type",
-        "value": "Men's Accessories"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-08_Laydown_Look14_30832_21697.jpeg?v=1437068014",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-08_Laydown_Look14_30832_21699.jpeg?v=1437068014",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-08_Laydown_Look14_30832_21700.jpeg?v=1437068014",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-08_Laydown_Look14_30832_21701.jpeg?v=1437068014",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-08_Laydown_Look14_30832_21702.jpeg?v=1437068014"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-08_Laydown_Look15_30831_21706.jpeg?v=1437068024"
     ],
     "custom": false
   },
@@ -19964,65 +23165,8 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_08_31023_21529.jpeg?v=1437067597",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_08_31023_21530.jpeg?v=1437067597",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_08_31023_21532.jpeg?v=1437067597",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_08_31023_21534.jpeg?v=1437067597"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-kalotte-bracelet-1",
-    "slug": "kalotte-bracelet-1",
-    "name": "Kalotte Bracelet",
-    "brand": "by-malene-birger",
-    "category": "jewelry",
-    "sku": "'31024",
-    "price": 428,
-    "shortDescription": "Genuine minimalism, sincerely beautiful. The 2015 Malene Birger Jewelry Collection draws inspiration from tribal elements for a result that is…",
-    "description": "Genuine minimalism, sincerely beautiful. The 2015 Malene Birger Jewelry Collection draws inspiration from tribal elements for a result that is truly breathtaking. The Kalotte Bracelet centers as spheres. Hook closure. Color Silver. 100% Stainless steel. Shop our collection of By Malene Birger .",
-    "colors": [
-      {
-        "name": "Silver",
-        "hex": "#c4c7cd"
-      }
-    ],
-    "sizes": [
-      "O/S"
-    ],
-    "material": "—",
-    "stock": 1,
-    "rating": 4.5,
-    "reviewCount": 33,
-    "tags": [
-      "02/27",
-      "accessories",
-      "arrivals",
-      "AW15",
-      "bracelets",
-      "by malene birger"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#241d12",
-      "#9a7b3f"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "By Malene Birger"
-      },
-      {
-        "label": "Type",
-        "value": "women's bracelets"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_08_31024_21538.jpeg?v=1437067590",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_08_31024_21535.jpeg?v=1437067590",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_08_31024_21536.jpeg?v=1437067590",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_08_31024_21537.jpeg?v=1437067590",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_08_31024_21539.jpeg?v=1437067590"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_08_31023_21534.jpeg?v=1437067597",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_08_31024_21538.jpeg?v=1437067590"
     ],
     "custom": false
   },
@@ -20079,65 +23223,9 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_32_31027_12775.jpeg?v=1437067577",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_32_31027_12778.jpeg?v=1437067577",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_32_31027_12776.jpeg?v=1437067577",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_32_31027_12777.jpeg?v=1437067577"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-irsila-ring-1",
-    "slug": "irsila-ring-1",
-    "name": "Irsila Ring",
-    "brand": "by-malene-birger",
-    "category": "jewelry",
-    "sku": "'31028",
-    "price": 328,
-    "shortDescription": "Genuine minimalism, sincerely beautiful. The 2015 Malene Birger Jewelry Collection draws inspiration from tribal elements for a result that is…",
-    "description": "Genuine minimalism, sincerely beautiful. The 2015 Malene Birger Jewelry Collection draws inspiration from tribal elements for a result that is truly breathtaking. The Irsila Ring symbolizes Native American arrow's strength and strike. Opening for accessibility. Color Silver. 100% Stainless steel. Shop our collection of By Malene Birger .",
-    "colors": [
-      {
-        "name": "Silver",
-        "hex": "#c4c7cd"
-      }
-    ],
-    "sizes": [
-      "X Small"
-    ],
-    "material": "—",
-    "stock": 2,
-    "rating": 4.9,
-    "reviewCount": 171,
-    "tags": [
-      "02/27",
-      "accessories",
-      "arrivals",
-      "AW15",
-      "jewelry",
-      "mothermoon"
-    ],
-    "featured": false,
-    "trending": true,
-    "bestSeller": true,
-    "newArrival": true,
-    "palette": [
-      "#241d12",
-      "#9a7b3f"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "By Malene Birger"
-      },
-      {
-        "label": "Type",
-        "value": "women's rings"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_32_31027_12777.jpeg?v=1437067577",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_31_31028_12770.jpeg?v=1437067570",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_31_31028_12774.jpeg?v=1437067570",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_31_31028_12771.jpeg?v=1437067570",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_31_31028_12772.jpeg?v=1437067570",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_31_31028_12773.jpeg?v=1437067570"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_31_31028_12774.jpeg?v=1437067570"
     ],
     "custom": false
   },
@@ -20194,65 +23282,9 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_30_31031_12765.jpeg?v=1437067563",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_30_31031_12767.jpeg?v=1437067563",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_30_31031_12766.jpeg?v=1437067563",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_30_31031_12769.jpeg?v=1437067563"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-pracia-ring-1",
-    "slug": "pracia-ring-1",
-    "name": "Pracia Ring",
-    "brand": "by-malene-birger",
-    "category": "jewelry",
-    "sku": "'31032",
-    "price": 388,
-    "shortDescription": "Genuine minimalism, sincerely beautiful. The 2015 Malene Birger Jewelry Collection draws inspiration from tribal elements for a result that is…",
-    "description": "Genuine minimalism, sincerely beautiful. The 2015 Malene Birger Jewelry Collection draws inspiration from tribal elements for a result that is truly breathtaking. The Pracia Ring offers a statement shape which draws the eye. Opening for accessibility. Color Gold. 100% Stainless steel. Shop our collection of By Malene Birger .",
-    "colors": [
-      {
-        "name": "Gold",
-        "hex": "#c8a464"
-      }
-    ],
-    "sizes": [
-      "X Small"
-    ],
-    "material": "—",
-    "stock": 1,
-    "rating": 5,
-    "reviewCount": 187,
-    "tags": [
-      "02/27",
-      "6/1one",
-      "accessories",
-      "AW15",
-      "by malene birger",
-      "gold"
-    ],
-    "featured": false,
-    "trending": true,
-    "bestSeller": true,
-    "newArrival": true,
-    "palette": [
-      "#241d12",
-      "#9a7b3f"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "By Malene Birger"
-      },
-      {
-        "label": "Type",
-        "value": "women's rings"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_30_31031_12769.jpeg?v=1437067563",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_29_31032_12761.jpeg?v=1437067556",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_29_31032_12762.jpeg?v=1437067556",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_29_31032_12759.jpeg?v=1437067556",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_29_31032_12763.jpeg?v=1437067556",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_29_31032_12764.jpeg?v=1437067556"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-03-13_Product_29_31032_12762.jpeg?v=1437067556"
     ],
     "custom": false
   },
@@ -20825,65 +23857,8 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_05_23456_17787.jpeg?v=1437066314",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_05_23456_17786.jpeg?v=1437066314",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_05_23456_17788.jpeg?v=1437066314",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_05_23456_17789.jpeg?v=1437066314"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-aqualina-sandal-black-red",
-    "slug": "aqualina-sandal-black-red",
-    "name": "Aqualina Sandal",
-    "brand": "flamingos",
-    "category": "shoes",
-    "sku": "'23460",
-    "price": 358,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Fun straps paired with bright colors makes the French shoe…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Fun straps paired with bright colors makes the French shoe label Flamingos perfect for summertime. With Anne Blum at its helm, this label effuses creativity in style and just the right amount of play. The Aqualina offers tricolored straps for a bold statement. Buckle closure. Color Black/Red. 100% Calf leather upper, row cut, synthetic EVA sole. Leather lined. Made in Spain. Also available in Gold . Shop our collection of Flamingos .",
-    "colors": [
-      {
-        "name": "Black/Red",
-        "hex": "#15140f"
-      }
-    ],
-    "sizes": [
-      "36"
-    ],
-    "material": "—",
-    "stock": 12,
-    "rating": 5,
-    "reviewCount": 181,
-    "tags": [
-      "3/9",
-      "arrivals",
-      "AW15",
-      "black",
-      "color block",
-      "flamingos"
-    ],
-    "featured": false,
-    "trending": true,
-    "bestSeller": true,
-    "newArrival": true,
-    "palette": [
-      "#1a1714",
-      "#5a4a35"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Flamingos"
-      },
-      {
-        "label": "Type",
-        "value": "women's shoes"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_06_23460_17790.jpeg?v=1437066305",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_06_23460_17793.jpeg?v=1437066305",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_06_23460_17791.jpeg?v=1437066305",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_06_23460_17792.jpeg?v=1437066305",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_06_23460_17794.jpeg?v=1437066305"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_05_23456_17789.jpeg?v=1437066314",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_06_23460_17790.jpeg?v=1437066305"
     ],
     "custom": false
   },
@@ -21168,64 +24143,9 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_03_23488_21508.jpeg?v=1437066254",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_03_23488_21505.jpeg?v=1437066254",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_03_23488_21506.jpeg?v=1437066254",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_03_23488_21507.jpeg?v=1437066254"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-ally-ring-agate",
-    "slug": "ally-ring-agate",
-    "name": "Ally Ring",
-    "brand": "5-octobre",
-    "category": "jewelry",
-    "sku": "'23490",
-    "price": 218,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Quintessential elegance with delicate details. Statement…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Quintessential elegance with delicate details. Statement stone caressed in semiprecious gems. 5 Octobre. Color Agate and Gold. Made in France. Shop our collection of 5 Octobre.",
-    "colors": [
-      {
-        "name": "Agate",
-        "hex": "#8a857c"
-      }
-    ],
-    "sizes": [
-      "8"
-    ],
-    "material": "—",
-    "stock": 1,
-    "rating": 4.5,
-    "reviewCount": 39,
-    "tags": [
-      "03/16",
-      "5 Octobre",
-      "accessories",
-      "Agate",
-      "arrivals",
-      "AW15"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#241d12",
-      "#9a7b3f"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "5 Octobre"
-      },
-      {
-        "label": "Type",
-        "value": "women's rings"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_03_23488_21507.jpeg?v=1437066254",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_03_23489_21509.jpeg?v=1437066248",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_03_23489_21510.jpeg?v=1437066248",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_03_23489_21512.jpeg?v=1437066248",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_03_23489_21513.jpeg?v=1437066248"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_03_23489_21510.jpeg?v=1437066248"
     ],
     "custom": false
   },
@@ -21282,64 +24202,9 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_02_23492_21496.jpeg?v=1437066242",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_02_23492_21497.jpeg?v=1437066242",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_02_23492_21498.jpeg?v=1437066242",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_02_23492_21499.jpeg?v=1437066242"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-ara-ring-agate",
-    "slug": "ara-ring-agate",
-    "name": "Ara Ring",
-    "brand": "5-octobre",
-    "category": "jewelry",
-    "sku": "'23495",
-    "price": 198,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Quintessential elegance with delicate details. Texture ring…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Quintessential elegance with delicate details. Texture ring base emphasizes the statement cylindrical stone. 5 Octobre. Color Agate and Gold. Made in France. Shop our collection of 5 Octobre.",
-    "colors": [
-      {
-        "name": "Green",
-        "hex": "#3c5a45"
-      }
-    ],
-    "sizes": [
-      "5"
-    ],
-    "material": "—",
-    "stock": 2,
-    "rating": 5,
-    "reviewCount": 187,
-    "tags": [
-      "03/16",
-      "5 octobre",
-      "accessories",
-      "arrivals",
-      "AW15",
-      "bounty"
-    ],
-    "featured": false,
-    "trending": true,
-    "bestSeller": true,
-    "newArrival": true,
-    "palette": [
-      "#241d12",
-      "#9a7b3f"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "5 Octobre"
-      },
-      {
-        "label": "Type",
-        "value": "women's rings"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_02_23492_21499.jpeg?v=1437066242",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_02_23495_21500.jpeg?v=1437066236",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_02_23495_21502.jpeg?v=1437066236",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_02_23495_21503.jpeg?v=1437066236",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_02_23495_21504.jpeg?v=1437066236"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_02_23495_21502.jpeg?v=1437066236"
     ],
     "custom": false
   },
@@ -21394,61 +24259,6 @@ export const importedProducts: Product[] = [
     ],
     "images": [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_11_23496_21558.jpeg?v=1437066233"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-bi-goutte-earrings-pink",
-    "slug": "bi-goutte-earrings-pink",
-    "name": "Bi-Goutte Earrings",
-    "brand": "5-octobre",
-    "category": "jewelry",
-    "sku": "'23497",
-    "price": 58,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Quintessential elegance with delicate details. With the…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Quintessential elegance with delicate details. With the ease of the fish hook earring, the Bi-Goutte offers a handsome everyday piece. 5 Octobre. Color Pink. Made in France. Shop our collection of 5 Octobre.",
-    "colors": [
-      {
-        "name": "Pink",
-        "hex": "#caa79b"
-      }
-    ],
-    "sizes": [
-      "O/S"
-    ],
-    "material": "—",
-    "stock": 2,
-    "rating": 4.6,
-    "reviewCount": 82,
-    "tags": [
-      "03/16",
-      "accessories",
-      "arrivals",
-      "AW15",
-      "bounty",
-      "earring"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#241d12",
-      "#9a7b3f"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "5 Octobre"
-      },
-      {
-        "label": "Type",
-        "value": "women's rings"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_05_23497_21519.jpeg?v=1437066231",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-05-01_Accessories_05_23497_21520.jpeg?v=1437066231"
     ],
     "custom": false
   },
@@ -21615,60 +24425,7 @@ export const importedProducts: Product[] = [
     ],
     "images": [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_24_23508_21347.jpeg?v=1437066214",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_24_23508_21348_c39352d4-31a8-4dc2-91dd-e29454941af6.jpeg?v=1437066214"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-anatole-ring-crystal",
-    "slug": "anatole-ring-crystal",
-    "name": "Anatole Ring",
-    "brand": "5-octobre",
-    "category": "jewelry",
-    "sku": "'23504",
-    "price": 148,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Quintessential elegance with delicate details. Texture ring…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Quintessential elegance with delicate details. Texture ring base emphasizes the statement stone. 5 Octobre. Color Clear Amethyst and Gold. Made in France. Also available in Amethyst and Gold . Shop our collection of 5 Octobre.",
-    "colors": [
-      {
-        "name": "Crystal",
-        "hex": "#8a857c"
-      }
-    ],
-    "sizes": [
-      "6"
-    ],
-    "material": "—",
-    "stock": 1,
-    "rating": 4.7,
-    "reviewCount": 94,
-    "tags": [
-      "03/16",
-      "5 octobre",
-      "6/1one",
-      "accessories",
-      "arrivals",
-      "AW15"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#241d12",
-      "#9a7b3f"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "5 Octobre"
-      },
-      {
-        "label": "Type",
-        "value": "women's rings"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_24_23508_21348_c39352d4-31a8-4dc2-91dd-e29454941af6.jpeg?v=1437066214",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_25_23504_21349.jpeg?v=1437066210",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_24_23508_21348.jpeg?v=1437066210",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_25_23504_21350.jpeg?v=1437066210"
@@ -21783,60 +24540,7 @@ export const importedProducts: Product[] = [
     "images": [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_32_10026_21388.jpeg?v=1437065873",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_32_10026_21389.jpeg?v=1437065873",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_32_10026_21391.jpeg?v=1437065873"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-maylin-ring-quartz",
-    "slug": "maylin-ring-quartz",
-    "name": "Maylin Ring",
-    "brand": "kalosoma-jewelry",
-    "category": "jewelry",
-    "sku": "'10027",
-    "price": 118,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Kalosoma Jewelry demonstrates the rigorous beauty in the…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Kalosoma Jewelry demonstrates the rigorous beauty in the handmade. Pastel pink compliments the chocolate leather band. Color Rose. Made in Mexico. Also available in Labradorite.",
-    "colors": [
-      {
-        "name": "Rose",
-        "hex": "#8a857c"
-      }
-    ],
-    "sizes": [
-      "4.5"
-    ],
-    "material": "—",
-    "stock": 1,
-    "rating": 4.7,
-    "reviewCount": 107,
-    "tags": [
-      "03/19",
-      "accessories",
-      "bounty",
-      "cooloff",
-      "jewelry",
-      "Kalosoma"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#241d12",
-      "#9a7b3f"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Kalosoma Jewelry"
-      },
-      {
-        "label": "Type",
-        "value": "women's rings"
-      }
-    ],
-    "images": [
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_32_10026_21391.jpeg?v=1437065873",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_32_10028_21385.jpeg?v=1437065869",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_32_10028_21386.jpeg?v=1437065869",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_32_10028_21387.jpeg?v=1437065869"
@@ -22239,7 +24943,8 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-30_Reshoot_09_40517_21473.jpeg?v=1437065431",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-30_Reshoot_09_40517_21474.jpeg?v=1437065431",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-30_Reshoot_09_40517_21475.jpeg?v=1437065431",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-30_Reshoot_09_40517_21477.jpeg?v=1437065431"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-30_Reshoot_09_40517_21477.jpeg?v=1437065431",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_11_40578_17815.jpeg?v=1437065306"
     ],
     "custom": false
   },
@@ -22355,65 +25060,8 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_13_40532_17831.jpeg?v=1437065416",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_13_40532_17830.jpeg?v=1437065416",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_13_40532_17832.jpeg?v=1437065416",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_13_40532_17833.jpeg?v=1437065416"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-camoscio-heel-taupe",
-    "slug": "camoscio-heel-taupe",
-    "name": "Camoscio Heel",
-    "brand": "ann-demeulemeester",
-    "category": "shoes",
-    "sku": "'40534",
-    "price": 398,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Ann Demeulemeester. Color Taupe. 100% Sueded Leather. Made…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Ann Demeulemeester. Color Taupe. 100% Sueded Leather. Made in Italy. Also available in Red . Shop our collection of Ann Demeulemeester .",
-    "colors": [
-      {
-        "name": "Taupe",
-        "hex": "#8a857c"
-      }
-    ],
-    "sizes": [
-      "35"
-    ],
-    "material": "—",
-    "stock": 1,
-    "rating": 4.5,
-    "reviewCount": 27,
-    "tags": [
-      "3/30",
-      "Ann Demeulemeester",
-      "arrivals",
-      "AW15",
-      "cooloff",
-      "nightout"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#1a1714",
-      "#5a4a35"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Ann Demeulemeester"
-      },
-      {
-        "label": "Type",
-        "value": "women's shoes"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_14_40535_17834.jpeg?v=1437065407",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_14_40535_17836.jpeg?v=1437065407",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_14_40535_17835.jpeg?v=1437065407",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_14_40535_17838.jpeg?v=1437065407",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_14_40535_17839.jpeg?v=1437065407"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_13_40532_17833.jpeg?v=1437065416",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_14_40535_17834.jpeg?v=1437065407"
     ],
     "custom": false
   },
@@ -22532,64 +25180,6 @@ export const importedProducts: Product[] = [
     "custom": false
   },
   {
-    "id": "imp-camoscio-zip-heel-black",
-    "slug": "camoscio-zip-heel-black",
-    "name": "Camoscio Zip Heel",
-    "brand": "ann-demeulemeester",
-    "category": "shoes",
-    "sku": "'40577",
-    "price": 578,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Ann Demeulemeester. Color Black. 100% Sueded Leather,…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Ann Demeulemeester. Color Black. 100% Sueded Leather, patent leather. Made in Italy. Shop our collection of Ann Demeulemeester .",
-    "colors": [
-      {
-        "name": "Black",
-        "hex": "#15140f"
-      }
-    ],
-    "sizes": [
-      "35"
-    ],
-    "material": "—",
-    "stock": 1,
-    "rating": 4.7,
-    "reviewCount": 111,
-    "tags": [
-      "3/31",
-      "Ann Demeulemeester",
-      "arrivals",
-      "AW15",
-      "black",
-      "boots"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#1a1714",
-      "#5a4a35"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Ann Demeulemeester"
-      },
-      {
-        "label": "Type",
-        "value": "women's shoes"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_11_40578_17815.jpeg?v=1437065306",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_11_40578_17821.jpeg?v=1437065306",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_11_40578_17816.jpeg?v=1437065306",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_11_40578_17822.jpeg?v=1437065306",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_11_40578_17823.jpeg?v=1437065306"
-    ],
-    "custom": false
-  },
-  {
     "id": "imp-zepella-sandal-black",
     "slug": "zepella-sandal-black",
     "name": "Zepella Sandal",
@@ -22643,65 +25233,8 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_15_40599_17843.jpeg?v=1437065261",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_15_40599_17841.jpeg?v=1437065261",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_15_40599_17842.jpeg?v=1437065261",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_15_40599_17844.jpeg?v=1437065261"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-zepella-sandal-blue",
-    "slug": "zepella-sandal-blue",
-    "name": "Zepella Sandal",
-    "brand": "marsell",
-    "category": "shoes",
-    "sku": "'40605",
-    "price": 419,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Married aesthetics of innovation and tradition, Marséll…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Married aesthetics of innovation and tradition, Marséll crafts shoes of mastering technique. Where modern classism takes wearable shape, anticipate artistic expression epitomized in leather footwear. The Zepella Sandal offers ease in fit and style with its smart straps for slipping on. Color Blue. 100% Leather. Made in Italy. Also available in Black. Shop our collection of Marsell",
-    "colors": [
-      {
-        "name": "Blue",
-        "hex": "#2f3c66"
-      }
-    ],
-    "sizes": [
-      "36"
-    ],
-    "material": "—",
-    "stock": 12,
-    "rating": 4.7,
-    "reviewCount": 98,
-    "tags": [
-      "3/30",
-      "blue",
-      "cooloff",
-      "marsell",
-      "SALE",
-      "sandal"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": false,
-    "palette": [
-      "#1a1714",
-      "#5a4a35"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Marsell"
-      },
-      {
-        "label": "Type",
-        "value": "women's shoes"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_17_40606_17850.jpeg?v=1437065254",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_17_40606_17852.jpeg?v=1437065254",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_17_40606_17851.jpeg?v=1437065254",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_17_40606_17853.jpeg?v=1437065254",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_17_40606_17855.jpeg?v=1437065254"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_15_40599_17844.jpeg?v=1437065261",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_17_40606_17850.jpeg?v=1437065254"
     ],
     "custom": false
   },
@@ -22874,65 +25407,8 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_19_40624_17863.jpeg?v=1437065231",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_19_40624_17864.jpeg?v=1437065231",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_19_40624_17865.jpeg?v=1437065231",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_19_40624_17867.jpeg?v=1437065231"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-sancrispa-sneaker-white",
-    "slug": "sancrispa-sneaker-white",
-    "name": "Sancrispa Sneaker",
-    "brand": "marsell",
-    "category": "shoes",
-    "sku": "'40629",
-    "price": 628,
-    "shortDescription": "This is a demonstration store. You can purchase products like this from Baby & Company Married aesthetics of innovation and tradition, Marséll…",
-    "description": "This is a demonstration store. You can purchase products like this from Baby & Company Married aesthetics of innovation and tradition, Marséll crafts shoes of mastering technique. Where modern classism takes wearable shape, anticipate artistic expression epitomized in leather footwear. The Sancrispa Sneaker invites an aha moment for luxury wear. The ease of this piece doesn't compensate for the elegance in look. Color White. 100% Leather. Made in Italy. Also available in Black , Black/White Splatter . Shop our collection of Marsell",
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#f4f1ea"
-      }
-    ],
-    "sizes": [
-      "35"
-    ],
-    "material": "—",
-    "stock": 12,
-    "rating": 4.9,
-    "reviewCount": 145,
-    "tags": [
-      "3/30",
-      "arrivals",
-      "AW15",
-      "chukka",
-      "cooloff",
-      "cream"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": true,
-    "newArrival": true,
-    "palette": [
-      "#1a1714",
-      "#5a4a35"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Marsell"
-      },
-      {
-        "label": "Type",
-        "value": "women's shoes"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_20_40629_17869.jpeg?v=1437065223",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_20_40629_17870.jpeg?v=1437065223",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_20_40629_17871.jpeg?v=1437065223",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_20_40629_17872.jpeg?v=1437065223",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_20_40629_17873.jpeg?v=1437065223"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_19_40624_17867.jpeg?v=1437065231",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-02_Accessories_20_40629_17869.jpeg?v=1437065223"
     ],
     "custom": false
   },
@@ -23106,64 +25582,8 @@ export const importedProducts: Product[] = [
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_08_40741_21297_198bb1a2-5556-4bca-90d3-87c6bf689106.jpeg?v=1437064993",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_08_40741_21298_40ef9466-69ff-47b8-8619-a8a1643abe3a.jpeg?v=1437064993",
       "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_08_40741_21299_154a6c97-c058-4ff5-a3fd-5589c0a0f327.jpeg?v=1437064993",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_08_40741_21303.jpeg?v=1437064993"
-    ],
-    "custom": false
-  },
-  {
-    "id": "imp-double-zip-clutch-navy",
-    "slug": "double-zip-clutch-navy",
-    "name": "Double Zip Clutch",
-    "brand": "bedford-11th",
-    "category": "bags",
-    "sku": "'40742",
-    "price": 358,
-    "shortDescription": "Also available in Black and Camel.",
-    "description": "Also available in Black and Camel.",
-    "colors": [
-      {
-        "name": "Navy",
-        "hex": "#1f2535"
-      }
-    ],
-    "sizes": [
-      "One Size"
-    ],
-    "material": "—",
-    "stock": 2,
-    "rating": 4.8,
-    "reviewCount": 128,
-    "tags": [
-      "3/30",
-      "accessories",
-      "arrivals",
-      "AW15",
-      "bags",
-      "bedford 11th"
-    ],
-    "featured": false,
-    "trending": false,
-    "bestSeller": false,
-    "newArrival": true,
-    "palette": [
-      "#1c1b18",
-      "#7a6a44"
-    ],
-    "specs": [
-      {
-        "label": "Vendor",
-        "value": "Bedford 11th"
-      },
-      {
-        "label": "Type",
-        "value": "Unisex Accessories"
-      }
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_08_40742_21306.jpeg?v=1437064986",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_08_40741_21304_fa09b368-1ef7-4c02-88f2-705ba5773a50.jpeg?v=1437064986",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_08_40741_21299_a6ee2fba-91e1-4041-b058-28295a565992.jpeg?v=1437064986",
-      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_08_40741_21298_8cb35e8b-c8b9-42a2-9c92-397343f48914.jpeg?v=1437064986"
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_08_40741_21303.jpeg?v=1437064993",
+      "https://cdn.shopify.com/s/files/1/0923/8036/products/2015-04-20_Accessories_08_40742_21306.jpeg?v=1437064986"
     ],
     "custom": false
   },
@@ -23945,6 +26365,57 @@ export const importedProducts: Product[] = [
     "custom": false
   },
   {
+    "id": "imp-redwing-iron-ranger",
+    "slug": "redwing-iron-ranger",
+    "name": "Red Wing Iron Ranger Boot",
+    "brand": "red-wing",
+    "category": "shoes",
+    "sku": "RW8111-7",
+    "price": 310,
+    "shortDescription": "This is a demonstration store. You can purchase products like this from United By Blue . The Mesabi Iron Range lies in northern Minnesota, a…",
+    "description": "This is a demonstration store. You can purchase products like this from United By Blue . The Mesabi Iron Range lies in northern Minnesota, a rugged and remote area known for its iron mines. The local residents who work these mines are proudly known as Iron Rangers, individuals with a sense of adventure and a determined personality. Originally designed to be worn in the iron mines, Iron Ranger work boots had to be as tough as the people who wore them in demanding conditions. Iron Ranger boots are built with a double layer of leaver over the toe to provide an extra measure of safety. 6 inch, Amber Harness leather with Nitrile Cork sole.",
+    "colors": [
+      {
+        "name": "Default",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "7"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.6,
+    "reviewCount": 60,
+    "tags": [
+      "Footwear"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#1a1714",
+      "#5a4a35"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Red Wing"
+      },
+      {
+        "label": "Type",
+        "value": "Mens"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0803/6591/products/boot.jpg?v=1426709753",
+      "https://cdn.shopify.com/s/files/1/0803/6591/products/boot-3.jpg?v=1426709753",
+      "https://cdn.shopify.com/s/files/1/0803/6591/products/boot-2.jpg?v=1426709753"
+    ],
+    "custom": false
+  },
+  {
     "id": "imp-hudderton-backpack",
     "slug": "hudderton-backpack",
     "name": "Hudderton Backpack",
@@ -23988,6 +26459,247 @@ export const importedProducts: Product[] = [
     "images": [
       "https://cdn.shopify.com/s/files/1/0803/6591/products/hudderton-backpack_dc8afb13-448b-49d9-a042-5a163a97de8f.jpg?v=1426709346",
       "https://cdn.shopify.com/s/files/1/0803/6591/products/product_lifestyle-28.jpeg?v=1426709346"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-14k-dangling-pendant-earrings-1",
+    "slug": "14k-dangling-pendant-earrings-1",
+    "name": "14k Dangling Pendant Earrings",
+    "brand": "supply-dark",
+    "category": "jewelry",
+    "sku": "IMP-14k-dangling-pendant-earrings-1",
+    "price": 579,
+    "shortDescription": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor…",
+    "description": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor vestibulum ac eu erat. Pellentesque quis turpis odio. Etiam auctor laoreet ligula, vel aliquam urna ornare sed. Praesent laoreet diam vitae lectus molestie pulvinar. Nullam blandit Vestibulum euismod Nullam venenatis Aenean a magna eros",
+    "colors": [
+      {
+        "name": "Default",
+        "hex": "#15140f"
+      }
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.5,
+    "reviewCount": 47,
+    "tags": [
+      "White Gold"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#241d12",
+      "#9a7b3f"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Supply Dark"
+      },
+      {
+        "label": "Type",
+        "value": "Earrings"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-white-gold-dangling-pendant-earrings_17e71027-81d8-4a49-a455-2e5c205963ee.jpg?v=1406749608",
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-rose-gold-infinite-link-earrings_d3d4fd54-7016-4f3c-b3be-66aeb5c24d5f.jpg?v=1406749599",
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-rose-gold-infinite-link-earrings---3_d6c3d6dc-ebd4-480c-be8a-fa7422e672d2.jpg?v=1406749600",
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-rose-gold-infinite-link-earrings---4_b712d4e6-2484-4bee-96fc-74d462d8ec8d.jpg?v=1406749600",
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-rose-gold-infinite-link-earrings---2_197e4e51-6b44-4e54-9244-d3666bc5b514.jpg?v=1406749601"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-18k-fluid-lines-necklace",
+    "slug": "18k-fluid-lines-necklace",
+    "name": "18k Fluid Lines Necklace",
+    "brand": "supply-dark",
+    "category": "jewelry",
+    "sku": "IMP-18k-fluid-lines-necklace",
+    "price": 749,
+    "shortDescription": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor…",
+    "description": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor vestibulum ac eu erat. Pellentesque quis turpis odio. Etiam auctor laoreet ligula, vel aliquam urna ornare sed. Praesent laoreet diam vitae lectus molestie pulvinar. Nullam blandit Vestibulum euismod Nullam venenatis Aenean a magna eros",
+    "colors": [
+      {
+        "name": "Default",
+        "hex": "#15140f"
+      }
+    ],
+    "material": "—",
+    "stock": 12,
+    "rating": 4.8,
+    "reviewCount": 117,
+    "tags": [
+      "White Gold"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": true,
+    "palette": [
+      "#241d12",
+      "#9a7b3f"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Supply Dark"
+      },
+      {
+        "label": "Type",
+        "value": "Necklace"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-white-gold-fluid-lines-necklace.jpg?v=1406732178"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-18k-dangling-pendant-earrings",
+    "slug": "18k-dangling-pendant-earrings",
+    "name": "18k Dangling Pendant Earrings",
+    "brand": "supply-dark",
+    "category": "jewelry",
+    "sku": "IMP-18k-dangling-pendant-earrings",
+    "price": 579,
+    "shortDescription": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor…",
+    "description": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor vestibulum ac eu erat. Pellentesque quis turpis odio. Etiam auctor laoreet ligula, vel aliquam urna ornare sed. Praesent laoreet diam vitae lectus molestie pulvinar. Nullam blandit Vestibulum euismod Nullam venenatis Aenean a magna eros",
+    "colors": [
+      {
+        "name": "Default",
+        "hex": "#15140f"
+      }
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.6,
+    "reviewCount": 57,
+    "tags": [
+      "White Gold"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#241d12",
+      "#9a7b3f"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Supply Dark"
+      },
+      {
+        "label": "Type",
+        "value": "Earrings"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-white-gold-dangling-pendant-earrings.jpg?v=1406732147",
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-rose-gold-infinite-link-earrings.jpg?v=1406731712",
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-rose-gold-infinite-link-earrings---2.jpg?v=1406731718",
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-rose-gold-infinite-link-earrings---3.jpg?v=1406731717",
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-rose-gold-infinite-link-earrings---4.jpg?v=1406731718"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-18k-pedal-ring",
+    "slug": "18k-pedal-ring",
+    "name": "18k Pedal Ring",
+    "brand": "supply-dark",
+    "category": "jewelry",
+    "sku": "IMP-18k-pedal-ring",
+    "price": 399,
+    "shortDescription": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor…",
+    "description": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor vestibulum ac eu erat. Pellentesque quis turpis odio. Etiam auctor laoreet ligula, vel aliquam urna ornare sed. Praesent laoreet diam vitae lectus molestie pulvinar. Nullam blandit Vestibulum euismod Nullam venenatis Aenean a magna eros",
+    "colors": [
+      {
+        "name": "Default",
+        "hex": "#15140f"
+      }
+    ],
+    "sizes": [
+      "6"
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.4,
+    "reviewCount": 18,
+    "tags": [
+      "Rose Gold"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#241d12",
+      "#9a7b3f"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Supply Dark"
+      },
+      {
+        "label": "Type",
+        "value": "Rings"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-rose-gold-rose-ring.jpg?v=1406732033"
+    ],
+    "custom": false
+  },
+  {
+    "id": "imp-18k-bloom-pendant",
+    "slug": "18k-bloom-pendant",
+    "name": "18k Bloom Pendant",
+    "brand": "supply-dark",
+    "category": "jewelry",
+    "sku": "IMP-18k-bloom-pendant",
+    "price": 279,
+    "shortDescription": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor…",
+    "description": "Sed in metus nec dui consequat vestibulum. In varius pretium nunc, sed bibendum mauris lacinia non. Praesent vel neque ut ligula porttitor vestibulum ac eu erat. Pellentesque quis turpis odio. Etiam auctor laoreet ligula, vel aliquam urna ornare sed. Praesent laoreet diam vitae lectus molestie pulvinar. Nullam blandit Vestibulum euismod Nullam venenatis Aenean a magna eros",
+    "colors": [
+      {
+        "name": "Default",
+        "hex": "#15140f"
+      }
+    ],
+    "material": "—",
+    "stock": 1,
+    "rating": 4.6,
+    "reviewCount": 67,
+    "tags": [
+      "Rose Gold"
+    ],
+    "featured": false,
+    "trending": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "palette": [
+      "#241d12",
+      "#9a7b3f"
+    ],
+    "specs": [
+      {
+        "label": "Vendor",
+        "value": "Supply Dark"
+      },
+      {
+        "label": "Type",
+        "value": "Necklace"
+      }
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0597/2185/products/18k-rose-gold-bloom-pendant.jpg?v=1406731950"
     ],
     "custom": false
   }

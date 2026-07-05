@@ -5,6 +5,7 @@ import { collectionBrands, collectionProducts } from "./collection";
 import { shoeProducts } from "./shoes";
 import { extraBrands, extraProducts } from "./extras";
 import { generatedBrands, generatedProducts } from "./generated";
+import { photofillProducts } from "./photofill";
 import type { Brand, Category, Product, Review, SortKey } from "./types";
 import { discountPercent } from "@/lib/utils";
 
@@ -27,16 +28,16 @@ function normPrice(p: Product): Product {
   return { ...p, price, originalPrice };
 }
 
-/** Show only products that have a real photo — EXCEPT watches & perfumes, where the
- *  free photo dataset has no watch images and only 2 perfumes, so those keep their
- *  house artwork to avoid empty sections. */
-const PHOTO_CATS = new Set(["clothing", "shoes", "jewelry", "bags", "accessories"]);
+/** Every shoppable category shows only products that have a real photo. Watches &
+ *  perfumes get their photos from photofill.ts (hotlinked), so artwork-only items
+ *  are hidden everywhere. */
+const PHOTO_CATS = new Set(["clothing", "shoes", "jewelry", "bags", "accessories", "watches", "perfumes"]);
 const hasPhoto = (p: Product) => (p.images?.length ?? 0) > 0;
 
 const allBrands: Brand[] = [...seedBrands, ...importedBrands, ...collectionBrands, ...extraBrands, ...generatedBrands];
 export const brands: Brand[] = allBrands.filter((b, i) => allBrands.findIndex((x) => x.slug === b.slug) === i);
 export const products: Product[] = [
-  ...collectionProducts, ...shoeProducts, ...seedProducts, ...signatureProducts, ...importedProducts, ...extraProducts, ...generatedProducts,
+  ...collectionProducts, ...shoeProducts, ...seedProducts, ...signatureProducts, ...importedProducts, ...extraProducts, ...generatedProducts, ...photofillProducts,
 ]
   .filter((p) => hasPhoto(p) || !PHOTO_CATS.has(p.category))
   .map(normPrice);

@@ -118,22 +118,46 @@ function processFile(path) {
   return { out, vendors };
 }
 
-// Per-category caps keep the imported set balanced (Fashion.csv is mostly clothing).
-const CAP = { clothing: 200, shoes: 60, jewelry: 62, bags: 30, accessories: 65, perfumes: 20, watches: 40 };
-const catCount = {};
-const allProducts = [], allVendors = new Map(), seenSlug = new Set();
+// 1) Collect every unique product (dedup by slug).
+const rawProducts = [], allVendors = new Map(), seenSlug = new Set();
 for (const f of FILES) {
   const { out, vendors } = processFile(f);
   for (const [s, n] of vendors) if (!allVendors.has(s)) allVendors.set(s, n);
   for (const p of out) {
     if (seenSlug.has(p.slug)) continue;
-    if ((catCount[p.category] || 0) >= (CAP[p.category] ?? 50)) continue;
     seenSlug.add(p.slug);
-    catCount[p.category] = (catCount[p.category] || 0) + 1;
-    allProducts.push(p);
-    if (allProducts.length >= MAX) break;
+    rawProducts.push(p);
   }
+}
+
+// 2) Merge colour-variants of the SAME product into one (so the same item isn't
+//    listed on several pages) — combine their photos and list each colour.
+const baseName = (n) => n.replace(/\s+(?:in|-)\s+[A-Za-z0-9/&'’. ]+$/i, "").trim() || n;
+const colorOf = (n) => { const m = n.match(/\s+(?:in|-)\s+([A-Za-z0-9/&'’. ]+)$/i); return m ? m[1].trim() : null; };
+const mergedMap = new Map();
+for (const p of rawProducts) {
+  const key = `${p.brand}|${baseName(p.name).toLowerCase()}`;
+  const color = colorOf(p.name);
+  if (!mergedMap.has(key)) {
+    mergedMap.set(key, { ...p, name: baseName(p.name), images: [...(p.images || [])], colors: color ? [{ name: color, hex: colorHex(color) }] : (p.colors || []) });
+  } else {
+    const m = mergedMap.get(key);
+    for (const img of (p.images || [])) if (!m.images.includes(img)) m.images.push(img);
+    if (m.images.length > 6) m.images.length = 6;
+    if (color && !m.colors.some((c) => c.name.toLowerCase() === color.toLowerCase())) m.colors.push({ name: color, hex: colorHex(color) });
+    if (p.price < m.price) m.price = p.price;
+  }
+}
+
+// 3) Per-category caps on the DEDUPED products (Fashion.csv is mostly clothing).
+const CAP = { clothing: 280, shoes: 60, jewelry: 62, bags: 30, accessories: 65, perfumes: 20, watches: 40 };
+const catCount = {};
+const allProducts = [];
+for (const p of mergedMap.values()) {
   if (allProducts.length >= MAX) break;
+  if ((catCount[p.category] || 0) >= (CAP[p.category] ?? 50)) continue;
+  catCount[p.category] = (catCount[p.category] || 0) + 1;
+  allProducts.push(p);
 }
 
 const usedBrandSlugs = new Set(allProducts.map((p) => p.brand));
